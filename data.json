@@ -180,6 +180,15 @@
       "status": "Vorvertrag – Abgang ablösefrei am Saisonende",
       "contractRemaining": "6 Monate",
       "notes": "Vorvertrag bei anderem Verein abgeschlossen; wechselt nach Saisonende ablösefrei."
+    },
+    {
+      "name": "Alexander Hirsch",
+      "role": "ZM/ZDM · 1. Mannschaft",
+      "status": "Hochgezogen aus der Jugendakademie",
+      "age": 16,
+      "ovr": 71,
+      "potential": 95,
+      "notes": "Im Januar in die 1. Mannschaft hochgezogen. Hochveranlagtes Akademietalent."
     }
   ],
   "sales": [
@@ -279,20 +288,6 @@
       "country": "Deutschland",
       "role": "Jugendakademie",
       "status": "aktiv"
-    },
-    {
-      "name": "Alexander Hirsch",
-      "age": 16,
-      "ovr": 71,
-      "potential": "95",
-      "position": "CM",
-      "secondaryPositions": [
-        "CDM"
-      ],
-      "country": "Deutschland",
-      "role": "Jugendakademie",
-      "status": "aktiv",
-      "note": "Stark weiterentwickelt; OVR jetzt 71."
     },
     {
       "name": "Matthis Vetter",
@@ -396,6 +391,14 @@
       "pot": 70,
       "status": "1. Mannschaft",
       "role": "Perspektivprofi · RV/LV"
+    },
+    {
+      "name": "Alexander Hirsch",
+      "age": 16,
+      "ovr": 71,
+      "pot": 95,
+      "role": "ZM/ZDM · 1. Mannschaft",
+      "status": "hochgezogen"
     }
   ],
   "preseasonTournament": {
@@ -655,7 +658,8 @@
     "1.1. Tabellenstand: Platz 5, 28 Punkte aus 17 Spielen, 8 Siege/4 Unentschieden/5 Niederlagen, 29:19 Tore. Zwei Punkte Rückstand auf Platz 4, elf auf Wolfsburg. Januar-Bewertung des Saisonziels und Entscheidung zu Hirsch/Tesche stehen an.",
     "1.1. Beschlüsse: Offizielles Ziel bleibt Klassenerhalt, intern wird ein Aufstiegsrennen als Hoffnung zugelassen. Alexander Hirsch wird hochgezogen. Robert Tesche soll aktiv angeboten werden. Mats Remberg ist als 3. Keeper keine Top-Priorität bei Verlängerung und hat noch nicht geantwortet. Budget: 882.500 €. Rembergs Position im Dashboard auf TW korrigiert.",
     "Tesche/Jakobsen Winterentscheidung: Nach Trainer-Gespräch wird Robert Tesche von der Verkaufsliste genommen. Mit 39 möchte er seine Karriere voraussichtlich am Saisonende beim VfL beenden; Vorstand unterstützt dies. Bjarke Jacobsen hat nur noch 6 Monate Vertrag und bislang keine Verlängerungsinitiative gezeigt, daher wird er auf die Transferliste gesetzt.",
-    "Bjarke Jacobsen: Vorvertrag bei einem anderen Verein abgeschlossen. Er wechselt am Saisonende ablösefrei. Ein Winterverkauf mit Ablöse ist damit nicht mehr Teil der Planung."
+    "Bjarke Jacobsen: Vorvertrag bei einem anderen Verein abgeschlossen. Er wechselt am Saisonende ablösefrei. Ein Winterverkauf mit Ablöse ist damit nicht mehr Teil der Planung.",
+    "Alexander Hirsch wurde im Januar aus der Jugendakademie in die 1. Mannschaft hochgezogen. 16 Jahre, 71 OVR, 95 POT, Einsatz als ZM/ZDM."
   ],
   "matches": [
     {
@@ -774,7 +778,7 @@
       "boardPosition": "Hirsch hochziehen bleibt beschlossen. Da Jacobsen im Sommer ablösefrei geht, muss die ZM-Tiefe für die Rückrunde und kommende Saison neu bewertet werden.",
       "contingency": "Nach weiterem lukrativen Abgang wird die betroffene Position neu bewertet.",
       "alternatives": "Externer ZM nur notwendig, falls Verkauf stattfindet und Hirsch noch nicht bereit ist oder die Kaderqualität nicht ausreicht.",
-      "hirschStatus": "Alexander Hirsch soll im Januar hochgezogen werden. Durch Jacobsens feststehenden ablösefreien Abgang entsteht zusätzlicher Bedarf an ZM-Tiefe.",
+      "hirschStatus": "Alexander Hirsch ist nun Teil der 1. Mannschaft: 16 Jahre, 71 OVR, 95 POT.",
       "preferredSaleCandidate": {
         "name": "Bjarke Jacobsen",
         "reason": "Nur noch 6 Monate Vertrag und bisher keine Bereitschaft zur Verlängerung.",
