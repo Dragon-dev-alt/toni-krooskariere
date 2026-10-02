@@ -537,7 +537,8 @@
     "Oktober-Scouting Jugendakademie: Zwei neue Talente aufgenommen – Matthis Vetter (15, 70 OVR, 97 Potenzial, CAM, LW/RW) und Thomas Vogel (14, 67 OVR, 92 Potenzial, LV/IV). Beide bleiben zunächst in der Jugendakademie.",
     "1.11. Vorstandssitzung: Platz 2 mit 23 Punkten aus 10 Spielen (7S/2U/1N, 16:7), punktgleich mit Wolfsburg auf Platz 1 und ein Spiel weniger. DFB-Pokal-Aus gegen Wolfsburg mit 1:2. Henning akzeptiert Rotation; Vorstand bietet 3 Jahre, 3.800 €/Woche, keine Boni, keine Ausstiegsklausel. Badjie entscheidet bis 1.12.",
     "Henning-Verhandlung November: Forderung 4.100 €/Woche + 36.000 € Handgeld. Vorstand akzeptiert 4.100 €/Woche, kontert beim Handgeld mit 20.000 €. Rotation, 3 Jahre, keine Boni/Klausel.",
-    "1.11. Vorstand hat trotz hoher Zufriedenheit Fragen für die laufende Saison: Einsatzplanung Henning, Mittelfeldtiefe mit Jakobsen/Wagner und möglicher Winterbedarf trotz unverändertem offiziellen Saisonziel."
+    "1.11. Vorstand hat trotz hoher Zufriedenheit Fragen für die laufende Saison: Einsatzplanung Henning, Mittelfeldtiefe mit Jakobsen/Wagner und möglicher Winterbedarf trotz unverändertem offiziellen Saisonziel.",
+    "November: Mittelfeld-/Winterplanung: Henning und Jakobsen sollen sich die Position ungefähr 50/50 teilen. Ein ZM-Verkauf mit Ersatz ist als mögliche Wintermaßnahme vorgesehen; aktuell besteht auf keiner anderen Position Bedarf. Bei einem weiteren lukrativen Abgang wird der entsprechende Bedarf neu bewertet."
   ],
   "matches": [
     {
@@ -646,7 +647,16 @@
     "zmLoan": "Izan González verpflichtet",
     "remainingBudget": "1.721.000 € zunächst zurückhalten",
     "rightBack": "Kein Bedarf",
-    "youthTalent": "Alexander Hirsch"
+    "youthTalent": "Alexander Hirsch",
+    "winter2026": {
+      "priority": [
+        "ZM"
+      ],
+      "status": "Beobachten",
+      "managerIdea": "Möglichen ZM verkaufen und durch neues Personal ersetzen.",
+      "boardPosition": "Nur bei konkretem Abgang und klarer sportlicher Verbesserung. Andere Positionen aktuell ohne Bedarf.",
+      "contingency": "Nach weiterem lukrativen Abgang wird die betroffene Position neu bewertet."
+    }
   },
   "suspensions": {
     "Jakob Schöller": {
@@ -766,7 +776,17 @@
           "Will der Trainer Henning nach der Vertragsverlängerung weiterhin regelmäßig einsetzen, auch wenn seine Rolle offiziell Rotation bleibt?",
           "Soll Jakobsen weiterhin als echte Alternative zu Wagner eingeplant werden oder braucht die Mannschaft zur Winterpause eine klare zusätzliche Mittelfeldoption?",
           "Angesichts von Platz 2: Soll der Vorstand im Winter stärker in die Kaderbreite investieren, obwohl das offizielle Saisonziel unverändert bleibt?"
-        ]
+        ],
+        "answers": {
+          "henningJakobsen": "Henning und Jakobsen sollen sich die Position ungefähr 50/50 teilen.",
+          "winterPlan": "Ein ZM könnte verkauft und durch neues Personal ersetzt werden. Auf anderen Positionen besteht aktuell kein Bedarf.",
+          "contingency": "Bei einem weiteren lukrativen Abgang wird der entsprechende Kaderbedarf neu bewertet."
+        },
+        "boardOpinion": {
+          "henningJakobsen": "Zustimmung. Eine echte 50/50-Rotation schafft sportlichen Wettbewerb und rechtfertigt Hennings offizielle Rolle Rotation.",
+          "winterPlan": "Grundsätzlich Zustimmung, aber nur bei einem klaren sportlichen Upgrade. Der Vorstand möchte keinen ZM-Verkauf ohne belastbaren Ersatzplan.",
+          "contingency": "Zustimmung. Ein lukrativer Abgang soll nicht automatisch kompensiert werden; nur bei entstehendem konkretem Bedarf wird reinvestiert."
+        }
       }
     }
   ],
