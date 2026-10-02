@@ -12,7 +12,8 @@
     "Akademiespieler mit mindestens 80 Potenzial werden besonders geschützt. Vor einem Verkauf prüfen wir zuerst Leihe und Entwicklung.",
     "Neue Gehälter dürfen das interne Gehaltsgefüge nicht ohne klare sportliche Begründung sprengen.",
     "Bei Transfers werden zuerst Deutschland, Österreich, Schweiz, Niederlande, Dänemark, Polen und Tschechien berücksichtigt.",
-    "Jeder Transfer muss eine konkrete Position oder Rolle verbessern. Keine unnötige Kaderaufblähung."
+    "Jeder Transfer muss eine konkrete Position oder Rolle verbessern. Keine unnötige Kaderaufblähung.",
+    "Bei jedem ablösefreien Neuzugang muss der Verein einen Einstiegsbonus in Höhe eines kompletten Jahresgehalts zahlen. Dieser Bonus ist verpflichtend und wird bei der finanziellen Bewertung des Transfers vollständig berücksichtigt."
   ],
   "priorities": [
     {
@@ -256,7 +257,8 @@
       "Rotation",
       "Wichtig",
       "Schlüsselspieler"
-    ]
+    ],
+    "freeAgentBonus": "Bei jedem ablösefreien Spieler ist zwingend ein Einstiegsbonus in Höhe eines Jahresgehalts zu zahlen."
   },
   "contractOffers": {
     "RobinHenning": {
@@ -309,7 +311,20 @@
       "fee": 2300000
     }
   },
-  "activeOffers": [],
+  "activeOffers": [
+    {
+      "player": "Max Adams",
+      "club": "vereinslos",
+      "status": "Vorstand prüft Angebot",
+      "fee": 0,
+      "role": "Perspektivprofi",
+      "years": 3,
+      "weeklyWage": 1600,
+      "mandatorySigningBonus": 83200,
+      "performanceBonuses": [],
+      "releaseClause": null
+    }
+  ],
   "strikerTargets": [
     {
       "name": "Shio Fukuda",
@@ -332,7 +347,9 @@
     "Matviy Ponomar: Transferdeal über 2,3 Mio. € mit Dynamo Kiew ausgehandelt; Preis liegt 200.000 € über der bisherigen Vorstandshöchstgrenze und wartet daher auf Freigabe.",
     "Niklas Wiemann: endgültig für 960.000 € an Darmstadt verkauft. Reinvestierbarer Anteil: 672.000 €.",
     "Matviy Ponomar: für 2.300.000 € von Dynamo Kiew verpflichtet. Vertrag: 4 Jahre, 6.000 €/Woche, Rolle Wichtig, keine Boni, keine Ausstiegsklausel.",
-    "Ismail Badjie: wird künftig auf der linken Seite (LF) eingesetzt."
+    "Ismail Badjie: wird künftig auf der linken Seite (LF) eingesetzt.",
+    "Neue Vereinsregel: Jeder ablösefreie Neuzugang muss ein Jahresgehalt als verpflichtenden Einstiegsbonus erhalten.",
+    "Max Adams: vereinslos, 18 Jahre, 62 OVR, 66–70 POT, RV/LV. Vorstand erwägt Perspektivprofi mit 1.600 €/Woche und 83.200 € verpflichtendem Einstiegsbonus."
   ],
   "matches": [
     {
@@ -342,5 +359,10 @@
       "score": "3:1",
       "status": "Weiter"
     }
-  ]
+  ],
+  "freeAgentRuleExample": {
+    "weeklyWage": 1600,
+    "annualWage": 83200,
+    "mandatorySigningBonus": 83200
+  }
 }
