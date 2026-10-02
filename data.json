@@ -353,15 +353,6 @@
       "performanceBonuses": [],
       "releaseClause": null,
       "status": "vom Vorstand akzeptiert"
-    },
-    "IsmailBadjie": {
-      "role": "Rotation",
-      "extensionYears": 3,
-      "weeklyWage": 3300,
-      "entryBonus": 0,
-      "performanceBonuses": [],
-      "releaseClause": null,
-      "status": "Angebot des Vorstands"
     }
   },
   "contracts": {
@@ -451,21 +442,6 @@
         "releaseClause": null,
         "decision": "akzeptieren"
       }
-    },
-    {
-      "player": "Ismail Badjie",
-      "club": "VfL Osnabrück",
-      "status": "Vorstandsangebot",
-      "currentWeeklyWage": 3000,
-      "contractEnds": "Ende der Saison",
-      "offer": {
-        "role": "Rotation",
-        "extensionYears": 3,
-        "weeklyWage": 3300,
-        "signingBonus": 0,
-        "performanceBonuses": [],
-        "releaseClause": null
-      }
     }
   ],
   "strikerTargets": [
@@ -513,7 +489,7 @@
     "Sitzungsregel: Der 1. eines jeden Monats ist automatisch Vorstandssitzung. Beispiel: 01.06. = Vorstandssitzung.",
     "Jannik Müller fordert ausschließlich die Rolle Schlüsselspieler. Vorstand akzeptiert diese Rolle wegen Kapitänsstatus und Stamm-IV-Funktion, bleibt beim Gehalt streng: Startangebot 7.800 €/Woche, 3 Jahre zusätzlich, keine Boni, keine neue Ausstiegsklausel; absolute Grenze 8.200 €/Woche.",
     "Jannik Müller: Spieler fordert Schlüsselspieler, +1 Jahr, 7.800 €/Woche und 15.000 € Handgeld. Vorstand akzeptiert die Forderung.",
-    "Ismail Badjie: Vertrag läuft am Saisonende aus. Vorstand bietet 3 Jahre Verlängerung als Rotation für 3.300 €/Woche, ohne Handgeld, Boni oder Ausstiegsklausel."
+    "Ismail Badjie: Vertrag läuft am Saisonende aus. Spieler ist aktuell unschlüssig, ob er verlängern möchte. Vorstand unterbreitet vorerst kein Angebot und beobachtet Entwicklung/Saisonverlauf."
   ],
   "matches": [
     {
