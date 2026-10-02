@@ -1,5 +1,5 @@
 {
-  "budget": 5937000,
+  "budget": 3637000,
   "formation": "4-3-3 Flach",
   "lineHeight": 65,
   "rules": [
@@ -18,7 +18,7 @@
     {
       "position": "ST",
       "priority": "Sehr hoch",
-      "status": "Offen"
+      "status": "Ponomar verpflichtet"
     },
     {
       "position": "IV",
@@ -91,6 +91,11 @@
       "name": "Bernd Riesselmann",
       "role": "Leihe",
       "status": "2 Jahre CD Tondela"
+    },
+    {
+      "name": "Matviy Ponomar",
+      "role": "Wichtig · Stamm-ST",
+      "status": "Neu · 4 Jahre · 6.000 €/Woche"
     }
   ],
   "sales": [
@@ -217,7 +222,7 @@
       "ovr": 64,
       "pot": 74,
       "status": "1. Mannschaft",
-      "role": "Rotation"
+      "role": "LF-Rotation"
     },
     {
       "name": "Bernd Riesselmann",
@@ -226,6 +231,14 @@
       "pot": 70,
       "status": "Leihe · CD Tondela",
       "role": "ST-Talent"
+    },
+    {
+      "name": "Matviy Ponomar",
+      "age": 20,
+      "ovr": 66,
+      "pot": 82,
+      "status": "1. Mannschaft",
+      "role": "Stamm-ST"
     }
   ],
   "preseasonTournament": {
@@ -284,32 +297,20 @@
       "entryBonus": 0,
       "performanceBonuses": [],
       "releaseClause": null
+    },
+    "MatviyPonomar": {
+      "status": "Verpflichtet",
+      "role": "Wichtig",
+      "years": 4,
+      "weeklyWage": 6000,
+      "entryBonus": 0,
+      "performanceBonuses": [],
+      "releaseClause": null,
+      "fee": 2300000
     }
   },
-  "activeOffers": [
-    {
-      "player": "Matviy Ponomar",
-      "club": "Dynamo Kiew",
-      "agreedFee": 2300000,
-      "status": "Vorstandsentscheidung"
-    }
-  ],
+  "activeOffers": [],
   "strikerTargets": [
-    {
-      "name": "Matviy Ponomar",
-      "club": "Dynamo Kiew",
-      "ovr": 66,
-      "pot": 82,
-      "age": 20,
-      "oldPossiblePrice": 1300000,
-      "currentPossiblePrice": 2100000,
-      "reason": "Konkurrenz hat den möglichen Preis deutlich erhöht",
-      "boardStatus": "Neu bewerten",
-      "priority": 1,
-      "status": "Deal mit Dynamo Kiew – Vorstand muss freigeben",
-      "boardMax": 2100000,
-      "agreedFee": 2300000
-    },
     {
       "name": "Shio Fukuda",
       "club": "Borussia Mönchengladbach",
@@ -329,7 +330,9 @@
   ],
   "boardNotes": [
     "Matviy Ponomar: Transferdeal über 2,3 Mio. € mit Dynamo Kiew ausgehandelt; Preis liegt 200.000 € über der bisherigen Vorstandshöchstgrenze und wartet daher auf Freigabe.",
-    "Niklas Wiemann: endgültig für 960.000 € an Darmstadt verkauft. Reinvestierbarer Anteil: 672.000 €."
+    "Niklas Wiemann: endgültig für 960.000 € an Darmstadt verkauft. Reinvestierbarer Anteil: 672.000 €.",
+    "Matviy Ponomar: für 2.300.000 € von Dynamo Kiew verpflichtet. Vertrag: 4 Jahre, 6.000 €/Woche, Rolle Wichtig, keine Boni, keine Ausstiegsklausel.",
+    "Ismail Badjie: wird künftig auf der linken Seite (LF) eingesetzt."
   ],
   "matches": [
     {
