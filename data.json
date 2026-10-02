@@ -1,5 +1,5 @@
 {
-  "budget": 3637000,
+  "budget": 1937000,
   "formation": "4-3-3 Flach",
   "lineHeight": 65,
   "rules": [
@@ -336,15 +336,8 @@
     {
       "player": "Jakob Schöller",
       "club": "SK Rapid",
-      "status": "Vorstand gibt Verhandlungsauftrag",
-      "targetFee": 1700000,
-      "maxFee": 1800000,
-      "preferredRole": "Rotation",
-      "years": 4,
-      "weeklyWageTarget": 4500,
-      "entryBonus": 0,
-      "performanceBonuses": [],
-      "releaseClause": null
+      "agreedFee": 1700000,
+      "status": "Ablöse vereinbart – Vertragsverhandlung offen"
     }
   ],
   "strikerTargets": [
@@ -376,7 +369,8 @@
     "IV-Shortlist: David Odogu (65/83, Wert 1,8 Mio.), Vince Osuji (66/80, Wert 1,9 Mio.) und Jakob Schöller (66/80, Wert 1,9 Mio.). Tempo wurde noch nicht bewertet, da keine Tempo-Werte vorliegen.",
     "IV-Entscheidung: Jakob Schöller wird zum Topziel. 85 Tempo, 66 OVR/80 POT, CB/RB und 4.300 € Referenzgehalt passen am besten. Zielablöse 1,7 Mio. €, absolute Obergrenze 1,8 Mio. €.",
     "Odogu bleibt Plan B (80 Tempo, 83 POT, 1,7 Mio. möglich). Osuji bleibt Plan C wegen 78 Tempo und hohem Gehalt von 6.800 €.",
-    "Vorstandsentscheidung IV: Jakob Schöller ist das primäre Ziel. Gründe: 85 Tempo für Linienhöhe 65, 66 OVR, CB/RB-Flexibilität und ca. 4.300 €/Woche aktuelles Gehalt. Maximale Ablöse: 1,7 Mio. €. Odogu bleibt Alternative."
+    "Vorstandsentscheidung IV: Jakob Schöller ist das primäre Ziel. Gründe: 85 Tempo für Linienhöhe 65, 66 OVR, CB/RB-Flexibilität und ca. 4.300 €/Woche aktuelles Gehalt. Maximale Ablöse: 1,7 Mio. €. Odogu bleibt Alternative.",
+    "Jakob Schöller: SK Rapid hat 1.700.000 € Ablöse akzeptiert. Vertragsverhandlung steht noch aus. Transferbudget nach Ablöse: 1.937.000 €."
   ],
   "matches": [
     {
@@ -432,8 +426,9 @@
       "weeklyWage": 4300,
       "tempo": 85,
       "possibleFee": 1700000,
-      "status": "Primäres Ziel",
-      "boardReason": "85 Tempo, 66 OVR, CB/RB-Flexibilität und moderates Gehalt"
+      "status": "Ablöse akzeptiert – Vertrag offen",
+      "boardReason": "85 Tempo, 66 OVR, CB/RB-Flexibilität und moderates Gehalt",
+      "agreedFee": 1700000
     }
   ],
   "transferPlan": {
