@@ -1,5 +1,5 @@
 {
-  "budget": 1344400,
+  "budget": 882500,
   "formation": "4-3-3 Flach",
   "lineHeight": 65,
   "rules": [
@@ -154,9 +154,9 @@
     },
     {
       "name": "Mats Remberg",
-      "role": "ZM",
-      "status": "Verlängerungsentscheidung offen",
-      "notes": "Spieler ist unsicher, ob er seinen Vertrag verlängern möchte. Vertragsdetails werden für ein konkretes Angebot noch benötigt."
+      "role": "TW · 3. Keeper",
+      "status": "Verlängerung keine Top-Priorität",
+      "notes": "3. Keeper; Vertragsverlängerung aktuell keine Top-Priorität, Spieler hat noch nicht geantwortet."
     },
     {
       "name": "Theo Jannotta",
@@ -638,7 +638,8 @@
     "Ismail Badjie: Spieler akzeptiert eine Verlängerung grundsätzlich, verlangt aber mindestens die Rolle Wichtig. Vorstand geht auf Wichtig zu: 3 Jahre, 3.500 €/Woche, 10.000 € Handgeld, keine Boni/Ausstiegsklausel. Schlüsselspieler bleibt ausgeschlossen.",
     "Ismail Badjie: Trainerangebot liegt bei Wichtig, 3 Jahre, 3.700 €/Woche und 20.500 € Handgeld. Gehalt liegt im Vorstandskorridor, Handgeld über der bisherigen internen Linie; Ergebnis wird abgewartet.",
     "Ismail Badjie: Verlängerung final. Spieler akzeptiert Wichtig, 3 Jahre, 3.700 €/Woche und 20.500 € Handgeld. Keine Boni, keine Ausstiegsklausel.",
-    "1.1. Tabellenstand: Platz 5, 28 Punkte aus 17 Spielen, 8 Siege/4 Unentschieden/5 Niederlagen, 29:19 Tore. Zwei Punkte Rückstand auf Platz 4, elf auf Wolfsburg. Januar-Bewertung des Saisonziels und Entscheidung zu Hirsch/Tesche stehen an."
+    "1.1. Tabellenstand: Platz 5, 28 Punkte aus 17 Spielen, 8 Siege/4 Unentschieden/5 Niederlagen, 29:19 Tore. Zwei Punkte Rückstand auf Platz 4, elf auf Wolfsburg. Januar-Bewertung des Saisonziels und Entscheidung zu Hirsch/Tesche stehen an.",
+    "1.1. Beschlüsse: Offizielles Ziel bleibt Klassenerhalt, intern wird ein Aufstiegsrennen als Hoffnung zugelassen. Alexander Hirsch wird hochgezogen. Robert Tesche soll aktiv angeboten werden. Mats Remberg ist als 3. Keeper keine Top-Priorität bei Verlängerung und hat noch nicht geantwortet. Budget: 882.500 €. Rembergs Position im Dashboard auf TW korrigiert."
   ],
   "matches": [
     {
@@ -944,7 +945,21 @@
         "ZM-Abgang: Soll Robert Tesche im Winter aktiv zum Verkauf angeboten werden, um Hirsch einen Profiplatz zu geben?",
         "Remberg: Ist seine Verlängerungsentscheidung inzwischen gefallen?",
         "Winterbudget: Welcher Betrag steht nach den bisherigen Handgeldern und Jugendmaßnahmen aktuell noch zur Verfügung?"
-      ]
+      ],
+      "answers": {
+        "seasonTarget": "Offiziell bleibt der Klassenerhalt das Ziel. Intern darf die Mannschaft bei Platz 5 und 2 Punkten Rückstand auf Platz 4 auf den Aufstieg hoffen.",
+        "hirsch": "Alexander Hirsch wird im Januar hochgezogen.",
+        "tesche": "Robert Tesche soll im Winter aktiv für einen Verkauf angeboten werden.",
+        "remberg": "Remberg hat noch nicht geantwortet. Als 3. Keeper ist seine Vertragsverlängerung aktuell keine Top-Priorität.",
+        "budget": "Aktuelles Transferbudget: 882.500 €."
+      },
+      "boardOpinion": {
+        "seasonTarget": "Zustimmung. Der Vorstand unterstützt die Trennung zwischen offiziellem Ziel und interner Ambition. Wir wollen keinen künstlichen Druck durch eine offizielle Zieländerung erzeugen.",
+        "hirsch": "Zustimmung. Hochzug wird umgesetzt; bei 71 OVR und 95 POT ist Hirsch bereit, die nächste Stufe zu gehen.",
+        "tesche": "Zustimmung. Tesche bleibt der bevorzugte Kandidat für einen ZM-Abgang, sofern ein marktgerechtes Angebot eingeht.",
+        "remberg": "Zustimmung. Als 3. Keeper ist eine Verlängerung derzeit nachrangig. Wir können die Entscheidung des Spielers abwarten.",
+        "budget": "Der Vorstand nimmt 882.500 € als aktuellen Save-Stand zur Kenntnis und will das Budget bei der Winterplanung gezielt einsetzen."
+      }
     }
   ],
   "boardMeetingFormat": {
@@ -982,16 +997,16 @@
     },
     {
       "date": "1.1.",
-      "result": "Halbzeitstand: Osnabrück Platz 5 mit 28 Punkten aus 17 Spielen (8S/4U/5N, 29:19). Zwei Punkte fehlen auf Platz 4, elf auf Wolfsburg. Januar-Bewertung des Saisonziels und Winterplanung stehen an."
+      "result": "Halbzeitstand: Platz 5, 28 Punkte aus 17 Spielen. Offizielles Ziel bleibt Klassenerhalt; intern ist Aufstiegshoffnung erlaubt. Hirsch wird hochgezogen, Tesche aktiv angeboten, Remberg als 3. Keeper nachrangig. Budget: 882.500 €."
     }
   ],
   "seasonGoals": {
     "primary": "Abstieg verhindern",
     "secondary": "In der 2. Bundesliga Fuß fassen",
-    "currentOfficialGoal": "Klassenerhalt und Etablierung in der 2. Bundesliga",
-    "januaryReview": "Im Januar erneute Bewertung.",
+    "currentOfficialGoal": "Klassenerhalt",
+    "januaryReview": "Im Januar bestätigt: offizielles Ziel bleibt Klassenerhalt, intern wird ein Aufstiegsrennen als mögliche Perspektive beobachtet.",
     "note": "Der aktuelle 4. Platz führt noch nicht zu einer offiziellen Anhebung des Saisonziels.",
-    "internalOutlook": "Aufgrund von Platz 2 mit 23 Punkten prüft der Vorstand eine mögliche interne Zielanpassung weiter. Eine formale Änderung erfolgt vorerst nicht; Januar bleibt Bewertungstermin."
+    "internalOutlook": "Intern darf die Mannschaft aufgrund der Tabellenlage auf den Aufstieg hoffen; offiziell bleibt das Ziel der Klassenerhalt."
   },
   "contractReview": {
     "RobinHenning": {
@@ -1069,8 +1084,11 @@
       }
     },
     "Remberg": {
-      "status": "Entscheidung offen",
-      "note": "Für eine konkrete Verhandlungsposition benötigt der Vorstand noch Restlaufzeit, aktuelles Wochengehalt und bevorzugte Rolle des Spielers."
+      "status": "Antwort ausstehend – keine Top-Priorität",
+      "note": "Für eine konkrete Verhandlungsposition benötigt der Vorstand noch Restlaufzeit, aktuelles Wochengehalt und bevorzugte Rolle des Spielers.",
+      "position": "TW",
+      "squadRole": "3. Keeper",
+      "boardAssessment": "Da Remberg aktuell als 3. Keeper eingeplant ist, hat seine Verlängerung momentan keine hohe Priorität. Entscheidung kann ohne Zeitdruck beobachtet werden."
     },
     "Badjie": {
       "status": "Verlängert",
