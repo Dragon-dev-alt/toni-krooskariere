@@ -352,7 +352,7 @@
       "entryBonus": 15000,
       "performanceBonuses": [],
       "releaseClause": null,
-      "status": "angenommen"
+      "status": "vom Vorstand akzeptiert"
     }
   },
   "contracts": {
@@ -419,29 +419,28 @@
     {
       "player": "Jannik Müller",
       "club": "VfL Osnabrück",
-      "status": "Vertrag angenommen – 1 Jahr Verlängerung",
+      "status": "Spielerforderung",
       "currentWeeklyWage": 7200,
       "yearsRemaining": 2,
       "releaseClause": 1200000,
-      "boardStatus": "Vorstand bietet maximal 1 Jahr Verlängerung",
-      "offer": {
+      "demand": {
         "role": "Schlüsselspieler",
         "extensionYears": 1,
         "totalYearsFromNow": 3,
         "weeklyWage": 7800,
         "signingBonus": 15000,
-        "entryBonus": 15000,
         "performanceBonuses": [],
         "releaseClause": null
       },
-      "max": {
+      "boardPosition": {
         "role": "Schlüsselspieler",
         "extensionYears": 1,
         "totalYearsFromNow": 3,
-        "weeklyWage": 8200,
-        "signingBonus": 0,
+        "weeklyWage": 7800,
+        "signingBonus": 15000,
         "performanceBonuses": [],
-        "releaseClause": null
+        "releaseClause": null,
+        "decision": "akzeptieren"
       }
     }
   ],
@@ -490,7 +489,7 @@
     "Alexander Hirsch: vom Jugendscout entdeckt und für 199.800 € in die Jugendakademie verpflichtet. 16 Jahre, 69 OVR, 90+ Potenzial, ZDM. Noch nicht in die 1. Mannschaft hochgezogen. Die Regel für externe ablösefreie Neuzugänge gilt nicht.",
     "Sitzungsregel: Der 1. eines jeden Monats ist automatisch Vorstandssitzung. Beispiel: 01.06. = Vorstandssitzung.",
     "Jannik Müller fordert ausschließlich die Rolle Schlüsselspieler. Vorstand akzeptiert diese Rolle wegen Kapitänsstatus und Stamm-IV-Funktion, bleibt beim Gehalt streng: Startangebot 7.800 €/Woche, 3 Jahre zusätzlich, keine Boni, keine neue Ausstiegsklausel; absolute Grenze 8.200 €/Woche.",
-    "Jannik Müller: Verlängerung angenommen. Schlüsselspieler, +1 Jahr (3 Jahre Gesamtrestlaufzeit), 7.800 €/Woche und 15.000 € Handgeld. Keine Leistungsboni, keine Ausstiegsklausel."
+    "Jannik Müller: Spieler fordert Schlüsselspieler, +1 Jahr, 7.800 €/Woche und 15.000 € Handgeld. Vorstand akzeptiert die Forderung."
   ],
   "matches": [
     {
