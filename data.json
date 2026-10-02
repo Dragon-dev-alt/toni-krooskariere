@@ -1,5 +1,5 @@
 {
-  "budget": 4425000,
+  "budget": 5265000,
   "formation": "4-3-3 Flach",
   "lineHeight": 65,
   "rules": [
@@ -116,7 +116,8 @@
     },
     {
       "name": "David Kopacz",
-      "status": "Verkaufsliste"
+      "status": "Verkauft",
+      "fee": 1200000
     },
     {
       "name": "Lukas Jonsson",
@@ -301,7 +302,26 @@
       "oldPossiblePrice": 1300000,
       "currentPossiblePrice": 2100000,
       "reason": "Konkurrenz hat den möglichen Preis deutlich erhöht",
-      "boardStatus": "Neu bewerten"
+      "boardStatus": "Neu bewerten",
+      "priority": 1,
+      "status": "Wunschlösung",
+      "boardMax": 2100000
+    },
+    {
+      "name": "Shio Fukuda",
+      "club": "Borussia Mönchengladbach",
+      "priority": 2,
+      "status": "Plan B",
+      "currentPossiblePrice": 1300000,
+      "boardMax": 1400000
+    },
+    {
+      "name": "Erik Flataker",
+      "club": "Go Ahead Eagles",
+      "priority": 3,
+      "status": "Plan C",
+      "currentPossiblePrice": 1500000,
+      "boardMax": 1600000
     }
   ]
 }
