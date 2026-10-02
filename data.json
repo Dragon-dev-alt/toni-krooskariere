@@ -113,6 +113,11 @@
       "role": "ZM-Rotation",
       "status": "Leihe · 12 Monate",
       "note": "70/83 · CM/CDM · 100 % Gehaltsübernahme · 3.800 €/Woche · keine Gebühr · keine Kaufoption"
+    },
+    {
+      "name": "Robin Henning",
+      "role": "ZM rechts · Rotation",
+      "status": "Vertragssituation offen"
     }
   ],
   "sales": [
@@ -491,7 +496,9 @@
   ],
   "transferPlan": {
     "iv": "Jakob Schöller",
-    "zmLoan": "Izan González verpflichtet"
+    "zmLoan": "Izan González verpflichtet",
+    "remainingBudget": "1.721.000 € zunächst zurückhalten",
+    "rightBack": "Kein Bedarf"
   },
   "suspensions": {
     "Jakob Schöller": {
@@ -573,5 +580,28 @@
   "boardMeetingFormat": {
     "questionCount": "3–6 Fragen pro Sitzung",
     "style": "kurz, fokussiert, entscheidungsorientiert"
+  },
+  "boardMeetingResults": [
+    {
+      "date": "2026-08-05",
+      "decisions": {
+        "transferBudget": "Restbudget wird zunächst gehalten; Fokus auf mögliche Jugendtalente.",
+        "midfield": "Wagner links · González zentral · Henning rechts",
+        "henning": "Neues Gespräch Ende Oktober anhand seiner Leistungen",
+        "rightBack": "Ausreichend besetzt; keine weitere Verpflichtung nötig",
+        "seasonGoal": "Abstieg verhindern und sich in der 2. Bundesliga etablieren"
+      }
+    }
+  ],
+  "seasonGoals": {
+    "primary": "Abstieg verhindern",
+    "secondary": "In der 2. Bundesliga Fuß fassen",
+    "cup": "keine neue Vorgabe"
+  },
+  "contractReview": {
+    "RobinHenning": {
+      "reviewDate": "2026-10-31",
+      "criterion": "Leistung bis Ende Oktober"
+    }
   }
 }
