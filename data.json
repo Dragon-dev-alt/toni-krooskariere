@@ -495,7 +495,8 @@
     "1.10. Vorstandssitzung: Platz 4 nach 7 Spielen, 14 Punkte, 4 Siege/2 Unentschieden/1 Niederlage, 10:7 Tore. Robin Henning: 11 Einsätze, Ø 6,92. Oktober-Termin zur Vertragsbewertung erreicht.",
     "1.10. Vorstandsbeschluss zu Antworten: Henning zunächst Rotation anbieten; wegen guter, aber nicht außergewöhnlicher Leistungen ist Wichtig als Kompromiss möglich. Bei Ablehnung soll im Winter verkauft werden. Mittelfeld bleibt Wagner–González–Henning. Badjie-Gespräch Mitte/Ende Oktober, Bericht in der nächsten Sitzung. Saisonziele werden erst im Januar nach Spielen gegen stärkere Gegner neu bewertet.",
     "Vorstandszufriedenheit: aktuell 8/10 (hoch). Bewertung erfolgt bei jeder monatlichen Vorstandssitzung und kann bei schlechter sportlicher Entwicklung, verfehlten Zielen oder nicht nachvollziehbaren Entscheidungen deutlich sinken.",
-    "Trainervertrag: Toni Kroos hat einen 3-Jahres-Vertrag ab Saison 2026/27 bis Sommer 2029. Bei Vertragsende wird separat verhandelt; eine Verlängerung ist nicht automatisch. Vorzeitige Trennung ist bei anhaltend schlechter Entwicklung, verfehlten Zielen oder wiederholt nicht nachvollziehbaren Entscheidungen möglich."
+    "Trainervertrag: Toni Kroos hat einen 3-Jahres-Vertrag ab Saison 2026/27 bis Sommer 2029. Bei Vertragsende wird separat verhandelt; eine Verlängerung ist nicht automatisch. Vorzeitige Trennung ist bei anhaltend schlechter Entwicklung, verfehlten Zielen oder wiederholt nicht nachvollziehbaren Entscheidungen möglich.",
+    "Topduell gegen VfL Wolfsburg: 1:0 gewonnen. Der starke Saisonstart wird durch einen Sieg gegen einen qualitativ anspruchsvollen Gegner bestätigt."
   ],
   "matches": [
     {
@@ -522,6 +523,14 @@
       "record": "4 Siege, 2 Unentschieden, 1 Niederlage",
       "goals": "10:7",
       "note": "Vom Manager gemeldeter Zwischenstand"
+    },
+    {
+      "date": "nach dem 1.10.",
+      "competition": "2. Bundesliga",
+      "opponent": "VfL Wolfsburg",
+      "result": "1:0 Sieg",
+      "homeAway": "nicht angegeben",
+      "note": "Topduell gewonnen"
     }
   ],
   "freeAgentRuleExample": {
@@ -715,7 +724,7 @@
     "primary": "Abstieg verhindern",
     "secondary": "In der 2. Bundesliga Fuß fassen",
     "currentOfficialGoal": "Klassenerhalt und Etablierung in der 2. Bundesliga",
-    "januaryReview": "Im Januar erneute Bewertung nach Spielen gegen stärkere Gegner",
+    "januaryReview": "Im Januar erneute Bewertung; nach dem 1:0 gegen Wolfsburg ist der Vorstand offener für eine mögliche interne Zielanpassung, möchte aber weitere Spiele abwarten.",
     "note": "Der aktuelle 4. Platz führt noch nicht zu einer offiziellen Anhebung des Saisonziels."
   },
   "contractReview": {
@@ -748,15 +757,14 @@
   ],
   "youthRecruitmentCandidates": [],
   "boardSatisfaction": {
-    "score": 8,
+    "score": 9,
     "scale": "1–10",
-    "status": "hoch",
-    "currentAssessment": "Der Vorstand ist mit dem Saisonstart und der bisherigen Arbeit von Toni Kroos deutlich zufrieden. Platz 4 nach 7 Spieltagen liegt klar über dem ursprünglichen Saisonziel, ohne dass der Vorstand daraus bereits ein neues Saisonziel ableitet.",
+    "status": "sehr hoch",
+    "currentAssessment": "Der Vorstand bewertet die Entwicklung nach dem 1:0 gegen VfL Wolfsburg sehr positiv. Der Sieg gegen einen stärkeren Gegner bestätigt, dass die Mannschaft auch gegen höher einzuschätzende Konkurrenz konkurrenzfähig ist.",
     "positiveFactors": [
-      "14 Punkte aus 7 Spielen",
-      "Platz 4",
-      "Klar erkennbare Kader- und Mittelfeldplanung",
-      "Vorsichtige und nachvollziehbare Personalentscheidungen"
+      "14 Punkte nach 7 Spielen plus 1:0-Sieg gegen Wolfsburg",
+      "Defensive Stabilität erneut gezeigt",
+      "Trainer-Prognose zum engen Spiel mit anschließendem Sieg eingetroffen"
     ],
     "riskFactors": [
       "Form muss über einen längeren Zeitraum bestätigt werden",
