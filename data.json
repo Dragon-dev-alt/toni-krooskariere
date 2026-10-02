@@ -1,10 +1,184 @@
 {
-  "club": "VfL Osnabrück",
-  "season": "2026/27",
-  "manager": "Toni Kroos",
   "budget": 2584000,
   "formation": "4-3-3 Flach",
   "lineHeight": 65,
+  "rules": [
+    "Der VfL darf 70 % der Netto-Erlöse aus Spielerverkäufen wieder in Transfers investieren. 30 % bleiben beim Verein.",
+    "Bei vergleichbaren Kandidaten bevorzugen wir jüngere Spieler mit höherem Entwicklungspotenzial.",
+    "Ein Spieler wird nicht nur wegen seines OVR verpflichtet. Er muss zur Taktik passen und eine konkrete Kaderlücke schließen.",
+    "Grundsätzlich sind höchstens vier feste Neuzugänge pro Saison vorgesehen. Zusätzliche Leihen oder ablösefreie Spieler sind möglich.",
+    "Mindestens ein Neuzugang der Saison soll ablösefrei oder per Leihe kommen.",
+    "Jugendspieler sollen echte Einsatzchancen erhalten, sobald sie sportlich mithalten können.",
+    "Akademiespieler mit mindestens 80 Potenzial werden besonders geschützt. Vor einem Verkauf prüfen wir zuerst Leihe und Entwicklung.",
+    "Neue Gehälter dürfen das interne Gehaltsgefüge nicht ohne klare sportliche Begründung sprengen.",
+    "Bei Transfers werden zuerst Deutschland, Österreich, Schweiz, Niederlande, Dänemark, Polen und Tschechien berücksichtigt.",
+    "Jeder Transfer muss eine konkrete Position oder Rolle verbessern. Keine unnötige Kaderaufblähung."
+  ],
+  "priorities": [
+    {
+      "position": "ST",
+      "priority": "Sehr hoch",
+      "status": "Offen"
+    },
+    {
+      "position": "IV",
+      "priority": "Sehr hoch",
+      "status": "Offen"
+    },
+    {
+      "position": "ZM",
+      "priority": "Hoch",
+      "status": "Offen"
+    },
+    {
+      "position": "LV",
+      "priority": "Erledigt",
+      "status": "Mahuta verpflichtet"
+    }
+  ],
+  "players": [
+    {
+      "name": "Ole Schubert",
+      "role": "Stamm-LV",
+      "status": "1. Mannschaft"
+    },
+    {
+      "name": "Ryan Mahuta",
+      "role": "LV-Backup",
+      "status": "Neu · 4 Jahre"
+    },
+    {
+      "name": "Mario Silva",
+      "role": "Stamm-RF",
+      "status": "1. Mannschaft"
+    },
+    {
+      "name": "Lars Kehl",
+      "role": "RF-Backup",
+      "status": "Kader"
+    },
+    {
+      "name": "Kevin Schumacher",
+      "role": "Stamm-LF",
+      "status": "Kader"
+    },
+    {
+      "name": "Kevin Wiethaup",
+      "role": "LF-Backup",
+      "status": "Kader"
+    },
+    {
+      "name": "Viggo Andersen",
+      "role": "2. ST",
+      "status": "1. Mannschaft"
+    },
+    {
+      "name": "Christian Wolf",
+      "role": "TW-Backup → Stamm",
+      "status": "1. Mannschaft"
+    },
+    {
+      "name": "Patrick Kammerbauer",
+      "role": "RV-Umschulung",
+      "status": "Kader"
+    },
+    {
+      "name": "Yigit Karademir",
+      "role": "Leihe",
+      "status": "1 Jahr Stoke City"
+    },
+    {
+      "name": "Bernd Riesselmann",
+      "role": "Leihe",
+      "status": "1 Jahr"
+    }
+  ],
+  "sales": [
+    {
+      "name": "Kai Pröger",
+      "status": "Verkauft",
+      "fee": 430000
+    },
+    {
+      "name": "Tony Lesueur",
+      "status": "Verkauft",
+      "fee": 790000
+    },
+    {
+      "name": "Bashkim Adjini",
+      "status": "Verkaufsliste"
+    },
+    {
+      "name": "Luca Ihorst",
+      "status": "Verkaufsliste"
+    },
+    {
+      "name": "David Kopacz",
+      "status": "Verkaufsliste"
+    },
+    {
+      "name": "Mats Remberg",
+      "status": "Verkaufsliste"
+    }
+  ],
+  "academy": [
+    {
+      "name": "Mario Silva",
+      "age": 16,
+      "ovr": 69,
+      "pot": 93,
+      "plan": "Stamm-RF"
+    },
+    {
+      "name": "Ole Schubert",
+      "age": 16,
+      "ovr": 70,
+      "pot": 85,
+      "plan": "Stamm-LV"
+    },
+    {
+      "name": "Christian Wolf",
+      "age": 16,
+      "ovr": 66,
+      "pot": 90,
+      "plan": "Backup → Stamm"
+    },
+    {
+      "name": "Viggo Andersen",
+      "age": 16,
+      "ovr": 61,
+      "pot": 90,
+      "plan": "2. ST"
+    },
+    {
+      "name": "Otto Riedel",
+      "age": 15,
+      "ovr": 68,
+      "pot": 86,
+      "plan": "ab 16 hochziehen"
+    },
+    {
+      "name": "Andreas Vogel",
+      "age": 14,
+      "ovr": 64,
+      "pot": 83,
+      "plan": "Akademie"
+    },
+    {
+      "name": "Nick Adam",
+      "age": 14,
+      "ovr": 64,
+      "pot": 83,
+      "plan": "Akademie"
+    },
+    {
+      "name": "Özgür Burakgazi",
+      "age": 14,
+      "ovr": 62,
+      "pot": 82,
+      "plan": "Akademie"
+    }
+  ],
   "scouting": {
     "country": "Deutschland",
     "duration": "9 Monate",
@@ -14,253 +188,5 @@
       "ZM/ZDM",
       "RV"
     ]
-  },
-  "transferRules": [
-    "Der VfL investiert höchstens 70 % der Netto-Erlöse aus Spielerverkäufen wieder in Transfers. 30 % der Erlöse bleiben beim Verein.",
-    "Bei vergleichbaren Kandidaten werden jüngere Spieler mit höherem Entwicklungspotenzial bevorzugt.",
-    "Spieler werden nicht nur wegen ihres OVR verpflichtet. Jeder Neuzugang muss eine konkrete Kaderlücke schließen und zum 4-3-3 Flach von Toni Kroos passen.",
-    "Grundsätzlich sind höchstens vier feste Neuzugänge pro Saison vorgesehen. Zusätzliche Leihen oder ablösefreie Spieler sind erlaubt, wenn sie sportlich und finanziell sinnvoll sind.",
-    "Mindestens ein Neuzugang der Saison soll ablösefrei oder per Leihe kommen.",
-    "Jugendspieler sollen echte Einsatzchancen bekommen, sobald sie sportlich mithalten können.",
-    "Akademiespieler mit mindestens 80 Potenzial werden besonders geschützt. Vor einem Verkauf soll zuerst Leihe oder Entwicklung geprüft werden.",
-    "Neue Gehälter dürfen das interne Gehaltsgefüge nicht ohne klare sportliche Begründung sprengen.",
-    "Bei Transfers sollen zunächst Deutschland, Österreich, Schweiz, Niederlande, Dänemark, Polen und Tschechien berücksichtigt werden.",
-    "Jeder Transfer muss eine konkrete Position oder Rolle verbessern. Der Verein will keine unnötige Kaderaufblähung."
-  ],
-  "priorities": [
-    [
-      "ST",
-      "Sehr hoch",
-      "ca. 1,5 Mio. €",
-      "Offen",
-      "Stammspieler benötigt"
-    ],
-    [
-      "IV",
-      "Sehr hoch",
-      "ca. 1,2 Mio. €",
-      "Offen",
-      "schneller IV für Linienhöhe 65"
-    ],
-    [
-      "ZM",
-      "Hoch",
-      "ca. 1,0 Mio. €",
-      "Offen",
-      "dritter spielstarker Achter"
-    ],
-    [
-      "LV",
-      "Erledigt",
-      "0 € Ablöse",
-      "Mahuta verpflichtet",
-      "Backup hinter Schubert"
-    ]
-  ],
-  "players": [
-    [
-      "Ole Schubert",
-      "Stamm-LV",
-      "Jugend / 1. Mannschaft",
-      "16 · 70/85"
-    ],
-    [
-      "Ryan Mahuta",
-      "LV-Backup",
-      "Neu",
-      "23 · 64/70 · 4 Jahre · 3.800 €/Woche"
-    ],
-    [
-      "Mario Silva",
-      "Stamm-RF",
-      "Jugend / 1. Mannschaft",
-      "16 · 69/93"
-    ],
-    [
-      "Lars Kehl",
-      "RF-Backup",
-      "Kader",
-      "68/75"
-    ],
-    [
-      "Kevin Schumacher",
-      "Stamm-LF",
-      "Kader",
-      "63"
-    ],
-    [
-      "Kevin Wiethaup",
-      "LF-Backup",
-      "Kader",
-      "63/78"
-    ],
-    [
-      "Viggo Andersen",
-      "2. ST",
-      "Jugend / 1. Mannschaft",
-      "16 · 61/90"
-    ],
-    [
-      "Christian Wolf",
-      "TW-Backup → später Stamm",
-      "Jugend / 1. Mannschaft",
-      "16 · 66/90"
-    ],
-    [
-      "Patrick Kammerbauer",
-      "RV-Umschulung",
-      "Kader",
-      "Zielposition: RV"
-    ],
-    [
-      "Yigit Karademir",
-      "1 Jahr verliehen",
-      "Stoke City",
-      "63/75"
-    ],
-    [
-      "Bernd Riesselmann",
-      "1 Jahr verliehen",
-      "Leihe",
-      "60/70"
-    ],
-    [
-      "Jannik Müller",
-      "Stamm-IV",
-      "Kader",
-      "68"
-    ],
-    [
-      "Robin Fabinski",
-      "Stamm-IV",
-      "Kader",
-      "65/71"
-    ],
-    [
-      "Niklas Wiemann",
-      "IV-Rotation",
-      "Kader",
-      "65/67"
-    ],
-    [
-      "Theo Jannotta",
-      "IV-Reserve",
-      "Kader",
-      "61/70"
-    ],
-    [
-      "Bjarke Jacobsen",
-      "ZM",
-      "Kader",
-      "66"
-    ],
-    [
-      "Fridolin Wagner",
-      "ZM",
-      "Kader",
-      "65/66"
-    ],
-    [
-      "Robin Henning",
-      "ZM-Rotation",
-      "Kader",
-      "64/64"
-    ],
-    [
-      "Robert Tesche",
-      "Erfahrungs-Reserve",
-      "Kader",
-      "63/63"
-    ]
-  ],
-  "sales": [
-    [
-      "Kai Pröger",
-      "Verkauft",
-      "430.000 €"
-    ],
-    [
-      "Tony Lesueur",
-      "Verkauft",
-      "790.000 €"
-    ],
-    [
-      "Bashkim Adjini",
-      "Verkaufsliste",
-      "—"
-    ],
-    [
-      "Luca Ihorst",
-      "Verkaufsliste",
-      "—"
-    ],
-    [
-      "David Kopacz",
-      "Verkaufsliste",
-      "—"
-    ],
-    [
-      "Mats Remberg",
-      "Verkaufsliste",
-      "—"
-    ]
-  ],
-  "academy": [
-    [
-      "Mario Silva",
-      16,
-      69,
-      93,
-      "Stamm-RF"
-    ],
-    [
-      "Ole Schubert",
-      16,
-      70,
-      85,
-      "Stamm-LV"
-    ],
-    [
-      "Christian Wolf",
-      16,
-      66,
-      90,
-      "Backup → Stammkeeper"
-    ],
-    [
-      "Viggo Andersen",
-      16,
-      61,
-      90,
-      "2. ST"
-    ],
-    [
-      "Otto Riedel",
-      15,
-      68,
-      86,
-      "ab 16 hochziehen"
-    ],
-    [
-      "Andreas Vogel",
-      14,
-      64,
-      83,
-      "Akademie"
-    ],
-    [
-      "Nick Adam",
-      14,
-      64,
-      83,
-      "Akademie"
-    ],
-    [
-      "Özgür Burakgazi",
-      14,
-      62,
-      82,
-      "Akademie"
-    ]
-  ]
+  }
 }
