@@ -29,7 +29,7 @@
     {
       "position": "ZM",
       "priority": "Hoch",
-      "status": "Offen"
+      "status": "Izan González geliehen"
     },
     {
       "position": "LV",
@@ -107,6 +107,12 @@
       "name": "Max Adams",
       "role": "Perspektivprofi · RV/LV",
       "status": "Neu · 5 Jahre · 1.600 €/Woche"
+    },
+    {
+      "name": "Izan González",
+      "role": "ZM-Rotation",
+      "status": "Leihe · 12 Monate",
+      "note": "70/83 · CM/CDM · 100 % Gehaltsübernahme · 3.800 €/Woche · keine Gebühr · keine Kaufoption"
     }
   ],
   "sales": [
@@ -411,7 +417,8 @@
     "2. Bundesliga: 1:1 gegen Darmstadt. Jakob Schöller sah eine Rote Karte.",
     "Jakob Schöller: 1 Spiel Sperre nach Roter Karte gegen Darmstadt.",
     "ZM-Leihkandidaten: Taichi Fukui (71/81, CM/CAM, 5.400 €/Woche), Izan González (70/83, CM/CDM, 3.800 €/Woche) und Yussif Saidu (68/84, CM/CDM/CB, 3.900 €/Woche). Für eine Entscheidung werden Leihgebühr und Anteil des Gehalts benötigt.",
-    "ZM-Leihe priorisiert: 1. Izan González, 2. Yussif Saidu, 3. Taichi Fukui. Begründung: González verbindet 70 OVR, 83 POT, CM/CDM und nur 3.800 €/Woche; Leihkosten müssen noch geprüft werden."
+    "ZM-Leihe priorisiert: 1. Izan González, 2. Yussif Saidu, 3. Taichi Fukui. Begründung: González verbindet 70 OVR, 83 POT, CM/CDM und nur 3.800 €/Woche; Leihkosten müssen noch geprüft werden.",
+    "Izan González: für 12 Monate von FC Granada geliehen. Leihgebühr 0 €, 100 % Gehaltsübernahme (3.800 €/Woche), keine Kaufoption."
   ],
   "matches": [
     {
@@ -483,7 +490,7 @@
   ],
   "transferPlan": {
     "iv": "Jakob Schöller",
-    "zmLoan": "Izan González"
+    "zmLoan": "Izan González verpflichtet"
   },
   "suspensions": {
     "Jakob Schöller": {
@@ -515,7 +522,7 @@
       "positions": "CM/CDM",
       "weeklyWage": 3800,
       "value": 3900000,
-      "status": "Erste Priorität",
+      "status": "Erledigt – Leihe abgeschlossen",
       "fit": "Kontrolle und Absicherung im 4-3-3 Flach",
       "priority": 1
     },
@@ -531,6 +538,18 @@
       "status": "Zweite Priorität",
       "fit": "Physis, Flexibilität und defensiver Nutzen",
       "priority": 2
+    }
+  ],
+  "loans": [
+    {
+      "player": "Izan González",
+      "from": "FC Granada",
+      "duration": "12 Monate",
+      "loanFee": 0,
+      "salaryShare": 100,
+      "weeklyWage": 3800,
+      "purchaseOption": false,
+      "status": "Abgeschlossen"
     }
   ]
 }
