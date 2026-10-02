@@ -136,6 +136,25 @@
       "ovr": 64,
       "potential": 74,
       "notes": "Will grundsätzlich verlängern, fordert jedoch Schlüsselspieler. Vorstand hält Schlüsselspieler aktuell nicht für darstellbar."
+    },
+    {
+      "name": "Fridolin Wagner",
+      "role": "ZM",
+      "status": "Vertragsverhandlung / Verlängerungswunsch",
+      "age": 25,
+      "ovr": 65,
+      "potential": 66,
+      "weeklyWage": 4400,
+      "contractRemaining": "1 Jahr 6 Monate",
+      "appearances": 19,
+      "averageRating": 6.56,
+      "notes": "Möchte verlängern. Vorstand bewertet die Saisonleistung bisher als solide, aber nicht herausragend."
+    },
+    {
+      "name": "Mats Remberg",
+      "role": "ZM",
+      "status": "Verlängerungsentscheidung offen",
+      "notes": "Spieler ist unsicher, ob er seinen Vertrag verlängern möchte. Vertragsdetails werden für ein konkretes Angebot noch benötigt."
     }
   ],
   "sales": [
@@ -430,6 +449,16 @@
       "releaseClause": null,
       "boardPosition": "Schlüsselspieler nicht möglich; Vorstand hält Rotation derzeit für angemessen. Wichtig kann nur bei deutlicher sportlicher Entwicklung geprüft werden.",
       "status": "Verhandlung läuft – Spieler fordert Schlüsselspieler"
+    },
+    "FridolinWagner": {
+      "role": "Rotation",
+      "extensionYears": 2,
+      "weeklyWage": 4000,
+      "entryBonus": 0,
+      "performanceBonuses": [],
+      "releaseClause": null,
+      "status": "Vorstandsangebot – Spielerentscheidung ausstehend",
+      "boardAssessment": "19 Einsätze bei Ø 6,56 sind solide, rechtfertigen aktuell aber keine wichtigere Rolle. Die Verlängerung zu leicht reduziertem Gehalt hält die Gehaltsstruktur im Rahmen."
     }
   },
   "contracts": {
@@ -564,7 +593,9 @@
     "Winteroption Hirsch: Im Januar könnte ein ZM verkauft und Alexander Hirsch (16, 69 OVR, 90+ Potenzial, ZDM) aus der Jugendakademie hochgezogen werden. Vorstand hält die interne Lösung für prüfenswert, will die sportliche Bereitschaft von Hirsch und die Bedeutung des abzugebenden ZM vorher bewerten.",
     "Aktuelle Jugendakademie (letzter Bericht): Özgür Burakgazi 15/63/82 GK; Otto Riedel 16/69/86 CB; Thomas Vogel 14/67/92 LB/CB; Nick Adam 15/65/83 CDM; Andreas Vogel 15/65/83 CDM; Alexander Hirsch 16/71/95 CM/CDM; Matthis Vetter 15/71/97 CAM/LW/RW. Besonders Hirsch und Vetter entwickeln sich stark und liegen bereits bei 71 OVR.",
     "1.12. Tabellenstand: Osnabrück Platz 6, 24 Punkte aus 14 Spielen, 7 Siege/3 Unentschieden/4 Niederlagen, 20:16 Tore. Wolfsburg Platz 1 mit 30 Punkten. Vorstandssitzung eröffnet.",
-    "1.12. Ergänzende Vorstandslinie: Badjie möchte grundsätzlich verlängern, fordert Schlüsselspieler; diese Rolle wird ausgeschlossen. Rotation bleibt Ausgangsposition, Wichtig nur bei deutlicher Leistungssteigerung. Für die Winter-ZM-Planung unterstützt der Vorstand Hirschs Hochzug ohne externen Zugang. Bevorzugter Abgang: Robert Tesche, sofern marktgerechtes Angebot vorliegt."
+    "1.12. Ergänzende Vorstandslinie: Badjie möchte grundsätzlich verlängern, fordert Schlüsselspieler; diese Rolle wird ausgeschlossen. Rotation bleibt Ausgangsposition, Wichtig nur bei deutlicher Leistungssteigerung. Für die Winter-ZM-Planung unterstützt der Vorstand Hirschs Hochzug ohne externen Zugang. Bevorzugter Abgang: Robert Tesche, sofern marktgerechtes Angebot vorliegt.",
+    "Fridolin Wagner: 1 Jahr 6 Monate Restlaufzeit, 4.400 €/Woche, 19 Einsätze, Ø 6,56. Spieler möchte verlängern. Vorstand bietet Rotation, +2 Jahre, 4.000 €/Woche, keine Boni/Klausel.",
+    "Mats Remberg: Spieler ist unsicher bezüglich Verlängerung. Konkrete Verhandlung erst nach Klärung von Restlaufzeit, aktuellem Gehalt und gewünschter Rolle."
   ],
   "matches": [
     {
@@ -935,6 +966,26 @@
         "performanceBonuses": [],
         "releaseClause": null
       }
+    },
+    "Wagner": {
+      "contractRemaining": "1 Jahr 6 Monate",
+      "currentWeeklyWage": 4400,
+      "appearances": 19,
+      "averageRating": 6.56,
+      "offer": {
+        "role": "Rotation",
+        "extensionYears": 2,
+        "weeklyWage": 4000,
+        "entryBonus": 0,
+        "performanceBonuses": [],
+        "releaseClause": null,
+        "status": "Vorstandsangebot – Spielerentscheidung ausstehend",
+        "boardAssessment": "19 Einsätze bei Ø 6,56 sind solide, rechtfertigen aktuell aber keine wichtigere Rolle. Die Verlängerung zu leicht reduziertem Gehalt hält die Gehaltsstruktur im Rahmen."
+      }
+    },
+    "Remberg": {
+      "status": "Entscheidung offen",
+      "note": "Für eine konkrete Verhandlungsposition benötigt der Vorstand noch Restlaufzeit, aktuelles Wochengehalt und bevorzugte Rolle des Spielers."
     }
   },
   "academyProspects": [
