@@ -408,7 +408,8 @@
     "Budgetkorrektur: Aktuelles im Spiel angezeigtes Transferbudget beträgt 1.721.000 €. Der vom Nutzer angegebene Ingame-Wert gilt als maßgeblich; Differenz zum bisherigen Dashboardstand (1.937.000 €) von 216.000 € ist bisher nicht aufgeschlüsselt.",
     "Max Adams fordert die Rolle Rotation. Vorstand lehnt das ab und bietet Perspektivprofi an: 3 Jahre, 1.600 €/Woche, 83.200 € Pflicht-Handgeld, keine Boni, keine Ausstiegsklausel.",
     "Max Adams: ablösefrei verpflichtet. Vertrag 5 Jahre, Rolle Perspektivprofi, 1.600 €/Woche, 83.200 € Pflicht-Handgeld, keine Leistungsboni, keine Ausstiegsklausel.",
-    "2. Bundesliga: 1:1 gegen Darmstadt. Jakob Schöller sah eine Rote Karte."
+    "2. Bundesliga: 1:1 gegen Darmstadt. Jakob Schöller sah eine Rote Karte.",
+    "Jakob Schöller: 1 Spiel Sperre nach Roter Karte gegen Darmstadt."
   ],
   "matches": [
     {
@@ -424,7 +425,8 @@
       "result": "Unentschieden",
       "score": "1:1",
       "redCard": "Jakob Schöller",
-      "status": "Liga"
+      "status": "Liga",
+      "suspension": 1
     }
   ],
   "freeAgentRuleExample": {
@@ -479,5 +481,12 @@
   ],
   "transferPlan": {
     "iv": "Jakob Schöller"
+  },
+  "suspensions": {
+    "Jakob Schöller": {
+      "matches": 1,
+      "reason": "Rote Karte gegen Darmstadt",
+      "status": "1 Spiel Sperre"
+    }
   }
 }
