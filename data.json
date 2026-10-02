@@ -130,8 +130,8 @@
     },
     {
       "name": "Ismail Badjie",
-      "role": "LF-Rotation",
-      "status": "Vertragsverhandlung – Spieler bereit zu verlängern",
+      "role": "LF · Wichtig (Verhandlung)",
+      "status": "Vertragsverhandlung",
       "age": 20,
       "ovr": 64,
       "potential": 74,
@@ -452,15 +452,17 @@
       "status": "vom Vorstand akzeptiert"
     },
     "IsmailBadjie": {
-      "role": "Rotation",
+      "role": "Wichtig",
       "extensionYears": 3,
-      "weeklyWage": 3300,
-      "entryBonus": 0,
+      "weeklyWage": 3500,
+      "entryBonus": 10000,
       "performanceBonuses": [],
       "releaseClause": null,
-      "status": "Vorstandsangebot – Spieler hat Bereitschaft signalisiert, Zustimmung ausstehend",
-      "previousDemand": "Schlüsselspieler",
-      "boardAssessment": "Da Badjie nun grundsätzlich zur Verlängerung bereit ist, bietet der Vorstand Rotation zu moderat verbessertem Gehalt. Schlüsselspieler bleibt ausgeschlossen."
+      "status": "Gegenangebot des Vorstands – Spielerentscheidung ausstehend",
+      "playerDemand": {
+        "minimumRole": "Wichtig"
+      },
+      "boardAssessment": "Der Vorstand geht auf Wichtig zu, verlangt dafür aber ein moderates Gehalt und begrenztes Handgeld. Schlüsselspieler bleibt ausgeschlossen."
     },
     "FridolinWagner": {
       "role": "Wichtig",
@@ -627,7 +629,8 @@
     "Fridolin Wagner: Spieler fordert Rolle Wichtig. Vorstand geht als Kompromiss auf Wichtig zu, aber nur für +1 Jahr, 4.400 €/Woche, ohne Handgeld, Boni oder Ausstiegsklausel.",
     "Fridolin Wagner: Spieler fordert 38.000 € Handgeld. Vorstand hält dies für die einjährige Verlängerung zu hoch und bietet 15.000 € Handgeld bei Wichtig, +1 Jahr und 4.400 €/Woche. Absolute Grenze Handgeld: 20.000 €.",
     "Fridolin Wagner: Verlängerung final. Spieler akzeptiert Wichtig, +1 Jahr, 4.400 €/Woche und 15.000 € Handgeld. Keine Boni, keine Ausstiegsklausel.",
-    "Ismail Badjie: Spieler ist nun bereit zu verlängern. Vorstand bietet Rotation, 3 Jahre, 3.300 €/Woche, 0 € Handgeld, keine Boni/Ausstiegsklausel. Schlüsselspieler bleibt ausgeschlossen."
+    "Ismail Badjie: Spieler ist nun bereit zu verlängern. Vorstand bietet Rotation, 3 Jahre, 3.300 €/Woche, 0 € Handgeld, keine Boni/Ausstiegsklausel. Schlüsselspieler bleibt ausgeschlossen.",
+    "Ismail Badjie: Spieler akzeptiert eine Verlängerung grundsätzlich, verlangt aber mindestens die Rolle Wichtig. Vorstand geht auf Wichtig zu: 3 Jahre, 3.500 €/Woche, 10.000 € Handgeld, keine Boni/Ausstiegsklausel. Schlüsselspieler bleibt ausgeschlossen."
   ],
   "matches": [
     {
@@ -1044,20 +1047,25 @@
       "note": "Für eine konkrete Verhandlungsposition benötigt der Vorstand noch Restlaufzeit, aktuelles Wochengehalt und bevorzugte Rolle des Spielers."
     },
     "Badjie": {
-      "status": "Spieler bereit zu verlängern",
+      "status": "Verhandlung – Spieler fordert mindestens Wichtig",
       "currentWeeklyWage": 3000,
       "contractEnds": "Ende der Saison",
       "boardOffer": {
-        "role": "Rotation",
+        "role": "Wichtig",
         "extensionYears": 3,
-        "weeklyWage": 3300,
-        "entryBonus": 0,
+        "weeklyWage": 3500,
+        "entryBonus": 10000,
         "performanceBonuses": [],
         "releaseClause": null,
-        "status": "Vorstandsangebot – Spieler hat Bereitschaft signalisiert, Zustimmung ausstehend",
-        "previousDemand": "Schlüsselspieler",
-        "boardAssessment": "Da Badjie nun grundsätzlich zur Verlängerung bereit ist, bietet der Vorstand Rotation zu moderat verbessertem Gehalt. Schlüsselspieler bleibt ausgeschlossen."
-      }
+        "status": "Gegenangebot des Vorstands – Spielerentscheidung ausstehend",
+        "playerDemand": {
+          "minimumRole": "Wichtig"
+        },
+        "boardAssessment": "Der Vorstand geht auf Wichtig zu, verlangt dafür aber ein moderates Gehalt und begrenztes Handgeld. Schlüsselspieler bleibt ausgeschlossen."
+      },
+      "playerDemandRole": "Wichtig",
+      "boardMaxWeeklyWage": 3800,
+      "boardMaxSigningBonus": 15000
     }
   },
   "academyProspects": [
