@@ -131,11 +131,13 @@
     {
       "name": "Ismail Badjie",
       "role": "LF-Rotation",
-      "status": "Vertragsverhandlung",
+      "status": "Vertragsverhandlung – Spieler bereit zu verlängern",
       "age": 20,
       "ovr": 64,
       "potential": 74,
-      "notes": "Will grundsätzlich verlängern, fordert jedoch Schlüsselspieler. Vorstand hält Schlüsselspieler aktuell nicht für darstellbar."
+      "notes": "Will grundsätzlich verlängern, fordert jedoch Schlüsselspieler. Vorstand hält Schlüsselspieler aktuell nicht für darstellbar.",
+      "weeklyWage": 3000,
+      "contractRemaining": "bis Saisonende"
     },
     {
       "name": "Fridolin Wagner",
@@ -456,8 +458,9 @@
       "entryBonus": 0,
       "performanceBonuses": [],
       "releaseClause": null,
-      "boardPosition": "Schlüsselspieler nicht möglich; Vorstand hält Rotation derzeit für angemessen. Wichtig kann nur bei deutlicher sportlicher Entwicklung geprüft werden.",
-      "status": "Verhandlung läuft – Spieler fordert Schlüsselspieler"
+      "status": "Vorstandsangebot – Spieler hat Bereitschaft signalisiert, Zustimmung ausstehend",
+      "previousDemand": "Schlüsselspieler",
+      "boardAssessment": "Da Badjie nun grundsätzlich zur Verlängerung bereit ist, bietet der Vorstand Rotation zu moderat verbessertem Gehalt. Schlüsselspieler bleibt ausgeschlossen."
     },
     "FridolinWagner": {
       "role": "Wichtig",
@@ -623,7 +626,8 @@
     "Theo Jannotta: Keine Vertragsverlängerung geplant; im Sommer 2027 soll ein Abgang angestrebt werden.",
     "Fridolin Wagner: Spieler fordert Rolle Wichtig. Vorstand geht als Kompromiss auf Wichtig zu, aber nur für +1 Jahr, 4.400 €/Woche, ohne Handgeld, Boni oder Ausstiegsklausel.",
     "Fridolin Wagner: Spieler fordert 38.000 € Handgeld. Vorstand hält dies für die einjährige Verlängerung zu hoch und bietet 15.000 € Handgeld bei Wichtig, +1 Jahr und 4.400 €/Woche. Absolute Grenze Handgeld: 20.000 €.",
-    "Fridolin Wagner: Verlängerung final. Spieler akzeptiert Wichtig, +1 Jahr, 4.400 €/Woche und 15.000 € Handgeld. Keine Boni, keine Ausstiegsklausel."
+    "Fridolin Wagner: Verlängerung final. Spieler akzeptiert Wichtig, +1 Jahr, 4.400 €/Woche und 15.000 € Handgeld. Keine Boni, keine Ausstiegsklausel.",
+    "Ismail Badjie: Spieler ist nun bereit zu verlängern. Vorstand bietet Rotation, 3 Jahre, 3.300 €/Woche, 0 € Handgeld, keine Boni/Ausstiegsklausel. Schlüsselspieler bleibt ausgeschlossen."
   ],
   "matches": [
     {
@@ -1038,6 +1042,22 @@
     "Remberg": {
       "status": "Entscheidung offen",
       "note": "Für eine konkrete Verhandlungsposition benötigt der Vorstand noch Restlaufzeit, aktuelles Wochengehalt und bevorzugte Rolle des Spielers."
+    },
+    "Badjie": {
+      "status": "Spieler bereit zu verlängern",
+      "currentWeeklyWage": 3000,
+      "contractEnds": "Ende der Saison",
+      "boardOffer": {
+        "role": "Rotation",
+        "extensionYears": 3,
+        "weeklyWage": 3300,
+        "entryBonus": 0,
+        "performanceBonuses": [],
+        "releaseClause": null,
+        "status": "Vorstandsangebot – Spieler hat Bereitschaft signalisiert, Zustimmung ausstehend",
+        "previousDemand": "Schlüsselspieler",
+        "boardAssessment": "Da Badjie nun grundsätzlich zur Verlängerung bereit ist, bietet der Vorstand Rotation zu moderat verbessertem Gehalt. Schlüsselspieler bleibt ausgeschlossen."
+      }
     }
   },
   "academyProspects": [
