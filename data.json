@@ -1,5 +1,5 @@
 {
-  "budget": 3550000,
+  "budget": 4425000,
   "formation": "4-3-3 Flach",
   "lineHeight": 65,
   "rules": [
@@ -221,5 +221,9 @@
       "status": "Leihe · CD Tondela",
       "role": "ST-Talent"
     }
-  ]
+  ],
+  "preseasonTournament": {
+    "result": "Gewonnen",
+    "earnings": 875000
+  }
 }
