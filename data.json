@@ -493,7 +493,9 @@
     "Ismail Badjie: Vertrag läuft am Saisonende aus. Spieler ist aktuell unschlüssig, ob er verlängern möchte. Vorstand unterbreitet vorerst kein Angebot und beobachtet Entwicklung/Saisonverlauf.",
     "1.9. Vorstandssitzung: Saisonstart wird mit Platz 11 und 5 Punkten aus 4 Spielen positiv bewertet. Wagner–González–Henning bleibt die bevorzugte ZM-Besetzung; Jakobsen spielt häufiger für Wagner. Henning-Neubewertung Ende Oktober bleibt bestehen. Badjie soll mehr Einsatzzeit erhalten; Verlängerung wird optimistisch gesehen. Budget auf 1.344.400 € aktualisiert.",
     "1.10. Vorstandssitzung: Platz 4 nach 7 Spielen, 14 Punkte, 4 Siege/2 Unentschieden/1 Niederlage, 10:7 Tore. Robin Henning: 11 Einsätze, Ø 6,92. Oktober-Termin zur Vertragsbewertung erreicht.",
-    "1.10. Vorstandsbeschluss zu Antworten: Henning zunächst Rotation anbieten; wegen guter, aber nicht außergewöhnlicher Leistungen ist Wichtig als Kompromiss möglich. Bei Ablehnung soll im Winter verkauft werden. Mittelfeld bleibt Wagner–González–Henning. Badjie-Gespräch Mitte/Ende Oktober, Bericht in der nächsten Sitzung. Saisonziele werden erst im Januar nach Spielen gegen stärkere Gegner neu bewertet."
+    "1.10. Vorstandsbeschluss zu Antworten: Henning zunächst Rotation anbieten; wegen guter, aber nicht außergewöhnlicher Leistungen ist Wichtig als Kompromiss möglich. Bei Ablehnung soll im Winter verkauft werden. Mittelfeld bleibt Wagner–González–Henning. Badjie-Gespräch Mitte/Ende Oktober, Bericht in der nächsten Sitzung. Saisonziele werden erst im Januar nach Spielen gegen stärkere Gegner neu bewertet.",
+    "Vorstandszufriedenheit: aktuell 8/10 (hoch). Bewertung erfolgt bei jeder monatlichen Vorstandssitzung und kann bei schlechter sportlicher Entwicklung, verfehlten Zielen oder nicht nachvollziehbaren Entscheidungen deutlich sinken.",
+    "Trainervertrag: Toni Kroos hat einen 3-Jahres-Vertrag ab Saison 2026/27 bis Sommer 2029. Bei Vertragsende wird separat verhandelt; eine Verlängerung ist nicht automatisch. Vorzeitige Trennung ist bei anhaltend schlechter Entwicklung, verfehlten Zielen oder wiederholt nicht nachvollziehbaren Entscheidungen möglich."
   ],
   "matches": [
     {
@@ -686,7 +688,8 @@
   "boardMeetingFormat": {
     "questionCount": "3–6 Fragen pro Sitzung",
     "style": "kurz, fokussiert, entscheidungsorientiert",
-    "schedule": "Am 1. jedes Monats findet eine Vorstandssitzung statt."
+    "schedule": "Am 1. jedes Monats findet eine Vorstandssitzung statt.",
+    "additionalItems": "Jede Sitzung enthält künftig Vorstandszufriedenheit und aktuelle sportliche Ziele."
   },
   "boardMeetingResults": [
     {
@@ -711,7 +714,9 @@
   "seasonGoals": {
     "primary": "Abstieg verhindern",
     "secondary": "In der 2. Bundesliga Fuß fassen",
-    "cup": "keine neue Vorgabe"
+    "currentOfficialGoal": "Klassenerhalt und Etablierung in der 2. Bundesliga",
+    "januaryReview": "Im Januar erneute Bewertung nach Spielen gegen stärkere Gegner",
+    "note": "Der aktuelle 4. Platz führt noch nicht zu einer offiziellen Anhebung des Saisonziels."
   },
   "contractReview": {
     "RobinHenning": {
@@ -741,5 +746,35 @@
       "note": "Besonders hohes Potenzial"
     }
   ],
-  "youthRecruitmentCandidates": []
+  "youthRecruitmentCandidates": [],
+  "boardSatisfaction": {
+    "score": 8,
+    "scale": "1–10",
+    "status": "hoch",
+    "currentAssessment": "Der Vorstand ist mit dem Saisonstart und der bisherigen Arbeit von Toni Kroos deutlich zufrieden. Platz 4 nach 7 Spieltagen liegt klar über dem ursprünglichen Saisonziel, ohne dass der Vorstand daraus bereits ein neues Saisonziel ableitet.",
+    "positiveFactors": [
+      "14 Punkte aus 7 Spielen",
+      "Platz 4",
+      "Klar erkennbare Kader- und Mittelfeldplanung",
+      "Vorsichtige und nachvollziehbare Personalentscheidungen"
+    ],
+    "riskFactors": [
+      "Form muss über einen längeren Zeitraum bestätigt werden",
+      "Ergebnisse gegen stärkere Gegner stehen noch aus",
+      "Unzufriedenheit kann bei sportlicher Verschlechterung oder nicht plausiblen Entscheidungen deutlich steigen"
+    ],
+    "review": "Wird bei jeder Vorstandssitzung neu bewertet."
+  },
+  "managerContract": {
+    "manager": "Toni Kroos",
+    "club": "VfL Osnabrück",
+    "startSeason": "2026/27",
+    "initialTermYears": 3,
+    "contractEnds": "Sommer 2029",
+    "status": "laufend",
+    "boardReview": "Regelmäßige Bewertung in Vorstandssitzungen; Vertragsgespräche bei absehbarem Vertragsende.",
+    "renewalRule": "Bei auslaufendem Vertrag wird separat über eine Verlängerung verhandelt. Eine Verlängerung erfolgt nicht automatisch.",
+    "dismissalPolicy": "Bei anhaltend schlechter sportlicher Entwicklung, verfehlten Zielen oder wiederholt nicht nachvollziehbaren Entscheidungen kann der Vorstand eine vorzeitige Trennung beschließen.",
+    "currentStatus": "Kein Anlass für eine vorzeitige Trennung. Vorstandszufriedenheit aktuell hoch."
+  }
 }
