@@ -346,15 +346,17 @@
     },
     "JannikMuller": {
       "role": "Schlüsselspieler",
-      "years": 3,
+      "extensionYears": 1,
+      "totalYearsFromNow": 3,
       "weeklyWage": 7800,
       "entryBonus": 0,
       "performanceBonuses": [],
       "releaseClause": null,
       "negotiationMax": {
         "role": "Schlüsselspieler",
+        "extensionYears": 1,
+        "totalYearsFromNow": 3,
         "weeklyWage": 8200,
-        "years": 3,
         "entryBonus": 0,
         "releaseClause": null
       }
@@ -414,15 +416,15 @@
     {
       "player": "Jannik Müller",
       "club": "VfL Osnabrück",
-      "status": "Vertragsverhandlung – Spieler fordert ausschließlich Schlüsselspieler",
+      "status": "Vertragsverhandlung – Schlüsselspieler gefordert",
       "currentWeeklyWage": 7200,
       "yearsRemaining": 2,
       "releaseClause": 1200000,
-      "boardStatus": "Vorstand bietet Schlüsselspieler als Ausnahme",
+      "boardStatus": "Vorstand bietet maximal 1 Jahr Verlängerung",
       "offer": {
         "role": "Schlüsselspieler",
-        "years": 3,
-        "totalYearsFromNow": 5,
+        "extensionYears": 1,
+        "totalYearsFromNow": 3,
         "weeklyWage": 7800,
         "signingBonus": 0,
         "performanceBonuses": [],
@@ -430,8 +432,9 @@
       },
       "max": {
         "role": "Schlüsselspieler",
+        "extensionYears": 1,
+        "totalYearsFromNow": 3,
         "weeklyWage": 8200,
-        "years": 3,
         "signingBonus": 0,
         "performanceBonuses": [],
         "releaseClause": null
@@ -482,7 +485,8 @@
     "Alexander Hirsch ist ein eigener Jugendspieler des VfL in der Jugendakademie. Daher gilt die Regel für ablösefreie externe Neuzugänge nicht. 16 Jahre, 69 OVR, 90+ Potenzial, ZDM.",
     "Alexander Hirsch: vom Jugendscout entdeckt und für 199.800 € in die Jugendakademie verpflichtet. 16 Jahre, 69 OVR, 90+ Potenzial, ZDM. Noch nicht in die 1. Mannschaft hochgezogen. Die Regel für externe ablösefreie Neuzugänge gilt nicht.",
     "Sitzungsregel: Der 1. eines jeden Monats ist automatisch Vorstandssitzung. Beispiel: 01.06. = Vorstandssitzung.",
-    "Jannik Müller fordert ausschließlich die Rolle Schlüsselspieler. Vorstand akzeptiert diese Rolle wegen Kapitänsstatus und Stamm-IV-Funktion, bleibt beim Gehalt streng: Startangebot 7.800 €/Woche, 3 Jahre zusätzlich, keine Boni, keine neue Ausstiegsklausel; absolute Grenze 8.200 €/Woche."
+    "Jannik Müller fordert ausschließlich die Rolle Schlüsselspieler. Vorstand akzeptiert diese Rolle wegen Kapitänsstatus und Stamm-IV-Funktion, bleibt beim Gehalt streng: Startangebot 7.800 €/Woche, 3 Jahre zusätzlich, keine Boni, keine neue Ausstiegsklausel; absolute Grenze 8.200 €/Woche.",
+    "Jannik Müller: Vorstand korrigiert die Verlängerung auf maximal 1 zusätzliches Jahr. Angebot: Schlüsselspieler, 1 Jahr Verlängerung (danach 3 Jahre Restlaufzeit), 7.800 €/Woche, keine Boni, keine Ausstiegsklausel. Absolute Gehaltsgrenze 8.200 €/Woche."
   ],
   "matches": [
     {
