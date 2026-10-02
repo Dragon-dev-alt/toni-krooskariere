@@ -130,13 +130,13 @@
     },
     {
       "name": "Ismail Badjie",
-      "role": "LF · Wichtig (Verhandlung)",
-      "status": "Angebot des Trainers",
+      "role": "LF · Wichtig",
+      "status": "Vertrag verlängert",
       "age": 20,
       "ovr": 64,
       "potential": 74,
-      "notes": "Will grundsätzlich verlängern, fordert jedoch Schlüsselspieler. Vorstand hält Schlüsselspieler aktuell nicht für darstellbar.",
-      "weeklyWage": 3000,
+      "notes": "Vertrag um 3 Jahre verlängert: Wichtig, 3.700 €/Woche, 20.500 € Handgeld.",
+      "weeklyWage": 3700,
       "contractRemaining": "bis Saisonende"
     },
     {
@@ -458,11 +458,7 @@
       "entryBonus": 20500,
       "performanceBonuses": [],
       "releaseClause": null,
-      "status": "Angebot des Trainers – Spielerentscheidung ausstehend",
-      "playerDemand": {
-        "minimumRole": "Wichtig"
-      },
-      "boardAssessment": "Das vom Trainer abgegebene Angebot von 3.700 €/Woche und 20.500 € Handgeld liegt beim Gehalt im Vorstandskorridor, beim Handgeld jedoch über der bisherigen internen Grenze. Der Vorstand wird das Ergebnis der Verhandlung abwarten und bei Bedarf die Konditionen neu bewerten."
+      "status": "verlängert – Spieler hat zugestimmt"
     },
     "FridolinWagner": {
       "role": "Wichtig",
@@ -557,6 +553,15 @@
       "entryBonus": 15000,
       "performanceBonuses": [],
       "releaseClause": null
+    },
+    "IsmailBadjie": {
+      "status": "Verlängert",
+      "role": "Wichtig",
+      "years": 3,
+      "weeklyWage": 3700,
+      "entryBonus": 20500,
+      "performanceBonuses": [],
+      "releaseClause": null
     }
   },
   "activeOffers": [],
@@ -631,7 +636,8 @@
     "Fridolin Wagner: Verlängerung final. Spieler akzeptiert Wichtig, +1 Jahr, 4.400 €/Woche und 15.000 € Handgeld. Keine Boni, keine Ausstiegsklausel.",
     "Ismail Badjie: Spieler ist nun bereit zu verlängern. Vorstand bietet Rotation, 3 Jahre, 3.300 €/Woche, 0 € Handgeld, keine Boni/Ausstiegsklausel. Schlüsselspieler bleibt ausgeschlossen.",
     "Ismail Badjie: Spieler akzeptiert eine Verlängerung grundsätzlich, verlangt aber mindestens die Rolle Wichtig. Vorstand geht auf Wichtig zu: 3 Jahre, 3.500 €/Woche, 10.000 € Handgeld, keine Boni/Ausstiegsklausel. Schlüsselspieler bleibt ausgeschlossen.",
-    "Ismail Badjie: Trainerangebot liegt bei Wichtig, 3 Jahre, 3.700 €/Woche und 20.500 € Handgeld. Gehalt liegt im Vorstandskorridor, Handgeld über der bisherigen internen Linie; Ergebnis wird abgewartet."
+    "Ismail Badjie: Trainerangebot liegt bei Wichtig, 3 Jahre, 3.700 €/Woche und 20.500 € Handgeld. Gehalt liegt im Vorstandskorridor, Handgeld über der bisherigen internen Linie; Ergebnis wird abgewartet.",
+    "Ismail Badjie: Verlängerung final. Spieler akzeptiert Wichtig, 3 Jahre, 3.700 €/Woche und 20.500 € Handgeld. Keine Boni, keine Ausstiegsklausel."
   ],
   "matches": [
     {
@@ -1048,7 +1054,7 @@
       "note": "Für eine konkrete Verhandlungsposition benötigt der Vorstand noch Restlaufzeit, aktuelles Wochengehalt und bevorzugte Rolle des Spielers."
     },
     "Badjie": {
-      "status": "Angebot des Trainers liegt vor – Entscheidung ausstehend",
+      "status": "Verlängert",
       "currentWeeklyWage": 3000,
       "contractEnds": "Ende der Saison",
       "boardOffer": {
@@ -1075,7 +1081,15 @@
         "performanceBonuses": [],
         "releaseClause": null
       },
-      "boardPosition": "Gehalt akzeptabel; Handgeld oberhalb der bisherigen Vorstandslinie und daher gesondert zu bewerten."
+      "boardPosition": "Gehalt akzeptabel; Handgeld oberhalb der bisherigen Vorstandslinie und daher gesondert zu bewerten.",
+      "finalTerms": {
+        "role": "Wichtig",
+        "extensionYears": 3,
+        "weeklyWage": 3700,
+        "signingBonus": 20500,
+        "performanceBonuses": [],
+        "releaseClause": null
+      }
     }
   },
   "academyProspects": [
