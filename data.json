@@ -127,6 +127,15 @@
       "role": "ZM rechts · Rotation",
       "status": "Vertragssituation offen",
       "notes": "Startelf rechts im ZM; Vertrag läuft am Saisonende aus; Neubewertung Ende Oktober."
+    },
+    {
+      "name": "Ismail Badjie",
+      "role": "LF-Rotation",
+      "status": "Vertragsverhandlung",
+      "age": 20,
+      "ovr": 64,
+      "potential": 74,
+      "notes": "Will grundsätzlich verlängern, fordert jedoch Schlüsselspieler. Vorstand hält Schlüsselspieler aktuell nicht für darstellbar."
     }
   ],
   "sales": [
@@ -411,6 +420,16 @@
       "performanceBonuses": [],
       "releaseClause": null,
       "status": "vom Vorstand akzeptiert"
+    },
+    "IsmailBadjie": {
+      "role": "Rotation",
+      "extensionYears": 3,
+      "weeklyWage": 3300,
+      "entryBonus": 0,
+      "performanceBonuses": [],
+      "releaseClause": null,
+      "boardPosition": "Schlüsselspieler nicht möglich; Vorstand hält Rotation derzeit für angemessen. Wichtig kann nur bei deutlicher sportlicher Entwicklung geprüft werden.",
+      "status": "Verhandlung läuft – Spieler fordert Schlüsselspieler"
     }
   },
   "contracts": {
@@ -482,35 +501,7 @@
       "releaseClause": null
     }
   },
-  "activeOffers": [
-    {
-      "player": "Jannik Müller",
-      "club": "VfL Osnabrück",
-      "status": "Spielerforderung",
-      "currentWeeklyWage": 7200,
-      "yearsRemaining": 2,
-      "releaseClause": 1200000,
-      "demand": {
-        "role": "Schlüsselspieler",
-        "extensionYears": 1,
-        "totalYearsFromNow": 3,
-        "weeklyWage": 7800,
-        "signingBonus": 15000,
-        "performanceBonuses": [],
-        "releaseClause": null
-      },
-      "boardPosition": {
-        "role": "Schlüsselspieler",
-        "extensionYears": 1,
-        "totalYearsFromNow": 3,
-        "weeklyWage": 7800,
-        "signingBonus": 15000,
-        "performanceBonuses": [],
-        "releaseClause": null,
-        "decision": "akzeptieren"
-      }
-    }
-  ],
+  "activeOffers": [],
   "strikerTargets": [
     {
       "name": "Shio Fukuda",
@@ -572,7 +563,8 @@
     "Mario Silva Entwicklung: 16 Jahre, 5 Scorer in 15 Spielen, Ø 7,07, ca. 6 Mio. € Marktwert. Vorstand bewertet die Entwicklung sehr positiv, sieht aber weiterhin Verbesserungspotenzial bei den Leistungen.",
     "Winteroption Hirsch: Im Januar könnte ein ZM verkauft und Alexander Hirsch (16, 69 OVR, 90+ Potenzial, ZDM) aus der Jugendakademie hochgezogen werden. Vorstand hält die interne Lösung für prüfenswert, will die sportliche Bereitschaft von Hirsch und die Bedeutung des abzugebenden ZM vorher bewerten.",
     "Aktuelle Jugendakademie (letzter Bericht): Özgür Burakgazi 15/63/82 GK; Otto Riedel 16/69/86 CB; Thomas Vogel 14/67/92 LB/CB; Nick Adam 15/65/83 CDM; Andreas Vogel 15/65/83 CDM; Alexander Hirsch 16/71/95 CM/CDM; Matthis Vetter 15/71/97 CAM/LW/RW. Besonders Hirsch und Vetter entwickeln sich stark und liegen bereits bei 71 OVR.",
-    "1.12. Tabellenstand: Osnabrück Platz 6, 24 Punkte aus 14 Spielen, 7 Siege/3 Unentschieden/4 Niederlagen, 20:16 Tore. Wolfsburg Platz 1 mit 30 Punkten. Vorstandssitzung eröffnet."
+    "1.12. Tabellenstand: Osnabrück Platz 6, 24 Punkte aus 14 Spielen, 7 Siege/3 Unentschieden/4 Niederlagen, 20:16 Tore. Wolfsburg Platz 1 mit 30 Punkten. Vorstandssitzung eröffnet.",
+    "1.12. Ergänzende Vorstandslinie: Badjie möchte grundsätzlich verlängern, fordert Schlüsselspieler; diese Rolle wird ausgeschlossen. Rotation bleibt Ausgangsposition, Wichtig nur bei deutlicher Leistungssteigerung. Für die Winter-ZM-Planung unterstützt der Vorstand Hirschs Hochzug ohne externen Zugang. Bevorzugter Abgang: Robert Tesche, sofern marktgerechtes Angebot vorliegt."
   ],
   "matches": [
     {
@@ -686,12 +678,22 @@
       "priority": [
         "ZM"
       ],
-      "status": "Beobachten / mögliche interne Lösung",
-      "managerIdea": "Im Januar eventuell einen ZM verkaufen und Alexander Hirsch aus der Jugendakademie hochziehen.",
-      "boardPosition": "Hirsch ist aufgrund 71 OVR inzwischen näher an der Profireife. Vor einem Hochzug bleibt eine Prüfung von Kaderbedarf und Einsatzperspektive notwendig.",
+      "status": "Hirsch hochziehen statt externen ZM verpflichten",
+      "managerIdea": "Alexander Hirsch im Januar hochziehen und auf einen externen ZM verzichten.",
+      "boardPosition": "Zustimmung. Für einen Platz im Profikader soll möglichst ein ZM abgegeben werden.",
       "contingency": "Nach weiterem lukrativen Abgang wird die betroffene Position neu bewertet.",
       "alternatives": "Externer ZM nur notwendig, falls Verkauf stattfindet und Hirsch noch nicht bereit ist oder die Kaderqualität nicht ausreicht.",
-      "hirschStatus": "Hirsch aktuell 71 OVR / 95 POT; damit deutlich interessanter Kandidat für einen möglichen Hochzug im Januar."
+      "hirschStatus": "Hirsch aktuell 71 OVR / 95 POT; damit deutlich interessanter Kandidat für einen möglichen Hochzug im Januar.",
+      "preferredSaleCandidate": {
+        "name": "Robert Tesche",
+        "reason": "Erfahrener Reserve-ZM mit geringerer strategischer Bedeutung als Wagner, Henning oder Jakobsen.",
+        "condition": "Nur bei marktgerechtem Angebot; kein Verkauf unter Wert."
+      },
+      "alternativeSaleCandidates": [
+        "Fridolin Wagner nur bei attraktivem Angebot und wenn die sportliche Tiefe mit Hirsch/Jakobsen gesichert ist.",
+        "Henning und Jakobsen sind derzeit nicht als bevorzugte Abgänge vorgesehen."
+      ],
+      "externalReplacement": "Nicht vorgesehen, solange Hirsch im Januar konkurrenzfähig ist."
     }
   },
   "suspensions": {
@@ -837,7 +839,20 @@
         "Winterplanung ZM: Soll der mögliche Verkauf eines ZM und ein möglicher Hochzug von Alexander Hirsch weiterverfolgt werden?",
         "Kaderziel: Soll im Winter überhaupt ein externer ZM gesucht werden, oder soll zunächst intern mit Hirsch geplant werden?",
         "Saisonziel: Bei Platz 6 und 24 Punkten – bleibt die interne Zielsetzung weiterhin unverändert, bis wir im Januar nach den Spielen gegen stärkere Gegner Bilanz ziehen?"
-      ]
+      ],
+      "answers": {
+        "badjie": "Badjie möchte grundsätzlich verlängern, fordert aber Schlüsselspieler; der Trainer verhandelt weiter. Schlüsselspieler wird nicht zugesagt.",
+        "hirsch": "Alexander Hirsch soll im Januar hochgezogen werden; auf einen externen ZM-Zugang soll verzichtet werden.",
+        "winterZM": "Ein ZM-Abgang bleibt vorgesehen, damit Hirsch einen realistischen Platz im Profikader erhält.",
+        "seasonTarget": "Offizielle Zielsetzung bleibt Klassenerhalt und Etablierung; Bewertung im Januar.",
+        "boardSaleProposal": "Vorstand schlägt Robert Tesche als ersten Kandidaten für einen ZM-Abgang vor, da er als erfahrener Reserve-ZM die geringste strategische Bedeutung hat. Wagner, Henning und Jakobsen sollen nicht ohne sportlichen Grund abgegeben werden."
+      },
+      "boardOpinion": {
+        "badjie": "Positiv, dass Badjie grundsätzlich verlängern möchte. Schlüsselspieler ist jedoch ausgeschlossen. Rotation bleibt die Ausgangsposition; Wichtig wäre nur bei klarer Leistungssteigerung denkbar.",
+        "hirsch": "Zustimmung. Bei 71 OVR und 95 POT ist ein Hochzug im Januar sportlich plausibel. Ein Verzicht auf einen externen ZM ist vertretbar.",
+        "winterZM": "Zustimmung mit konkreter Person: Robert Tesche wäre der bevorzugte Abgang, nicht Wagner/Henning/Jakobsen, sofern ein marktgerechtes Angebot vorliegt.",
+        "seasonTarget": "Zustimmung. Die offizielle Zielsetzung bleibt unverändert, die starke Tabellensituation wird aber intern höher bewertet."
+      }
     }
   ],
   "boardMeetingFormat": {
@@ -936,10 +951,10 @@
   ],
   "youthRecruitmentCandidates": [],
   "boardSatisfaction": {
-    "score": 9,
+    "score": 8,
     "scale": "1–10",
-    "status": "sehr hoch",
-    "currentAssessment": "Der Vorstand bleibt mit der sportlichen Entwicklung sehr zufrieden. Henning ist als Rotationsspieler gebunden. Die Entwicklung von Mario Silva wird trotz noch ausbaufähiger Leistungen sehr positiv bewertet: 16 Jahre, 5 Scorer in 15 Spielen, Ø 7,07 und ca. 6 Mio. € Marktwert.",
+    "status": "hoch",
+    "currentAssessment": "Vorstand bleibt mit der Entwicklung zufrieden. Die Tabelle ist stark, die Transfer- und Jugendstrategie ist klar. Abzüge gegenüber der Bestbewertung ergeben sich aus dem etwas schwächeren Ligaverlauf seit dem starken Saisonstart und dem DFB-Pokal-Aus.",
     "positiveFactors": [
       "Platz 2 nach 10 Spielen",
       "23 Punkte und 16:7 Tore",
