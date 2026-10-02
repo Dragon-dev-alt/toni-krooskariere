@@ -225,5 +225,39 @@
   "preseasonTournament": {
     "result": "Gewonnen",
     "earnings": 875000
+  },
+  "contractPolicy": {
+    "philosophy": "Der Vorstand verhandelt streng. Kein Spieler erhält allein wegen einer Vertragsverlängerung mehr Geld.",
+    "bonuses": "Boni sind nicht automatisch Bestandteil eines Vertrags. Sie werden nur angeboten, wenn sie sportlich sinnvoll sind und die Fixkosten niedrig halten.",
+    "clauses": "Ausstiegsklauseln werden grundsätzlich nicht angeboten. Nur bei einer ausdrücklich geforderten Klausel wird individuell verhandelt.",
+    "salary": "Gehaltssteigerungen müssen durch Leistung, Rolle und Entwicklung begründet sein. Überschreitet eine Forderung den internen Wert des Spielers, wird die Verhandlung beendet."
+  },
+  "contractOffers": {
+    "RobinHenning": {
+      "role": "Rotation",
+      "years": 3,
+      "weeklyWage": 3800,
+      "entryBonus": 0,
+      "performanceBonuses": [],
+      "releaseClause": null,
+      "negotiationMax": {
+        "weeklyWage": 4200,
+        "entryBonus": 0,
+        "releaseClause": null
+      }
+    },
+    "NiklasSauter": {
+      "role": "Backup",
+      "years": 2,
+      "weeklyWage": 1900,
+      "entryBonus": 0,
+      "performanceBonuses": [],
+      "releaseClause": null,
+      "negotiationMax": {
+        "weeklyWage": 2200,
+        "entryBonus": 0,
+        "releaseClause": null
+      }
+    }
   }
 }
