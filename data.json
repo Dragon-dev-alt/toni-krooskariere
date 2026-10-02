@@ -352,7 +352,7 @@
       "entryBonus": 0,
       "performanceBonuses": [],
       "releaseClause": null,
-      "status": "Rahmenbedingungen vom Vorstand festgelegt"
+      "status": "Angebot bereit zur Verhandlung"
     },
     "NiklasSauter": {
       "role": "Rotation",
@@ -535,7 +535,7 @@
     "Trainervertrag: Toni Kroos hat einen 3-Jahres-Vertrag ab Saison 2026/27 bis Sommer 2029. Bei Vertragsende wird separat verhandelt; eine Verlängerung ist nicht automatisch. Vorzeitige Trennung ist bei anhaltend schlechter Entwicklung, verfehlten Zielen oder wiederholt nicht nachvollziehbaren Entscheidungen möglich.",
     "Topduell gegen VfL Wolfsburg: 1:0 gewonnen. Der starke Saisonstart wird durch einen Sieg gegen einen qualitativ anspruchsvollen Gegner bestätigt.",
     "Oktober-Scouting Jugendakademie: Zwei neue Talente aufgenommen – Matthis Vetter (15, 70 OVR, 97 Potenzial, CAM, LW/RW) und Thomas Vogel (14, 67 OVR, 92 Potenzial, LV/IV). Beide bleiben zunächst in der Jugendakademie.",
-    "1.11. Vorstandssitzung: Platz 2 mit 23 Punkten aus 10 Spielen (7S/2U/1N, 16:7), ein Spiel weniger als Wolfsburg. DFB-Pokal-Aus gegen Wolfsburg. Henning akzeptiert Rotation; Vorstand bietet 3 Jahre, 3.800 €/Woche, keine Boni/Klausel. Badjie erhält bis 1.12. Bedenkzeit. Vorstandszufriedenheit 9/10."
+    "1.11. Vorstandssitzung: Platz 2 mit 23 Punkten aus 10 Spielen (7S/2U/1N, 16:7), punktgleich mit Wolfsburg auf Platz 1 und ein Spiel weniger. DFB-Pokal-Aus gegen Wolfsburg mit 1:2. Henning akzeptiert Rotation; Vorstand bietet 3 Jahre, 3.800 €/Woche, keine Boni, keine Ausstiegsklausel. Badjie entscheidet bis 1.12."
   ],
   "matches": [
     {
@@ -576,8 +576,8 @@
       "competition": "DFB-Pokal",
       "opponent": "VfL Wolfsburg",
       "result": "Ausgeschieden",
-      "score": "nicht angegeben",
-      "note": "Ausscheiden gegen Wolfsburg im DFB-Pokal"
+      "score": "1:2",
+      "note": "DFB-Pokal-Aus gegen Wolfsburg"
     },
     {
       "date": "1.11.",
@@ -787,7 +787,7 @@
     },
     {
       "date": "1.11.",
-      "result": "Liga: Platz 2, 23 Punkte aus 10 Spielen, 7S/2U/1N, 16:7. DFB-Pokal-Aus gegen Wolfsburg. Henning akzeptiert Rotation; Vertragsrahmen 3 Jahre, 3.800 €/Woche, keine Boni/Klausel. Badjie entscheidet bis 1. Dezember."
+      "result": "Liga: Platz 2 mit 23 Punkten aus 10 Spielen, punktgleich mit Wolfsburg auf Platz 1 und mit einem Spiel weniger; 7S/2U/1N, 16:7. DFB-Pokal-Aus gegen Wolfsburg 1:2. Henning akzeptiert Rotation; Vertragsangebot: 3 Jahre, 3.800 €/Woche, keine Boni/Klausel. Badjie entscheidet bis 1.12."
     }
   ],
   "seasonGoals": {
@@ -808,7 +808,7 @@
       "currentWeeklyWage": 4200,
       "averageRating": 6.92,
       "appearances": 11,
-      "status": "Spieler akzeptiert Rolle Rotation",
+      "status": "Spieler akzeptiert Rolle Rotation – Vertragsangebot steht",
       "boardAssessment": "Nach Anerkennung der Rolle Rotation besteht Bereitschaft zur Verlängerung. Der Vorstand hält 3 Jahre bei 3.800 €/Woche für angemessen.",
       "octoberPlan": "Nächstes Gespräch: zuerst Rotation anbieten; alternativ bei Bedarf Wichtig. Bei Ablehnung beider Lösungen Verkauf im Winter.",
       "boardPosition": "Rotation bleibt erste Option, Wichtig als Kompromiss möglich.",
