@@ -248,7 +248,9 @@
       "performanceBonuses": [],
       "releaseClause": null,
       "negotiationMax": {
+        "role": "Rotation",
         "weeklyWage": 4200,
+        "years": 3,
         "entryBonus": 0,
         "releaseClause": null
       }
