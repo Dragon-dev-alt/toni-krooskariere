@@ -293,6 +293,21 @@
         "entryBonus": 0,
         "releaseClause": null
       }
+    },
+    "MaxAdams": {
+      "role": "Perspektivprofi",
+      "years": 3,
+      "weeklyWage": 1600,
+      "entryBonus": 83200,
+      "performanceBonuses": [],
+      "releaseClause": null,
+      "negotiationMax": {
+        "role": "Perspektivprofi",
+        "years": 3,
+        "weeklyWage": 1800,
+        "entryBonus": 93600,
+        "releaseClause": null
+      }
     }
   },
   "contracts": {
@@ -340,13 +355,11 @@
       "player": "Max Adams",
       "club": "vereinslos",
       "fee": 0,
-      "status": "Vorstandsfreigabe für Verhandlung",
+      "status": "Spieler fordert Rotation – Vorstand macht Gegenangebot",
       "role": "Perspektivprofi",
       "years": 3,
       "weeklyWage": 1600,
-      "mandatorySigningBonus": 83200,
-      "performanceBonuses": [],
-      "releaseClause": null
+      "mandatorySigningBonus": 83200
     }
   ],
   "strikerTargets": [
@@ -382,7 +395,8 @@
     "Jakob Schöller: SK Rapid hat 1.700.000 € Ablöse akzeptiert. Vertragsverhandlung steht noch aus. Transferbudget nach Ablöse: 1.937.000 €.",
     "Jakob Schöller: für 1.700.000 € verpflichtet. Vertrag: 4 Jahre, Rolle Wichtig, 4.500 €/Woche, kein Handgeld, keine Leistungsboni, keine Ausstiegsklausel.",
     "Budgetkorrektur: Aktuelles im Spiel angezeigtes Transferbudget beträgt 1.721.000 €. Der vom Nutzer angegebene Ingame-Wert gilt als maßgeblich; Differenz zum bisherigen Dashboardstand (1.937.000 €) von 216.000 € ist bisher nicht aufgeschlüsselt.",
-    "Max Adams: Vorstand gibt die Verpflichtung grundsätzlich frei. Geplanter Vertrag: 3 Jahre, Perspektivprofi, 1.600 €/Woche, verpflichtendes Handgeld von 83.200 € (1 Jahresgehalt), keine Leistungsboni, keine Ausstiegsklausel. Noch nicht als verpflichtet verbuchen."
+    "Max Adams: Vorstand gibt die Verpflichtung grundsätzlich frei. Geplanter Vertrag: 3 Jahre, Perspektivprofi, 1.600 €/Woche, verpflichtendes Handgeld von 83.200 € (1 Jahresgehalt), keine Leistungsboni, keine Ausstiegsklausel. Noch nicht als verpflichtet verbuchen.",
+    "Max Adams fordert die Rolle Rotation. Vorstand lehnt das ab und bietet Perspektivprofi an: 3 Jahre, 1.600 €/Woche, 83.200 € Pflicht-Handgeld, keine Boni, keine Ausstiegsklausel."
   ],
   "matches": [
     {
