@@ -1,5 +1,5 @@
 {
-  "budget": 1721000,
+  "budget": 1344400,
   "formation": "4-3-3 Flach",
   "lineHeight": 65,
   "rules": [
@@ -117,7 +117,8 @@
     {
       "name": "Robin Henning",
       "role": "ZM rechts · Rotation",
-      "status": "Vertragssituation offen"
+      "status": "Vertragssituation offen",
+      "notes": "Startelf rechts im ZM; Vertrag läuft am Saisonende aus; Neubewertung Ende Oktober."
     }
   ],
   "sales": [
@@ -489,7 +490,8 @@
     "Sitzungsregel: Der 1. eines jeden Monats ist automatisch Vorstandssitzung. Beispiel: 01.06. = Vorstandssitzung.",
     "Jannik Müller fordert ausschließlich die Rolle Schlüsselspieler. Vorstand akzeptiert diese Rolle wegen Kapitänsstatus und Stamm-IV-Funktion, bleibt beim Gehalt streng: Startangebot 7.800 €/Woche, 3 Jahre zusätzlich, keine Boni, keine neue Ausstiegsklausel; absolute Grenze 8.200 €/Woche.",
     "Jannik Müller: Spieler fordert Schlüsselspieler, +1 Jahr, 7.800 €/Woche und 15.000 € Handgeld. Vorstand akzeptiert die Forderung.",
-    "Ismail Badjie: Vertrag läuft am Saisonende aus. Spieler ist aktuell unschlüssig, ob er verlängern möchte. Vorstand unterbreitet vorerst kein Angebot und beobachtet Entwicklung/Saisonverlauf."
+    "Ismail Badjie: Vertrag läuft am Saisonende aus. Spieler ist aktuell unschlüssig, ob er verlängern möchte. Vorstand unterbreitet vorerst kein Angebot und beobachtet Entwicklung/Saisonverlauf.",
+    "1.9. Vorstandssitzung: Saisonstart wird mit Platz 11 und 5 Punkten aus 4 Spielen positiv bewertet. Wagner–González–Henning bleibt die bevorzugte ZM-Besetzung; Jakobsen spielt häufiger für Wagner. Henning-Neubewertung Ende Oktober bleibt bestehen. Badjie soll mehr Einsatzzeit erhalten; Verlängerung wird optimistisch gesehen. Budget auf 1.344.400 € aktualisiert."
   ],
   "matches": [
     {
@@ -641,6 +643,17 @@
       "status": "Offen – Sitzung im Karriereverlauf",
       "budget": 1721000,
       "format": "5 Fragen"
+    },
+    {
+      "date": "1.9.",
+      "answers": {
+        "seasonStart": "Sehr zufrieden: Platz 11, 5 Punkte aus 4 Spielen, 4:5 Tore, 1 Sieg, 2 Unentschieden, 1 Niederlage.",
+        "midfield": "Wagner – González – Henning bleibt die bevorzugte Startbesetzung; Jakobsen kommt für Wagner ebenfalls häufiger zum Einsatz.",
+        "henning": "Plan bleibt bestehen: Vertragslage wird Ende Oktober anhand der sportlichen Entwicklung neu bewertet.",
+        "badjie": "Mehr Einsätze für Badjie, damit er sich von einer Verlängerung überzeugen kann; Optimismus, dass es klappt.",
+        "budget": "Aktuelles Transferbudget aufgrund von Handgeldern und Jugendspielern: 1.344.400 €."
+      },
+      "decision": "Vorstand nimmt den guten Saisonstart positiv auf, bestätigt die Mittelfeldplanung und den Henning-Termin Ende Oktober. Badjie soll über mehr Spielzeit gehalten werden. Budget wird auf 1.344.400 € aktualisiert."
     }
   ],
   "boardMeetingFormat": {
@@ -658,6 +671,10 @@
         "rightBack": "Ausreichend besetzt; keine weitere Verpflichtung nötig",
         "seasonGoal": "Abstieg verhindern und sich in der 2. Bundesliga etablieren"
       }
+    },
+    {
+      "date": "1.9.",
+      "result": "Guter Saisonstart: Platz 11, 5 Punkte/4 Spiele, Torverhältnis 4:5. Mittelfeldplanung bestätigt. Henning bleibt bis Ende Oktober unter Beobachtung. Badjie erhält mehr Einsatzzeit. Budget: 1.344.400 €."
     }
   ],
   "seasonGoals": {
