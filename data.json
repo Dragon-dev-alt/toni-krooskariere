@@ -463,11 +463,18 @@
       "role": "Wichtig",
       "extensionYears": 1,
       "weeklyWage": 4400,
-      "entryBonus": 0,
+      "entryBonus": 15000,
       "performanceBonuses": [],
       "releaseClause": null,
-      "status": "Kompromissangebot des Vorstands – Spielerentscheidung ausstehend",
-      "boardAssessment": "Der Vorstand ist bereit, wegen 19 Einsätzen und seiner regelmäßigen Startelfrolle auf Wichtig zuzugehen, will dies aber nur mit kurzer Bindung ohne Gehaltserhöhung. Eine längere Verlängerung wird wegen Ø 6,56 und der geplanten Konkurrenz im ZM nicht unterstützt."
+      "status": "Gegenangebot des Vorstands – Spielerentscheidung ausstehend",
+      "playerDemand": {
+        "role": "Wichtig",
+        "extensionYears": 1,
+        "weeklyWage": 4400,
+        "signingBonus": 38000
+      },
+      "boardAssessment": "Der Vorstand akzeptiert Rolle, Laufzeit und Gehalt. 38.000 € Handgeld sind für die kurze Verlängerung zu hoch. Gegenangebot: 15.000 € Handgeld.",
+      "boardMaxSigningBonus": 20000
     },
     "TheoJannotta": {
       "status": "Keine Verlängerung",
@@ -611,7 +618,8 @@
     "Fridolin Wagner: 1 Jahr 6 Monate Restlaufzeit, 4.400 €/Woche, 19 Einsätze, Ø 6,56. Spieler möchte verlängern. Vorstand bietet Rotation, +2 Jahre, 4.000 €/Woche, keine Boni/Klausel.",
     "Mats Remberg: Spieler ist unsicher bezüglich Verlängerung. Konkrete Verhandlung erst nach Klärung von Restlaufzeit, aktuellem Gehalt und gewünschter Rolle.",
     "Theo Jannotta: Keine Vertragsverlängerung geplant; im Sommer 2027 soll ein Abgang angestrebt werden.",
-    "Fridolin Wagner: Spieler fordert Rolle Wichtig. Vorstand geht als Kompromiss auf Wichtig zu, aber nur für +1 Jahr, 4.400 €/Woche, ohne Handgeld, Boni oder Ausstiegsklausel."
+    "Fridolin Wagner: Spieler fordert Rolle Wichtig. Vorstand geht als Kompromiss auf Wichtig zu, aber nur für +1 Jahr, 4.400 €/Woche, ohne Handgeld, Boni oder Ausstiegsklausel.",
+    "Fridolin Wagner: Spieler fordert 38.000 € Handgeld. Vorstand hält dies für die einjährige Verlängerung zu hoch und bietet 15.000 € Handgeld bei Wichtig, +1 Jahr und 4.400 €/Woche. Absolute Grenze Handgeld: 20.000 €."
   ],
   "matches": [
     {
@@ -1007,10 +1015,12 @@
         "role": "Wichtig",
         "extensionYears": 1,
         "weeklyWage": 4400,
-        "signingBonus": 0,
+        "signingBonus": 15000,
         "performanceBonuses": [],
         "releaseClause": null
-      }
+      },
+      "playerDemandSigningBonus": 38000,
+      "boardMaxSigningBonus": 20000
     },
     "Remberg": {
       "status": "Entscheidung offen",
