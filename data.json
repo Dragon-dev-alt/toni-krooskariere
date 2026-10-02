@@ -1,5 +1,5 @@
 {
-  "budget": 5265000,
+  "budget": 5937000,
   "formation": "4-3-3 Flach",
   "lineHeight": 65,
   "rules": [
@@ -123,6 +123,11 @@
       "name": "Lukas Jonsson",
       "status": "Verkauft",
       "fee": 320000
+    },
+    {
+      "name": "Niklas Wiemann",
+      "status": "Verkauft",
+      "fee": 960000
     }
   ],
   "academy": [
@@ -290,6 +295,12 @@
       "status": "Gegengebot vorbereiten",
       "boardCounter": 1100000,
       "boardMinimum": 950000
+    },
+    {
+      "player": "Matviy Ponomar",
+      "club": "Dynamo Kiew",
+      "agreedFee": 2300000,
+      "status": "Vorstandsentscheidung"
     }
   ],
   "strikerTargets": [
@@ -304,8 +315,9 @@
       "reason": "Konkurrenz hat den möglichen Preis deutlich erhöht",
       "boardStatus": "Neu bewerten",
       "priority": 1,
-      "status": "Wunschlösung",
-      "boardMax": 2100000
+      "status": "Deal mit Dynamo Kiew – Vorstand muss freigeben",
+      "boardMax": 2100000,
+      "agreedFee": 2300000
     },
     {
       "name": "Shio Fukuda",
@@ -323,5 +335,9 @@
       "currentPossiblePrice": 1500000,
       "boardMax": 1600000
     }
+  ],
+  "boardNotes": [
+    "Niklas Wiemann: Darmstadt stimmt 960.000 € zu. Reinvestierbarer Anteil: 672.000 €.",
+    "Matviy Ponomar: Transferdeal über 2,3 Mio. € mit Dynamo Kiew ausgehandelt; Preis liegt 200.000 € über der bisherigen Vorstandshöchstgrenze und wartet daher auf Freigabe."
   ]
 }
