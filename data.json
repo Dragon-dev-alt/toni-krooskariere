@@ -102,6 +102,11 @@
       "name": "Jakob Schöller",
       "role": "Wichtig · Stamm/Rotation IV",
       "status": "Neu · 4 Jahre · 4.500 €/Woche"
+    },
+    {
+      "name": "Max Adams",
+      "role": "Perspektivprofi · RV/LV",
+      "status": "Neu · 5 Jahre · 1.600 €/Woche"
     }
   ],
   "sales": [
@@ -245,6 +250,14 @@
       "pot": 82,
       "status": "1. Mannschaft",
       "role": "Stamm-ST"
+    },
+    {
+      "name": "Max Adams",
+      "age": 18,
+      "ovr": 62,
+      "pot": 70,
+      "status": "1. Mannschaft",
+      "role": "Perspektivprofi · RV/LV"
     }
   ],
   "preseasonTournament": {
@@ -348,22 +361,19 @@
       "performanceBonuses": [],
       "releaseClause": null,
       "fee": 1700000
-    }
-  },
-  "activeOffers": [
-    {
-      "player": "Max Adams",
-      "club": "vereinslos",
-      "fee": 0,
-      "status": "Spieler fordert Rotation – Vorstand bietet 5 Jahre Perspektivprofi",
+    },
+    "MaxAdams": {
+      "status": "Verpflichtet",
       "role": "Perspektivprofi",
       "years": 5,
       "weeklyWage": 1600,
-      "mandatorySigningBonus": 83200,
+      "entryBonus": 83200,
       "performanceBonuses": [],
-      "releaseClause": null
+      "releaseClause": null,
+      "fee": 0
     }
-  ],
+  },
+  "activeOffers": [],
   "strikerTargets": [
     {
       "name": "Shio Fukuda",
@@ -397,7 +407,7 @@
     "Jakob Schöller: für 1.700.000 € verpflichtet. Vertrag: 4 Jahre, Rolle Wichtig, 4.500 €/Woche, kein Handgeld, keine Leistungsboni, keine Ausstiegsklausel.",
     "Budgetkorrektur: Aktuelles im Spiel angezeigtes Transferbudget beträgt 1.721.000 €. Der vom Nutzer angegebene Ingame-Wert gilt als maßgeblich; Differenz zum bisherigen Dashboardstand (1.937.000 €) von 216.000 € ist bisher nicht aufgeschlüsselt.",
     "Max Adams fordert die Rolle Rotation. Vorstand lehnt das ab und bietet Perspektivprofi an: 3 Jahre, 1.600 €/Woche, 83.200 € Pflicht-Handgeld, keine Boni, keine Ausstiegsklausel.",
-    "Max Adams: Vorstand bietet nun 5 Jahre statt 3. Rolle bleibt Perspektivprofi. 1.600 €/Woche, 83.200 € Pflicht-Handgeld, keine Boni, keine Ausstiegsklausel. Maximales Gehalt 1.800 €/Woche."
+    "Max Adams: ablösefrei verpflichtet. Vertrag 5 Jahre, Rolle Perspektivprofi, 1.600 €/Woche, 83.200 € Pflicht-Handgeld, keine Leistungsboni, keine Ausstiegsklausel."
   ],
   "matches": [
     {
