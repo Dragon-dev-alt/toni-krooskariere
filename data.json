@@ -288,15 +288,6 @@
   },
   "activeOffers": [
     {
-      "player": "Niklas Wiemann",
-      "club": "SV Darmstadt 98",
-      "offer": 840000,
-      "scoutMax": 1200000,
-      "status": "Gegengebot vorbereiten",
-      "boardCounter": 1100000,
-      "boardMinimum": 950000
-    },
-    {
       "player": "Matviy Ponomar",
       "club": "Dynamo Kiew",
       "agreedFee": 2300000,
@@ -337,7 +328,16 @@
     }
   ],
   "boardNotes": [
-    "Niklas Wiemann: Darmstadt stimmt 960.000 € zu. Reinvestierbarer Anteil: 672.000 €.",
-    "Matviy Ponomar: Transferdeal über 2,3 Mio. € mit Dynamo Kiew ausgehandelt; Preis liegt 200.000 € über der bisherigen Vorstandshöchstgrenze und wartet daher auf Freigabe."
+    "Matviy Ponomar: Transferdeal über 2,3 Mio. € mit Dynamo Kiew ausgehandelt; Preis liegt 200.000 € über der bisherigen Vorstandshöchstgrenze und wartet daher auf Freigabe.",
+    "Niklas Wiemann: endgültig für 960.000 € an Darmstadt verkauft. Reinvestierbarer Anteil: 672.000 €."
+  ],
+  "matches": [
+    {
+      "competition": "DFB-Pokal",
+      "opponent": "VfL Bochum",
+      "result": "Sieg",
+      "score": "3:1",
+      "status": "Weiter"
+    }
   ]
 }
