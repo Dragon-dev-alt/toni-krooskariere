@@ -177,9 +177,9 @@
     {
       "name": "Bjarke Jacobsen",
       "role": "ZM",
-      "status": "Auf Transferliste",
+      "status": "Vorvertrag – Abgang ablösefrei am Saisonende",
       "contractRemaining": "6 Monate",
-      "notes": "Vertrag läuft in 6 Monaten aus; bislang keine Verlängerungsinitiative. Im Winter auf Transferliste."
+      "notes": "Vorvertrag bei anderem Verein abgeschlossen; wechselt nach Saisonende ablösefrei."
     }
   ],
   "sales": [
@@ -654,7 +654,8 @@
     "Ismail Badjie: Verlängerung final. Spieler akzeptiert Wichtig, 3 Jahre, 3.700 €/Woche und 20.500 € Handgeld. Keine Boni, keine Ausstiegsklausel.",
     "1.1. Tabellenstand: Platz 5, 28 Punkte aus 17 Spielen, 8 Siege/4 Unentschieden/5 Niederlagen, 29:19 Tore. Zwei Punkte Rückstand auf Platz 4, elf auf Wolfsburg. Januar-Bewertung des Saisonziels und Entscheidung zu Hirsch/Tesche stehen an.",
     "1.1. Beschlüsse: Offizielles Ziel bleibt Klassenerhalt, intern wird ein Aufstiegsrennen als Hoffnung zugelassen. Alexander Hirsch wird hochgezogen. Robert Tesche soll aktiv angeboten werden. Mats Remberg ist als 3. Keeper keine Top-Priorität bei Verlängerung und hat noch nicht geantwortet. Budget: 882.500 €. Rembergs Position im Dashboard auf TW korrigiert.",
-    "Tesche/Jakobsen Winterentscheidung: Nach Trainer-Gespräch wird Robert Tesche von der Verkaufsliste genommen. Mit 39 möchte er seine Karriere voraussichtlich am Saisonende beim VfL beenden; Vorstand unterstützt dies. Bjarke Jacobsen hat nur noch 6 Monate Vertrag und bislang keine Verlängerungsinitiative gezeigt, daher wird er auf die Transferliste gesetzt."
+    "Tesche/Jakobsen Winterentscheidung: Nach Trainer-Gespräch wird Robert Tesche von der Verkaufsliste genommen. Mit 39 möchte er seine Karriere voraussichtlich am Saisonende beim VfL beenden; Vorstand unterstützt dies. Bjarke Jacobsen hat nur noch 6 Monate Vertrag und bislang keine Verlängerungsinitiative gezeigt, daher wird er auf die Transferliste gesetzt.",
+    "Bjarke Jacobsen: Vorvertrag bei einem anderen Verein abgeschlossen. Er wechselt am Saisonende ablösefrei. Ein Winterverkauf mit Ablöse ist damit nicht mehr Teil der Planung."
   ],
   "matches": [
     {
@@ -770,10 +771,10 @@
       ],
       "status": "Hirsch hochziehen statt externen ZM verpflichten",
       "managerIdea": "Alexander Hirsch im Januar hochziehen und auf einen externen ZM verzichten.",
-      "boardPosition": "Zustimmung. Für einen Platz im Profikader soll möglichst ein ZM abgegeben werden.",
+      "boardPosition": "Hirsch hochziehen bleibt beschlossen. Da Jacobsen im Sommer ablösefrei geht, muss die ZM-Tiefe für die Rückrunde und kommende Saison neu bewertet werden.",
       "contingency": "Nach weiterem lukrativen Abgang wird die betroffene Position neu bewertet.",
       "alternatives": "Externer ZM nur notwendig, falls Verkauf stattfindet und Hirsch noch nicht bereit ist oder die Kaderqualität nicht ausreicht.",
-      "hirschStatus": "Hirsch 71 OVR / 95 POT; Hochzug im Januar bleibt geplant.",
+      "hirschStatus": "Alexander Hirsch soll im Januar hochgezogen werden. Durch Jacobsens feststehenden ablösefreien Abgang entsteht zusätzlicher Bedarf an ZM-Tiefe.",
       "preferredSaleCandidate": {
         "name": "Bjarke Jacobsen",
         "reason": "Nur noch 6 Monate Vertrag und bisher keine Bereitschaft zur Verlängerung.",
@@ -787,7 +788,12 @@
       ],
       "externalReplacement": "Nicht vorgesehen, solange Hirsch im Januar konkurrenzfähig ist.",
       "note2": "Theo Jannotta wird nicht verlängert; möglicher Abgang im Sommer 2027.",
-      "teschePlan": "Nicht verkaufen. Vorstand unterstützt, dass Tesche seine vermutlich letzte Saison beim VfL beendet."
+      "teschePlan": "Nicht verkaufen. Vorstand unterstützt, dass Tesche seine vermutlich letzte Saison beim VfL beendet.",
+      "jacobsen": {
+        "status": "Vorvertrag abgeschlossen",
+        "winterSale": "nicht mehr möglich bzw. nicht sinnvoll einplanbar",
+        "outcome": "Ablösefreier Abgang nach Saisonende"
+      }
     },
     "summer2027": {
       "jannotta": "Abgang anstreben – keine Vertragsverlängerung"
@@ -970,7 +976,8 @@
         "tesche": "Robert Tesche soll im Winter aktiv für einen Verkauf angeboten werden.",
         "remberg": "Remberg hat noch nicht geantwortet. Als 3. Keeper ist seine Vertragsverlängerung aktuell keine Top-Priorität.",
         "budget": "Aktuelles Transferbudget: 882.500 €.",
-        "tescheJakobsen": "Tesche bleibt bis Saisonende und darf seine Karriere beim VfL ausklingen lassen. Jacobsen wird wegen nur 6 Monaten Restvertrag und fehlender Verlängerungsinitiative auf die Transferliste gesetzt."
+        "tescheJakobsen": "Tesche bleibt bis Saisonende und darf seine Karriere beim VfL ausklingen lassen. Jacobsen wird wegen nur 6 Monaten Restvertrag und fehlender Verlängerungsinitiative auf die Transferliste gesetzt.",
+        "jacobsen": "Jacobsen hat einen Vorvertrag unterschrieben und verlässt den Verein am Saisonende ablösefrei."
       },
       "boardOpinion": {
         "seasonTarget": "Zustimmung. Der Vorstand unterstützt die Trennung zwischen offiziellem Ziel und interner Ambition. Wir wollen keinen künstlichen Druck durch eine offizielle Zieländerung erzeugen.",
@@ -978,7 +985,8 @@
         "tesche": "Zustimmung. Tesche bleibt der bevorzugte Kandidat für einen ZM-Abgang, sofern ein marktgerechtes Angebot eingeht.",
         "remberg": "Zustimmung. Als 3. Keeper ist eine Verlängerung derzeit nachrangig. Wir können die Entscheidung des Spielers abwarten.",
         "budget": "Der Vorstand nimmt 882.500 € als aktuellen Save-Stand zur Kenntnis und will das Budget bei der Winterplanung gezielt einsetzen.",
-        "tescheJakobsen": "Zustimmung. Bei Tesche hat der sportliche und menschliche Wert seines letzten Halbjahres Vorrang vor einem kleinen möglichen Transfererlös. Bei Jacobsen ist die Transferliste sinnvoll: So haben wir vor Vertragsende die Option auf eine Ablöse, statt ihn im Sommer ablösefrei zu verlieren."
+        "tescheJakobsen": "Zustimmung. Bei Tesche hat der sportliche und menschliche Wert seines letzten Halbjahres Vorrang vor einem kleinen möglichen Transfererlös. Bei Jacobsen ist die Transferliste sinnvoll: So haben wir vor Vertragsende die Option auf eine Ablöse, statt ihn im Sommer ablösefrei zu verlieren.",
+        "jacobsen": "Kein Handlungsspielraum mehr für eine Winterablöse. Der Vorstand akzeptiert den Abgang und richtet die Kaderplanung auf die Zeit nach Saisonende aus."
       }
     }
   ],
@@ -1166,7 +1174,7 @@
     "score": 8,
     "scale": "1–10",
     "status": "hoch",
-    "currentAssessment": "Der Vorstand bleibt mit der Saison zufrieden. Osnabrück liegt zur Halbzeit auf Platz 5 und damit nur zwei Punkte hinter dem Relegationsplatz. Der Saisonverlauf ist nach dem sehr starken Herbst etwas wechselhafter geworden, aber die Mannschaft befindet sich weiterhin klar im oberen Tabellendrittel.",
+    "currentAssessment": "Der Vorstand bleibt mit der Saison zufrieden. Osnabrück liegt zur Halbzeit auf Platz 5 und damit nur zwei Punkte hinter dem Relegationsplatz. Der Saisonverlauf ist nach dem sehr starken Herbst etwas wechselhafter geworden, aber die Mannschaft befindet sich weiterhin klar im oberen Tabellendrittel. Jacobsen verliert den Klub am Saisonende ablösefrei; dies ist sportlich ein Planungsfaktor, aber kein Vorwurf an die Trainerarbeit.",
     "positiveFactors": [
       "Platz 5 nach 17 Spielen",
       "28 Punkte und +10 Tordifferenz",
