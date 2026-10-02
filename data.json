@@ -1,5 +1,5 @@
 {
-  "budget": 2584000,
+  "budget": 2808000,
   "formation": "4-3-3 Flach",
   "lineHeight": 65,
   "rules": [
@@ -74,7 +74,7 @@
     },
     {
       "name": "Christian Wolf",
-      "role": "TW-Backup → Stamm",
+      "role": "Stammkeeper",
       "status": "1. Mannschaft"
     },
     {
@@ -119,6 +119,11 @@
     {
       "name": "Mats Remberg",
       "status": "Verkaufsliste"
+    },
+    {
+      "name": "Lukas Jonsson",
+      "status": "Verkauft",
+      "fee": 320000
     }
   ],
   "academy": [
@@ -141,7 +146,7 @@
       "age": 16,
       "ovr": 66,
       "pot": 90,
-      "plan": "Backup → Stamm"
+      "plan": "Stammkeeper"
     },
     {
       "name": "Viggo Andersen",
