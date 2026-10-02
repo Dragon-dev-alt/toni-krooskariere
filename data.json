@@ -279,5 +279,16 @@
       "performanceBonuses": [],
       "releaseClause": null
     }
-  }
+  },
+  "activeOffers": [
+    {
+      "player": "Niklas Wiemann",
+      "club": "SV Darmstadt 98",
+      "offer": 840000,
+      "scoutMax": 1200000,
+      "status": "Gegengebot vorbereiten",
+      "boardCounter": 1100000,
+      "boardMinimum": 950000
+    }
+  ]
 }
