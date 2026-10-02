@@ -24,7 +24,7 @@
     {
       "position": "IV",
       "priority": "Sehr hoch",
-      "status": "Offen"
+      "status": "Schöller Verhandlungsauftrag"
     },
     {
       "position": "ZM",
@@ -332,6 +332,19 @@
       "mandatorySigningBonus": 83200,
       "performanceBonuses": [],
       "releaseClause": null
+    },
+    {
+      "player": "Jakob Schöller",
+      "club": "SK Rapid",
+      "status": "Vorstand gibt Verhandlungsauftrag",
+      "targetFee": 1700000,
+      "maxFee": 1800000,
+      "preferredRole": "Rotation",
+      "years": 4,
+      "weeklyWageTarget": 4500,
+      "entryBonus": 0,
+      "performanceBonuses": [],
+      "releaseClause": null
     }
   ],
   "strikerTargets": [
@@ -360,7 +373,9 @@
     "Neue Vereinsregel: Jeder ablösefreie Neuzugang muss ein Jahresgehalt als verpflichtenden Einstiegsbonus erhalten.",
     "Max Adams: vereinslos, 18 Jahre, 62 OVR, 66–70 POT, RV/LV. Vorstand erwägt Perspektivprofi mit 1.600 €/Woche und 83.200 € verpflichtendem Einstiegsbonus.",
     "Patrick Kammerbauer: Vertrag verlängert. Rolle Wichtig, 2 Jahre, 5.300 €/Woche, 50.000 € Handgeld, keine Leistungsboni, keine Ausstiegsklausel.",
-    "IV-Shortlist: David Odogu (65/83, Wert 1,8 Mio.), Vince Osuji (66/80, Wert 1,9 Mio.) und Jakob Schöller (66/80, Wert 1,9 Mio.). Tempo wurde noch nicht bewertet, da keine Tempo-Werte vorliegen."
+    "IV-Shortlist: David Odogu (65/83, Wert 1,8 Mio.), Vince Osuji (66/80, Wert 1,9 Mio.) und Jakob Schöller (66/80, Wert 1,9 Mio.). Tempo wurde noch nicht bewertet, da keine Tempo-Werte vorliegen.",
+    "IV-Entscheidung: Jakob Schöller wird zum Topziel. 85 Tempo, 66 OVR/80 POT, CB/RB und 4.300 € Referenzgehalt passen am besten. Zielablöse 1,7 Mio. €, absolute Obergrenze 1,8 Mio. €.",
+    "Odogu bleibt Plan B (80 Tempo, 83 POT, 1,7 Mio. möglich). Osuji bleibt Plan C wegen 78 Tempo und hohem Gehalt von 6.800 €."
   ],
   "matches": [
     {
@@ -378,6 +393,21 @@
   },
   "ivTargets": [
     {
+      "name": "Jakob Schöller",
+      "club": "SK Rapid",
+      "age": 20,
+      "ovr": 66,
+      "pot": 80,
+      "position": "CB/RB",
+      "value": 1900000,
+      "weeklyWage": 4300,
+      "pace": 85,
+      "possiblePrice": 1700000,
+      "status": "Topziel",
+      "boardLimit": 1800000,
+      "reason": "höchstes Tempo + RV/IV-Flexibilität + moderates Gehalt"
+    },
+    {
       "name": "David Odogu",
       "club": "Toulouse FC",
       "age": 20,
@@ -386,8 +416,11 @@
       "position": "CB",
       "value": 1800000,
       "weeklyWage": 4600,
-      "role": "CB Def",
-      "boardStatus": "Favorit des Vorstands unter Preisvorbehalt"
+      "pace": 80,
+      "possiblePrice": 1700000,
+      "status": "Plan B",
+      "boardLimit": 1800000,
+      "reason": "höchstes Potenzial der drei"
     },
     {
       "name": "Vince Osuji",
@@ -398,20 +431,11 @@
       "position": "CB",
       "value": 1900000,
       "weeklyWage": 6800,
-      "role": "CB Def",
-      "boardStatus": "Interessant, Gehalt kritisch"
-    },
-    {
-      "name": "Jakob Schöller",
-      "club": "SK Rapid",
-      "age": 20,
-      "ovr": 66,
-      "pot": 80,
-      "position": "CB/RB",
-      "value": 1900000,
-      "weeklyWage": 4300,
-      "role": "CB Def",
-      "boardStatus": "Interessant, Positionsflexibilität"
+      "pace": 78,
+      "possiblePrice": 1700000,
+      "status": "Plan C",
+      "boardLimit": 1700000,
+      "reason": "sportlich gut, aber Gehalt zu hoch"
     }
   ]
 }
