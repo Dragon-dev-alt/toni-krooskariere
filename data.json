@@ -80,8 +80,8 @@
     },
     {
       "name": "Patrick Kammerbauer",
-      "role": "RV-Umschulung",
-      "status": "Kader"
+      "role": "Wichtig · RV-Umschulung",
+      "status": "Vertrag verlängert"
     },
     {
       "name": "Yigit Karademir",
@@ -309,6 +309,15 @@
       "performanceBonuses": [],
       "releaseClause": null,
       "fee": 2300000
+    },
+    "PatrickKammerbauer": {
+      "status": "Verlängert",
+      "role": "Wichtig",
+      "years": 2,
+      "weeklyWage": 5300,
+      "entryBonus": 50000,
+      "performanceBonuses": [],
+      "releaseClause": null
     }
   },
   "activeOffers": [
@@ -349,7 +358,8 @@
     "Matviy Ponomar: für 2.300.000 € von Dynamo Kiew verpflichtet. Vertrag: 4 Jahre, 6.000 €/Woche, Rolle Wichtig, keine Boni, keine Ausstiegsklausel.",
     "Ismail Badjie: wird künftig auf der linken Seite (LF) eingesetzt.",
     "Neue Vereinsregel: Jeder ablösefreie Neuzugang muss ein Jahresgehalt als verpflichtenden Einstiegsbonus erhalten.",
-    "Max Adams: vereinslos, 18 Jahre, 62 OVR, 66–70 POT, RV/LV. Vorstand erwägt Perspektivprofi mit 1.600 €/Woche und 83.200 € verpflichtendem Einstiegsbonus."
+    "Max Adams: vereinslos, 18 Jahre, 62 OVR, 66–70 POT, RV/LV. Vorstand erwägt Perspektivprofi mit 1.600 €/Woche und 83.200 € verpflichtendem Einstiegsbonus.",
+    "Patrick Kammerbauer: Vertrag verlängert. Rolle Wichtig, 2 Jahre, 5.300 €/Woche, 50.000 € Handgeld, keine Leistungsboni, keine Ausstiegsklausel."
   ],
   "matches": [
     {
