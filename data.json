@@ -139,8 +139,8 @@
     },
     {
       "name": "Fridolin Wagner",
-      "role": "ZM",
-      "status": "Vertragsverhandlung – Spieler fordert Wichtig",
+      "role": "ZM · Wichtig",
+      "status": "Vertrag verlängert",
       "age": 25,
       "ovr": 65,
       "potential": 66,
@@ -148,7 +148,7 @@
       "contractRemaining": "1 Jahr 6 Monate",
       "appearances": 19,
       "averageRating": 6.56,
-      "notes": "19 Einsätze, Ø 6,56. Spieler möchte die Rolle Wichtig."
+      "notes": "19 Einsätze, Ø 6,56. Vertrag um 1 Jahr verlängert; Rolle Wichtig."
     },
     {
       "name": "Mats Remberg",
@@ -466,15 +466,7 @@
       "entryBonus": 15000,
       "performanceBonuses": [],
       "releaseClause": null,
-      "status": "Gegenangebot des Vorstands – Spielerentscheidung ausstehend",
-      "playerDemand": {
-        "role": "Wichtig",
-        "extensionYears": 1,
-        "weeklyWage": 4400,
-        "signingBonus": 38000
-      },
-      "boardAssessment": "Der Vorstand akzeptiert Rolle, Laufzeit und Gehalt. 38.000 € Handgeld sind für die kurze Verlängerung zu hoch. Gegenangebot: 15.000 € Handgeld.",
-      "boardMaxSigningBonus": 20000
+      "status": "verlängert – Spieler hat zugestimmt"
     },
     "TheoJannotta": {
       "status": "Keine Verlängerung",
@@ -549,6 +541,17 @@
       "entryBonus": 20000,
       "performanceBonuses": [],
       "releaseClause": null
+    },
+    "FridolinWagner": {
+      "status": "Verlängert",
+      "role": "Wichtig",
+      "yearsAdded": 1,
+      "remainingBeforeExtension": "1 Jahr 6 Monate",
+      "totalRemainingAfterExtension": "2 Jahre 6 Monate",
+      "weeklyWage": 4400,
+      "entryBonus": 15000,
+      "performanceBonuses": [],
+      "releaseClause": null
     }
   },
   "activeOffers": [],
@@ -619,7 +622,8 @@
     "Mats Remberg: Spieler ist unsicher bezüglich Verlängerung. Konkrete Verhandlung erst nach Klärung von Restlaufzeit, aktuellem Gehalt und gewünschter Rolle.",
     "Theo Jannotta: Keine Vertragsverlängerung geplant; im Sommer 2027 soll ein Abgang angestrebt werden.",
     "Fridolin Wagner: Spieler fordert Rolle Wichtig. Vorstand geht als Kompromiss auf Wichtig zu, aber nur für +1 Jahr, 4.400 €/Woche, ohne Handgeld, Boni oder Ausstiegsklausel.",
-    "Fridolin Wagner: Spieler fordert 38.000 € Handgeld. Vorstand hält dies für die einjährige Verlängerung zu hoch und bietet 15.000 € Handgeld bei Wichtig, +1 Jahr und 4.400 €/Woche. Absolute Grenze Handgeld: 20.000 €."
+    "Fridolin Wagner: Spieler fordert 38.000 € Handgeld. Vorstand hält dies für die einjährige Verlängerung zu hoch und bietet 15.000 € Handgeld bei Wichtig, +1 Jahr und 4.400 €/Woche. Absolute Grenze Handgeld: 20.000 €.",
+    "Fridolin Wagner: Verlängerung final. Spieler akzeptiert Wichtig, +1 Jahr, 4.400 €/Woche und 15.000 € Handgeld. Keine Boni, keine Ausstiegsklausel."
   ],
   "matches": [
     {
@@ -1020,7 +1024,16 @@
         "releaseClause": null
       },
       "playerDemandSigningBonus": 38000,
-      "boardMaxSigningBonus": 20000
+      "boardMaxSigningBonus": 20000,
+      "status": "Verlängert",
+      "finalTerms": {
+        "role": "Wichtig",
+        "extensionYears": 1,
+        "weeklyWage": 4400,
+        "signingBonus": 15000,
+        "performanceBonuses": [],
+        "releaseClause": null
+      }
     },
     "Remberg": {
       "status": "Entscheidung offen",
