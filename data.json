@@ -1,5 +1,5 @@
 {
-  "budget": 3312000,
+  "budget": 3550000,
   "formation": "4-3-3 Flach",
   "lineHeight": 65,
   "rules": [
@@ -90,7 +90,7 @@
     {
       "name": "Bernd Riesselmann",
       "role": "Leihe",
-      "status": "1 Jahr"
+      "status": "2 Jahre CD Tondela"
     }
   ],
   "sales": [
@@ -106,7 +106,8 @@
     },
     {
       "name": "Bashkim Adjini",
-      "status": "Verkaufsliste"
+      "status": "Verkauft",
+      "fee": 340000
     },
     {
       "name": "Luca Ihorst",
@@ -124,34 +125,6 @@
     }
   ],
   "academy": [
-    {
-      "name": "Mario Silva",
-      "age": 16,
-      "ovr": 69,
-      "pot": 93,
-      "plan": "Stamm-RF"
-    },
-    {
-      "name": "Ole Schubert",
-      "age": 16,
-      "ovr": 70,
-      "pot": 85,
-      "plan": "Stamm-LV"
-    },
-    {
-      "name": "Christian Wolf",
-      "age": 16,
-      "ovr": 66,
-      "pot": 90,
-      "plan": "Stammkeeper"
-    },
-    {
-      "name": "Viggo Andersen",
-      "age": 16,
-      "ovr": 61,
-      "pot": 90,
-      "plan": "2. ST"
-    },
     {
       "name": "Otto Riedel",
       "age": 15,
@@ -190,5 +163,63 @@
       "ZM/ZDM",
       "RV"
     ]
-  }
+  },
+  "talents": [
+    {
+      "name": "Mario Silva",
+      "age": 16,
+      "ovr": 69,
+      "pot": 93,
+      "status": "1. Mannschaft",
+      "role": "Stamm-RF"
+    },
+    {
+      "name": "Ole Schubert",
+      "age": 16,
+      "ovr": 70,
+      "pot": 85,
+      "status": "1. Mannschaft",
+      "role": "Stamm-LV"
+    },
+    {
+      "name": "Christian Wolf",
+      "age": 16,
+      "ovr": 66,
+      "pot": 90,
+      "status": "1. Mannschaft",
+      "role": "Stammkeeper"
+    },
+    {
+      "name": "Viggo Andersen",
+      "age": 16,
+      "ovr": 61,
+      "pot": 90,
+      "status": "1. Mannschaft",
+      "role": "2. ST"
+    },
+    {
+      "name": "Kevin Wiethaup",
+      "age": 20,
+      "ovr": 63,
+      "pot": 78,
+      "status": "1. Mannschaft",
+      "role": "LF-Backup"
+    },
+    {
+      "name": "Ismail Badjie",
+      "age": 20,
+      "ovr": 64,
+      "pot": 74,
+      "status": "1. Mannschaft",
+      "role": "Rotation"
+    },
+    {
+      "name": "Bernd Riesselmann",
+      "age": 20,
+      "ovr": 60,
+      "pot": 70,
+      "status": "Leihe · CD Tondela",
+      "role": "ST-Talent"
+    }
+  ]
 }
