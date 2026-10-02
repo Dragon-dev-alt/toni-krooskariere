@@ -185,6 +185,14 @@
       "ovr": 62,
       "pot": 82,
       "plan": "Akademie"
+    },
+    {
+      "name": "Alexander Hirsch",
+      "age": 16,
+      "ovr": 69,
+      "pot": "90+",
+      "plan": "Hochziehen in die 1. Mannschaft empfohlen",
+      "position": "ZDM"
     }
   ],
   "scouting": {
@@ -427,7 +435,7 @@
     "Izan González: für 12 Monate von FC Granada geliehen. Leihgebühr 0 €, 100 % Gehaltsübernahme (3.800 €/Woche), keine Kaufoption.",
     "Vorstandssitzung am Mittwoch, 05.08.2026 angesetzt. Themen: Kaderbilanz, Finanzlage, Resttransfers, Henning-Vertrag und taktische Kaderbalance.",
     "Klarstellung: In FC 26 bedeutet „Besonders hohes Potenzial“ 90+ Potenzial. Die besondere Schutzregel des Vorstands gilt daher für 90+ POT, nicht für 80+.",
-    "Alexander Hirsch: 16 Jahre, ZDM, 69 OVR, besonders hohes Potenzial (90+). Vertragsgebühr 199.800 €, Wochengehalt 3.800 €. Vorstand empfiehlt Verpflichtung; verpflichtender Jahresgehalts-Bonus bei ablösefreiem Spieler: 197.600 €."
+    "Alexander Hirsch ist ein eigener Jugendspieler des VfL in der Jugendakademie. Daher gilt die Regel für ablösefreie externe Neuzugänge nicht. 16 Jahre, 69 OVR, 90+ Potenzial, ZDM."
   ],
   "matches": [
     {
@@ -620,19 +628,5 @@
       "note": "Besonders hohes Potenzial"
     }
   ],
-  "youthRecruitmentCandidates": [
-    {
-      "name": "Alexander Hirsch",
-      "age": 16,
-      "ovr": 69,
-      "pot": "90+",
-      "position": "ZDM",
-      "fee": 199800,
-      "weeklyWage": 3800,
-      "status": "Vorstand empfiehlt Verpflichtung",
-      "role": "Perspektivprofi",
-      "signBonus": 197600,
-      "reason": "Besonders hohes Potenzial (90+), 69 OVR mit 16 Jahren, schließt langfristig eine ZDM/ZM-Position ab."
-    }
-  ]
+  "youthRecruitmentCandidates": []
 }
