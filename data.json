@@ -559,15 +559,19 @@
       "weekday": "Mittwoch",
       "title": "Vorstandssitzung – Saisonstart",
       "agenda": [
-        "Bewertung des Kaders nach der Sommer-Transferphase",
-        "Finanzlage und verbleibendes Transferbudget",
-        "Bewertung der Neuzugänge Ponomar, Schöller, Mahuta, Adams und der Leihe González",
-        "Entscheidung über weitere Transferaktivitäten",
+        "Kaderbilanz nach der Sommer-Transferphase",
+        "Restbudget und weitere Transfers",
+        "Taktische Nutzung der Neuzugänge und Talente",
         "Vertragslage Robin Henning",
-        "Taktische Kaderbalance im 4-3-3 Flach"
+        "Zielsetzung für den Saisonstart"
       ],
       "status": "Offen – Sitzung im Karriereverlauf",
-      "budget": 1721000
+      "budget": 1721000,
+      "format": "5 Fragen"
     }
-  ]
+  ],
+  "boardMeetingFormat": {
+    "questionCount": "3–6 Fragen pro Sitzung",
+    "style": "kurz, fokussiert, entscheidungsorientiert"
+  }
 }
