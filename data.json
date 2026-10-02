@@ -348,11 +348,11 @@
     "RobinHenning": {
       "role": "Rotation",
       "extensionYears": 3,
-      "weeklyWage": 3800,
-      "entryBonus": 0,
+      "weeklyWage": 4100,
+      "entryBonus": 20000,
       "performanceBonuses": [],
       "releaseClause": null,
-      "status": "Angebot bereit zur Verhandlung"
+      "status": "Gegenangebot des Vorstands – Spielerentscheidung ausstehend"
     },
     "NiklasSauter": {
       "role": "Rotation",
@@ -535,7 +535,9 @@
     "Trainervertrag: Toni Kroos hat einen 3-Jahres-Vertrag ab Saison 2026/27 bis Sommer 2029. Bei Vertragsende wird separat verhandelt; eine Verlängerung ist nicht automatisch. Vorzeitige Trennung ist bei anhaltend schlechter Entwicklung, verfehlten Zielen oder wiederholt nicht nachvollziehbaren Entscheidungen möglich.",
     "Topduell gegen VfL Wolfsburg: 1:0 gewonnen. Der starke Saisonstart wird durch einen Sieg gegen einen qualitativ anspruchsvollen Gegner bestätigt.",
     "Oktober-Scouting Jugendakademie: Zwei neue Talente aufgenommen – Matthis Vetter (15, 70 OVR, 97 Potenzial, CAM, LW/RW) und Thomas Vogel (14, 67 OVR, 92 Potenzial, LV/IV). Beide bleiben zunächst in der Jugendakademie.",
-    "1.11. Vorstandssitzung: Platz 2 mit 23 Punkten aus 10 Spielen (7S/2U/1N, 16:7), punktgleich mit Wolfsburg auf Platz 1 und ein Spiel weniger. DFB-Pokal-Aus gegen Wolfsburg mit 1:2. Henning akzeptiert Rotation; Vorstand bietet 3 Jahre, 3.800 €/Woche, keine Boni, keine Ausstiegsklausel. Badjie entscheidet bis 1.12."
+    "1.11. Vorstandssitzung: Platz 2 mit 23 Punkten aus 10 Spielen (7S/2U/1N, 16:7), punktgleich mit Wolfsburg auf Platz 1 und ein Spiel weniger. DFB-Pokal-Aus gegen Wolfsburg mit 1:2. Henning akzeptiert Rotation; Vorstand bietet 3 Jahre, 3.800 €/Woche, keine Boni, keine Ausstiegsklausel. Badjie entscheidet bis 1.12.",
+    "Henning-Verhandlung November: Forderung 4.100 €/Woche + 36.000 € Handgeld. Vorstand akzeptiert 4.100 €/Woche, kontert beim Handgeld mit 20.000 €. Rotation, 3 Jahre, keine Boni/Klausel.",
+    "1.11. Vorstand hat trotz hoher Zufriedenheit Fragen für die laufende Saison: Einsatzplanung Henning, Mittelfeldtiefe mit Jakobsen/Wagner und möglicher Winterbedarf trotz unverändertem offiziellen Saisonziel."
   ],
   "matches": [
     {
@@ -757,7 +759,15 @@
         "henning": "Rotation akzeptiert; Verlängerung soll auf dieser Basis verhandelt werden.",
         "badjie": "Bittet noch bis zum 1. Dezember um Bedenkzeit."
       },
-      "status": "Sitzung eröffnet – November-Bewertung"
+      "status": "Sitzung eröffnet – November-Bewertung",
+      "followUp": {
+        "henning": "Spieler fordert 4.100 €/Woche und 36.000 € Handgeld. Vorstand bietet 4.100 €/Woche und 20.000 € Handgeld bei 3 Jahren, Rotation, ohne Boni/Klausel.",
+        "boardQuestions": [
+          "Will der Trainer Henning nach der Vertragsverlängerung weiterhin regelmäßig einsetzen, auch wenn seine Rolle offiziell Rotation bleibt?",
+          "Soll Jakobsen weiterhin als echte Alternative zu Wagner eingeplant werden oder braucht die Mannschaft zur Winterpause eine klare zusätzliche Mittelfeldoption?",
+          "Angesichts von Platz 2: Soll der Vorstand im Winter stärker in die Kaderbreite investieren, obwohl das offizielle Saisonziel unverändert bleibt?"
+        ]
+      }
     }
   ],
   "boardMeetingFormat": {
@@ -808,19 +818,25 @@
       "currentWeeklyWage": 4200,
       "averageRating": 6.92,
       "appearances": 11,
-      "status": "Spieler akzeptiert Rolle Rotation – Vertragsangebot steht",
-      "boardAssessment": "Nach Anerkennung der Rolle Rotation besteht Bereitschaft zur Verlängerung. Der Vorstand hält 3 Jahre bei 3.800 €/Woche für angemessen.",
+      "status": "Spielerforderung erhalten – Vorstand legt Gegenangebot vor",
+      "boardAssessment": "4.100 €/Woche werden trotz Rotationsrolle akzeptiert. Das geforderte Handgeld von 36.000 € hält der Vorstand für zu hoch und kontert mit 20.000 €.",
       "octoberPlan": "Nächstes Gespräch: zuerst Rotation anbieten; alternativ bei Bedarf Wichtig. Bei Ablehnung beider Lösungen Verkauf im Winter.",
       "boardPosition": "Rotation bleibt erste Option, Wichtig als Kompromiss möglich.",
       "renewalFramework": {
         "role": "Rotation",
         "extensionYears": 3,
         "totalYearsFromNow": 3,
-        "weeklyWage": 3800,
-        "signingBonus": 0,
+        "weeklyWage": 4100,
+        "signingBonus": 20000,
         "performanceBonuses": [],
         "releaseClause": null,
         "boardMaxWeeklyWage": 4200
+      },
+      "playerDemand": {
+        "role": "Rotation",
+        "extensionYears": 3,
+        "weeklyWage": 4100,
+        "signingBonus": 36000
       }
     }
   },
