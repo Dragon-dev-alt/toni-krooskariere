@@ -410,7 +410,8 @@
     "Max Adams: ablösefrei verpflichtet. Vertrag 5 Jahre, Rolle Perspektivprofi, 1.600 €/Woche, 83.200 € Pflicht-Handgeld, keine Leistungsboni, keine Ausstiegsklausel.",
     "2. Bundesliga: 1:1 gegen Darmstadt. Jakob Schöller sah eine Rote Karte.",
     "Jakob Schöller: 1 Spiel Sperre nach Roter Karte gegen Darmstadt.",
-    "ZM-Leihkandidaten: Taichi Fukui (71/81, CM/CAM, 5.400 €/Woche), Izan González (70/83, CM/CDM, 3.800 €/Woche) und Yussif Saidu (68/84, CM/CDM/CB, 3.900 €/Woche). Für eine Entscheidung werden Leihgebühr und Anteil des Gehalts benötigt."
+    "ZM-Leihkandidaten: Taichi Fukui (71/81, CM/CAM, 5.400 €/Woche), Izan González (70/83, CM/CDM, 3.800 €/Woche) und Yussif Saidu (68/84, CM/CDM/CB, 3.900 €/Woche). Für eine Entscheidung werden Leihgebühr und Anteil des Gehalts benötigt.",
+    "ZM-Leihe priorisiert: 1. Izan González, 2. Yussif Saidu, 3. Taichi Fukui. Begründung: González verbindet 70 OVR, 83 POT, CM/CDM und nur 3.800 €/Woche; Leihkosten müssen noch geprüft werden."
   ],
   "matches": [
     {
@@ -481,7 +482,8 @@
     }
   ],
   "transferPlan": {
-    "iv": "Jakob Schöller"
+    "iv": "Jakob Schöller",
+    "zmLoan": "Izan González"
   },
   "suspensions": {
     "Jakob Schöller": {
@@ -500,8 +502,9 @@
       "positions": "CM/CAM",
       "weeklyWage": 5400,
       "value": 4200000,
-      "status": "Leihkandidat",
-      "fit": "Sofortige Qualität und Kreativität"
+      "status": "Dritte Priorität / beobachten",
+      "fit": "Sofortige Qualität und Kreativität",
+      "priority": 3
     },
     {
       "name": "Izan González",
@@ -512,8 +515,9 @@
       "positions": "CM/CDM",
       "weeklyWage": 3800,
       "value": 3900000,
-      "status": "Leihkandidat",
-      "fit": "Kontrolle und Absicherung im 4-3-3 Flach"
+      "status": "Erste Priorität",
+      "fit": "Kontrolle und Absicherung im 4-3-3 Flach",
+      "priority": 1
     },
     {
       "name": "Yussif Saidu",
@@ -524,8 +528,9 @@
       "positions": "CM/CDM/CB",
       "weeklyWage": 3900,
       "value": 3200000,
-      "status": "Leihkandidat",
-      "fit": "Physis, Flexibilität und defensiver Nutzen"
+      "status": "Zweite Priorität",
+      "fit": "Physis, Flexibilität und defensiver Nutzen",
+      "priority": 2
     }
   ]
 }
