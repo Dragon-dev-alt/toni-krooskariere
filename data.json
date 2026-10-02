@@ -290,5 +290,18 @@
       "boardCounter": 1100000,
       "boardMinimum": 950000
     }
+  ],
+  "strikerTargets": [
+    {
+      "name": "Matviy Ponomar",
+      "club": "Dynamo Kiew",
+      "ovr": 66,
+      "pot": 82,
+      "age": 20,
+      "oldPossiblePrice": 1300000,
+      "currentPossiblePrice": 2100000,
+      "reason": "Konkurrenz hat den möglichen Preis deutlich erhöht",
+      "boardStatus": "Neu bewerten"
+    }
   ]
 }
