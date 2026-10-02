@@ -571,7 +571,8 @@
     "Henning-Verlängerung final: Spieler stimmt Rotation, 3 Jahren, 4.100 €/Woche und 20.000 € Handgeld zu. Keine Boni, keine Ausstiegsklausel.",
     "Mario Silva Entwicklung: 16 Jahre, 5 Scorer in 15 Spielen, Ø 7,07, ca. 6 Mio. € Marktwert. Vorstand bewertet die Entwicklung sehr positiv, sieht aber weiterhin Verbesserungspotenzial bei den Leistungen.",
     "Winteroption Hirsch: Im Januar könnte ein ZM verkauft und Alexander Hirsch (16, 69 OVR, 90+ Potenzial, ZDM) aus der Jugendakademie hochgezogen werden. Vorstand hält die interne Lösung für prüfenswert, will die sportliche Bereitschaft von Hirsch und die Bedeutung des abzugebenden ZM vorher bewerten.",
-    "Aktuelle Jugendakademie (letzter Bericht): Özgür Burakgazi 15/63/82 GK; Otto Riedel 16/69/86 CB; Thomas Vogel 14/67/92 LB/CB; Nick Adam 15/65/83 CDM; Andreas Vogel 15/65/83 CDM; Alexander Hirsch 16/71/95 CM/CDM; Matthis Vetter 15/71/97 CAM/LW/RW. Besonders Hirsch und Vetter entwickeln sich stark und liegen bereits bei 71 OVR."
+    "Aktuelle Jugendakademie (letzter Bericht): Özgür Burakgazi 15/63/82 GK; Otto Riedel 16/69/86 CB; Thomas Vogel 14/67/92 LB/CB; Nick Adam 15/65/83 CDM; Andreas Vogel 15/65/83 CDM; Alexander Hirsch 16/71/95 CM/CDM; Matthis Vetter 15/71/97 CAM/LW/RW. Besonders Hirsch und Vetter entwickeln sich stark und liegen bereits bei 71 OVR.",
+    "1.12. Tabellenstand: Osnabrück Platz 6, 24 Punkte aus 14 Spielen, 7 Siege/3 Unentschieden/4 Niederlagen, 20:16 Tore. Wolfsburg Platz 1 mit 30 Punkten. Vorstandssitzung eröffnet."
   ],
   "matches": [
     {
@@ -825,6 +826,18 @@
           "winterHirsch": "Interessante interne Lösung. Der Vorstand bevorzugt grundsätzlich, ein hochpotenzielles Akademietalent zu fördern, sofern Hirsch im Januar bereits konkurrenzfähig ist."
         }
       }
+    },
+    {
+      "date": "1.12.",
+      "title": "Vorstandssitzung – Zwischenfazit Hinrunde",
+      "status": "Sitzung eröffnet",
+      "currentLeagueSnapshot": "Platz 6, 24 Punkte nach 14 Spielen; 7 Siege, 3 Unentschieden, 4 Niederlagen; 20:16 Tore. Wolfsburg führt mit 30 Punkten.",
+      "questionsPending": [
+        "Badjie: Hat er sich heute für oder gegen eine Vertragsverlängerung entschieden?",
+        "Winterplanung ZM: Soll der mögliche Verkauf eines ZM und ein möglicher Hochzug von Alexander Hirsch weiterverfolgt werden?",
+        "Kaderziel: Soll im Winter überhaupt ein externer ZM gesucht werden, oder soll zunächst intern mit Hirsch geplant werden?",
+        "Saisonziel: Bei Platz 6 und 24 Punkten – bleibt die interne Zielsetzung weiterhin unverändert, bis wir im Januar nach den Spielen gegen stärkere Gegner Bilanz ziehen?"
+      ]
     }
   ],
   "boardMeetingFormat": {
@@ -855,6 +868,10 @@
     {
       "date": "1.11.",
       "result": "Liga: Platz 2 mit 23 Punkten aus 10 Spielen, punktgleich mit Wolfsburg auf Platz 1 und mit einem Spiel weniger; 7S/2U/1N, 16:7. DFB-Pokal-Aus gegen Wolfsburg 1:2. Henning akzeptiert Rotation; Vertragsangebot: 3 Jahre, 3.800 €/Woche, keine Boni/Klausel. Badjie entscheidet bis 1.12."
+    },
+    {
+      "date": "1.12.",
+      "result": "Osnabrück steht nach 14 Spieltagen auf Platz 6 mit 24 Punkten (7S/3U/4N, 20:16). Wolfsburg führt mit 30 Punkten. Vorstandssitzung eröffnet; Badjie-Entscheidung, Winter-ZM/Hirsch und Saisonziel stehen auf der Tagesordnung."
     }
   ],
   "seasonGoals": {
@@ -947,5 +964,26 @@
     "renewalRule": "Bei auslaufendem Vertrag wird separat über eine Verlängerung verhandelt. Eine Verlängerung erfolgt nicht automatisch.",
     "dismissalPolicy": "Bei anhaltend schlechter sportlicher Entwicklung, verfehlten Zielen oder wiederholt nicht nachvollziehbaren Entscheidungen kann der Vorstand eine vorzeitige Trennung beschließen.",
     "currentStatus": "Kein Anlass für eine vorzeitige Trennung; Vorstandszufriedenheit sehr hoch."
+  },
+  "leagueTable": {
+    "asOf": "1.12.",
+    "competition": "2. Bundesliga",
+    "osnabruck": {
+      "position": 6,
+      "points": 24,
+      "games": 14,
+      "wins": 7,
+      "draws": 3,
+      "losses": 4,
+      "goalsFor": 20,
+      "goalsAgainst": 16,
+      "goalDifference": 4
+    },
+    "wolfsburg": {
+      "position": 1,
+      "points": 30,
+      "games": 14
+    },
+    "context": "Osnabrück is 6th, 6 points behind Wolfsburg, 3 points behind the promotion-playoff positions, and level on points with Nürnberg? No — Nürnberg has 25, so Osnabrück is 1 point behind Nürnberg."
   }
 }
