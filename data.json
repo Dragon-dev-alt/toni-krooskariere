@@ -426,7 +426,8 @@
     "ZM-Leihe priorisiert: 1. Izan González, 2. Yussif Saidu, 3. Taichi Fukui. Begründung: González verbindet 70 OVR, 83 POT, CM/CDM und nur 3.800 €/Woche; Leihkosten müssen noch geprüft werden.",
     "Izan González: für 12 Monate von FC Granada geliehen. Leihgebühr 0 €, 100 % Gehaltsübernahme (3.800 €/Woche), keine Kaufoption.",
     "Vorstandssitzung am Mittwoch, 05.08.2026 angesetzt. Themen: Kaderbilanz, Finanzlage, Resttransfers, Henning-Vertrag und taktische Kaderbalance.",
-    "Klarstellung: In FC 26 bedeutet „Besonders hohes Potenzial“ 90+ Potenzial. Die besondere Schutzregel des Vorstands gilt daher für 90+ POT, nicht für 80+."
+    "Klarstellung: In FC 26 bedeutet „Besonders hohes Potenzial“ 90+ Potenzial. Die besondere Schutzregel des Vorstands gilt daher für 90+ POT, nicht für 80+.",
+    "Alexander Hirsch: 16 Jahre, ZDM, 69 OVR, besonders hohes Potenzial (90+). Vertragsgebühr 199.800 €, Wochengehalt 3.800 €. Vorstand empfiehlt Verpflichtung; verpflichtender Jahresgehalts-Bonus bei ablösefreiem Spieler: 197.600 €."
   ],
   "matches": [
     {
@@ -500,7 +501,8 @@
     "iv": "Jakob Schöller",
     "zmLoan": "Izan González verpflichtet",
     "remainingBudget": "1.721.000 € zunächst zurückhalten",
-    "rightBack": "Kein Bedarf"
+    "rightBack": "Kein Bedarf",
+    "youthTalent": "Alexander Hirsch"
   },
   "suspensions": {
     "Jakob Schöller": {
@@ -616,6 +618,21 @@
       "nationality": "Deutschland",
       "status": "Scoutingkandidat",
       "note": "Besonders hohes Potenzial"
+    }
+  ],
+  "youthRecruitmentCandidates": [
+    {
+      "name": "Alexander Hirsch",
+      "age": 16,
+      "ovr": 69,
+      "pot": "90+",
+      "position": "ZDM",
+      "fee": 199800,
+      "weeklyWage": 3800,
+      "status": "Vorstand empfiehlt Verpflichtung",
+      "role": "Perspektivprofi",
+      "signBonus": 197600,
+      "reason": "Besonders hohes Potenzial (90+), 69 OVR mit 16 Jahren, schließt langfristig eine ZDM/ZM-Position ab."
     }
   ]
 }
