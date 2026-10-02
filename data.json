@@ -9,7 +9,7 @@
     "Grundsätzlich sind höchstens vier feste Neuzugänge pro Saison vorgesehen. Zusätzliche Leihen oder ablösefreie Spieler sind möglich.",
     "Mindestens ein Neuzugang der Saison soll ablösefrei oder per Leihe kommen.",
     "Jugendspieler sollen echte Einsatzchancen erhalten, sobald sie sportlich mithalten können.",
-    "Akademiespieler mit mindestens 80 Potenzial werden besonders geschützt. Vor einem Verkauf prüfen wir zuerst Leihe und Entwicklung.",
+    "Akademiespieler mit mindestens 90 Potenzial werden besonders geschützt. Vor einem Verkauf prüfen wir zuerst Leihe und Entwicklung.",
     "Neue Gehälter dürfen das interne Gehaltsgefüge nicht ohne klare sportliche Begründung sprengen.",
     "Bei Transfers werden zuerst Deutschland, Österreich, Schweiz, Niederlande, Dänemark, Polen und Tschechien berücksichtigt.",
     "Jeder Transfer muss eine konkrete Position oder Rolle verbessern. Keine unnötige Kaderaufblähung.",
@@ -287,7 +287,8 @@
       "Wichtig",
       "Schlüsselspieler"
     ],
-    "freeAgentBonus": "Bei jedem ablösefreien Spieler ist zwingend ein Einstiegsbonus in Höhe eines Jahresgehalts zu zahlen."
+    "freeAgentBonus": "Bei jedem ablösefreien Spieler ist zwingend ein Einstiegsbonus in Höhe eines Jahresgehalts zu zahlen.",
+    "youthProtectionThreshold": "90+ Potenzial"
   },
   "contractOffers": {
     "RobinHenning": {
@@ -424,7 +425,8 @@
     "ZM-Leihkandidaten: Taichi Fukui (71/81, CM/CAM, 5.400 €/Woche), Izan González (70/83, CM/CDM, 3.800 €/Woche) und Yussif Saidu (68/84, CM/CDM/CB, 3.900 €/Woche). Für eine Entscheidung werden Leihgebühr und Anteil des Gehalts benötigt.",
     "ZM-Leihe priorisiert: 1. Izan González, 2. Yussif Saidu, 3. Taichi Fukui. Begründung: González verbindet 70 OVR, 83 POT, CM/CDM und nur 3.800 €/Woche; Leihkosten müssen noch geprüft werden.",
     "Izan González: für 12 Monate von FC Granada geliehen. Leihgebühr 0 €, 100 % Gehaltsübernahme (3.800 €/Woche), keine Kaufoption.",
-    "Vorstandssitzung am Mittwoch, 05.08.2026 angesetzt. Themen: Kaderbilanz, Finanzlage, Resttransfers, Henning-Vertrag und taktische Kaderbalance."
+    "Vorstandssitzung am Mittwoch, 05.08.2026 angesetzt. Themen: Kaderbilanz, Finanzlage, Resttransfers, Henning-Vertrag und taktische Kaderbalance.",
+    "Klarstellung: In FC 26 bedeutet „Besonders hohes Potenzial“ 90+ Potenzial. Die besondere Schutzregel des Vorstands gilt daher für 90+ POT, nicht für 80+."
   ],
   "matches": [
     {
@@ -603,5 +605,17 @@
       "reviewDate": "2026-10-31",
       "criterion": "Leistung bis Ende Oktober"
     }
-  }
+  },
+  "academyProspects": [
+    {
+      "name": "Alexander Hirsch",
+      "age": 16,
+      "ovr": 69,
+      "pot": "90+",
+      "position": "ZDM",
+      "nationality": "Deutschland",
+      "status": "Scoutingkandidat",
+      "note": "Besonders hohes Potenzial"
+    }
+  ]
 }
