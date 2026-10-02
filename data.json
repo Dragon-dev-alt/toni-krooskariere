@@ -637,7 +637,8 @@
     "Ismail Badjie: Spieler ist nun bereit zu verlängern. Vorstand bietet Rotation, 3 Jahre, 3.300 €/Woche, 0 € Handgeld, keine Boni/Ausstiegsklausel. Schlüsselspieler bleibt ausgeschlossen.",
     "Ismail Badjie: Spieler akzeptiert eine Verlängerung grundsätzlich, verlangt aber mindestens die Rolle Wichtig. Vorstand geht auf Wichtig zu: 3 Jahre, 3.500 €/Woche, 10.000 € Handgeld, keine Boni/Ausstiegsklausel. Schlüsselspieler bleibt ausgeschlossen.",
     "Ismail Badjie: Trainerangebot liegt bei Wichtig, 3 Jahre, 3.700 €/Woche und 20.500 € Handgeld. Gehalt liegt im Vorstandskorridor, Handgeld über der bisherigen internen Linie; Ergebnis wird abgewartet.",
-    "Ismail Badjie: Verlängerung final. Spieler akzeptiert Wichtig, 3 Jahre, 3.700 €/Woche und 20.500 € Handgeld. Keine Boni, keine Ausstiegsklausel."
+    "Ismail Badjie: Verlängerung final. Spieler akzeptiert Wichtig, 3 Jahre, 3.700 €/Woche und 20.500 € Handgeld. Keine Boni, keine Ausstiegsklausel.",
+    "1.1. Tabellenstand: Platz 5, 28 Punkte aus 17 Spielen, 8 Siege/4 Unentschieden/5 Niederlagen, 29:19 Tore. Zwei Punkte Rückstand auf Platz 4, elf auf Wolfsburg. Januar-Bewertung des Saisonziels und Entscheidung zu Hirsch/Tesche stehen an."
   ],
   "matches": [
     {
@@ -930,6 +931,20 @@
         "winterZM": "Zustimmung mit konkreter Person: Robert Tesche wäre der bevorzugte Abgang, nicht Wagner/Henning/Jakobsen, sofern ein marktgerechtes Angebot vorliegt.",
         "seasonTarget": "Zustimmung. Die offizielle Zielsetzung bleibt unverändert, die starke Tabellensituation wird aber intern höher bewertet."
       }
+    },
+    {
+      "date": "1.1.",
+      "title": "Vorstandssitzung – Halbzeitbilanz",
+      "status": "Sitzung eröffnet",
+      "currentLeagueSnapshot": "Platz 5, 28 Punkte nach 17 Spielen; 8 Siege, 4 Unentschieden, 5 Niederlagen; 29:19 Tore. Zwei Punkte hinter Platz 4, elf Punkte hinter Wolfsburg.",
+      "januaryReviewRequired": true,
+      "questionsPending": [
+        "Saisonziel: Angesichts von Platz 5 und nur 2 Punkten Rückstand auf Platz 4 – soll die interne Zielsetzung für die Rückrunde angepasst werden?",
+        "Alexander Hirsch: Soll er wie geplant hochgezogen werden? Er steht aktuell bei 71 OVR / 95 POT.",
+        "ZM-Abgang: Soll Robert Tesche im Winter aktiv zum Verkauf angeboten werden, um Hirsch einen Profiplatz zu geben?",
+        "Remberg: Ist seine Verlängerungsentscheidung inzwischen gefallen?",
+        "Winterbudget: Welcher Betrag steht nach den bisherigen Handgeldern und Jugendmaßnahmen aktuell noch zur Verfügung?"
+      ]
     }
   ],
   "boardMeetingFormat": {
@@ -964,6 +979,10 @@
     {
       "date": "1.12.",
       "result": "Osnabrück steht nach 14 Spieltagen auf Platz 6 mit 24 Punkten (7S/3U/4N, 20:16). Wolfsburg führt mit 30 Punkten. Vorstandssitzung eröffnet; Badjie-Entscheidung, Winter-ZM/Hirsch und Saisonziel stehen auf der Tagesordnung."
+    },
+    {
+      "date": "1.1.",
+      "result": "Halbzeitstand: Osnabrück Platz 5 mit 28 Punkten aus 17 Spielen (8S/4U/5N, 29:19). Zwei Punkte fehlen auf Platz 4, elf auf Wolfsburg. Januar-Bewertung des Saisonziels und Winterplanung stehen an."
     }
   ],
   "seasonGoals": {
@@ -1109,17 +1128,15 @@
     "score": 8,
     "scale": "1–10",
     "status": "hoch",
-    "currentAssessment": "Vorstand bleibt mit der Entwicklung zufrieden. Die Tabelle ist stark, die Transfer- und Jugendstrategie ist klar. Abzüge gegenüber der Bestbewertung ergeben sich aus dem etwas schwächeren Ligaverlauf seit dem starken Saisonstart und dem DFB-Pokal-Aus.",
+    "currentAssessment": "Der Vorstand bleibt mit der Saison zufrieden. Osnabrück liegt zur Halbzeit auf Platz 5 und damit nur zwei Punkte hinter dem Relegationsplatz. Der Saisonverlauf ist nach dem sehr starken Herbst etwas wechselhafter geworden, aber die Mannschaft befindet sich weiterhin klar im oberen Tabellendrittel.",
     "positiveFactors": [
-      "Platz 2 nach 10 Spielen",
-      "23 Punkte und 16:7 Tore",
-      "Nur eine Niederlage in der Liga",
-      "Defensive Stabilität",
-      "Henning-Vertragslösung kommt voran"
+      "Platz 5 nach 17 Spielen",
+      "28 Punkte und +10 Tordifferenz",
+      "Nur zwei Punkte bis Platz 4",
+      "Stabiler Kader mit klarer Jugendstrategie"
     ],
     "riskFactors": [
-      "Saison ist noch lang",
-      "Pokal-Aus gegen Wolfsburg"
+      "Nur 5 Siege in den letzten 10? Not enough evidence; daher nicht behaupten."
     ],
     "review": "Wird bei jeder Vorstandssitzung neu bewertet."
   },
@@ -1136,24 +1153,46 @@
     "currentStatus": "Kein Anlass für eine vorzeitige Trennung; Vorstandszufriedenheit sehr hoch."
   },
   "leagueTable": {
-    "asOf": "1.12.",
+    "asOf": "1.1.",
     "competition": "2. Bundesliga",
     "osnabruck": {
-      "position": 6,
-      "points": 24,
-      "games": 14,
-      "wins": 7,
-      "draws": 3,
-      "losses": 4,
-      "goalsFor": 20,
-      "goalsAgainst": 16,
-      "goalDifference": 4
+      "position": 5,
+      "points": 28,
+      "games": 17,
+      "wins": 8,
+      "draws": 4,
+      "losses": 5,
+      "goalsFor": 29,
+      "goalsAgainst": 19,
+      "goalDifference": 10
     },
     "wolfsburg": {
       "position": 1,
       "points": 30,
       "games": 14
     },
-    "context": "Osnabrück is 6th, 6 points behind Wolfsburg, 3 points behind the promotion-playoff positions, and level on points with Nürnberg? No — Nürnberg has 25, so Osnabrück is 1 point behind Nürnberg."
+    "context": "Osnabrück steht auf Platz 5, 2 Punkte hinter dem Relegationsplatz und 11 Punkte hinter Tabellenführer Wolfsburg.",
+    "top": {
+      "wolfsburg": {
+        "position": 1,
+        "points": 39,
+        "games": 17
+      },
+      "bochum": {
+        "position": 2,
+        "points": 36,
+        "games": 17
+      },
+      "hertha": {
+        "position": 3,
+        "points": 31,
+        "games": 17
+      },
+      "bielefeld": {
+        "position": 4,
+        "points": 30,
+        "games": 17
+      }
+    }
   }
 }
