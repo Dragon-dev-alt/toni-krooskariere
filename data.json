@@ -418,7 +418,8 @@
     "Jakob Schöller: 1 Spiel Sperre nach Roter Karte gegen Darmstadt.",
     "ZM-Leihkandidaten: Taichi Fukui (71/81, CM/CAM, 5.400 €/Woche), Izan González (70/83, CM/CDM, 3.800 €/Woche) und Yussif Saidu (68/84, CM/CDM/CB, 3.900 €/Woche). Für eine Entscheidung werden Leihgebühr und Anteil des Gehalts benötigt.",
     "ZM-Leihe priorisiert: 1. Izan González, 2. Yussif Saidu, 3. Taichi Fukui. Begründung: González verbindet 70 OVR, 83 POT, CM/CDM und nur 3.800 €/Woche; Leihkosten müssen noch geprüft werden.",
-    "Izan González: für 12 Monate von FC Granada geliehen. Leihgebühr 0 €, 100 % Gehaltsübernahme (3.800 €/Woche), keine Kaufoption."
+    "Izan González: für 12 Monate von FC Granada geliehen. Leihgebühr 0 €, 100 % Gehaltsübernahme (3.800 €/Woche), keine Kaufoption.",
+    "Vorstandssitzung am Mittwoch, 05.08.2026 angesetzt. Themen: Kaderbilanz, Finanzlage, Resttransfers, Henning-Vertrag und taktische Kaderbalance."
   ],
   "matches": [
     {
@@ -550,6 +551,23 @@
       "weeklyWage": 3800,
       "purchaseOption": false,
       "status": "Abgeschlossen"
+    }
+  ],
+  "boardMeetings": [
+    {
+      "date": "2026-08-05",
+      "weekday": "Mittwoch",
+      "title": "Vorstandssitzung – Saisonstart",
+      "agenda": [
+        "Bewertung des Kaders nach der Sommer-Transferphase",
+        "Finanzlage und verbleibendes Transferbudget",
+        "Bewertung der Neuzugänge Ponomar, Schöller, Mahuta, Adams und der Leihe González",
+        "Entscheidung über weitere Transferaktivitäten",
+        "Vertragslage Robin Henning",
+        "Taktische Kaderbalance im 4-3-3 Flach"
+      ],
+      "status": "Offen – Sitzung im Karriereverlauf",
+      "budget": 1721000
     }
   ]
 }
