@@ -561,7 +561,8 @@
     "1.11. Vorstand hat trotz hoher Zufriedenheit Fragen für die laufende Saison: Einsatzplanung Henning, Mittelfeldtiefe mit Jakobsen/Wagner und möglicher Winterbedarf trotz unverändertem offiziellen Saisonziel.",
     "November: Mittelfeld-/Winterplanung: Henning und Jakobsen sollen sich die Position ungefähr 50/50 teilen. Ein ZM-Verkauf mit Ersatz ist als mögliche Wintermaßnahme vorgesehen; aktuell besteht auf keiner anderen Position Bedarf. Bei einem weiteren lukrativen Abgang wird der entsprechende Bedarf neu bewertet.",
     "Henning-Verlängerung final: Spieler stimmt Rotation, 3 Jahren, 4.100 €/Woche und 20.000 € Handgeld zu. Keine Boni, keine Ausstiegsklausel.",
-    "Mario Silva Entwicklung: 16 Jahre, 5 Scorer in 15 Spielen, Ø 7,07, ca. 6 Mio. € Marktwert. Vorstand bewertet die Entwicklung sehr positiv, sieht aber weiterhin Verbesserungspotenzial bei den Leistungen."
+    "Mario Silva Entwicklung: 16 Jahre, 5 Scorer in 15 Spielen, Ø 7,07, ca. 6 Mio. € Marktwert. Vorstand bewertet die Entwicklung sehr positiv, sieht aber weiterhin Verbesserungspotenzial bei den Leistungen.",
+    "Winteroption Hirsch: Im Januar könnte ein ZM verkauft und Alexander Hirsch (16, 69 OVR, 90+ Potenzial, ZDM) aus der Jugendakademie hochgezogen werden. Vorstand hält die interne Lösung für prüfenswert, will die sportliche Bereitschaft von Hirsch und die Bedeutung des abzugebenden ZM vorher bewerten."
   ],
   "matches": [
     {
@@ -675,10 +676,11 @@
       "priority": [
         "ZM"
       ],
-      "status": "Beobachten",
-      "managerIdea": "Möglichen ZM verkaufen und durch neues Personal ersetzen.",
-      "boardPosition": "Nur bei konkretem Abgang und klarer sportlicher Verbesserung. Andere Positionen aktuell ohne Bedarf.",
-      "contingency": "Nach weiterem lukrativen Abgang wird die betroffene Position neu bewertet."
+      "status": "Beobachten / mögliche interne Lösung",
+      "managerIdea": "Im Januar eventuell einen ZM verkaufen und Alexander Hirsch aus der Jugendakademie hochziehen.",
+      "boardPosition": "Prüfenswerte Option. Vor einem Verkauf muss aber geklärt sein, ob Hirsch sportlich bereits konkurrenzfähig ist und der abgebende ZM nicht zu wichtig für die Belastungssteuerung ist.",
+      "contingency": "Nach weiterem lukrativen Abgang wird die betroffene Position neu bewertet.",
+      "alternatives": "Externer ZM nur notwendig, falls Verkauf stattfindet und Hirsch noch nicht bereit ist oder die Kaderqualität nicht ausreicht."
     }
   },
   "suspensions": {
@@ -803,12 +805,14 @@
         "answers": {
           "henningJakobsen": "Henning und Jakobsen sollen sich die Position ungefähr 50/50 teilen.",
           "winterPlan": "Ein ZM könnte verkauft und durch neues Personal ersetzt werden. Auf anderen Positionen besteht aktuell kein Bedarf.",
-          "contingency": "Bei einem weiteren lukrativen Abgang wird der entsprechende Kaderbedarf neu bewertet."
+          "contingency": "Bei einem weiteren lukrativen Abgang wird der entsprechende Kaderbedarf neu bewertet.",
+          "winterHirsch": "Im Januar eventuell einen ZM verkaufen und Alexander Hirsch aus der Jugendakademie hochziehen."
         },
         "boardOpinion": {
           "henningJakobsen": "Zustimmung. Eine echte 50/50-Rotation schafft sportlichen Wettbewerb und rechtfertigt Hennings offizielle Rolle Rotation.",
           "winterPlan": "Grundsätzlich Zustimmung, aber nur bei einem klaren sportlichen Upgrade. Der Vorstand möchte keinen ZM-Verkauf ohne belastbaren Ersatzplan.",
-          "contingency": "Zustimmung. Ein lukrativer Abgang soll nicht automatisch kompensiert werden; nur bei entstehendem konkretem Bedarf wird reinvestiert."
+          "contingency": "Zustimmung. Ein lukrativer Abgang soll nicht automatisch kompensiert werden; nur bei entstehendem konkretem Bedarf wird reinvestiert.",
+          "winterHirsch": "Interessante interne Lösung. Der Vorstand bevorzugt grundsätzlich, ein hochpotenzielles Akademietalent zu fördern, sofern Hirsch im Januar bereits konkurrenzfähig ist."
         }
       }
     }
