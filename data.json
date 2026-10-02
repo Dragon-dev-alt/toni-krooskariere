@@ -166,6 +166,20 @@
       "ovr": 61,
       "potential": 70,
       "notes": "Vertrag soll nicht verlängert werden. Vorstand plant, im nächsten Sommer einen Abgang anzustreben."
+    },
+    {
+      "name": "Robert Tesche",
+      "role": "ZM · erfahrene Reserve",
+      "status": "Bleibt bis Saisonende",
+      "age": 39,
+      "notes": "Möchte seine Karriere voraussichtlich am Saisonende beenden und dies beim VfL Osnabrück tun. Vorstand unterstützt einen Verbleib bis Saisonende."
+    },
+    {
+      "name": "Bjarke Jacobsen",
+      "role": "ZM",
+      "status": "Auf Transferliste",
+      "contractRemaining": "6 Monate",
+      "notes": "Vertrag läuft in 6 Monaten aus; bislang keine Verlängerungsinitiative. Im Winter auf Transferliste."
     }
   ],
   "sales": [
@@ -639,7 +653,8 @@
     "Ismail Badjie: Trainerangebot liegt bei Wichtig, 3 Jahre, 3.700 €/Woche und 20.500 € Handgeld. Gehalt liegt im Vorstandskorridor, Handgeld über der bisherigen internen Linie; Ergebnis wird abgewartet.",
     "Ismail Badjie: Verlängerung final. Spieler akzeptiert Wichtig, 3 Jahre, 3.700 €/Woche und 20.500 € Handgeld. Keine Boni, keine Ausstiegsklausel.",
     "1.1. Tabellenstand: Platz 5, 28 Punkte aus 17 Spielen, 8 Siege/4 Unentschieden/5 Niederlagen, 29:19 Tore. Zwei Punkte Rückstand auf Platz 4, elf auf Wolfsburg. Januar-Bewertung des Saisonziels und Entscheidung zu Hirsch/Tesche stehen an.",
-    "1.1. Beschlüsse: Offizielles Ziel bleibt Klassenerhalt, intern wird ein Aufstiegsrennen als Hoffnung zugelassen. Alexander Hirsch wird hochgezogen. Robert Tesche soll aktiv angeboten werden. Mats Remberg ist als 3. Keeper keine Top-Priorität bei Verlängerung und hat noch nicht geantwortet. Budget: 882.500 €. Rembergs Position im Dashboard auf TW korrigiert."
+    "1.1. Beschlüsse: Offizielles Ziel bleibt Klassenerhalt, intern wird ein Aufstiegsrennen als Hoffnung zugelassen. Alexander Hirsch wird hochgezogen. Robert Tesche soll aktiv angeboten werden. Mats Remberg ist als 3. Keeper keine Top-Priorität bei Verlängerung und hat noch nicht geantwortet. Budget: 882.500 €. Rembergs Position im Dashboard auf TW korrigiert.",
+    "Tesche/Jakobsen Winterentscheidung: Nach Trainer-Gespräch wird Robert Tesche von der Verkaufsliste genommen. Mit 39 möchte er seine Karriere voraussichtlich am Saisonende beim VfL beenden; Vorstand unterstützt dies. Bjarke Jacobsen hat nur noch 6 Monate Vertrag und bislang keine Verlängerungsinitiative gezeigt, daher wird er auf die Transferliste gesetzt."
   ],
   "matches": [
     {
@@ -758,18 +773,21 @@
       "boardPosition": "Zustimmung. Für einen Platz im Profikader soll möglichst ein ZM abgegeben werden.",
       "contingency": "Nach weiterem lukrativen Abgang wird die betroffene Position neu bewertet.",
       "alternatives": "Externer ZM nur notwendig, falls Verkauf stattfindet und Hirsch noch nicht bereit ist oder die Kaderqualität nicht ausreicht.",
-      "hirschStatus": "Hirsch aktuell 71 OVR / 95 POT; damit deutlich interessanter Kandidat für einen möglichen Hochzug im Januar.",
+      "hirschStatus": "Hirsch 71 OVR / 95 POT; Hochzug im Januar bleibt geplant.",
       "preferredSaleCandidate": {
-        "name": "Robert Tesche",
-        "reason": "Erfahrener Reserve-ZM mit geringerer strategischer Bedeutung als Wagner, Henning oder Jakobsen.",
-        "condition": "Nur bei marktgerechtem Angebot; kein Verkauf unter Wert."
+        "name": "Bjarke Jacobsen",
+        "reason": "Nur noch 6 Monate Vertrag und bisher keine Bereitschaft zur Verlängerung.",
+        "condition": "Transferliste; Verkauf nur bei angemessenem Angebot.",
+        "previousCandidate": "Robert Tesche",
+        "previousCandidateDecision": "Von der Verkaufsliste genommen; bleibt bis Saisonende."
       },
       "alternativeSaleCandidates": [
         "Fridolin Wagner nur bei attraktivem Angebot und wenn die sportliche Tiefe mit Hirsch/Jakobsen gesichert ist.",
         "Henning und Jakobsen sind derzeit nicht als bevorzugte Abgänge vorgesehen."
       ],
       "externalReplacement": "Nicht vorgesehen, solange Hirsch im Januar konkurrenzfähig ist.",
-      "note2": "Theo Jannotta wird nicht verlängert; möglicher Abgang im Sommer 2027."
+      "note2": "Theo Jannotta wird nicht verlängert; möglicher Abgang im Sommer 2027.",
+      "teschePlan": "Nicht verkaufen. Vorstand unterstützt, dass Tesche seine vermutlich letzte Saison beim VfL beendet."
     },
     "summer2027": {
       "jannotta": "Abgang anstreben – keine Vertragsverlängerung"
@@ -951,14 +969,16 @@
         "hirsch": "Alexander Hirsch wird im Januar hochgezogen.",
         "tesche": "Robert Tesche soll im Winter aktiv für einen Verkauf angeboten werden.",
         "remberg": "Remberg hat noch nicht geantwortet. Als 3. Keeper ist seine Vertragsverlängerung aktuell keine Top-Priorität.",
-        "budget": "Aktuelles Transferbudget: 882.500 €."
+        "budget": "Aktuelles Transferbudget: 882.500 €.",
+        "tescheJakobsen": "Tesche bleibt bis Saisonende und darf seine Karriere beim VfL ausklingen lassen. Jacobsen wird wegen nur 6 Monaten Restvertrag und fehlender Verlängerungsinitiative auf die Transferliste gesetzt."
       },
       "boardOpinion": {
         "seasonTarget": "Zustimmung. Der Vorstand unterstützt die Trennung zwischen offiziellem Ziel und interner Ambition. Wir wollen keinen künstlichen Druck durch eine offizielle Zieländerung erzeugen.",
         "hirsch": "Zustimmung. Hochzug wird umgesetzt; bei 71 OVR und 95 POT ist Hirsch bereit, die nächste Stufe zu gehen.",
         "tesche": "Zustimmung. Tesche bleibt der bevorzugte Kandidat für einen ZM-Abgang, sofern ein marktgerechtes Angebot eingeht.",
         "remberg": "Zustimmung. Als 3. Keeper ist eine Verlängerung derzeit nachrangig. Wir können die Entscheidung des Spielers abwarten.",
-        "budget": "Der Vorstand nimmt 882.500 € als aktuellen Save-Stand zur Kenntnis und will das Budget bei der Winterplanung gezielt einsetzen."
+        "budget": "Der Vorstand nimmt 882.500 € als aktuellen Save-Stand zur Kenntnis und will das Budget bei der Winterplanung gezielt einsetzen.",
+        "tescheJakobsen": "Zustimmung. Bei Tesche hat der sportliche und menschliche Wert seines letzten Halbjahres Vorrang vor einem kleinen möglichen Transfererlös. Bei Jacobsen ist die Transferliste sinnvoll: So haben wir vor Vertragsende die Option auf eine Ablöse, statt ihn im Sommer ablösefrei zu verlieren."
       }
     }
   ],
