@@ -296,14 +296,14 @@
     },
     "MaxAdams": {
       "role": "Perspektivprofi",
-      "years": 3,
+      "years": 5,
       "weeklyWage": 1600,
       "entryBonus": 83200,
       "performanceBonuses": [],
       "releaseClause": null,
       "negotiationMax": {
         "role": "Perspektivprofi",
-        "years": 3,
+        "years": 5,
         "weeklyWage": 1800,
         "entryBonus": 93600,
         "releaseClause": null
@@ -355,11 +355,13 @@
       "player": "Max Adams",
       "club": "vereinslos",
       "fee": 0,
-      "status": "Spieler fordert Rotation – Vorstand macht Gegenangebot",
+      "status": "Spieler fordert Rotation – Vorstand bietet 5 Jahre Perspektivprofi",
       "role": "Perspektivprofi",
-      "years": 3,
+      "years": 5,
       "weeklyWage": 1600,
-      "mandatorySigningBonus": 83200
+      "mandatorySigningBonus": 83200,
+      "performanceBonuses": [],
+      "releaseClause": null
     }
   ],
   "strikerTargets": [
@@ -386,7 +388,6 @@
     "Matviy Ponomar: für 2.300.000 € von Dynamo Kiew verpflichtet. Vertrag: 4 Jahre, 6.000 €/Woche, Rolle Wichtig, keine Boni, keine Ausstiegsklausel.",
     "Ismail Badjie: wird künftig auf der linken Seite (LF) eingesetzt.",
     "Neue Vereinsregel: Jeder ablösefreie Neuzugang muss ein Jahresgehalt als verpflichtenden Einstiegsbonus erhalten.",
-    "Max Adams: vereinslos, 18 Jahre, 62 OVR, 66–70 POT, RV/LV. Vorstand erwägt Perspektivprofi mit 1.600 €/Woche und 83.200 € verpflichtendem Einstiegsbonus.",
     "Patrick Kammerbauer: Vertrag verlängert. Rolle Wichtig, 2 Jahre, 5.300 €/Woche, 50.000 € Handgeld, keine Leistungsboni, keine Ausstiegsklausel.",
     "IV-Shortlist: David Odogu (65/83, Wert 1,8 Mio.), Vince Osuji (66/80, Wert 1,9 Mio.) und Jakob Schöller (66/80, Wert 1,9 Mio.). Tempo wurde noch nicht bewertet, da keine Tempo-Werte vorliegen.",
     "IV-Entscheidung: Jakob Schöller wird zum Topziel. 85 Tempo, 66 OVR/80 POT, CB/RB und 4.300 € Referenzgehalt passen am besten. Zielablöse 1,7 Mio. €, absolute Obergrenze 1,8 Mio. €.",
@@ -395,8 +396,8 @@
     "Jakob Schöller: SK Rapid hat 1.700.000 € Ablöse akzeptiert. Vertragsverhandlung steht noch aus. Transferbudget nach Ablöse: 1.937.000 €.",
     "Jakob Schöller: für 1.700.000 € verpflichtet. Vertrag: 4 Jahre, Rolle Wichtig, 4.500 €/Woche, kein Handgeld, keine Leistungsboni, keine Ausstiegsklausel.",
     "Budgetkorrektur: Aktuelles im Spiel angezeigtes Transferbudget beträgt 1.721.000 €. Der vom Nutzer angegebene Ingame-Wert gilt als maßgeblich; Differenz zum bisherigen Dashboardstand (1.937.000 €) von 216.000 € ist bisher nicht aufgeschlüsselt.",
-    "Max Adams: Vorstand gibt die Verpflichtung grundsätzlich frei. Geplanter Vertrag: 3 Jahre, Perspektivprofi, 1.600 €/Woche, verpflichtendes Handgeld von 83.200 € (1 Jahresgehalt), keine Leistungsboni, keine Ausstiegsklausel. Noch nicht als verpflichtet verbuchen.",
-    "Max Adams fordert die Rolle Rotation. Vorstand lehnt das ab und bietet Perspektivprofi an: 3 Jahre, 1.600 €/Woche, 83.200 € Pflicht-Handgeld, keine Boni, keine Ausstiegsklausel."
+    "Max Adams fordert die Rolle Rotation. Vorstand lehnt das ab und bietet Perspektivprofi an: 3 Jahre, 1.600 €/Woche, 83.200 € Pflicht-Handgeld, keine Boni, keine Ausstiegsklausel.",
+    "Max Adams: Vorstand bietet nun 5 Jahre statt 3. Rolle bleibt Perspektivprofi. 1.600 €/Woche, 83.200 € Pflicht-Handgeld, keine Boni, keine Ausstiegsklausel. Maximales Gehalt 1.800 €/Woche."
   ],
   "matches": [
     {
