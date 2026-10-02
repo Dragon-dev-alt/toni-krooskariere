@@ -359,7 +359,8 @@
     "Ismail Badjie: wird künftig auf der linken Seite (LF) eingesetzt.",
     "Neue Vereinsregel: Jeder ablösefreie Neuzugang muss ein Jahresgehalt als verpflichtenden Einstiegsbonus erhalten.",
     "Max Adams: vereinslos, 18 Jahre, 62 OVR, 66–70 POT, RV/LV. Vorstand erwägt Perspektivprofi mit 1.600 €/Woche und 83.200 € verpflichtendem Einstiegsbonus.",
-    "Patrick Kammerbauer: Vertrag verlängert. Rolle Wichtig, 2 Jahre, 5.300 €/Woche, 50.000 € Handgeld, keine Leistungsboni, keine Ausstiegsklausel."
+    "Patrick Kammerbauer: Vertrag verlängert. Rolle Wichtig, 2 Jahre, 5.300 €/Woche, 50.000 € Handgeld, keine Leistungsboni, keine Ausstiegsklausel.",
+    "IV-Shortlist: David Odogu (65/83, Wert 1,8 Mio.), Vince Osuji (66/80, Wert 1,9 Mio.) und Jakob Schöller (66/80, Wert 1,9 Mio.). Tempo wurde noch nicht bewertet, da keine Tempo-Werte vorliegen."
   ],
   "matches": [
     {
@@ -374,5 +375,43 @@
     "weeklyWage": 1600,
     "annualWage": 83200,
     "mandatorySigningBonus": 83200
-  }
+  },
+  "ivTargets": [
+    {
+      "name": "David Odogu",
+      "club": "Toulouse FC",
+      "age": 20,
+      "ovr": 65,
+      "pot": 83,
+      "position": "CB",
+      "value": 1800000,
+      "weeklyWage": 4600,
+      "role": "CB Def",
+      "boardStatus": "Favorit des Vorstands unter Preisvorbehalt"
+    },
+    {
+      "name": "Vince Osuji",
+      "club": "Club Brügge",
+      "age": 20,
+      "ovr": 66,
+      "pot": 80,
+      "position": "CB",
+      "value": 1900000,
+      "weeklyWage": 6800,
+      "role": "CB Def",
+      "boardStatus": "Interessant, Gehalt kritisch"
+    },
+    {
+      "name": "Jakob Schöller",
+      "club": "SK Rapid",
+      "age": 20,
+      "ovr": 66,
+      "pot": 80,
+      "position": "CB/RB",
+      "value": 1900000,
+      "weeklyWage": 4300,
+      "role": "CB Def",
+      "boardStatus": "Interessant, Positionsflexibilität"
+    }
+  ]
 }
