@@ -14,7 +14,10 @@ table{width:100%;border-collapse:collapse}td,th{text-align:left;padding:8px;bord
 <div class="toolbar"><button class="btn" onclick="load()">🔄 Dashboard aktualisieren</button><span id="time" class="muted"></span></div>
 <section class="grid">
 <div class="card"><div class="muted">Transferbudget</div><div id="budget" class="big">–</div><div class="muted">nach aktuellem Save-Stand</div></div>
+<div class="card"><div class="muted">Vorstandszufriedenheit</div><div id="satisfaction" class="big">–</div><div id="satisfactionText" class="muted"></div></div>
+<div class="card"><div class="muted">Offizielle sportliche Ziele</div><div id="goals" class="big" style="font-size:18px">–</div><div id="goalsText" class="muted"></div></div>
 <div class="card"><div class="muted">Formation</div><div id="formation" class="big">–</div><div id="line" class="muted"></div></div>
+<div class="card"><div class="muted">Trainervertrag</div><div id="managerContract" class="big" style="font-size:18px">–</div><div id="managerContractText" class="muted"></div></div>
 <div class="card"><div class="muted">LV</div><div class="big">Mahuta</div><div class="muted">ablösefrei · 4 Jahre · 3.800 €/Woche</div></div>
 <div class="card"><div class="muted">Jugendscout</div><div class="big">🇩🇪 Deutschland</div><div class="muted">9 Monate · 270.000 €</div></div>
 </section>
@@ -40,7 +43,21 @@ const e=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt
 const eur=n=>new Intl.NumberFormat('de-DE',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(n);
 async function load(){try{
 let d=await fetch('data.json?'+Date.now()).then(r=>r.json());
-budget.textContent=eur(d.budget);formation.textContent=d.formation;line.textContent='Linienhöhe: '+d.lineHeight;
+budget.textContent=eur(d.budget);
+formation.textContent=d.formation;
+line.textContent='Linienhöhe: '+d.lineHeight;
+if(d.boardSatisfaction){
+  satisfaction.textContent=(d.boardSatisfaction.score??'–')+'/10';
+  satisfactionText.textContent=e(d.boardSatisfaction.status||'');
+}
+if(d.seasonGoals){
+  goals.textContent=e(d.seasonGoals.primary||'–');
+  goalsText.textContent=e(d.seasonGoals.secondary||'');
+}
+if(d.managerContract){
+  managerContract.textContent=e(d.managerContract.contractEnds||'–');
+  managerContractText.textContent=e((d.managerContract.initialTermYears||'')+' Jahre · '+(d.managerContract.status||''));
+}
 rules.innerHTML=d.rules.map((x,i)=>'<div class="rule"><b>'+(i+1)+'. Vorstandsregel</b>'+e(x)+'</div>').join('');
 priorities.innerHTML=d.priorities.map(x=>'<tr><td><b>'+e(x.position)+'</b></td><td><span class="pill '+(x.priority==='Sehr hoch'?'red':'orange')+'">'+e(x.priority)+'</span></td><td>'+e(x.status)+'</td></tr>').join('');
 players.innerHTML=d.players.map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td>'+e(x.role)+'</td><td><span class="pill">'+e(x.status)+'</span></td></tr>').join('');
