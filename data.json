@@ -140,7 +140,7 @@
     {
       "name": "Fridolin Wagner",
       "role": "ZM",
-      "status": "Vertragsverhandlung / Verlängerungswunsch",
+      "status": "Vertragsverhandlung – Spieler fordert Wichtig",
       "age": 25,
       "ovr": 65,
       "potential": 66,
@@ -148,13 +148,22 @@
       "contractRemaining": "1 Jahr 6 Monate",
       "appearances": 19,
       "averageRating": 6.56,
-      "notes": "Möchte verlängern. Vorstand bewertet die Saisonleistung bisher als solide, aber nicht herausragend."
+      "notes": "19 Einsätze, Ø 6,56. Spieler möchte die Rolle Wichtig."
     },
     {
       "name": "Mats Remberg",
       "role": "ZM",
       "status": "Verlängerungsentscheidung offen",
       "notes": "Spieler ist unsicher, ob er seinen Vertrag verlängern möchte. Vertragsdetails werden für ein konkretes Angebot noch benötigt."
+    },
+    {
+      "name": "Theo Jannotta",
+      "role": "IV-Reserve",
+      "status": "keine Vertragsverlängerung geplant",
+      "age": 18,
+      "ovr": 61,
+      "potential": 70,
+      "notes": "Vertrag soll nicht verlängert werden. Vorstand plant, im nächsten Sommer einen Abgang anzustreben."
     }
   ],
   "sales": [
@@ -451,14 +460,19 @@
       "status": "Verhandlung läuft – Spieler fordert Schlüsselspieler"
     },
     "FridolinWagner": {
-      "role": "Rotation",
-      "extensionYears": 2,
-      "weeklyWage": 4000,
+      "role": "Wichtig",
+      "extensionYears": 1,
+      "weeklyWage": 4400,
       "entryBonus": 0,
       "performanceBonuses": [],
       "releaseClause": null,
-      "status": "Vorstandsangebot – Spielerentscheidung ausstehend",
-      "boardAssessment": "19 Einsätze bei Ø 6,56 sind solide, rechtfertigen aktuell aber keine wichtigere Rolle. Die Verlängerung zu leicht reduziertem Gehalt hält die Gehaltsstruktur im Rahmen."
+      "status": "Kompromissangebot des Vorstands – Spielerentscheidung ausstehend",
+      "boardAssessment": "Der Vorstand ist bereit, wegen 19 Einsätzen und seiner regelmäßigen Startelfrolle auf Wichtig zuzugehen, will dies aber nur mit kurzer Bindung ohne Gehaltserhöhung. Eine längere Verlängerung wird wegen Ø 6,56 und der geplanten Konkurrenz im ZM nicht unterstützt."
+    },
+    "TheoJannotta": {
+      "status": "Keine Verlängerung",
+      "plan": "Im Sommer Abgang anstreben",
+      "note": "Trainerempfehlung übernommen; Vorstand sieht aktuell keine Notwendigkeit für eine Bindung über den laufenden Vertrag hinaus."
     }
   },
   "contracts": {
@@ -595,7 +609,9 @@
     "1.12. Tabellenstand: Osnabrück Platz 6, 24 Punkte aus 14 Spielen, 7 Siege/3 Unentschieden/4 Niederlagen, 20:16 Tore. Wolfsburg Platz 1 mit 30 Punkten. Vorstandssitzung eröffnet.",
     "1.12. Ergänzende Vorstandslinie: Badjie möchte grundsätzlich verlängern, fordert Schlüsselspieler; diese Rolle wird ausgeschlossen. Rotation bleibt Ausgangsposition, Wichtig nur bei deutlicher Leistungssteigerung. Für die Winter-ZM-Planung unterstützt der Vorstand Hirschs Hochzug ohne externen Zugang. Bevorzugter Abgang: Robert Tesche, sofern marktgerechtes Angebot vorliegt.",
     "Fridolin Wagner: 1 Jahr 6 Monate Restlaufzeit, 4.400 €/Woche, 19 Einsätze, Ø 6,56. Spieler möchte verlängern. Vorstand bietet Rotation, +2 Jahre, 4.000 €/Woche, keine Boni/Klausel.",
-    "Mats Remberg: Spieler ist unsicher bezüglich Verlängerung. Konkrete Verhandlung erst nach Klärung von Restlaufzeit, aktuellem Gehalt und gewünschter Rolle."
+    "Mats Remberg: Spieler ist unsicher bezüglich Verlängerung. Konkrete Verhandlung erst nach Klärung von Restlaufzeit, aktuellem Gehalt und gewünschter Rolle.",
+    "Theo Jannotta: Keine Vertragsverlängerung geplant; im Sommer 2027 soll ein Abgang angestrebt werden.",
+    "Fridolin Wagner: Spieler fordert Rolle Wichtig. Vorstand geht als Kompromiss auf Wichtig zu, aber nur für +1 Jahr, 4.400 €/Woche, ohne Handgeld, Boni oder Ausstiegsklausel."
   ],
   "matches": [
     {
@@ -724,7 +740,11 @@
         "Fridolin Wagner nur bei attraktivem Angebot und wenn die sportliche Tiefe mit Hirsch/Jakobsen gesichert ist.",
         "Henning und Jakobsen sind derzeit nicht als bevorzugte Abgänge vorgesehen."
       ],
-      "externalReplacement": "Nicht vorgesehen, solange Hirsch im Januar konkurrenzfähig ist."
+      "externalReplacement": "Nicht vorgesehen, solange Hirsch im Januar konkurrenzfähig ist.",
+      "note2": "Theo Jannotta wird nicht verlängert; möglicher Abgang im Sommer 2027."
+    },
+    "summer2027": {
+      "jannotta": "Abgang anstreben – keine Vertragsverlängerung"
     }
   },
   "suspensions": {
@@ -981,6 +1001,15 @@
         "releaseClause": null,
         "status": "Vorstandsangebot – Spielerentscheidung ausstehend",
         "boardAssessment": "19 Einsätze bei Ø 6,56 sind solide, rechtfertigen aktuell aber keine wichtigere Rolle. Die Verlängerung zu leicht reduziertem Gehalt hält die Gehaltsstruktur im Rahmen."
+      },
+      "playerDemandRole": "Wichtig",
+      "boardCounter": {
+        "role": "Wichtig",
+        "extensionYears": 1,
+        "weeklyWage": 4400,
+        "signingBonus": 0,
+        "performanceBonuses": [],
+        "releaseClause": null
       }
     },
     "Remberg": {
