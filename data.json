@@ -491,7 +491,8 @@
     "Jannik Müller fordert ausschließlich die Rolle Schlüsselspieler. Vorstand akzeptiert diese Rolle wegen Kapitänsstatus und Stamm-IV-Funktion, bleibt beim Gehalt streng: Startangebot 7.800 €/Woche, 3 Jahre zusätzlich, keine Boni, keine neue Ausstiegsklausel; absolute Grenze 8.200 €/Woche.",
     "Jannik Müller: Spieler fordert Schlüsselspieler, +1 Jahr, 7.800 €/Woche und 15.000 € Handgeld. Vorstand akzeptiert die Forderung.",
     "Ismail Badjie: Vertrag läuft am Saisonende aus. Spieler ist aktuell unschlüssig, ob er verlängern möchte. Vorstand unterbreitet vorerst kein Angebot und beobachtet Entwicklung/Saisonverlauf.",
-    "1.9. Vorstandssitzung: Saisonstart wird mit Platz 11 und 5 Punkten aus 4 Spielen positiv bewertet. Wagner–González–Henning bleibt die bevorzugte ZM-Besetzung; Jakobsen spielt häufiger für Wagner. Henning-Neubewertung Ende Oktober bleibt bestehen. Badjie soll mehr Einsatzzeit erhalten; Verlängerung wird optimistisch gesehen. Budget auf 1.344.400 € aktualisiert."
+    "1.9. Vorstandssitzung: Saisonstart wird mit Platz 11 und 5 Punkten aus 4 Spielen positiv bewertet. Wagner–González–Henning bleibt die bevorzugte ZM-Besetzung; Jakobsen spielt häufiger für Wagner. Henning-Neubewertung Ende Oktober bleibt bestehen. Badjie soll mehr Einsatzzeit erhalten; Verlängerung wird optimistisch gesehen. Budget auf 1.344.400 € aktualisiert.",
+    "1.10. Vorstandssitzung: Platz 4 nach 7 Spielen, 14 Punkte, 4 Siege/2 Unentschieden/1 Niederlage, 10:7 Tore. Robin Henning: 11 Einsätze, Ø 6,92. Oktober-Termin zur Vertragsbewertung erreicht."
   ],
   "matches": [
     {
@@ -509,6 +510,15 @@
       "redCard": "Jakob Schöller",
       "status": "Liga",
       "suspension": 1
+    },
+    {
+      "date": "1.10.",
+      "competition": "2. Bundesliga",
+      "status": "Zwischenstand nach 7 Spieltagen",
+      "result": "Platz 4, 14 Punkte",
+      "record": "4 Siege, 2 Unentschieden, 1 Niederlage",
+      "goals": "10:7",
+      "note": "Vom Manager gemeldeter Zwischenstand"
     }
   ],
   "freeAgentRuleExample": {
@@ -654,6 +664,16 @@
         "budget": "Aktuelles Transferbudget aufgrund von Handgeldern und Jugendspielern: 1.344.400 €."
       },
       "decision": "Vorstand nimmt den guten Saisonstart positiv auf, bestätigt die Mittelfeldplanung und den Henning-Termin Ende Oktober. Badjie soll über mehr Spielzeit gehalten werden. Budget wird auf 1.344.400 € aktualisiert."
+    },
+    {
+      "date": "1.10.",
+      "answers": {
+        "table": "Platz 4 nach 7 Spielen, 14 Punkte.",
+        "record": "4 Siege, 2 Unentschieden, 1 Niederlage.",
+        "goals": "10:7.",
+        "henning": "Robin Henning: 11 Einsätze, Durchschnittsrating 6,92."
+      },
+      "status": "Sitzung eröffnet – Oktober-Bewertung von Henning auf Basis der aktuellen Leistungen."
     }
   ],
   "boardMeetingFormat": {
@@ -675,6 +695,10 @@
     {
       "date": "1.9.",
       "result": "Guter Saisonstart: Platz 11, 5 Punkte/4 Spiele, Torverhältnis 4:5. Mittelfeldplanung bestätigt. Henning bleibt bis Ende Oktober unter Beobachtung. Badjie erhält mehr Einsatzzeit. Budget: 1.344.400 €."
+    },
+    {
+      "date": "1.10.",
+      "result": "Platz 4 nach 7 Spieltagen mit 14 Punkten (4S/2U/1N, 10:7). Henning steht nach 11 Einsätzen bei 6,92 Durchschnittsrating. Vorstand bewertet die sportliche Lage positiv und überprüft jetzt die Vertragsstrategie für Henning."
     }
   ],
   "seasonGoals": {
@@ -686,6 +710,14 @@
     "RobinHenning": {
       "reviewDate": "2026-10-31",
       "criterion": "Leistung bis Ende Oktober"
+    },
+    "Henning": {
+      "contractEnds": "Ende der Saison",
+      "currentWeeklyWage": 4200,
+      "averageRating": 6.92,
+      "appearances": 11,
+      "status": "Bewertung vorgezogen zum Oktober-Termin",
+      "boardAssessment": "Sportlich derzeit solide, aber nicht zwingend auf dem Niveau einer Schlüsselrolle. Vorstand bleibt bei Rotation als Vertragsrahmen."
     }
   },
   "academyProspects": [
