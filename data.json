@@ -168,9 +168,83 @@
   ],
   "academy": [
     {
+      "name": "Özgür Burakgazi",
+      "age": 15,
+      "ovr": 63,
+      "potential": "82",
+      "position": "GK",
+      "secondaryPositions": [],
+      "country": "Türkei",
+      "role": "Jugendakademie",
+      "status": "aktiv"
+    },
+    {
+      "name": "Otto Riedel",
+      "age": 16,
+      "ovr": 69,
+      "potential": "86",
+      "position": "CB",
+      "secondaryPositions": [
+        "RM",
+        "LB"
+      ],
+      "country": "Deutschland",
+      "role": "Jugendakademie",
+      "status": "aktiv"
+    },
+    {
+      "name": "Thomas Vogel",
+      "age": 14,
+      "ovr": 67,
+      "potential": "92",
+      "position": "LB",
+      "secondaryPositions": [
+        "CB"
+      ],
+      "country": "Deutschland",
+      "role": "Jugendakademie",
+      "status": "aktiv"
+    },
+    {
+      "name": "Nick Adam",
+      "age": 15,
+      "ovr": 65,
+      "potential": "83",
+      "position": "CDM",
+      "secondaryPositions": [],
+      "country": "Deutschland",
+      "role": "Jugendakademie",
+      "status": "aktiv"
+    },
+    {
+      "name": "Andreas Vogel",
+      "age": 15,
+      "ovr": 65,
+      "potential": "83",
+      "position": "CDM",
+      "secondaryPositions": [],
+      "country": "Deutschland",
+      "role": "Jugendakademie",
+      "status": "aktiv"
+    },
+    {
+      "name": "Alexander Hirsch",
+      "age": 16,
+      "ovr": 71,
+      "potential": "95",
+      "position": "CM",
+      "secondaryPositions": [
+        "CDM"
+      ],
+      "country": "Deutschland",
+      "role": "Jugendakademie",
+      "status": "aktiv",
+      "note": "Stark weiterentwickelt; OVR jetzt 71."
+    },
+    {
       "name": "Matthis Vetter",
       "age": 15,
-      "ovr": 70,
+      "ovr": 71,
       "potential": "97",
       "position": "CAM",
       "secondaryPositions": [
@@ -179,74 +253,8 @@
       ],
       "country": "Deutschland",
       "role": "Jugendakademie",
-      "note": "Neuzugang aus dem Oktober-Scoutingbericht; hohes Entwicklungspotenzial."
-    },
-    {
-      "name": "Andreas Vogel",
-      "age": 14,
-      "ovr": 64,
-      "potential": "83",
-      "position": "ZDM",
-      "secondaryPositions": [],
-      "country": "Deutschland",
-      "role": "Jugendakademie"
-    },
-    {
-      "name": "Alexander Hirsch",
-      "age": 16,
-      "ovr": 69,
-      "potential": "95",
-      "position": "ZDM",
-      "secondaryPositions": [],
-      "country": "Deutschland",
-      "role": "Jugendakademie",
-      "note": "Bereits im September aus dem Scout-Bericht verpflichtet; noch nicht hochgezogen."
-    },
-    {
-      "name": "Thomas Vogel",
-      "age": 14,
-      "ovr": 67,
-      "potential": "92",
-      "position": "LV",
-      "secondaryPositions": [
-        "IV"
-      ],
-      "country": "Deutschland",
-      "role": "Jugendakademie",
-      "note": "Neuzugang aus dem Oktober-Scoutingbericht; hohes Entwicklungspotenzial."
-    },
-    {
-      "name": "Nick Adam",
-      "age": 14,
-      "ovr": 64,
-      "potential": "83",
-      "position": "ZDM",
-      "secondaryPositions": [],
-      "country": "Deutschland",
-      "role": "Jugendakademie"
-    },
-    {
-      "name": "Otto Riedel",
-      "age": 15,
-      "ovr": 69,
-      "potential": "86",
-      "position": "IV",
-      "secondaryPositions": [
-        "RV",
-        "LV"
-      ],
-      "country": "Deutschland",
-      "role": "Jugendakademie"
-    },
-    {
-      "name": "Özgür Burakgazi",
-      "age": 14,
-      "ovr": 63,
-      "potential": "82",
-      "position": "TW",
-      "secondaryPositions": [],
-      "country": "Türkei",
-      "role": "Jugendakademie"
+      "status": "aktiv",
+      "note": "Stark weiterentwickelt; OVR jetzt 71."
     }
   ],
   "scouting": {
@@ -562,7 +570,8 @@
     "November: Mittelfeld-/Winterplanung: Henning und Jakobsen sollen sich die Position ungefähr 50/50 teilen. Ein ZM-Verkauf mit Ersatz ist als mögliche Wintermaßnahme vorgesehen; aktuell besteht auf keiner anderen Position Bedarf. Bei einem weiteren lukrativen Abgang wird der entsprechende Bedarf neu bewertet.",
     "Henning-Verlängerung final: Spieler stimmt Rotation, 3 Jahren, 4.100 €/Woche und 20.000 € Handgeld zu. Keine Boni, keine Ausstiegsklausel.",
     "Mario Silva Entwicklung: 16 Jahre, 5 Scorer in 15 Spielen, Ø 7,07, ca. 6 Mio. € Marktwert. Vorstand bewertet die Entwicklung sehr positiv, sieht aber weiterhin Verbesserungspotenzial bei den Leistungen.",
-    "Winteroption Hirsch: Im Januar könnte ein ZM verkauft und Alexander Hirsch (16, 69 OVR, 90+ Potenzial, ZDM) aus der Jugendakademie hochgezogen werden. Vorstand hält die interne Lösung für prüfenswert, will die sportliche Bereitschaft von Hirsch und die Bedeutung des abzugebenden ZM vorher bewerten."
+    "Winteroption Hirsch: Im Januar könnte ein ZM verkauft und Alexander Hirsch (16, 69 OVR, 90+ Potenzial, ZDM) aus der Jugendakademie hochgezogen werden. Vorstand hält die interne Lösung für prüfenswert, will die sportliche Bereitschaft von Hirsch und die Bedeutung des abzugebenden ZM vorher bewerten.",
+    "Aktuelle Jugendakademie (letzter Bericht): Özgür Burakgazi 15/63/82 GK; Otto Riedel 16/69/86 CB; Thomas Vogel 14/67/92 LB/CB; Nick Adam 15/65/83 CDM; Andreas Vogel 15/65/83 CDM; Alexander Hirsch 16/71/95 CM/CDM; Matthis Vetter 15/71/97 CAM/LW/RW. Besonders Hirsch und Vetter entwickeln sich stark und liegen bereits bei 71 OVR."
   ],
   "matches": [
     {
@@ -678,9 +687,10 @@
       ],
       "status": "Beobachten / mögliche interne Lösung",
       "managerIdea": "Im Januar eventuell einen ZM verkaufen und Alexander Hirsch aus der Jugendakademie hochziehen.",
-      "boardPosition": "Prüfenswerte Option. Vor einem Verkauf muss aber geklärt sein, ob Hirsch sportlich bereits konkurrenzfähig ist und der abgebende ZM nicht zu wichtig für die Belastungssteuerung ist.",
+      "boardPosition": "Hirsch ist aufgrund 71 OVR inzwischen näher an der Profireife. Vor einem Hochzug bleibt eine Prüfung von Kaderbedarf und Einsatzperspektive notwendig.",
       "contingency": "Nach weiterem lukrativen Abgang wird die betroffene Position neu bewertet.",
-      "alternatives": "Externer ZM nur notwendig, falls Verkauf stattfindet und Hirsch noch nicht bereit ist oder die Kaderqualität nicht ausreicht."
+      "alternatives": "Externer ZM nur notwendig, falls Verkauf stattfindet und Hirsch noch nicht bereit ist oder die Kaderqualität nicht ausreicht.",
+      "hirschStatus": "Hirsch aktuell 71 OVR / 95 POT; damit deutlich interessanter Kandidat für einen möglichen Hochzug im Januar."
     }
   },
   "suspensions": {
