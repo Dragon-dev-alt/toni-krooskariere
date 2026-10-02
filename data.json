@@ -347,18 +347,12 @@
   "contractOffers": {
     "RobinHenning": {
       "role": "Rotation",
-      "years": 3,
+      "extensionYears": 3,
       "weeklyWage": 3800,
       "entryBonus": 0,
       "performanceBonuses": [],
       "releaseClause": null,
-      "negotiationMax": {
-        "role": "Rotation",
-        "weeklyWage": 4200,
-        "years": 3,
-        "entryBonus": 0,
-        "releaseClause": null
-      }
+      "status": "Rahmenbedingungen vom Vorstand festgelegt"
     },
     "NiklasSauter": {
       "role": "Rotation",
@@ -540,7 +534,8 @@
     "Vorstandszufriedenheit: aktuell 8/10 (hoch). Bewertung erfolgt bei jeder monatlichen Vorstandssitzung und kann bei schlechter sportlicher Entwicklung, verfehlten Zielen oder nicht nachvollziehbaren Entscheidungen deutlich sinken.",
     "Trainervertrag: Toni Kroos hat einen 3-Jahres-Vertrag ab Saison 2026/27 bis Sommer 2029. Bei Vertragsende wird separat verhandelt; eine Verlängerung ist nicht automatisch. Vorzeitige Trennung ist bei anhaltend schlechter Entwicklung, verfehlten Zielen oder wiederholt nicht nachvollziehbaren Entscheidungen möglich.",
     "Topduell gegen VfL Wolfsburg: 1:0 gewonnen. Der starke Saisonstart wird durch einen Sieg gegen einen qualitativ anspruchsvollen Gegner bestätigt.",
-    "Oktober-Scouting Jugendakademie: Zwei neue Talente aufgenommen – Matthis Vetter (15, 70 OVR, 97 Potenzial, CAM, LW/RW) und Thomas Vogel (14, 67 OVR, 92 Potenzial, LV/IV). Beide bleiben zunächst in der Jugendakademie."
+    "Oktober-Scouting Jugendakademie: Zwei neue Talente aufgenommen – Matthis Vetter (15, 70 OVR, 97 Potenzial, CAM, LW/RW) und Thomas Vogel (14, 67 OVR, 92 Potenzial, LV/IV). Beide bleiben zunächst in der Jugendakademie.",
+    "1.11. Vorstandssitzung: Platz 2 mit 23 Punkten aus 10 Spielen (7S/2U/1N, 16:7), ein Spiel weniger als Wolfsburg. DFB-Pokal-Aus gegen Wolfsburg. Henning akzeptiert Rotation; Vorstand bietet 3 Jahre, 3.800 €/Woche, keine Boni/Klausel. Badjie erhält bis 1.12. Bedenkzeit. Vorstandszufriedenheit 9/10."
   ],
   "matches": [
     {
@@ -575,6 +570,23 @@
       "result": "1:0 Sieg",
       "homeAway": "nicht angegeben",
       "note": "Topduell gewonnen"
+    },
+    {
+      "date": "1.11.",
+      "competition": "DFB-Pokal",
+      "opponent": "VfL Wolfsburg",
+      "result": "Ausgeschieden",
+      "score": "nicht angegeben",
+      "note": "Ausscheiden gegen Wolfsburg im DFB-Pokal"
+    },
+    {
+      "date": "1.11.",
+      "competition": "2. Bundesliga",
+      "status": "Zwischenstand nach 10 Spieltagen",
+      "result": "Platz 2, 23 Punkte",
+      "record": "7 Siege, 2 Unentschieden, 1 Niederlage",
+      "goals": "16:7",
+      "note": "Ein Spiel weniger als Tabellenführer VfL Wolfsburg"
     }
   ],
   "freeAgentRuleExample": {
@@ -736,6 +748,16 @@
         "badjie": "Zustimmung. Der Vorstand begrüßt das Gespräch im Oktober und erwartet konkrete Rückmeldung zur Bereitschaft und Perspektive.",
         "seasonTarget": "Zustimmung. Der Vorstand teilt die Vorsicht bei der Bewertung des Tabellenplatzes und will die Ergebnisse gegen stärkere Gegner abwarten."
       }
+    },
+    {
+      "date": "1.11.",
+      "answers": {
+        "league": "Platz 2 mit 23 Punkten nach 10 Spielen; 7 Siege, 2 Unentschieden, 1 Niederlage; 16:7 Tore. Ein Spiel weniger als Wolfsburg.",
+        "cup": "Im DFB-Pokal gegen Wolfsburg ausgeschieden.",
+        "henning": "Rotation akzeptiert; Verlängerung soll auf dieser Basis verhandelt werden.",
+        "badjie": "Bittet noch bis zum 1. Dezember um Bedenkzeit."
+      },
+      "status": "Sitzung eröffnet – November-Bewertung"
     }
   ],
   "boardMeetingFormat": {
@@ -762,14 +784,19 @@
     {
       "date": "1.10.",
       "result": "Platz 4 nach 7 Spieltagen mit 14 Punkten (4S/2U/1N, 10:7). Henning steht nach 11 Einsätzen bei 6,92 Durchschnittsrating. Vorstand bewertet die sportliche Lage positiv und überprüft jetzt die Vertragsstrategie für Henning."
+    },
+    {
+      "date": "1.11.",
+      "result": "Liga: Platz 2, 23 Punkte aus 10 Spielen, 7S/2U/1N, 16:7. DFB-Pokal-Aus gegen Wolfsburg. Henning akzeptiert Rotation; Vertragsrahmen 3 Jahre, 3.800 €/Woche, keine Boni/Klausel. Badjie entscheidet bis 1. Dezember."
     }
   ],
   "seasonGoals": {
     "primary": "Abstieg verhindern",
     "secondary": "In der 2. Bundesliga Fuß fassen",
     "currentOfficialGoal": "Klassenerhalt und Etablierung in der 2. Bundesliga",
-    "januaryReview": "Im Januar erneute Bewertung; nach dem 1:0 gegen Wolfsburg ist der Vorstand offener für eine mögliche interne Zielanpassung, möchte aber weitere Spiele abwarten.",
-    "note": "Der aktuelle 4. Platz führt noch nicht zu einer offiziellen Anhebung des Saisonziels."
+    "januaryReview": "Im Januar erneute Bewertung.",
+    "note": "Der aktuelle 4. Platz führt noch nicht zu einer offiziellen Anhebung des Saisonziels.",
+    "internalOutlook": "Aufgrund von Platz 2 mit 23 Punkten prüft der Vorstand eine mögliche interne Zielanpassung weiter. Eine formale Änderung erfolgt vorerst nicht; Januar bleibt Bewertungstermin."
   },
   "contractReview": {
     "RobinHenning": {
@@ -781,10 +808,20 @@
       "currentWeeklyWage": 4200,
       "averageRating": 6.92,
       "appearances": 11,
-      "status": "Bewertung vorgezogen zum Oktober-Termin",
-      "boardAssessment": "Sportlich derzeit solide, aber nicht zwingend auf dem Niveau einer Schlüsselrolle. Vorstand bleibt bei Rotation als Vertragsrahmen.",
+      "status": "Spieler akzeptiert Rolle Rotation",
+      "boardAssessment": "Nach Anerkennung der Rolle Rotation besteht Bereitschaft zur Verlängerung. Der Vorstand hält 3 Jahre bei 3.800 €/Woche für angemessen.",
       "octoberPlan": "Nächstes Gespräch: zuerst Rotation anbieten; alternativ bei Bedarf Wichtig. Bei Ablehnung beider Lösungen Verkauf im Winter.",
-      "boardPosition": "Rotation bleibt erste Option, Wichtig als Kompromiss möglich."
+      "boardPosition": "Rotation bleibt erste Option, Wichtig als Kompromiss möglich.",
+      "renewalFramework": {
+        "role": "Rotation",
+        "extensionYears": 3,
+        "totalYearsFromNow": 3,
+        "weeklyWage": 3800,
+        "signingBonus": 0,
+        "performanceBonuses": [],
+        "releaseClause": null,
+        "boardMaxWeeklyWage": 4200
+      }
     }
   },
   "academyProspects": [
@@ -804,16 +841,17 @@
     "score": 9,
     "scale": "1–10",
     "status": "sehr hoch",
-    "currentAssessment": "Der Vorstand bewertet die Entwicklung nach dem 1:0 gegen VfL Wolfsburg sehr positiv. Der Sieg gegen einen stärkeren Gegner bestätigt, dass die Mannschaft auch gegen höher einzuschätzende Konkurrenz konkurrenzfähig ist.",
+    "currentAssessment": "Der Vorstand ist mit der bisherigen Saisonleistung sehr zufrieden. Platz 2 mit 23 Punkten und nur 7 Gegentoren ist eine deutliche Übererfüllung des ursprünglichen Ziels. Das Pokalaus gegen Wolfsburg wird als Rückschlag im Pokal, nicht als gravierendes Problem der Gesamtentwicklung bewertet.",
     "positiveFactors": [
-      "14 Punkte nach 7 Spielen plus 1:0-Sieg gegen Wolfsburg",
-      "Defensive Stabilität erneut gezeigt",
-      "Trainer-Prognose zum engen Spiel mit anschließendem Sieg eingetroffen"
+      "Platz 2 nach 10 Spielen",
+      "23 Punkte und 16:7 Tore",
+      "Nur eine Niederlage in der Liga",
+      "Defensive Stabilität",
+      "Henning-Vertragslösung kommt voran"
     ],
     "riskFactors": [
-      "Form muss über einen längeren Zeitraum bestätigt werden",
-      "Ergebnisse gegen stärkere Gegner stehen noch aus",
-      "Unzufriedenheit kann bei sportlicher Verschlechterung oder nicht plausiblen Entscheidungen deutlich steigen"
+      "Saison ist noch lang",
+      "Pokal-Aus gegen Wolfsburg"
     ],
     "review": "Wird bei jeder Vorstandssitzung neu bewertet."
   },
@@ -827,6 +865,6 @@
     "boardReview": "Regelmäßige Bewertung in Vorstandssitzungen; Vertragsgespräche bei absehbarem Vertragsende.",
     "renewalRule": "Bei auslaufendem Vertrag wird separat über eine Verlängerung verhandelt. Eine Verlängerung erfolgt nicht automatisch.",
     "dismissalPolicy": "Bei anhaltend schlechter sportlicher Entwicklung, verfehlten Zielen oder wiederholt nicht nachvollziehbaren Entscheidungen kann der Vorstand eine vorzeitige Trennung beschließen.",
-    "currentStatus": "Kein Anlass für eine vorzeitige Trennung. Vorstandszufriedenheit aktuell hoch."
+    "currentStatus": "Kein Anlass für eine vorzeitige Trennung; Vorstandszufriedenheit sehr hoch."
   }
 }
