@@ -409,7 +409,8 @@
     "Max Adams fordert die Rolle Rotation. Vorstand lehnt das ab und bietet Perspektivprofi an: 3 Jahre, 1.600 €/Woche, 83.200 € Pflicht-Handgeld, keine Boni, keine Ausstiegsklausel.",
     "Max Adams: ablösefrei verpflichtet. Vertrag 5 Jahre, Rolle Perspektivprofi, 1.600 €/Woche, 83.200 € Pflicht-Handgeld, keine Leistungsboni, keine Ausstiegsklausel.",
     "2. Bundesliga: 1:1 gegen Darmstadt. Jakob Schöller sah eine Rote Karte.",
-    "Jakob Schöller: 1 Spiel Sperre nach Roter Karte gegen Darmstadt."
+    "Jakob Schöller: 1 Spiel Sperre nach Roter Karte gegen Darmstadt.",
+    "ZM-Leihkandidaten: Taichi Fukui (71/81, CM/CAM, 5.400 €/Woche), Izan González (70/83, CM/CDM, 3.800 €/Woche) und Yussif Saidu (68/84, CM/CDM/CB, 3.900 €/Woche). Für eine Entscheidung werden Leihgebühr und Anteil des Gehalts benötigt."
   ],
   "matches": [
     {
@@ -488,5 +489,43 @@
       "reason": "Rote Karte gegen Darmstadt",
       "status": "1 Spiel Sperre"
     }
-  }
+  },
+  "loanTargets": [
+    {
+      "name": "Taichi Fukui",
+      "club": "FC Arouca",
+      "age": 22,
+      "ovr": 71,
+      "pot": 81,
+      "positions": "CM/CAM",
+      "weeklyWage": 5400,
+      "value": 4200000,
+      "status": "Leihkandidat",
+      "fit": "Sofortige Qualität und Kreativität"
+    },
+    {
+      "name": "Izan González",
+      "club": "FC Granada",
+      "age": 21,
+      "ovr": 70,
+      "pot": 83,
+      "positions": "CM/CDM",
+      "weeklyWage": 3800,
+      "value": 3900000,
+      "status": "Leihkandidat",
+      "fit": "Kontrolle und Absicherung im 4-3-3 Flach"
+    },
+    {
+      "name": "Yussif Saidu",
+      "club": "Real Zaragoza",
+      "age": 21,
+      "ovr": 68,
+      "pot": 84,
+      "positions": "CM/CDM/CB",
+      "weeklyWage": 3900,
+      "value": 3200000,
+      "status": "Leihkandidat",
+      "fit": "Physis, Flexibilität und defensiver Nutzen"
+    }
+  ]
 }
