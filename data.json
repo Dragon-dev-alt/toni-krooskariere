@@ -1,5 +1,5 @@
 {
-  "budget": 2808000,
+  "budget": 3312000,
   "formation": "4-3-3 Flach",
   "lineHeight": 65,
   "rules": [
@@ -110,14 +110,11 @@
     },
     {
       "name": "Luca Ihorst",
-      "status": "Verkaufsliste"
+      "status": "Verkauft",
+      "fee": 720000
     },
     {
       "name": "David Kopacz",
-      "status": "Verkaufsliste"
-    },
-    {
-      "name": "Mats Remberg",
       "status": "Verkaufsliste"
     },
     {
