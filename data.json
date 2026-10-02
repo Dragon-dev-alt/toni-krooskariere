@@ -160,42 +160,85 @@
   ],
   "academy": [
     {
-      "name": "Otto Riedel",
+      "name": "Matthis Vetter",
       "age": 15,
-      "ovr": 68,
-      "pot": 86,
-      "plan": "ab 16 hochziehen"
+      "ovr": 70,
+      "potential": "97",
+      "position": "CAM",
+      "secondaryPositions": [
+        "LW",
+        "RW"
+      ],
+      "country": "Deutschland",
+      "role": "Jugendakademie",
+      "note": "Neuzugang aus dem Oktober-Scoutingbericht; hohes Entwicklungspotenzial."
     },
     {
       "name": "Andreas Vogel",
       "age": 14,
       "ovr": 64,
-      "pot": 83,
-      "plan": "Akademie"
-    },
-    {
-      "name": "Nick Adam",
-      "age": 14,
-      "ovr": 64,
-      "pot": 83,
-      "plan": "Akademie"
-    },
-    {
-      "name": "Özgür Burakgazi",
-      "age": 14,
-      "ovr": 62,
-      "pot": 82,
-      "plan": "Akademie"
+      "potential": "83",
+      "position": "ZDM",
+      "secondaryPositions": [],
+      "country": "Deutschland",
+      "role": "Jugendakademie"
     },
     {
       "name": "Alexander Hirsch",
       "age": 16,
       "ovr": 69,
-      "pot": "90+",
+      "potential": "95",
       "position": "ZDM",
-      "plan": "In der Jugendakademie entwickeln; spätere Beförderung prüfen",
-      "status": "Jugendakademie",
-      "scoutSigningFee": 199800
+      "secondaryPositions": [],
+      "country": "Deutschland",
+      "role": "Jugendakademie",
+      "note": "Bereits im September aus dem Scout-Bericht verpflichtet; noch nicht hochgezogen."
+    },
+    {
+      "name": "Thomas Vogel",
+      "age": 14,
+      "ovr": 67,
+      "potential": "92",
+      "position": "LV",
+      "secondaryPositions": [
+        "IV"
+      ],
+      "country": "Deutschland",
+      "role": "Jugendakademie",
+      "note": "Neuzugang aus dem Oktober-Scoutingbericht; hohes Entwicklungspotenzial."
+    },
+    {
+      "name": "Nick Adam",
+      "age": 14,
+      "ovr": 64,
+      "potential": "83",
+      "position": "ZDM",
+      "secondaryPositions": [],
+      "country": "Deutschland",
+      "role": "Jugendakademie"
+    },
+    {
+      "name": "Otto Riedel",
+      "age": 15,
+      "ovr": 69,
+      "potential": "86",
+      "position": "IV",
+      "secondaryPositions": [
+        "RV",
+        "LV"
+      ],
+      "country": "Deutschland",
+      "role": "Jugendakademie"
+    },
+    {
+      "name": "Özgür Burakgazi",
+      "age": 14,
+      "ovr": 63,
+      "potential": "82",
+      "position": "TW",
+      "secondaryPositions": [],
+      "country": "Türkei",
+      "role": "Jugendakademie"
     }
   ],
   "scouting": {
@@ -496,7 +539,8 @@
     "1.10. Vorstandsbeschluss zu Antworten: Henning zunächst Rotation anbieten; wegen guter, aber nicht außergewöhnlicher Leistungen ist Wichtig als Kompromiss möglich. Bei Ablehnung soll im Winter verkauft werden. Mittelfeld bleibt Wagner–González–Henning. Badjie-Gespräch Mitte/Ende Oktober, Bericht in der nächsten Sitzung. Saisonziele werden erst im Januar nach Spielen gegen stärkere Gegner neu bewertet.",
     "Vorstandszufriedenheit: aktuell 8/10 (hoch). Bewertung erfolgt bei jeder monatlichen Vorstandssitzung und kann bei schlechter sportlicher Entwicklung, verfehlten Zielen oder nicht nachvollziehbaren Entscheidungen deutlich sinken.",
     "Trainervertrag: Toni Kroos hat einen 3-Jahres-Vertrag ab Saison 2026/27 bis Sommer 2029. Bei Vertragsende wird separat verhandelt; eine Verlängerung ist nicht automatisch. Vorzeitige Trennung ist bei anhaltend schlechter Entwicklung, verfehlten Zielen oder wiederholt nicht nachvollziehbaren Entscheidungen möglich.",
-    "Topduell gegen VfL Wolfsburg: 1:0 gewonnen. Der starke Saisonstart wird durch einen Sieg gegen einen qualitativ anspruchsvollen Gegner bestätigt."
+    "Topduell gegen VfL Wolfsburg: 1:0 gewonnen. Der starke Saisonstart wird durch einen Sieg gegen einen qualitativ anspruchsvollen Gegner bestätigt.",
+    "Oktober-Scouting Jugendakademie: Zwei neue Talente aufgenommen – Matthis Vetter (15, 70 OVR, 97 Potenzial, CAM, LW/RW) und Thomas Vogel (14, 67 OVR, 92 Potenzial, LV/IV). Beide bleiben zunächst in der Jugendakademie."
   ],
   "matches": [
     {
