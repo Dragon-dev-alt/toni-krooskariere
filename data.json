@@ -51,7 +51,15 @@
     {
       "name": "Mario Silva",
       "role": "Stamm-RF",
-      "status": "1. Mannschaft"
+      "status": "1. Mannschaft",
+      "age": 16,
+      "ovr": 69,
+      "potential": 93,
+      "marketValue": 6000000,
+      "appearances": 15,
+      "scorerPoints": 5,
+      "averageRating": 7.07,
+      "notes": "Starke Entwicklung für einen 16-Jährigen; Leistungen noch ausbaufähig, bereits 5 Scorer in 15 Spielen."
     },
     {
       "name": "Lars Kehl",
@@ -258,7 +266,11 @@
       "ovr": 69,
       "pot": 93,
       "status": "1. Mannschaft",
-      "role": "Stamm-RF"
+      "role": "Stamm-RF",
+      "marketValue": 6000000,
+      "appearances": 15,
+      "scorer": 5,
+      "averageRating": 7.07
     },
     {
       "name": "Ole Schubert",
@@ -352,7 +364,7 @@
       "entryBonus": 20000,
       "performanceBonuses": [],
       "releaseClause": null,
-      "status": "Gegenangebot des Vorstands – Spielerentscheidung ausstehend"
+      "status": "verlängert – Spieler hat zugestimmt"
     },
     "NiklasSauter": {
       "role": "Rotation",
@@ -451,6 +463,15 @@
       "performanceBonuses": [],
       "releaseClause": null,
       "status": "verlängert"
+    },
+    "RobinHenning": {
+      "status": "Verlängert",
+      "role": "Rotation",
+      "years": 3,
+      "weeklyWage": 4100,
+      "entryBonus": 20000,
+      "performanceBonuses": [],
+      "releaseClause": null
     }
   },
   "activeOffers": [
@@ -538,7 +559,9 @@
     "1.11. Vorstandssitzung: Platz 2 mit 23 Punkten aus 10 Spielen (7S/2U/1N, 16:7), punktgleich mit Wolfsburg auf Platz 1 und ein Spiel weniger. DFB-Pokal-Aus gegen Wolfsburg mit 1:2. Henning akzeptiert Rotation; Vorstand bietet 3 Jahre, 3.800 €/Woche, keine Boni, keine Ausstiegsklausel. Badjie entscheidet bis 1.12.",
     "Henning-Verhandlung November: Forderung 4.100 €/Woche + 36.000 € Handgeld. Vorstand akzeptiert 4.100 €/Woche, kontert beim Handgeld mit 20.000 €. Rotation, 3 Jahre, keine Boni/Klausel.",
     "1.11. Vorstand hat trotz hoher Zufriedenheit Fragen für die laufende Saison: Einsatzplanung Henning, Mittelfeldtiefe mit Jakobsen/Wagner und möglicher Winterbedarf trotz unverändertem offiziellen Saisonziel.",
-    "November: Mittelfeld-/Winterplanung: Henning und Jakobsen sollen sich die Position ungefähr 50/50 teilen. Ein ZM-Verkauf mit Ersatz ist als mögliche Wintermaßnahme vorgesehen; aktuell besteht auf keiner anderen Position Bedarf. Bei einem weiteren lukrativen Abgang wird der entsprechende Bedarf neu bewertet."
+    "November: Mittelfeld-/Winterplanung: Henning und Jakobsen sollen sich die Position ungefähr 50/50 teilen. Ein ZM-Verkauf mit Ersatz ist als mögliche Wintermaßnahme vorgesehen; aktuell besteht auf keiner anderen Position Bedarf. Bei einem weiteren lukrativen Abgang wird der entsprechende Bedarf neu bewertet.",
+    "Henning-Verlängerung final: Spieler stimmt Rotation, 3 Jahren, 4.100 €/Woche und 20.000 € Handgeld zu. Keine Boni, keine Ausstiegsklausel.",
+    "Mario Silva Entwicklung: 16 Jahre, 5 Scorer in 15 Spielen, Ø 7,07, ca. 6 Mio. € Marktwert. Vorstand bewertet die Entwicklung sehr positiv, sieht aber weiterhin Verbesserungspotenzial bei den Leistungen."
   ],
   "matches": [
     {
@@ -838,7 +861,7 @@
       "currentWeeklyWage": 4200,
       "averageRating": 6.92,
       "appearances": 11,
-      "status": "Spielerforderung erhalten – Vorstand legt Gegenangebot vor",
+      "status": "Verlängert",
       "boardAssessment": "4.100 €/Woche werden trotz Rotationsrolle akzeptiert. Das geforderte Handgeld von 36.000 € hält der Vorstand für zu hoch und kontert mit 20.000 €.",
       "octoberPlan": "Nächstes Gespräch: zuerst Rotation anbieten; alternativ bei Bedarf Wichtig. Bei Ablehnung beider Lösungen Verkauf im Winter.",
       "boardPosition": "Rotation bleibt erste Option, Wichtig als Kompromiss möglich.",
@@ -857,6 +880,14 @@
         "extensionYears": 3,
         "weeklyWage": 4100,
         "signingBonus": 36000
+      },
+      "finalTerms": {
+        "role": "Rotation",
+        "extensionYears": 3,
+        "weeklyWage": 4100,
+        "signingBonus": 20000,
+        "performanceBonuses": [],
+        "releaseClause": null
       }
     }
   },
@@ -877,7 +908,7 @@
     "score": 9,
     "scale": "1–10",
     "status": "sehr hoch",
-    "currentAssessment": "Der Vorstand ist mit der bisherigen Saisonleistung sehr zufrieden. Platz 2 mit 23 Punkten und nur 7 Gegentoren ist eine deutliche Übererfüllung des ursprünglichen Ziels. Das Pokalaus gegen Wolfsburg wird als Rückschlag im Pokal, nicht als gravierendes Problem der Gesamtentwicklung bewertet.",
+    "currentAssessment": "Der Vorstand bleibt mit der sportlichen Entwicklung sehr zufrieden. Henning ist als Rotationsspieler gebunden. Die Entwicklung von Mario Silva wird trotz noch ausbaufähiger Leistungen sehr positiv bewertet: 16 Jahre, 5 Scorer in 15 Spielen, Ø 7,07 und ca. 6 Mio. € Marktwert.",
     "positiveFactors": [
       "Platz 2 nach 10 Spielen",
       "23 Punkte und 16:7 Tore",
