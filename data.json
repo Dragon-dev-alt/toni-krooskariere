@@ -407,7 +407,8 @@
     "Jakob Schöller: für 1.700.000 € verpflichtet. Vertrag: 4 Jahre, Rolle Wichtig, 4.500 €/Woche, kein Handgeld, keine Leistungsboni, keine Ausstiegsklausel.",
     "Budgetkorrektur: Aktuelles im Spiel angezeigtes Transferbudget beträgt 1.721.000 €. Der vom Nutzer angegebene Ingame-Wert gilt als maßgeblich; Differenz zum bisherigen Dashboardstand (1.937.000 €) von 216.000 € ist bisher nicht aufgeschlüsselt.",
     "Max Adams fordert die Rolle Rotation. Vorstand lehnt das ab und bietet Perspektivprofi an: 3 Jahre, 1.600 €/Woche, 83.200 € Pflicht-Handgeld, keine Boni, keine Ausstiegsklausel.",
-    "Max Adams: ablösefrei verpflichtet. Vertrag 5 Jahre, Rolle Perspektivprofi, 1.600 €/Woche, 83.200 € Pflicht-Handgeld, keine Leistungsboni, keine Ausstiegsklausel."
+    "Max Adams: ablösefrei verpflichtet. Vertrag 5 Jahre, Rolle Perspektivprofi, 1.600 €/Woche, 83.200 € Pflicht-Handgeld, keine Leistungsboni, keine Ausstiegsklausel.",
+    "2. Bundesliga: 1:1 gegen Darmstadt. Jakob Schöller sah eine Rote Karte."
   ],
   "matches": [
     {
@@ -416,6 +417,14 @@
       "result": "Sieg",
       "score": "3:1",
       "status": "Weiter"
+    },
+    {
+      "competition": "2. Bundesliga",
+      "opponent": "SV Darmstadt 98",
+      "result": "Unentschieden",
+      "score": "1:1",
+      "redCard": "Jakob Schöller",
+      "status": "Liga"
     }
   ],
   "freeAgentRuleExample": {
