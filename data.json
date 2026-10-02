@@ -492,7 +492,8 @@
     "Jannik Müller: Spieler fordert Schlüsselspieler, +1 Jahr, 7.800 €/Woche und 15.000 € Handgeld. Vorstand akzeptiert die Forderung.",
     "Ismail Badjie: Vertrag läuft am Saisonende aus. Spieler ist aktuell unschlüssig, ob er verlängern möchte. Vorstand unterbreitet vorerst kein Angebot und beobachtet Entwicklung/Saisonverlauf.",
     "1.9. Vorstandssitzung: Saisonstart wird mit Platz 11 und 5 Punkten aus 4 Spielen positiv bewertet. Wagner–González–Henning bleibt die bevorzugte ZM-Besetzung; Jakobsen spielt häufiger für Wagner. Henning-Neubewertung Ende Oktober bleibt bestehen. Badjie soll mehr Einsatzzeit erhalten; Verlängerung wird optimistisch gesehen. Budget auf 1.344.400 € aktualisiert.",
-    "1.10. Vorstandssitzung: Platz 4 nach 7 Spielen, 14 Punkte, 4 Siege/2 Unentschieden/1 Niederlage, 10:7 Tore. Robin Henning: 11 Einsätze, Ø 6,92. Oktober-Termin zur Vertragsbewertung erreicht."
+    "1.10. Vorstandssitzung: Platz 4 nach 7 Spielen, 14 Punkte, 4 Siege/2 Unentschieden/1 Niederlage, 10:7 Tore. Robin Henning: 11 Einsätze, Ø 6,92. Oktober-Termin zur Vertragsbewertung erreicht.",
+    "1.10. Vorstandsbeschluss zu Antworten: Henning zunächst Rotation anbieten; wegen guter, aber nicht außergewöhnlicher Leistungen ist Wichtig als Kompromiss möglich. Bei Ablehnung soll im Winter verkauft werden. Mittelfeld bleibt Wagner–González–Henning. Badjie-Gespräch Mitte/Ende Oktober, Bericht in der nächsten Sitzung. Saisonziele werden erst im Januar nach Spielen gegen stärkere Gegner neu bewertet."
   ],
   "matches": [
     {
@@ -668,12 +669,18 @@
     {
       "date": "1.10.",
       "answers": {
-        "table": "Platz 4 nach 7 Spielen, 14 Punkte.",
-        "record": "4 Siege, 2 Unentschieden, 1 Niederlage.",
-        "goals": "10:7.",
-        "henning": "Robin Henning: 11 Einsätze, Durchschnittsrating 6,92."
+        "henningPlan": "Im nächsten Gespräch zunächst Rotation anbieten. Aufgrund der guten, aber nicht außergewöhnlichen Leistungen kann bei Bedarf Wichtig angeboten werden. Bei Ablehnung von Rotation/Wichtig soll Henning im Winter verkauft werden.",
+        "midfield": "Wagner – González – Henning bleibt die bevorzugte Dreierreihe.",
+        "badjie": "Noch kein Gespräch. Gesprächstermin Mitte/Ende Oktober, Information an den Vorstand in der nächsten Sitzung.",
+        "seasonTarget": "Noch keine endgültige Anhebung. Da bisher keine schweren Gegner gespielt wurden, soll im Januar eine klare Einschätzung erfolgen."
       },
-      "status": "Sitzung eröffnet – Oktober-Bewertung von Henning auf Basis der aktuellen Leistungen."
+      "status": "Sitzung eröffnet – Oktober-Bewertung von Henning auf Basis der aktuellen Leistungen.",
+      "boardOpinion": {
+        "henning": "Zustimmung mit klarer Grenze. Rotation ist weiterhin die erste Option; Wichtig ist als vertretbarer Kompromiss für seine bisher gute Rolle. Ein Winterverkauf bei fehlender Einigung ist sportlich und finanziell nachvollziehbar.",
+        "midfield": "Zustimmung. Kontinuität im Mittelfeld wird angesichts des starken Saisonstarts unterstützt.",
+        "badjie": "Zustimmung. Der Vorstand begrüßt das Gespräch im Oktober und erwartet konkrete Rückmeldung zur Bereitschaft und Perspektive.",
+        "seasonTarget": "Zustimmung. Der Vorstand teilt die Vorsicht bei der Bewertung des Tabellenplatzes und will die Ergebnisse gegen stärkere Gegner abwarten."
+      }
     }
   ],
   "boardMeetingFormat": {
@@ -717,7 +724,9 @@
       "averageRating": 6.92,
       "appearances": 11,
       "status": "Bewertung vorgezogen zum Oktober-Termin",
-      "boardAssessment": "Sportlich derzeit solide, aber nicht zwingend auf dem Niveau einer Schlüsselrolle. Vorstand bleibt bei Rotation als Vertragsrahmen."
+      "boardAssessment": "Sportlich derzeit solide, aber nicht zwingend auf dem Niveau einer Schlüsselrolle. Vorstand bleibt bei Rotation als Vertragsrahmen.",
+      "octoberPlan": "Nächstes Gespräch: zuerst Rotation anbieten; alternativ bei Bedarf Wichtig. Bei Ablehnung beider Lösungen Verkauf im Winter.",
+      "boardPosition": "Rotation bleibt erste Option, Wichtig als Kompromiss möglich."
     }
   },
   "academyProspects": [
