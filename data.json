@@ -760,7 +760,8 @@
     "Jugendscouting: Der Trainer möchte erneut einen Jugendscout losschicken. Vorstand stimmt grundsätzlich zu. Empfehlung: Deutschland, 9 Monate, Fokus GK und ZM/ZDM, um insbesondere die langfristige Torwartpipeline nach Rembergs Abgang zu stärken.",
     "Aktuelle Jugendakademie (neuster Stand): Matthis Vetter 15/72/97 CAM; Andreas Vogel 15/66/83 CDM; Thomas Vogel 14/68/92 LB/CB; Lukas Baumann 16/71/96 CB; Mohamed Richter 15/74/95 RW/LW; Nick Adam 15/66/83 CDM; Otto Riedel 15/70/86 CB; Özgür Burakgazi 15/64/82 GK. Besonders stark: Richter 74 OVR/95 POT, Vetter 72/97, Baumann 71/96.",
     "1.5. Tabellenstand: Osnabrück Platz 3, 53 Punkte aus 32 Spielen, 14S/11U/7N, 52:34 Tore. Punktgleich mit Hertha auf Platz 4, aber bessere Tordifferenz. Aufstiegs-Playoff-Platz erreicht. Vorstandszufriedenheit 10/10.",
-    "1.5. Trainerantworten: Offensive Spielweise bleibt bestehen; Heimvorteil in mindestens einem der zwei verbleibenden Heimspiele nutzen. Hirsch bleibt bis Saisonende klarer Rotationsspieler. Nach den letzten beiden Ligaspielen beginnt die zweigleisige Sommerplanung für 2. Bundesliga und mögliches Relegations-/Aufstiegsszenario."
+    "1.5. Trainerantworten: Offensive Spielweise bleibt bestehen; Heimvorteil in mindestens einem der zwei verbleibenden Heimspiele nutzen. Hirsch bleibt bis Saisonende klarer Rotationsspieler. Nach den letzten beiden Ligaspielen beginnt die zweigleisige Sommerplanung für 2. Bundesliga und mögliches Relegations-/Aufstiegsszenario.",
+    "1.6. Saisonabschluss: Osnabrück beendet die 2. Bundesliga auf Platz 3 mit 59 Punkten, 57:35 Toren und erreicht die Aufstiegs-Playoffs. Direkter Aufstieg verpasst. Sommer-Scoutingliste übernommen: Ben Farhat, Ache, Bauer, Coulibaly, Kerber, Dahmen, Conteh. Besonders relevant: Dahmen im Tor und Kerber im zentralen Mittelfeld."
   ],
   "matches": [
     {
@@ -927,7 +928,66 @@
         "scenario2Bundesliga": "Kaderplanung für Verbleib in der 2. Bundesliga",
         "scenarioRelegationPromotion": "Parallel erste Optionen für mögliches Relegations-/Aufstiegsszenario prüfen",
         "trigger": "Letzte zwei Ligaspiele abgeschlossen"
-      }
+      },
+      "scoutShortlist": [
+        {
+          "player": "L. Ben Farhat",
+          "age": 20,
+          "position": "ST",
+          "ovr": 70,
+          "club": "NAC Breda",
+          "note": "beobachtenswert"
+        },
+        {
+          "player": "R. Ache",
+          "age": 16,
+          "position": "ST",
+          "ovr": 76,
+          "club": "1. FC Köln",
+          "note": "hochveranlagt, aber vermutlich anspruchsvoller"
+        },
+        {
+          "player": "B. Bauer",
+          "age": 18,
+          "position": "LM",
+          "ovr": 65,
+          "club": "Jahn Regensburg",
+          "note": "keine akute Position"
+        },
+        {
+          "player": "K. Coulibaly",
+          "age": 20,
+          "position": "IV",
+          "ovr": 75,
+          "club": "Werder Bremen",
+          "note": "sportlich interessant, aber IV aktuell kein Prioritätsbedarf"
+        },
+        {
+          "player": "L. Kerber",
+          "age": 16,
+          "position": "ZDM",
+          "ovr": 71,
+          "club": "Heidenheim",
+          "note": "interessant für zentrales Mittelfeld"
+        },
+        {
+          "player": "F. Dahmen",
+          "age": 29,
+          "position": "TW",
+          "ovr": 77,
+          "club": "FC Lorient",
+          "note": "konkreter Kandidat für Ersatz nach Rembergs Abgang"
+        },
+        {
+          "player": "C. Conteh",
+          "age": 27,
+          "position": "RM",
+          "ovr": 68,
+          "club": "Heidenheim",
+          "note": "keine akute Position"
+        }
+      ],
+      "scoutAssessment": "Vorläufige Kandidatenliste aus dem Juni-Screening. Torwart und ZM/ZDM sind wegen der Sommerplanung besonders relevant. Die endgültige Transferstrategie hängt von den Aufstiegs-Playoffs und der kommenden Liga ab."
     }
   },
   "suspensions": {
@@ -1196,6 +1256,19 @@
         "hirsch": "Zustimmung. Wir sehen keinen Grund, Hirsch in den letzten Saisonspielen unter unnötigen Druck zu setzen. Eine größere Rolle ab 2027/28 wird nach seiner weiteren Entwicklung entschieden.",
         "summerPlanning": "Zustimmung. Die Entscheidung, die letzten zwei Ligaspiele abzuwarten, ist sinnvoll. Danach soll zweigleisig geplant werden, damit bei einem Aufstieg keine Zeit verloren geht und bei einem Verbleib in der 2. Bundesliga ebenfalls ein belastbarer Kaderplan steht."
       }
+    },
+    {
+      "date": "1.6.",
+      "title": "Vorstandssitzung – Saisonabschluss & Relegation",
+      "status": "Sitzung eröffnet",
+      "currentLeagueSnapshot": "Platz 3, 59 Punkte nach 34 Spielen; 16 Siege, 11 Unentschieden, 7 Niederlagen; 57:35 Tore. Aufstiegs-Playoffs erreicht.",
+      "note": "Saison endet auf Platz 3. Der direkte Aufstieg wurde um 7 Punkte verpasst.",
+      "questionsPending": [
+        "Relegation: Mit Platz 3 haben wir die Playoffs erreicht. Wie willst du die Mannschaft auf die Relegation einstellen, ohne unsere offensive Identität aufzugeben?",
+        "Kaderplanung: Soll die Sommerplanung jetzt schon zweigleisig für 2. Bundesliga und mögliche 1. Bundesliga konkretisiert werden?",
+        "Torwart: Nach Rembergs feststehendem Abgang steht F. Dahmen (29, 77 OVR) auf der ersten Kandidatenliste. Sollen wir einen erfahrenen Torwart dieser Größenordnung aktiv weiterverfolgen oder bevorzugst du eine jüngere Lösung?",
+        "ZM: L. Kerber (16, 71 OVR) und unsere interne Hirsch-Lösung sind interessant. Soll ein externer ZM nur bei einem Aufstieg verfolgt werden?"
+      ]
     }
   ],
   "boardMeetingFormat": {
@@ -1243,6 +1316,10 @@
     {
       "date": "1.5.",
       "result": "Osnabrück steht nach 32 Spielen auf Platz 3 mit 53 Punkten (14S/11U/7N, 52:34) und damit auf dem Aufstiegs-Playoff-Platz. Hertha ist punktgleich auf Platz 4. Vorstandszufriedenheit: 10/10."
+    },
+    {
+      "date": "1.6.",
+      "result": "Saisonabschluss: Osnabrück beendet die 2. Bundesliga auf Platz 3 mit 59 Punkten (16S/11U/7N, 57:35) und erreicht die Aufstiegs-Playoffs. Sommer-Scoutingliste mit ST, IV, ZDM und TW-Kandidaten erfasst."
     }
   ],
   "seasonGoals": {
@@ -1251,7 +1328,7 @@
     "currentOfficialGoal": "Klassenerhalt",
     "januaryReview": "Bestätigt am 1.2.",
     "note": "Der aktuelle 4. Platz führt noch nicht zu einer offiziellen Anhebung des Saisonziels.",
-    "internalOutlook": "Der Aufstiegs-Playoff-Platz ist erreicht. Intern darf und soll die Mannschaft diese Chance annehmen, ohne dass der Vorstand daraus rückwirkend ein Pflichtziel macht."
+    "internalOutlook": "Saison auf Platz 3 abgeschlossen. Die Aufstiegs-Playoffs werden als außergewöhnliche zusätzliche Chance gespielt, nicht als ursprünglich erwartetes Pflichtziel."
   },
   "contractReview": {
     "RobinHenning": {
@@ -1425,16 +1502,16 @@
     "score": 10,
     "scale": "1–10",
     "status": "außergewöhnlich hoch",
-    "currentAssessment": "Der Vorstand ist mit der Saisonentwicklung außergewöhnlich zufrieden. Osnabrück steht nach 32 Spieltagen auf Platz 3 und damit auf dem Aufstiegs-Playoff-Platz. Die Mannschaft hat sich gegenüber dem ursprünglichen Klassenerhaltsziel deutlich übertroffen.",
+    "currentAssessment": "Der Vorstand ist mit der Saisonleistung außergewöhnlich zufrieden. Osnabrück beendet die Saison auf Platz 3 und erreicht die Aufstiegs-Playoffs, obwohl das offizielle Saisonziel lediglich der Klassenerhalt war.",
     "positiveFactors": [
-      "Platz 3 nach 32 Spielen",
-      "53 Punkte und +18 Tordifferenz",
-      "Aufstiegs-Playoff-Platz erreicht",
-      "Nur 7 Niederlagen in 32 Ligaspielen"
+      "Platz 3 nach 34 Spieltagen",
+      "59 Punkte und +22 Tordifferenz",
+      "Aufstiegs-Playoffs erreicht",
+      "16 Siege in der Liga"
     ],
     "riskFactors": [
-      "Hertha ist punktgleich auf Platz 4",
-      "Nur noch wenige Spiele bis Saisonende"
+      "Direkter Aufstieg mit 7 Punkten Rückstand auf Bochum verpasst",
+      "Playoff-Ausgang noch offen"
     ],
     "review": "Wird bei jeder Vorstandssitzung neu bewertet."
   },
@@ -1451,52 +1528,47 @@
     "currentStatus": "Kein Anlass für eine vorzeitige Trennung; Vorstandszufriedenheit sehr hoch."
   },
   "leagueTable": {
-    "asOf": "1.5.",
+    "asOf": "1.6.",
     "competition": "2. Bundesliga",
     "osnabruck": {
       "position": 3,
-      "points": 53,
-      "games": 32,
-      "wins": 14,
+      "points": 59,
+      "games": 34,
+      "wins": 16,
       "draws": 11,
       "losses": 7,
-      "goalsFor": 52,
-      "goalsAgainst": 34,
-      "goalDifference": 18
+      "goalsFor": 57,
+      "goalsAgainst": 35,
+      "goalDifference": 22
     },
     "top": {
       "wolfsburg": {
         "position": 1,
-        "points": 64,
-        "games": 32
+        "points": 70,
+        "games": 34
       },
       "bochum": {
         "position": 2,
-        "points": 62,
-        "games": 31
+        "points": 66,
+        "games": 34
       },
       "hertha": {
         "position": 4,
-        "points": 53,
-        "games": 32
+        "points": 56,
+        "games": 34
       },
       "nurnberg": {
         "position": 5,
-        "points": 50,
-        "games": 31
-      },
-      "bielefeld": {
-        "position": 6,
-        "points": 50,
-        "games": 31
+        "points": 54,
+        "games": 34
       },
       "hannover": {
-        "position": 7,
-        "points": 49,
-        "games": 31
+        "position": 6,
+        "points": 51,
+        "games": 34
       }
     },
-    "context": "Osnabrück steht nach 32 Spieltagen auf Platz 3 mit 53 Punkten und damit auf dem Aufstiegs-Playoff-Platz. Hertha ist punktgleich auf Platz 4; Osnabrück hat ein besseres Torverhältnis."
+    "context": "Osnabrück beendet die 2.-Bundesliga-Saison auf Platz 3 und erreicht damit die Aufstiegs-Playoffs. Der direkte Aufstieg ist mit 7 Punkten Rückstand auf Platz 2 nicht erreicht."
   },
   "youthScoutingNext": {
     "status": "laufend / aktueller Akademiestand übernommen",
