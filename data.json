@@ -17,24 +17,24 @@
   ],
   "priorities": [
     {
-      "position": "ST",
+      "position": "RV",
       "priority": "Sehr hoch",
-      "status": "Ponomar verpflichtet"
+      "status": "William Mikelbrencis: 4,3 Mio. € + 2 % Weiterverkaufsbeteiligung vereinbart; Spielervertrag ausstehend"
     },
     {
-      "position": "IV",
-      "priority": "Sehr hoch",
-      "status": "Schöller verpflichtet"
+      "position": "IV / Defensive",
+      "priority": "Hoch",
+      "status": "Bundesliga-Verstärkung wird gesucht"
     },
     {
       "position": "ZM",
       "priority": "Hoch",
-      "status": "Izan González geliehen"
+      "status": "González zurück bei Granada; Hirsch als interne Lösung, weiterer solider ZM gesucht"
     },
     {
-      "position": "LV",
-      "priority": "Erledigt",
-      "status": "Mahuta verpflichtet"
+      "position": "TW",
+      "priority": "Mittel",
+      "status": "3. Keeper gesucht; Remberg geht"
     }
   ],
   "players": [
@@ -49,8 +49,12 @@
       "weeklyWage": 500,
       "position": "TW",
       "secondaryPositions": [],
-      "role": "Abgang steht noch aus",
-      "status": "Abgang steht noch aus"
+      "role": "3. Keeper · Abgang vereinbart",
+      "status": "Abgang fest vereinbart – Sommer 2027",
+      "appearances": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0
     },
     {
       "name": "Niklas Sauter",
@@ -61,10 +65,14 @@
       "potential": 68,
       "marketValue": 750000,
       "weeklyWage": 1900,
-      "position": "TW",
+      "position": "GK",
       "secondaryPositions": [],
       "role": "Kader",
-      "status": "Kader"
+      "status": "Kader",
+      "appearances": 1,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1
     },
     {
       "name": "Christian Wolf",
@@ -75,10 +83,14 @@
       "potential": 90,
       "marketValue": 3800000,
       "weeklyWage": 800,
-      "position": "TW",
+      "position": "GK",
       "secondaryPositions": [],
       "role": "Stammkeeper",
-      "status": "Stammkeeper"
+      "status": "Stammkeeper",
+      "appearances": 39,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 11
     },
     {
       "name": "Patrick Kammerbauer",
@@ -89,10 +101,17 @@
       "potential": 66,
       "marketValue": 725000,
       "weeklyWage": 5300,
-      "position": "RV",
-      "secondaryPositions": "RM/RW",
+      "position": "RB",
+      "secondaryPositions": [
+        "RM",
+        "RW"
+      ],
       "role": "Wichtig",
-      "status": "Kader"
+      "status": "Wichtig · RV",
+      "appearances": 32,
+      "goals": 0,
+      "assists": 1,
+      "cleanSheets": 10
     },
     {
       "name": "Max Adams",
@@ -103,11 +122,16 @@
       "potential": 63,
       "marketValue": 475000,
       "weeklyWage": 1600,
-      "position": "RV",
-      "secondaryPositions": "LV",
-      "role": "Perspektivprofi",
+      "position": "RB",
+      "secondaryPositions": [
+        "LB"
+      ],
+      "role": "Leihliste",
       "status": "Auf Leihliste",
-      "loanListed": true
+      "appearances": 14,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 2
     },
     {
       "name": "Jakob Schöller",
@@ -118,10 +142,16 @@
       "potential": 77,
       "marketValue": 2500000,
       "weeklyWage": 4500,
-      "position": "IV",
-      "secondaryPositions": "RV",
+      "position": "CB",
+      "secondaryPositions": [
+        "RB"
+      ],
       "role": "Wichtig",
-      "status": "Kader"
+      "status": "Wichtig · IV",
+      "appearances": 34,
+      "goals": 0,
+      "assists": 3,
+      "cleanSheets": 8
     },
     {
       "name": "Robin Fabinski",
@@ -132,10 +162,15 @@
       "potential": 69,
       "marketValue": 1200000,
       "weeklyWage": 3600,
-      "position": "IV",
+      "position": "CB",
       "secondaryPositions": [],
       "role": "Wichtig",
-      "status": "Kader"
+      "status": "Wichtig · IV",
+      "appearances": 28,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 6,
+      "averageRating": 6.21
     },
     {
       "name": "Jannik Müller",
@@ -146,10 +181,14 @@
       "potential": 68,
       "marketValue": 575000,
       "weeklyWage": 7800,
-      "position": "IV",
+      "position": "CB",
       "secondaryPositions": [],
-      "role": "Schlüsselspieler · Kapitän",
-      "status": "Kader"
+      "role": "Schlüsselspieler",
+      "status": "Schlüsselspieler · Kapitän",
+      "appearances": 36,
+      "goals": 2,
+      "assists": 0,
+      "cleanSheets": 11
     },
     {
       "name": "Yigit Karademir",
@@ -160,7 +199,7 @@
       "potential": 74,
       "marketValue": 1200000,
       "weeklyWage": 3000,
-      "position": "IV",
+      "position": "CB",
       "secondaryPositions": [],
       "role": "Kader",
       "status": "Kader"
@@ -174,10 +213,14 @@
       "potential": 68,
       "marketValue": 575000,
       "weeklyWage": 2400,
-      "position": "IV",
+      "position": "CB",
       "secondaryPositions": [],
-      "role": "keine Verlängerung geplant",
-      "status": "Verkauft – Abgang Sommer 2027"
+      "role": "Verkauft",
+      "status": "Verkauft · 600.000 €",
+      "appearances": 4,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0
     },
     {
       "name": "Ryan Mahuta",
@@ -188,10 +231,14 @@
       "potential": 66,
       "marketValue": 800000,
       "weeklyWage": 3800,
-      "position": "LV",
+      "position": "LB",
       "secondaryPositions": [],
       "role": "Kader",
-      "status": "Kader"
+      "status": "Kader",
+      "appearances": 16,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1
     },
     {
       "name": "Ole Schubert",
@@ -202,10 +249,14 @@
       "potential": 91,
       "marketValue": 5500000,
       "weeklyWage": 4300,
-      "position": "LV",
+      "position": "LB",
       "secondaryPositions": [],
       "role": "Stamm-LV",
-      "status": "Stamm-LV"
+      "status": "Stamm-LV",
+      "appearances": 41,
+      "goals": 2,
+      "assists": 2,
+      "cleanSheets": 14
     },
     {
       "name": "Robert Tesche",
@@ -217,9 +268,15 @@
       "marketValue": 100000,
       "weeklyWage": 3000,
       "position": "ZDM",
-      "secondaryPositions": "CM",
-      "role": "Bleibt bis Saisonende",
-      "status": "Kader"
+      "secondaryPositions": [
+        "CM"
+      ],
+      "role": "erfahrene Reserve",
+      "status": "Bleibt bis Saisonende 2027/28",
+      "appearances": 6,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 3
     },
     {
       "name": "Fridolin Wagner",
@@ -231,9 +288,15 @@
       "marketValue": 725000,
       "weeklyWage": 4400,
       "position": "CDM",
-      "secondaryPositions": "CM",
+      "secondaryPositions": [
+        "CM"
+      ],
       "role": "Wichtig",
-      "status": "Kader"
+      "status": "Wichtig · ZM",
+      "appearances": 33,
+      "goals": 4,
+      "assists": 1,
+      "cleanSheets": 7
     },
     {
       "name": "Bjarke Jacobsen",
@@ -245,9 +308,16 @@
       "marketValue": 300000,
       "weeklyWage": 2400,
       "position": "CDM",
-      "secondaryPositions": "CM/CB",
-      "role": "Abgang steht noch aus",
-      "status": "Abgang steht noch aus"
+      "secondaryPositions": [
+        "CM",
+        "CB"
+      ],
+      "role": "Abgang feststehend",
+      "status": "Vorvertrag · ablösefrei am Saisonende",
+      "appearances": 14,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 2
     },
     {
       "name": "Izan González",
@@ -259,9 +329,15 @@
       "marketValue": 7000000,
       "weeklyWage": 6200,
       "position": "CM",
-      "secondaryPositions": "CDM",
-      "role": "Rückkehr zu Granada",
-      "status": "Kader"
+      "secondaryPositions": [
+        "CDM"
+      ],
+      "role": "Leihe beendet",
+      "status": "zurück bei FC Granada",
+      "appearances": 36,
+      "goals": 5,
+      "assists": 5,
+      "cleanSheets": 11
     },
     {
       "name": "Robin Henning",
@@ -273,9 +349,15 @@
       "marketValue": 550000,
       "weeklyWage": 4100,
       "position": "CM",
-      "secondaryPositions": "CAM",
+      "secondaryPositions": [
+        "CAM"
+      ],
       "role": "Rotation",
-      "status": "Kader"
+      "status": "Rotation · ZM",
+      "appearances": 38,
+      "goals": 4,
+      "assists": 4,
+      "cleanSheets": 11
     },
     {
       "name": "Alexander Hirsch",
@@ -287,9 +369,16 @@
       "marketValue": 7500000,
       "weeklyWage": 5300,
       "position": "CM",
-      "secondaryPositions": "CDM",
-      "role": "1. Mannschaft · Rotation",
-      "status": "1. Mannschaft · Rotation"
+      "secondaryPositions": [
+        "CDM"
+      ],
+      "role": "Rotation",
+      "status": "1. Mannschaft · Rotation",
+      "appearances": 19,
+      "goals": 1,
+      "assists": 1,
+      "cleanSheets": 3,
+      "averageRating": 6.16
     },
     {
       "name": "Lars Kehl",
@@ -301,9 +390,16 @@
       "marketValue": 1800000,
       "weeklyWage": 6400,
       "position": "RW",
-      "secondaryPositions": "CAM/ST",
+      "secondaryPositions": [
+        "CAM",
+        "ST"
+      ],
       "role": "Kader",
-      "status": "Kader"
+      "status": "Kader",
+      "appearances": 11,
+      "goals": 1,
+      "assists": 0,
+      "cleanSheets": 1
     },
     {
       "name": "Mario Silva",
@@ -317,7 +413,11 @@
       "position": "RW",
       "secondaryPositions": [],
       "role": "Stamm-RW",
-      "status": "Stamm-RW"
+      "status": "Stamm-RW",
+      "appearances": 40,
+      "goals": 13,
+      "assists": 11,
+      "cleanSheets": 12
     },
     {
       "name": "Matviy Ponomarenko",
@@ -329,7 +429,10 @@
       "marketValue": 3700000,
       "weeklyWage": 6000,
       "position": "ST",
-      "secondaryPositions": "RW/LW",
+      "secondaryPositions": [
+        "RW",
+        "LW"
+      ],
       "role": "Stamm-ST",
       "status": "Stamm-ST"
     },
@@ -344,9 +447,12 @@
       "weeklyWage": 1800,
       "position": "ST",
       "secondaryPositions": [],
-      "role": "2. ST",
+      "role": "Leihliste",
       "status": "Auf Leihliste",
-      "loanListed": true
+      "appearances": 7,
+      "goals": 2,
+      "assists": 2,
+      "cleanSheets": 2
     },
     {
       "name": "Ismail Badjie",
@@ -358,9 +464,17 @@
       "marketValue": 2100000,
       "weeklyWage": 3700,
       "position": "LW",
-      "secondaryPositions": "RW/RM/CAM",
+      "secondaryPositions": [
+        "RW",
+        "RM",
+        "CAM"
+      ],
       "role": "Wichtig",
-      "status": "Kader"
+      "status": "Wichtig · Flügel",
+      "appearances": 29,
+      "goals": 10,
+      "assists": 2,
+      "cleanSheets": 6
     },
     {
       "name": "Kevin Schumacher",
@@ -372,9 +486,16 @@
       "marketValue": 575000,
       "weeklyWage": 3800,
       "position": "LW",
-      "secondaryPositions": "LM/LB",
+      "secondaryPositions": [
+        "LM",
+        "LB"
+      ],
       "role": "Kader",
-      "status": "Kader"
+      "status": "Kader",
+      "appearances": 16,
+      "goals": 6,
+      "assists": 0,
+      "cleanSheets": 4
     },
     {
       "name": "Kevin Wiethaup",
@@ -386,10 +507,16 @@
       "marketValue": 1200000,
       "weeklyWage": 2800,
       "position": "LW",
-      "secondaryPositions": "CAM/CM",
-      "role": "Kader",
-      "status": "Verliehen – 2 Jahre",
-      "loanListed": false
+      "secondaryPositions": [
+        "CAM",
+        "CM"
+      ],
+      "role": "verliehen",
+      "status": "2 Jahre verliehen",
+      "appearances": 5,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 1
     }
   ],
   "sales": [
@@ -427,13 +554,6 @@
       "name": "Niklas Wiemann",
       "status": "Verkauft",
       "fee": 960000
-    },
-    {
-      "name": "Mats Remberg",
-      "status": "Transfer vereinbart · Abgang Saisonende",
-      "fee": 290000,
-      "reinvestable": 203000,
-      "timing": "Saisonende 2026/27"
     },
     {
       "name": "Theo Jannotta",
@@ -572,131 +692,97 @@
     "duration": "9 Monate",
     "cost": 270000,
     "focus": [
+      "GK",
       "IV",
-      "ZM/ZDM",
       "RV"
     ]
   },
   "talents": [
     {
       "name": "Mario Silva",
-      "age": 16,
-      "ovr": 69,
-      "pot": 93,
+      "age": 17,
+      "ovr": 73,
+      "pot": 95,
       "status": "1. Mannschaft",
-      "role": "Stamm-RF",
-      "marketValue": 6000000,
+      "role": "Stamm-RW",
+      "marketValue": 9500000,
       "appearances": 40,
-      "scorer": 5,
-      "averageRating": 7.07,
       "goals": 13,
       "assists": 11,
-      "cleanSheets": 12
+      "averageRating": 7.07
     },
     {
       "name": "Ole Schubert",
-      "age": 16,
-      "ovr": 70,
-      "pot": 85,
+      "age": 17,
+      "ovr": 72,
+      "pot": 91,
       "status": "1. Mannschaft",
       "role": "Stamm-LV",
-      "appearances": 41,
-      "goals": 2,
-      "assists": 2,
-      "cleanSheets": 14
+      "marketValue": 5500000
     },
     {
       "name": "Christian Wolf",
-      "age": 16,
-      "ovr": 66,
+      "age": 17,
+      "ovr": 70,
       "pot": 90,
       "status": "1. Mannschaft",
       "role": "Stammkeeper",
-      "appearances": 39,
-      "goals": 0,
-      "assists": 0,
-      "cleanSheets": 11
-    },
-    {
-      "name": "Viggo Andersen",
-      "age": 16,
-      "ovr": 61,
-      "pot": 90,
-      "status": "1. Mannschaft",
-      "role": "2. ST",
-      "appearances": 7,
-      "goals": 2,
-      "assists": 2,
-      "cleanSheets": 2
-    },
-    {
-      "name": "Kevin Wiethaup",
-      "age": 20,
-      "ovr": 63,
-      "pot": 78,
-      "status": "1. Mannschaft",
-      "role": "LF-Backup",
-      "appearances": 5,
-      "goals": 0,
-      "assists": 0,
-      "cleanSheets": 1
-    },
-    {
-      "name": "Ismail Badjie",
-      "age": 20,
-      "ovr": 64,
-      "pot": 74,
-      "status": "1. Mannschaft",
-      "role": "LF-Rotation",
-      "appearances": 29,
-      "goals": 10,
-      "assists": 2,
-      "cleanSheets": 6
-    },
-    {
-      "name": "Bernd Riesselmann",
-      "age": 20,
-      "ovr": 60,
-      "pot": 70,
-      "status": "Leihe · CD Tondela",
-      "role": "ST-Talent"
-    },
-    {
-      "name": "Matviy Ponomar",
-      "age": 20,
-      "ovr": 66,
-      "pot": 82,
-      "status": "1. Mannschaft",
-      "role": "Stamm-ST",
-      "appearances": 37,
-      "goals": 18,
-      "assists": 6,
-      "cleanSheets": 9
-    },
-    {
-      "name": "Max Adams",
-      "age": 18,
-      "ovr": 62,
-      "pot": 70,
-      "status": "1. Mannschaft",
-      "role": "Perspektivprofi · RV/LV",
-      "appearances": 14,
-      "goals": 0,
-      "assists": 0,
-      "cleanSheets": 2
+      "marketValue": 3800000
     },
     {
       "name": "Alexander Hirsch",
       "age": 16,
-      "ovr": 71,
+      "ovr": 72,
       "pot": 95,
-      "role": "ZM/ZDM · Rotation",
       "status": "1. Mannschaft",
+      "role": "Rotation",
+      "marketValue": 7500000,
       "appearances": 19,
-      "averageRating": 6.16,
       "goals": 1,
       "assists": 1,
-      "cleanSheets": 3
+      "averageRating": 6.16
+    },
+    {
+      "name": "Matviy Ponomarenko",
+      "age": 21,
+      "ovr": 69,
+      "pot": 86,
+      "status": "1. Mannschaft",
+      "role": "Stamm-ST",
+      "marketValue": 3700000,
+      "appearances": 37,
+      "goals": 18,
+      "assists": 6
+    },
+    {
+      "name": "Viggo Andersen",
+      "age": 17,
+      "ovr": 63,
+      "pot": 83,
+      "status": "Leihliste",
+      "role": "ST",
+      "marketValue": 1300000,
+      "appearances": 7,
+      "goals": 2,
+      "assists": 2
+    },
+    {
+      "name": "Kevin Wiethaup",
+      "age": 21,
+      "ovr": 64,
+      "pot": 71,
+      "status": "Leihe · 2 Jahre",
+      "role": "LW",
+      "marketValue": 1200000
+    },
+    {
+      "name": "Ismail Badjie",
+      "age": 21,
+      "ovr": 67,
+      "pot": 74,
+      "status": "1. Mannschaft",
+      "role": "Wichtig · Flügel",
+      "marketValue": 2100000
     }
   ],
   "preseasonTournament": {
@@ -1020,7 +1106,8 @@
     "Theo Jannotta: Im Sommer 2027 für 600.000 € verkauft. Nach der 70%-Regel sind 420.000 € reinvestierbar, 180.000 € verbleiben beim Verein.",
     "Kevin Wiethaup: 2-Jahres-Leihe abgeschlossen. Ziel ist regelmäßige Spielzeit und Entwicklung; er bleibt beim VfL unter Vertrag.",
     "William Mikelbrencis von SV Darmstadt 98: 23 Jahre, 71 OVR/80 POT, RV/RM, aktuelles Gehalt 11.500 €/Woche. Mindestpreis 4,1 Mio. €, Forderung/Verkaufspreis 5,1 Mio. €. Vorstand stimmt einem Transfer grundsätzlich zu, setzt aber eine Ablöseobergrenze von 4,3 Mio. € wegen Gehalt und Gehaltsstruktur.",
-    "William Mikelbrencis: Mit Darmstadt wurde eine Ablöse von 4.300.000 € plus 2 % Weiterverkaufsbeteiligung vereinbart. Vorstand gibt den Deal frei; Spielervertrag steht noch aus."
+    "William Mikelbrencis: Mit Darmstadt wurde eine Ablöse von 4.300.000 € plus 2 % Weiterverkaufsbeteiligung vereinbart. Vorstand gibt den Deal frei; Spielervertrag steht noch aus.",
+    "Dashboard-Reinigung 1.7.2027: Prioritäten auf Bundesliga-Bedarf aktualisiert; aktive Verkaufskandidaten von bereits feststehenden Abgängen getrennt; Leihliste auf Andersen und Adams reduziert, Wiethaup als 2-Jahres-Leihe geführt; Jugendscouting auf GK/IV/RV priorisiert; aktueller Kader und Talente auf den 1.7.-Ingame-Stand gebracht."
   ],
   "matches": [
     {
@@ -1177,9 +1264,9 @@
         "reason": "Spieler möchte wechseln; als 3. Keeper kein zentraler Kaderbaustein.",
         "timing": "Saisonende 2026/27"
       },
-      "status": "Frühe Vorbereitung / Scouting läuft",
-      "midfield": "Hirsch bleibt als interne Lösung vorgesehen; kein externer ZM aktuell geplant.",
-      "goalkeeper": "Scouting läuft; Remberg verlässt den Verein am Saisonende.",
+      "status": "Bundesliga-Sommer – aktiv",
+      "midfield": "Izan González ist zurück bei Granada; Hirsch intern einplanen, zusätzlich soliden ZM suchen.",
+      "goalkeeper": "Remberg verlässt den Verein; 3. Keeper suchen.",
       "note": "Trainer will Verteidigung und RV verbessern sowie einen soliden ZM und 3. Keeper verpflichten. Ersatz für Remberg/Jakobsen wird abhängig vom Budget entschieden.",
       "goalkeeperScouting": "Ab Anfang Mai aktivieren und intensivieren; Fokus auf Ersatz und mögliche qualitative Verbesserung nach Rembergs Abgang.",
       "twoScenarioPlanning": {
@@ -1272,19 +1359,19 @@
         "note": "Zusätzliche Scoutingarbeit unabhängig vom Relegationsausgang, um bei einem Aufstieg vorbereitet zu sein."
       },
       "priorityPositions": [
-        "IV/Defensive Stabilität",
         "RV",
+        "IV/Defensive",
         "ZM",
         "3. TW"
       ],
       "gk": "3. Keeper wird benötigt",
       "rv": "RV-Verstärkung gewünscht",
-      "defense": "Defensive Verstärkung gewünscht",
+      "defense": "Bundesliga-taugliche Verstärkung in IV/Defensive prüfen.",
       "zm": "Solider ZM benötigt",
       "youthPainThresholds": {
         "Mario Silva": 17000000,
         "Ole Schubert": 10000000,
-        "note": "Unterhalb dieser internen Grenze soll kein ernsthafter Verkauf erwogen werden; darüber wird ein Angebot individuell bewertet und nicht automatisch angenommen."
+        "note": "Unterhalb dieser Grenze kein aktiver Verkauf; darüber individuelle Bewertung."
       },
       "rvTarget": {
         "name": "William Mikelbrencis",
@@ -1362,16 +1449,6 @@
     }
   ],
   "loans": [
-    {
-      "player": "Izan González",
-      "from": "FC Granada",
-      "duration": "12 Monate",
-      "loanFee": 0,
-      "salaryShare": 100,
-      "weeklyWage": 3800,
-      "purchaseOption": false,
-      "status": "Abgeschlossen"
-    },
     {
       "name": "Kevin Wiethaup",
       "duration": "2 Jahre",
@@ -1657,6 +1734,18 @@
         "youthRetention": "Volle Zustimmung. Silva und Schubert sind strategische Kernspieler. Die gesetzten Schmerzensgrenzen sind Untergrenzen für eine erneute Bewertung, keine automatische Verkaufserlaubnis.",
         "managerFuture": "Der Vorstand akzeptiert die Sonderklausel. Nach dem historischen Aufstieg ist uns die Kontinuität für die erste Bundesliga-Saison wichtig; gleichzeitig soll Kroos eine faire Karriereoption für den Sommer 2028 haben."
       }
+    },
+    {
+      "date": "1.7.2027",
+      "title": "Vorstandssitzung – Bundesliga-Sommer",
+      "status": "Sitzung läuft",
+      "budget": 20000000,
+      "currentSquadSnapshot": "25 Spieler im aktuellen Save-Kader. González zurück bei Granada; Remberg und Jacobsen stehen vor feststehenden Abgängen.",
+      "questionsPending": [
+        "Bundesliga-Kader: Welche Position soll nach dem vereinbarten RV-Transfer als nächstes verstärkt werden?",
+        "ZM: Soll zusätzlich zum internen Hirsch-Aufbau ein erfahrener/solider ZM verpflichtet werden?",
+        "Saisonziel: Klassenerhalt ist das offizielle Ziel. Welche interne Zwischenmarke möchtest du setzen?"
+      ]
     }
   ],
   "boardMeetingFormat": {
@@ -1712,9 +1801,9 @@
   ],
   "seasonGoals": {
     "primary": "Klassenerhalt in der Bundesliga",
-    "secondary": "Bundesliga-Etablierung",
-    "currentOfficialGoal": "Noch festzulegen in der Sommerplanung",
-    "internalOutlook": "Nach dem Aufstieg liegt der Fokus auf Bundesliga-Klassenerhalt und dem schrittweisen Aufbau des Kaders."
+    "secondary": "In der Bundesliga etablieren",
+    "currentOfficialGoal": "Klassenerhalt",
+    "internalOutlook": "Der Vorstand erwartet zunächst eine Saison zur Etablierung. Ein Platz oberhalb der Abstiegszone hat Vorrang vor überzogenen Zielvorgaben."
   },
   "contractReview": {
     "RobinHenning": {
@@ -1888,17 +1977,17 @@
     "score": 10,
     "scale": "1–10",
     "status": "außergewöhnlich hoch",
-    "currentAssessment": "Der Vorstand ist nach dem Bundesligaaufstieg maximal zufrieden. Toni Kroos signalisiert grundsätzlich, mindestens die erste Bundesliga-Saison mit dem VfL bestreiten zu wollen. Ein möglicher lukrativer externer Trainerwechsel im Sommer wird nicht ausgeschlossen.",
+    "currentAssessment": "Nach dem Bundesligaaufstieg ist die Zufriedenheit maximal. Für die neue Saison werden Kaderqualität und wirtschaftliche Vernunft deutlich stärker geprüft.",
     "positiveFactors": [
-      "Aufstieg in die Bundesliga",
-      "Relegation mit 3:2 gegen den HSV gewonnen",
-      "Offensiver Spielstil mit notwendiger defensiver Anpassung",
-      "Saisonentwicklung deutlich über Zielvorgabe"
+      "Bundesligaaufstieg",
+      "Starker Entwicklungssprung mehrerer Talente",
+      "20 Mio. € Startbudget"
     ],
     "riskFactors": [
-      "Relegation gegen den HSV steht noch aus"
+      "Bundesligaqualität des Kaders muss erst bestätigt werden",
+      "Mehrere Sommerabgänge/Leihentscheidungen"
     ],
-    "review": "Wird in der Bundesliga weiter bei jeder Vorstandssitzung neu bewertet."
+    "review": "Bei jeder Vorstandssitzung neu."
   },
   "managerContract": {
     "manager": "Toni Kroos",
@@ -2059,18 +2148,19 @@
     }
   },
   "youthScoutingNext": {
-    "status": "laufend / aktueller Akademiestand übernommen",
-    "boardDecision": "Ein neuer Jugendscout soll beauftragt werden.",
+    "status": "nächster Einsatz geplant",
+    "boardDecision": "Neuer Jugendscout wird auf eine Position mit aktuellem Bedarf angesetzt.",
     "recommendedMission": {
       "country": "Deutschland",
       "duration": "9 Monate",
       "focus": [
         "GK",
-        "ZM/ZDM"
+        "IV",
+        "RV"
       ],
-      "reason": "Nach dem Sommerabgang von Remberg besteht langfristig Bedarf im Tor; im ZM soll die Jugendpipeline weiter gestärkt werden."
-    },
-    "note": "Konkrete Kosten und endgültige Parameter werden nach Auswahl im Spiel übernommen. Neuer Scoutlauf liefert aktuell mehrere starke Offensiv- und Defensivtalente."
+      "priority": "TW / Defensive / RV",
+      "reason": "Im Profikader besteht in der Bundesliga Bedarf an Torwarttiefe und defensiver Qualität; im ZM ist die Jugendpipeline bereits stark."
+    }
   },
   "relegation": {
     "opponent": "Hamburger SV",
@@ -2414,31 +2504,42 @@
   "loanList": [
     {
       "name": "Viggo Andersen",
-      "status": "Auf Leihliste",
-      "reason": "Entwicklung durch regelmäßige Spielzeit",
+      "status": "Leihliste",
+      "reason": "Regelmäßige Spielzeit zur Entwicklung",
       "age": 17,
       "ovr": 63,
       "potential": 83,
       "position": "ST"
     },
     {
-      "name": "Kevin Wiethaup",
-      "status": "Leihe vereinbart – 2 Jahre",
-      "reason": "Entwicklung durch regelmäßige Spielzeit",
-      "age": 21,
-      "ovr": 64,
-      "potential": 71,
-      "position": "LW",
-      "duration": "2 Jahre"
-    },
-    {
       "name": "Max Adams",
-      "status": "Auf Leihliste",
-      "reason": "Entwicklung durch regelmäßige Spielzeit",
+      "status": "Leihliste",
+      "reason": "Regelmäßige Spielzeit zur Entwicklung",
       "age": 19,
       "ovr": 63,
       "potential": 63,
-      "position": "RV"
+      "position": "RV/LV"
+    }
+  ],
+  "saleCandidates": [
+    {
+      "name": "Keine aktive Verkaufsliste",
+      "status": "Aktuell kein weiterer Spieler aktiv zum Verkauf vorgesehen",
+      "note": "Remberg und Jacobsen verlassen den Verein bereits; Jannotta ist verkauft."
+    }
+  ],
+  "departureCandidates": [
+    {
+      "name": "Mats Remberg",
+      "status": "Abgang fest vereinbart",
+      "fee": 290000,
+      "timing": "Sommer 2027"
+    },
+    {
+      "name": "Bjarke Jacobsen",
+      "status": "Abgang feststehend",
+      "fee": 0,
+      "timing": "Sommer 2027"
     }
   ]
 }
