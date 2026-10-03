@@ -388,8 +388,8 @@
       "position": "LW",
       "secondaryPositions": "CAM/CM",
       "role": "Kader",
-      "status": "Auf Leihliste",
-      "loanListed": true
+      "status": "Verliehen – 2 Jahre",
+      "loanListed": false
     }
   ],
   "sales": [
@@ -1004,7 +1004,8 @@
     "Sommer 2027: Interne Schmerzensgrenzen neu gesetzt – Mario Silva 17 Mio. €, Ole Schubert 10 Mio. €. Trainerangebote mit Perspektiven ergänzt; Osnabrück bietet den Aufbau der ersten Bundesliga-Saison mit 20 Mio. € Transferbudget und Talententwicklung.",
     "Trainervereinbarung Sommer 2027: Toni Kroos bleibt beim VfL Osnabrück. Sonderklausel akzeptiert: Nach Saison 2027/28 darf Kroos ohne Entschädigungszahlung zu einem Klub aus Bundesliga, Premier League oder LaLiga wechseln. Die Klausel verpflichtet nicht zum Wechsel.",
     "Leihliste Sommer 2027: Viggo Andersen, Kevin Wiethaup und Max Adams wurden auf die Leihliste gesetzt. Vorstand unterstützt die Maßnahme zur gezielten Entwicklung durch regelmäßige Spielzeit.",
-    "Theo Jannotta: Im Sommer 2027 für 600.000 € verkauft. Nach der 70%-Regel sind 420.000 € reinvestierbar, 180.000 € verbleiben beim Verein."
+    "Theo Jannotta: Im Sommer 2027 für 600.000 € verkauft. Nach der 70%-Regel sind 420.000 € reinvestierbar, 180.000 € verbleiben beim Verein.",
+    "Kevin Wiethaup: 2-Jahres-Leihe abgeschlossen. Ziel ist regelmäßige Spielzeit und Entwicklung; er bleibt beim VfL unter Vertrag."
   ],
   "matches": [
     {
@@ -1334,6 +1335,13 @@
       "weeklyWage": 3800,
       "purchaseOption": false,
       "status": "Abgeschlossen"
+    },
+    {
+      "name": "Kevin Wiethaup",
+      "duration": "2 Jahre",
+      "status": "verliehen",
+      "reason": "Entwicklung durch regelmäßige Spielzeit",
+      "purchaseOption": null
     }
   ],
   "boardMeetings": [
@@ -2379,12 +2387,13 @@
     },
     {
       "name": "Kevin Wiethaup",
-      "status": "Auf Leihliste",
+      "status": "Leihe vereinbart – 2 Jahre",
       "reason": "Entwicklung durch regelmäßige Spielzeit",
       "age": 21,
       "ovr": 64,
       "potential": 71,
-      "position": "LW"
+      "position": "LW",
+      "duration": "2 Jahre"
     },
     {
       "name": "Max Adams",
