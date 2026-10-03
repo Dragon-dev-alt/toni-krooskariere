@@ -26,7 +26,7 @@ table{width:100%;border-collapse:collapse}td,th{text-align:left;padding:8px;bord
 <div class="card"><h2>🎯 Transferprioritäten</h2><table><thead><tr><th>Pos.</th><th>Priorität</th><th>Status</th></tr></thead><tbody id="priorities"></tbody></table><div class="note"><b>RV:</b> Patrick Kammerbauer wird zunächst umgeschult.</div></div>
 </section>
 <section class="grid two">
-<div class="card"><h2>👥 Kaderentscheidungen</h2><table><thead><tr><th>Spieler</th><th>Rolle</th><th>Status</th></tr></thead><tbody id="players"></tbody></table></div>
+<div class="card"><h2>👥 Kader & Saisonstatistik</h2><table><thead><tr><th>Spieler</th><th>Rolle</th><th>Eins.</th><th>Tore</th><th>Vorl.</th><th>Status</th></tr></thead><tbody id="players"></tbody></table></div>
 <div class="card"><h2>🔴 Verkäufe</h2><table><thead><tr><th>Spieler</th><th>Status</th><th>Ablöse</th></tr></thead><tbody id="sales"></tbody></table></div>
 </section>
 <section class="grid two">
@@ -60,7 +60,7 @@ if(d.managerContract){
 }
 rules.innerHTML=d.rules.map((x,i)=>'<div class="rule"><b>'+(i+1)+'. Vorstandsregel</b>'+e(x)+'</div>').join('');
 priorities.innerHTML=d.priorities.map(x=>'<tr><td><b>'+e(x.position)+'</b></td><td><span class="pill '+(x.priority==='Sehr hoch'?'red':'orange')+'">'+e(x.priority)+'</span></td><td>'+e(x.status)+'</td></tr>').join('');
-players.innerHTML=d.players.map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td>'+e(x.role)+'</td><td><span class="pill">'+e(x.status)+'</span></td></tr>').join('');
+players.innerHTML=d.players.map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td>'+e(x.role)+'</td><td>'+e(x.appearances??'–')+'</td><td>'+e(x.goals??'–')+'</td><td>'+e(x.assists??'–')+'</td><td><span class="pill">'+e(x.status)+'</span></td></tr>').join('');
 sales.innerHTML=d.sales.map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td><span class="pill '+(x.status==='Verkauft'?'green':'red')+'">'+e(x.status)+'</span></td><td>'+(x.fee?eur(x.fee):'–')+'</td></tr>').join('');
 academy.innerHTML=d.academy.map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td>'+x.age+'</td><td>'+x.ovr+'/'+x.pot+'</td><td>'+e(x.plan)+'</td></tr>').join('');
 talents.innerHTML=(d.talents||[]).map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td>'+x.age+'</td><td>'+x.ovr+'/'+x.pot+'</td><td>'+e(x.role)+' · '+e(x.status)+'</td></tr>').join('');
