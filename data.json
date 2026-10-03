@@ -990,7 +990,8 @@
     "1.7.2027: Aktuellen Ingame-Kader vollständig übernommen. Transferbudget 20 Mio. €. Mats Remberg und Bjarke Jacobsen stehen noch vor ihren feststehenden Abgängen. Izan González ist aus der Leihe zurück bei Granada.",
     "1.7. Externe Trainerangebote: FC Augsburg, FC Utrecht, FC Schalke 04 und 1. FSV Mainz 05 haben konkrete Angebote/Anfragen abgegeben. Trainer plant grundsätzlich mindestens die erste Bundesliga-Saison in Osnabrück, lässt aber einen lukrativen Wechsel offen.",
     "1.7. Kaderprioritäten 2027/28: Verteidigung und RV verbessern, zusätzlich solider ZM und 3. Keeper. Remberg/Jakobsen-Ersatz abhängig vom Budget.",
-    "Jugendkern schützen: Mario Silva und Ole Schubert stehen grundsätzlich nicht zum Verkauf. Interne Schmerzensgrenzen für erneute Bewertung: Silva 22 Mio. €, Schubert 14 Mio. €."
+    "Jugendkern schützen: Mario Silva und Ole Schubert stehen grundsätzlich nicht zum Verkauf. Interne Schmerzensgrenzen für erneute Bewertung: Silva 22 Mio. €, Schubert 14 Mio. €.",
+    "Sommer 2027: Interne Schmerzensgrenzen neu gesetzt – Mario Silva 17 Mio. €, Ole Schubert 10 Mio. €. Trainerangebote mit Perspektiven ergänzt; Osnabrück bietet den Aufbau der ersten Bundesliga-Saison mit 20 Mio. € Transferbudget und Talententwicklung."
   ],
   "matches": [
     {
@@ -1250,7 +1251,12 @@
       "gk": "3. Keeper wird benötigt",
       "rv": "RV-Verstärkung gewünscht",
       "defense": "Defensive Verstärkung gewünscht",
-      "zm": "Solider ZM benötigt"
+      "zm": "Solider ZM benötigt",
+      "youthPainThresholds": {
+        "Mario Silva": 17000000,
+        "Ole Schubert": 10000000,
+        "note": "Unterhalb dieser internen Grenze soll kein ernsthafter Verkauf erwogen werden; darüber wird ein Angebot individuell bewertet und nicht automatisch angenommen."
+      }
     },
     "relegation": {
       "approach": "Offensiv bleiben, defensive Absicherung über außen verstärken",
@@ -1858,7 +1864,12 @@
         "transferBudgetPromise": 30000000,
         "releaseCompensationToOsnabrueck": 3000000,
         "status": "offizielles Angebot",
-        "note": "Bundesliga-Konkurrent mit größerem aktuellen Budget; Projekt auf langfristige Etablierung."
+        "note": "Bundesliga-Konkurrent mit größerem aktuellen Budget; Projekt auf langfristige Etablierung.",
+        "perspective": {
+          "sportingPerspective": "Bundesliga-Projekt mit größerem aktuellem Transferbudget. Fokus auf langfristige Etablierung und Kaderaufbau.",
+          "managerPerspective": "Direkter Verbleib in der Bundesliga mit mehr finanziellem Spielraum.",
+          "squadRole": "Cheftrainer mit längerem Aufbauprojekt."
+        }
       },
       {
         "club": "FC Utrecht",
@@ -1870,7 +1881,12 @@
         "releaseCompensationToOsnabrueck": 2000000,
         "transferBudgetPromise": 22000000,
         "status": "offizielles Angebot",
-        "note": "Internationale Option mit guter Entwicklungsperspektive."
+        "note": "Internationale Option mit guter Entwicklungsperspektive.",
+        "perspective": {
+          "sportingPerspective": "Eredivisie-Option mit internationaler Perspektive und 22 Mio. € zugesagtem Transferbudget.",
+          "managerPerspective": "Wechsel ins Ausland und in eine neue Liga bei mehrjährigem Planungshorizont.",
+          "squadRole": "Cheftrainer in internationalem Umfeld."
+        }
       },
       {
         "club": "FC Schalke 04",
@@ -1882,7 +1898,12 @@
         "releaseCompensationToOsnabrueck": 2500000,
         "transferBudgetPromise": 26000000,
         "status": "offizielles Angebot",
-        "note": "Großer Traditionsverein mit kurzfristigem Aufstiegsanspruch."
+        "note": "Großer Traditionsverein mit kurzfristigem Aufstiegsanspruch.",
+        "perspective": {
+          "sportingPerspective": "2.-Bundesliga-Projekt mit kurzfristigem Aufstiegsanspruch und 26 Mio. € Transferbudget.",
+          "managerPerspective": "Direkter Auftrag, einen ambitionierten Aufstiegsanwärter zu führen.",
+          "squadRole": "Cheftrainer mit kurzfristigem Ergebnisdruck."
+        }
       },
       {
         "club": "1. FSV Mainz 05",
@@ -1894,10 +1915,23 @@
         "transferBudgetPromise": 32000000,
         "releaseCompensationToOsnabrueck": 4000000,
         "status": "konkrete Anfrage / Angebot",
-        "note": "Bundesliga-Angebot mit höherer Vergütung; Entscheidung des Trainers ausstehend."
+        "note": "Bundesliga-Angebot mit höherer Vergütung; Entscheidung des Trainers ausstehend.",
+        "perspective": {
+          "sportingPerspective": "Bundesliga-Option mit 32 Mio. € Transferbudget und zweijährigem Vertrag.",
+          "managerPerspective": "Direkter Verbleib in der Bundesliga mit größerem finanziellen Spielraum.",
+          "squadRole": "Cheftrainer in einem etablierten Bundesliga-Umfeld."
+        }
       }
     ],
-    "boardPosition": "Der Vorstand würde bei einem Wechsel eine angemessene Entschädigung erwarten. Ein Abgang wird nicht kategorisch blockiert, aber nach dem Aufstieg soll zuerst die Perspektive des VfL geprüft werden."
+    "boardPosition": "Der Vorstand würde bei einem Wechsel eine angemessene Entschädigung erwarten. Ein Abgang wird nicht kategorisch blockiert, aber nach dem Aufstieg soll zuerst die Perspektive des VfL geprüft werden.",
+    "currentClubPerspective": {
+      "club": "VfL Osnabrück",
+      "league": "Bundesliga",
+      "sportingPerspective": "Nach dem Aufstieg soll der Verein in der Bundesliga etabliert werden. Der Vorstand stellt 20 Mio. € Transferbudget bereit und unterstützt schrittweise Kaderverstärkungen.",
+      "managerPerspective": "Der Vorstand möchte grundsätzlich mit Toni Kroos mindestens die erste Bundesliga-Saison bestreiten.",
+      "developmentPerspective": "Der junge Talentkern soll weiterentwickelt werden, darunter Silva, Schubert, Hirsch und Wolf.",
+      "contractualPerspective": "Trainervertrag läuft bis Sommer 2029; keine automatische Verlängerung."
+    }
   },
   "leagueTable": {
     "asOf": "1.6.",
