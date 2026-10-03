@@ -759,7 +759,8 @@
     "1.4. Trainerantworten: Endspurt mit Fokus auf Konstanz, bei weiterem Blick auf Platz 3/4. Hirsch 10 Einsätze, Ø 6,16 und mindestens Rotationsrolle; Wichtig für 2027/28 vorstellbar. Sommerplan mit Hirsch statt externem ZM bleibt. Torwartscouting wird ab Anfang Mai intensiviert. Klassenerhalt bleibt offizielles Ziel. Vorstand unterstützt künftig flexible Anzahl an Sitzungsfragen ohne Wiederholungen.",
     "Jugendscouting: Der Trainer möchte erneut einen Jugendscout losschicken. Vorstand stimmt grundsätzlich zu. Empfehlung: Deutschland, 9 Monate, Fokus GK und ZM/ZDM, um insbesondere die langfristige Torwartpipeline nach Rembergs Abgang zu stärken.",
     "Aktuelle Jugendakademie (neuster Stand): Matthis Vetter 15/72/97 CAM; Andreas Vogel 15/66/83 CDM; Thomas Vogel 14/68/92 LB/CB; Lukas Baumann 16/71/96 CB; Mohamed Richter 15/74/95 RW/LW; Nick Adam 15/66/83 CDM; Otto Riedel 15/70/86 CB; Özgür Burakgazi 15/64/82 GK. Besonders stark: Richter 74 OVR/95 POT, Vetter 72/97, Baumann 71/96.",
-    "1.5. Tabellenstand: Osnabrück Platz 3, 53 Punkte aus 32 Spielen, 14S/11U/7N, 52:34 Tore. Punktgleich mit Hertha auf Platz 4, aber bessere Tordifferenz. Aufstiegs-Playoff-Platz erreicht. Vorstandszufriedenheit 10/10."
+    "1.5. Tabellenstand: Osnabrück Platz 3, 53 Punkte aus 32 Spielen, 14S/11U/7N, 52:34 Tore. Punktgleich mit Hertha auf Platz 4, aber bessere Tordifferenz. Aufstiegs-Playoff-Platz erreicht. Vorstandszufriedenheit 10/10.",
+    "1.5. Trainerantworten: Offensive Spielweise bleibt bestehen; Heimvorteil in mindestens einem der zwei verbleibenden Heimspiele nutzen. Hirsch bleibt bis Saisonende klarer Rotationsspieler. Nach den letzten beiden Ligaspielen beginnt die zweigleisige Sommerplanung für 2. Bundesliga und mögliches Relegations-/Aufstiegsszenario."
   ],
   "matches": [
     {
@@ -920,7 +921,13 @@
       "midfield": "Hirsch bleibt als interne Lösung vorgesehen; kein externer ZM aktuell geplant.",
       "goalkeeper": "Scouting läuft; Remberg verlässt den Verein am Saisonende.",
       "note": "Kaderplanung soll Richtung Sommer konkretisiert werden.",
-      "goalkeeperScouting": "Ab Anfang Mai aktivieren und intensivieren; Fokus auf Ersatz und mögliche qualitative Verbesserung nach Rembergs Abgang."
+      "goalkeeperScouting": "Ab Anfang Mai aktivieren und intensivieren; Fokus auf Ersatz und mögliche qualitative Verbesserung nach Rembergs Abgang.",
+      "twoScenarioPlanning": {
+        "status": "Start nach den letzten zwei Ligaspielen",
+        "scenario2Bundesliga": "Kaderplanung für Verbleib in der 2. Bundesliga",
+        "scenarioRelegationPromotion": "Parallel erste Optionen für mögliches Relegations-/Aufstiegsszenario prüfen",
+        "trigger": "Letzte zwei Ligaspiele abgeschlossen"
+      }
     }
   },
   "suspensions": {
@@ -1172,13 +1179,23 @@
     {
       "date": "1.5.",
       "title": "Vorstandssitzung – Aufstiegs-Playoff-Platz",
-      "status": "Sitzung eröffnet",
+      "status": "Beantwortet – weitere Planung nach den letzten beiden Ligaspielen",
       "currentLeagueSnapshot": "Platz 3, 53 Punkte nach 32 Spielen; 14 Siege, 11 Unentschieden, 7 Niederlagen; 52:34 Tore. Punktgleich mit Hertha auf Platz 4, aber bessere Tordifferenz.",
       "questionsPending": [
         "Endspurt: Wie willst du die letzten Spiele angehen, damit wir den dritten Platz und damit die Playoff-Chance verteidigen?",
         "Alexander Hirsch: Soll seine Einsatzzeit jetzt nochmals erhöht werden oder bleibt der vorsichtige Aufbau bestehen?",
         "Sommerplanung: Möchtest du angesichts des möglichen Aufstiegs die Scouting- und Kaderplanung bereits auf ein mögliches Erstliga-Niveau ausrichten oder strikt zweigleisig planen?"
-      ]
+      ],
+      "answers": {
+        "endspurt": "Die offensive Spielweise soll beibehalten werden. Der Heimvorteil soll in mindestens einem der verbleibenden Heimspiele genutzt werden, um Platz 3 zu verteidigen.",
+        "hirsch": "Bis zum Saisonende bleibt Hirsch klarer Rotationsspieler. Die Rolle für die kommende Saison wird nach Saisonende bewertet.",
+        "summerPlanning": "Nach den letzten beiden Ligaspielen soll die Kaderplanung langsam für beide Szenarien vorbereitet werden: 2. Bundesliga oder mögliche Relegation/Aufstieg."
+      },
+      "boardOpinion": {
+        "endspurt": "Zustimmung. Der Vorstand will keine taktische Kehrtwende vornehmen. Die offensive Spielweise hat uns bis auf den Playoff-Platz geführt; entscheidend ist nun, sie kontrolliert und konstant durchzuziehen.",
+        "hirsch": "Zustimmung. Wir sehen keinen Grund, Hirsch in den letzten Saisonspielen unter unnötigen Druck zu setzen. Eine größere Rolle ab 2027/28 wird nach seiner weiteren Entwicklung entschieden.",
+        "summerPlanning": "Zustimmung. Die Entscheidung, die letzten zwei Ligaspiele abzuwarten, ist sinnvoll. Danach soll zweigleisig geplant werden, damit bei einem Aufstieg keine Zeit verloren geht und bei einem Verbleib in der 2. Bundesliga ebenfalls ein belastbarer Kaderplan steht."
+      }
     }
   ],
   "boardMeetingFormat": {
