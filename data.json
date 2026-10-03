@@ -177,7 +177,7 @@
       "position": "IV",
       "secondaryPositions": [],
       "role": "keine Verlängerung geplant",
-      "status": "Kader"
+      "status": "Verkauft – Abgang Sommer 2027"
     },
     {
       "name": "Ryan Mahuta",
@@ -434,6 +434,13 @@
       "fee": 290000,
       "reinvestable": 203000,
       "timing": "Saisonende 2026/27"
+    },
+    {
+      "name": "Theo Jannotta",
+      "status": "Verkauft",
+      "fee": 600000,
+      "reinvestable": 420000,
+      "clubShare": 180000
     }
   ],
   "academy": [
@@ -996,7 +1003,8 @@
     "Jugendkern schützen: Mario Silva und Ole Schubert stehen grundsätzlich nicht zum Verkauf. Interne Schmerzensgrenzen für erneute Bewertung: Silva 22 Mio. €, Schubert 14 Mio. €.",
     "Sommer 2027: Interne Schmerzensgrenzen neu gesetzt – Mario Silva 17 Mio. €, Ole Schubert 10 Mio. €. Trainerangebote mit Perspektiven ergänzt; Osnabrück bietet den Aufbau der ersten Bundesliga-Saison mit 20 Mio. € Transferbudget und Talententwicklung.",
     "Trainervereinbarung Sommer 2027: Toni Kroos bleibt beim VfL Osnabrück. Sonderklausel akzeptiert: Nach Saison 2027/28 darf Kroos ohne Entschädigungszahlung zu einem Klub aus Bundesliga, Premier League oder LaLiga wechseln. Die Klausel verpflichtet nicht zum Wechsel.",
-    "Leihliste Sommer 2027: Viggo Andersen, Kevin Wiethaup und Max Adams wurden auf die Leihliste gesetzt. Vorstand unterstützt die Maßnahme zur gezielten Entwicklung durch regelmäßige Spielzeit."
+    "Leihliste Sommer 2027: Viggo Andersen, Kevin Wiethaup und Max Adams wurden auf die Leihliste gesetzt. Vorstand unterstützt die Maßnahme zur gezielten Entwicklung durch regelmäßige Spielzeit.",
+    "Theo Jannotta: Im Sommer 2027 für 600.000 € verkauft. Nach der 70%-Regel sind 420.000 € reinvestierbar, 180.000 € verbleiben beim Verein."
   ],
   "matches": [
     {
@@ -1144,7 +1152,7 @@
       }
     },
     "summer2027": {
-      "jannotta": "Abgang anstreben – keine Vertragsverlängerung",
+      "jannotta": "Verkauft für 600.000 €; 420.000 € reinvestierbar",
       "remberg": {
         "status": "Transfer vereinbart",
         "fee": 290000,
