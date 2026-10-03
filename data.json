@@ -703,7 +703,8 @@
     "3:2-Sieg gegen Arminia Bielefeld: Direkter Konkurrent geschlagen. Vorstand wertet das als wichtige Reaktion und hebt die Zufriedenheit auf 8/10 an.",
     "Robin Fabinski: 1 Jahr 3 Monate Restvertrag, 3.600 €/Woche, Marktwert 1,3 Mio. €, 19 Einsätze, Ø 6,21. Spieler möchte verlängern. Vorstand bietet Rotation, +2 Jahre, 3.600 €/Woche, kein Handgeld, keine Boni, keine Ausstiegsklausel.",
     "Robin Fabinski: Spieler fordert Wichtig. Vorstand kontert mit Wichtig für +1 Jahr, 3.600 €/Woche und 10.000 € Handgeld, keine Boni/Ausstiegsklausel. Absolute Grenze 3.800 €/Woche und 15.000 € Handgeld.",
-    "Robin Fabinski: Verlängerung final. Spieler akzeptiert Wichtig, +1 Jahr, 3.600 €/Woche und 10.000 € Handgeld. Keine Boni, keine Ausstiegsklausel."
+    "Robin Fabinski: Verlängerung final. Spieler akzeptiert Wichtig, +1 Jahr, 3.600 €/Woche und 10.000 € Handgeld. Keine Boni, keine Ausstiegsklausel.",
+    "1.4. Tabellenstand: Osnabrück Platz 5, 42 Punkte aus 27 Spielen, 11 Siege/9 Unentschieden/7 Niederlagen, 44:31 Tore. Vier Punkte Rückstand auf Platz 3/4. Sitzung 1.3. wurde wegen mangelnder Themen ausgelassen. Vorstandszufriedenheit 9/10."
   ],
   "matches": [
     {
@@ -1082,6 +1083,20 @@
         "zm": "Zustimmung mit Beobachtung. Kein Winterkauf ist vertretbar, solange Hirsch Schritt für Schritt integriert wird. Im Sommer brauchen wir eine klare Entscheidung über die ZM-Besetzung.",
         "summer": "Zustimmung. Frühe Scoutingarbeit ist sinnvoll. Der Vorstand erwartet bis zum Frühjahr eine shortlist für die Positionen, auf denen durch Abgänge Bedarf entsteht."
       }
+    },
+    {
+      "date": "1.4.",
+      "title": "Vorstandssitzung – Endspurt",
+      "status": "Sitzung eröffnet",
+      "currentLeagueSnapshot": "Platz 5, 42 Punkte nach 27 Spielen; 11 Siege, 9 Unentschieden, 7 Niederlagen; 44:31 Tore. Vier Punkte Rückstand auf Platz 3 und 4.",
+      "note": "Vorstandssitzung am 1.3. wurde wegen mangelnder relevanter Themen ausgelassen.",
+      "questionsPending": [
+        "Endspurt: Soll die Mannschaft in den letzten sieben Spielen aktiv auf die Aufstiegsplätze gehen, oder bleibt die Vorgabe primär eine stabile Schlussphase?",
+        "Kaderplanung: Bleibt der geplante Sommerweg mit Hirsch, dem Abgang von Jakobsen und dem vereinbarten Remberg-Transfer bestehen?",
+        "Hirsch: Wie bewertest du seine bisherige Integration in die 1. Mannschaft seit dem Hochzug?",
+        "Sommerziel: Soll das Scouting für einen ZM und einen neuen Torhüter jetzt konkreter werden oder erst nach der endgültigen Ligaposition?",
+        "Saisonziel: Bleibt Klassenerhalt offiziell das Ziel, während wir intern die Aufstiegschance verfolgen?"
+      ]
     }
   ],
   "boardMeetingFormat": {
@@ -1120,6 +1135,10 @@
     {
       "date": "1.1.",
       "result": "Halbzeitstand: Platz 5, 28 Punkte aus 17 Spielen. Offizielles Ziel bleibt Klassenerhalt; intern ist Aufstiegshoffnung erlaubt. Hirsch wird hochgezogen, Tesche aktiv angeboten, Remberg als 3. Keeper nachrangig. Budget: 882.500 €."
+    },
+    {
+      "date": "1.4.",
+      "result": "Endspurt-Stand: Platz 5, 42 Punkte aus 27 Spielen (11S/9U/7N), 44:31. Vier Punkte bis Platz 3/4. Vorstandszufriedenheit 9/10. Die Sitzung 1.3. wurde wegen fehlender relevanter Themen ausgelassen."
     }
   ],
   "seasonGoals": {
@@ -1128,7 +1147,7 @@
     "currentOfficialGoal": "Klassenerhalt",
     "januaryReview": "Bestätigt am 1.2.",
     "note": "Der aktuelle 4. Platz führt noch nicht zu einer offiziellen Anhebung des Saisonziels.",
-    "internalOutlook": "Aufstieg bleibt eine mögliche positive Nebenwirkung, ist aber kein internes Pflichtziel."
+    "internalOutlook": "Die Aufstiegschance ist sieben Spieltage vor Saisonende real vorhanden, bleibt aber eine positive Zusatzchance und kein Pflichtziel."
   },
   "contractReview": {
     "RobinHenning": {
@@ -1299,17 +1318,18 @@
   ],
   "youthRecruitmentCandidates": [],
   "boardSatisfaction": {
-    "score": 8,
+    "score": 9,
     "scale": "1–10",
-    "status": "hoch",
-    "currentAssessment": "Der Vorstand bewertet den 3:2-Sieg gegen Arminia Bielefeld sehr positiv. Der direkte Konkurrent wurde geschlagen und die Mannschaft hat damit auf die Januarresultate die gewünschte Reaktion gezeigt.",
+    "status": "sehr hoch",
+    "currentAssessment": "Der Vorstand ist mit der Saisonleistung sehr zufrieden. Nach 27 Spieltagen steht Osnabrück auf Platz 5 mit 42 Punkten und einer positiven Tordifferenz von +13. Das offizielle Ziel Klassenerhalt ist klar auf Kurs; zugleich liegt die Mannschaft nur 4 Punkte hinter den Aufstiegs-Playoffs.",
     "positiveFactors": [
-      "3:2 gegen Arminia Bielefeld",
-      "Direktes Duell gegen einen Konkurrenten gewonnen",
-      "Stabile Reaktion nach den schwierigen Spielen gegen St. Pauli und Hertha"
+      "Platz 5 nach 27 Spielen",
+      "42 Punkte und +13 Tordifferenz",
+      "Nur 4 Punkte Rückstand auf Platz 3/4",
+      "Saisonziel Klassenerhalt klar auf Kurs"
     ],
     "riskFactors": [
-      "Rückstand auf Platz 4 auf 5 Punkte angewachsen"
+      "Bielefeld ist punktgleich auf Platz 6"
     ],
     "review": "Wird bei jeder Vorstandssitzung neu bewertet."
   },
@@ -1326,45 +1346,46 @@
     "currentStatus": "Kein Anlass für eine vorzeitige Trennung; Vorstandszufriedenheit sehr hoch."
   },
   "leagueTable": {
-    "asOf": "1.2.",
+    "asOf": "1.4.",
     "competition": "2. Bundesliga",
     "osnabruck": {
-      "position": 6,
-      "points": 30,
-      "games": 20,
-      "wins": 8,
-      "draws": 6,
-      "losses": 6,
-      "goalsFor": 31,
-      "goalsAgainst": 23,
-      "goalDifference": 8
+      "position": 5,
+      "points": 42,
+      "games": 27,
+      "wins": 11,
+      "draws": 9,
+      "losses": 7,
+      "goalsFor": 44,
+      "goalsAgainst": 31,
+      "goalDifference": 13
     },
     "top": {
       "wolfsburg": {
         "position": 1,
-        "points": 46,
-        "games": 20
+        "points": 56,
+        "games": 27
       },
       "bochum": {
         "position": 2,
-        "points": 41,
-        "games": 20
+        "points": 55,
+        "games": 27
       },
       "hertha": {
         "position": 3,
-        "points": 38,
-        "games": 20
+        "points": 46,
+        "games": 27
       },
       "nurnberg": {
         "position": 4,
-        "points": 35,
-        "games": 20
+        "points": 46,
+        "games": 27
       },
       "bielefeld": {
-        "position": 5,
-        "points": 33,
-        "games": 20
+        "position": 6,
+        "points": 42,
+        "games": 27
       }
-    }
+    },
+    "context": "Osnabrück steht nach 27 Spieltagen auf Platz 5 mit 42 Punkten. Platz 3 und 4 sind 4 Punkte entfernt. Bielefeld auf Platz 6 hat ebenfalls 42 Punkte."
   }
 }
