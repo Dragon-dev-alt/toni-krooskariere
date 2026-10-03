@@ -1214,7 +1214,8 @@
     "Sommer 2027: Yigit Karademir kehrt stark verbessert aus der Leihe zurück und wird als Stamm-IV neben Jakob Schöller eingeplant. Externer IV-Transfer entfällt.",
     "Sommer 2027: L. Ben Farhat bleibt Wunschoption für den Sturm, falls nach den priorisierten Transfers ausreichend Budget verbleibt. Vorstand rechnet mit ca. 5 Mio. € und setzt 5,5 Mio. € als Obergrenze.",
     "Kjell Wätjen fordert die Rolle Wichtig. Vorstand geht auf Wichtig ein, behält aber 8.000 €/Woche und 25.000 € Handgeld als Angebot bei. Absolute Grenze 9.000 €/Woche + 40.000 € Handgeld.",
-    "Kjell Wätjen: Transfer abgeschlossen. 3,4 Mio. € Ablöse, 5 Jahre, Rolle Wichtig, 10.000 €/Woche, 40.000 € Handgeld, keine Boni/Ausstiegsklausel. Das Gehalt liegt über der zuvor gesetzten 9.000-€-Linie; Vorstand akzeptiert dies als Einzelfall für die gewünschte Rolle, behält aber die Gehaltsstruktur im Blick."
+    "Kjell Wätjen: Transfer abgeschlossen. 3,4 Mio. € Ablöse, 5 Jahre, Rolle Wichtig, 10.000 €/Woche, 40.000 € Handgeld, keine Boni/Ausstiegsklausel. Das Gehalt liegt über der zuvor gesetzten 9.000-€-Linie; Vorstand akzeptiert dies als Einzelfall für die gewünschte Rolle, behält aber die Gehaltsstruktur im Blick.",
+    "Taichi Fukui fordert 12.000 €/Woche und 200.000 € Handgeld bei Schlüsselspieler, 4 Jahre. Vorstand lehnt diese Forderung in voller Höhe ab, da sie deutlich über Wätjen (10.000 €) und Mikelbrencis (11.000 €) liegt. Gegenangebot: 10.500 €/Woche + 100.000 € Handgeld. Absolute Grenze: 11.000 €/Woche + 125.000 € Handgeld."
   ],
   "matches": [
     {
@@ -1559,17 +1560,20 @@
         "ovr": 73,
         "potential": 81,
         "agreedFee": 6500000,
-        "status": "Spieler bittet um Bedenkzeit",
+        "status": "Spielerforderung 12.000 €/Woche + 200.000 € Handgeld · Vorstand kontert",
         "contractOffer": {
           "role": "Schlüsselspieler",
           "years": 4,
-          "weeklyWage": 7800,
-          "entryBonus": 40000,
+          "weeklyWage": 10500,
+          "entryBonus": 100000,
           "performanceBonuses": [],
           "releaseClause": null,
-          "boardMaxWeeklyWage": 8500,
-          "boardMaxEntryBonus": 60000,
-          "status": "Verbessertes Angebot nach Bedenkzeit"
+          "boardMaxWeeklyWage": 11000,
+          "boardMaxEntryBonus": 125000,
+          "playerDemand": {
+            "weeklyWage": 12000,
+            "entryBonus": 200000
+          }
         }
       },
       "zmWatjen": {
@@ -2915,9 +2919,9 @@
       "Trainer & Vorstand"
     ],
     "note": "Aktuelle Saison im Fokus; historische Transfers werden nicht mehr im aktiven Dashboard angezeigt.",
-    "lastUpdate": "Sommer 2027: Wätjen final 5 Jahre, 10k/Woche, 40k Handgeld; Fukui weiterhin offen"
+    "lastUpdate": "Sommer 2027: Fukui fordert 12k + 200k; Vorstand kontert mit 10,5k + 100k"
   },
-  "budgetNote": "Nach Wätjen: 21.323.000 € bekanntes Restbudget. Wätjen: 3,4 Mio. € Ablöse + 40.000 € Handgeld. Fukui (6,5 Mio. €) bleibt weiterhin nicht abgezogen, solange sein Transfer nicht abgeschlossen ist.",
+  "budgetNote": "Aktueller Reststand vor Fukui: 21,323 Mio. €. Fukuis Ablöse von 6,5 Mio. € und etwaiges Handgeld sind noch nicht abgezogen, da der Vertrag offen ist.",
   "zmTransferBudgetGuidance": {
     "planningReferenceBudget": 30000000,
     "currency": "EUR",
@@ -3104,21 +3108,26 @@
     {
       "name": "Taichi Fukui",
       "club": "FC Arouca",
-      "status": "Spieler bittet um Bedenkzeit – Vertrag noch nicht abgeschlossen",
+      "status": "Vertrag offen · Spielerforderung erhalten",
       "transferFee": 6500000,
       "contractOffer": {
         "role": "Schlüsselspieler",
         "years": 4,
-        "weeklyWage": 7800,
-        "entryBonus": 40000,
+        "weeklyWage": 10500,
+        "entryBonus": 100000,
         "performanceBonuses": [],
         "releaseClause": null,
-        "boardMaxWeeklyWage": 8500,
-        "boardPosition": "Rolle Schlüsselspieler wird akzeptiert, Gehalt bleibt bei 7.000 €/Woche. Keine zusätzlichen Boni oder Klausel.",
-        "boardMaxEntryBonus": 60000,
-        "status": "Verbessertes Angebot nach Bedenkzeit"
+        "boardMaxWeeklyWage": 11000,
+        "boardMaxEntryBonus": 125000,
+        "status": "Vorstand kontert – 10.500 €/Woche + 100.000 € Handgeld"
       },
-      "budgetDeductionApplied": false
+      "budgetDeductionApplied": false,
+      "playerDemand": {
+        "role": "Schlüsselspieler",
+        "years": 4,
+        "weeklyWage": 12000,
+        "entryBonus": 200000
+      }
     }
   ]
 }
