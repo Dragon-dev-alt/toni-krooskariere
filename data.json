@@ -155,8 +155,8 @@
     {
       "name": "Mats Remberg",
       "role": "TW · 3. Keeper",
-      "status": "Wechselwunsch – bleibt bis Sommer",
-      "notes": "Spieler möchte den Verein verlassen. Trainer plant den Verkauf erst im Sommer 2027."
+      "status": "Transfer vereinbart – Abgang Saisonende",
+      "notes": "Wechselt am Ende der Saison für 290.000 €."
     },
     {
       "name": "Theo Jannotta",
@@ -226,6 +226,13 @@
       "name": "Niklas Wiemann",
       "status": "Verkauft",
       "fee": 960000
+    },
+    {
+      "name": "Mats Remberg",
+      "status": "Transfer vereinbart · Abgang Saisonende",
+      "fee": 290000,
+      "reinvestable": 203000,
+      "timing": "Saisonende 2026/27"
     }
   ],
   "academy": [
@@ -660,7 +667,8 @@
     "Tesche/Jakobsen Winterentscheidung: Nach Trainer-Gespräch wird Robert Tesche von der Verkaufsliste genommen. Mit 39 möchte er seine Karriere voraussichtlich am Saisonende beim VfL beenden; Vorstand unterstützt dies. Bjarke Jacobsen hat nur noch 6 Monate Vertrag und bislang keine Verlängerungsinitiative gezeigt, daher wird er auf die Transferliste gesetzt.",
     "Bjarke Jacobsen: Vorvertrag bei einem anderen Verein abgeschlossen. Er wechselt am Saisonende ablösefrei. Ein Winterverkauf mit Ablöse ist damit nicht mehr Teil der Planung.",
     "Alexander Hirsch wurde im Januar aus der Jugendakademie in die 1. Mannschaft hochgezogen. 16 Jahre, 71 OVR, 95 POT, Einsatz als ZM/ZDM.",
-    "Mats Remberg: Spieler möchte wechseln. Trainer und Vorstand planen keinen Winterverkauf; Abgang soll im Sommer 2027 angestrebt werden. Als 3. Keeper besteht kein akuter sportlicher Handlungsdruck."
+    "Mats Remberg: Spieler möchte wechseln. Trainer und Vorstand planen keinen Winterverkauf; Abgang soll im Sommer 2027 angestrebt werden. Als 3. Keeper besteht kein akuter sportlicher Handlungsdruck.",
+    "Mats Remberg: Transfer zum Saisonende für 290.000 € vereinbart. Nach der 70%-Regel sind davon 203.000 € reinvestierbar, 87.000 € verbleiben beim Verein. Remberg bleibt bis Saisonende als 3. Keeper."
   ],
   "matches": [
     {
@@ -803,9 +811,12 @@
     "summer2027": {
       "jannotta": "Abgang anstreben – keine Vertragsverlängerung",
       "remberg": {
-        "status": "Verkauf im Sommer geplant",
+        "status": "Transfer vereinbart",
+        "fee": 290000,
+        "reinvestable": 203000,
+        "clubShare": 87000,
         "reason": "Spieler möchte wechseln; als 3. Keeper kein zentraler Kaderbaustein.",
-        "timing": "Sommer 2027"
+        "timing": "Saisonende 2026/27"
       }
     }
   },
@@ -984,7 +995,7 @@
         "seasonTarget": "Offiziell bleibt der Klassenerhalt das Ziel. Intern darf die Mannschaft bei Platz 5 und 2 Punkten Rückstand auf Platz 4 auf den Aufstieg hoffen.",
         "hirsch": "Alexander Hirsch wird im Januar hochgezogen.",
         "tesche": "Robert Tesche soll im Winter aktiv für einen Verkauf angeboten werden.",
-        "remberg": "Remberg möchte wechseln; Verkauf soll erst im Sommer erfolgen.",
+        "remberg": "Remberg wechselt am Saisonende für 290.000 €. Er bleibt bis dahin als 3. Keeper.",
         "budget": "Aktuelles Transferbudget: 882.500 €.",
         "tescheJakobsen": "Tesche bleibt bis Saisonende und darf seine Karriere beim VfL ausklingen lassen. Jacobsen wird wegen nur 6 Monaten Restvertrag und fehlender Verlängerungsinitiative auf die Transferliste gesetzt.",
         "jacobsen": "Jacobsen hat einen Vorvertrag unterschrieben und verlässt den Verein am Saisonende ablösefrei."
@@ -993,7 +1004,7 @@
         "seasonTarget": "Zustimmung. Der Vorstand unterstützt die Trennung zwischen offiziellem Ziel und interner Ambition. Wir wollen keinen künstlichen Druck durch eine offizielle Zieländerung erzeugen.",
         "hirsch": "Zustimmung. Hochzug wird umgesetzt; bei 71 OVR und 95 POT ist Hirsch bereit, die nächste Stufe zu gehen.",
         "tesche": "Zustimmung. Tesche bleibt der bevorzugte Kandidat für einen ZM-Abgang, sofern ein marktgerechtes Angebot eingeht.",
-        "remberg": "Zustimmung. Als 3. Keeper ist ein Winterverkauf nicht zwingend. Wir können bis Sommer auf ein angemessenes Angebot warten.",
+        "remberg": "Zustimmung. Für einen 3. Keeper ist die Lösung planbar und finanziell sinnvoll. Der Abgang wird nicht vorzeitig forciert.",
         "budget": "Der Vorstand nimmt 882.500 € als aktuellen Save-Stand zur Kenntnis und will das Budget bei der Winterplanung gezielt einsetzen.",
         "tescheJakobsen": "Zustimmung. Bei Tesche hat der sportliche und menschliche Wert seines letzten Halbjahres Vorrang vor einem kleinen möglichen Transfererlös. Bei Jacobsen ist die Transferliste sinnvoll: So haben wir vor Vertragsende die Option auf eine Ablöse, statt ihn im Sommer ablösefrei zu verlieren.",
         "jacobsen": "Kein Handlungsspielraum mehr für eine Winterablöse. Der Vorstand akzeptiert den Abgang und richtet die Kaderplanung auf die Zeit nach Saisonende aus."
