@@ -884,7 +884,8 @@
     "1.6. Trainerantworten: Relegation mit offensiver Grundidee, aber stärkerem defensivem Fokus über außen. Bauer und Ben Farhat sind interessante Kandidaten; Ben Farhat voraussichtlich ca. 5 Mio. €. Sommerplanung entsteht erst während der Transferphase. Scouts sollen zusätzlich bundesligataugliche Optionen suchen.",
     "Relegation entschieden: Rückspiel gegen HSV 1:1, nach dem 2:1 im Hinspiel insgesamt 3:2. VfL Osnabrück steigt in die Bundesliga auf. Vorstandszufriedenheit 10/10. Neue Bundesliga-Ziele und Trainervertragsbewertung folgen.",
     "Interview nach der Relegation: Kroos beschreibt große Freude über den Aufstieg, bestätigt die offensive Spielidee, möchte sich aktuell noch nicht mit der Kaderanpassung beschäftigen und plant grundsätzlich mindestens die erste Bundesliga-Saison beim VfL. Ein sehr lukratives externes Angebot im Sommer wird von ihm nicht ausgeschlossen.",
-    "Saisonstatistik 2026/27 aus aktuellem Ingame-Bericht übernommen. Auffällig: Ponomar 37/18/6, Silva 40/13/11, Badjie 29/10/2, Schubert 41/2/2, Wolf 39 Einsätze/11 Spiele ohne Gegentor, Schöller 34/0/3. Stats werden als Gesamt-Ingamewerte geführt."
+    "Saisonstatistik 2026/27 aus aktuellem Ingame-Bericht übernommen. Auffällig: Ponomar 37/18/6, Silva 40/13/11, Badjie 29/10/2, Schubert 41/2/2, Wolf 39 Einsätze/11 Spiele ohne Gegentor, Schöller 34/0/3. Stats werden als Gesamt-Ingamewerte geführt.",
+    "Budget 2027/28: Bei rund 65 Mio. € Gesamteinnahmen stellt der Vorstand für den Bundesliga-Sommer ein Transferbudget von 20 Mio. € bereit. 70 % künftiger Netto-Transfererlöse bleiben zusätzlich reinvestierbar. Der Gesamtumsatz wird nicht 1:1 als Transferbudget verwendet."
   ],
   "matches": [
     {
@@ -2007,5 +2008,14 @@
         "cleanSheets": 8
       }
     }
+  },
+  "nextSeasonBudget": {
+    "season": "2027/28",
+    "league": "Bundesliga",
+    "clubRevenueReported": 65000000,
+    "transferBudget": 20000000,
+    "boardRationale": "Der Vorstand hält bei rund 65 Mio. € Gesamteinnahmen ein Transferbudget von 20 Mio. € für verantwortbar. Ein erheblicher Teil der Einnahmen bleibt für laufende Kosten, Gehälter, Prämien, Infrastruktur und Liquiditätsreserven gebunden.",
+    "salesRule": "Zusätzlich bleiben 70 % der Netto-Transfererlöse reinvestierbar.",
+    "contingency": "Bei außergewöhnlich hohen Abgängen kann das verfügbare Transferbudget während der Sommertransferphase steigen."
   }
 }
