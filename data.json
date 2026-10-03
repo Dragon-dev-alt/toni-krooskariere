@@ -521,46 +521,27 @@
   ],
   "sales": [
     {
-      "name": "Kai Pröger",
-      "status": "Verkauft",
-      "fee": 430000
-    },
-    {
-      "name": "Tony Lesueur",
-      "status": "Verkauft",
-      "fee": 790000
-    },
-    {
-      "name": "Bashkim Adjini",
-      "status": "Verkauft",
-      "fee": 340000
-    },
-    {
-      "name": "Luca Ihorst",
-      "status": "Verkauft",
-      "fee": 720000
-    },
-    {
-      "name": "David Kopacz",
-      "status": "Verkauft",
-      "fee": 1200000
-    },
-    {
-      "name": "Lukas Jonsson",
-      "status": "Verkauft",
-      "fee": 320000
-    },
-    {
-      "name": "Niklas Wiemann",
-      "status": "Verkauft",
-      "fee": 960000
-    },
-    {
       "name": "Theo Jannotta",
       "status": "Verkauft",
       "fee": 600000,
       "reinvestable": 420000,
       "clubShare": 180000
+    },
+    {
+      "name": "Mats Remberg",
+      "status": "Transfer vereinbart · Abgang Saisonende",
+      "fee": 290000,
+      "reinvestable": 203000,
+      "clubShare": 87000,
+      "timing": "Saisonende 2026/27"
+    },
+    {
+      "name": "Bjarke Jacobsen",
+      "status": "Ablösefreier Abgang · Vorvertrag",
+      "fee": 0,
+      "reinvestable": 0,
+      "clubShare": 0,
+      "timing": "Saisonende 2026/27"
     }
   ],
   "academy": [
@@ -2541,5 +2522,47 @@
       "fee": 0,
       "timing": "Sommer 2027"
     }
-  ]
+  ],
+  "archive": {
+    "historicalSalesRemovedFromDashboard": true,
+    "note": "Frühere Saisonverkäufe wurden aus der aktuellen Dashboard-Anzeige entfernt. Aktuelle Abgänge 2027: Jannotta, Remberg, Jacobsen."
+  },
+  "currentSeasonOutgoings": [
+    {
+      "name": "Theo Jannotta",
+      "status": "Verkauft",
+      "fee": 600000,
+      "reinvestable": 420000,
+      "clubShare": 180000
+    },
+    {
+      "name": "Mats Remberg",
+      "status": "Transfer vereinbart · Abgang Saisonende",
+      "fee": 290000,
+      "reinvestable": 203000,
+      "clubShare": 87000,
+      "timing": "Saisonende 2026/27"
+    },
+    {
+      "name": "Bjarke Jacobsen",
+      "status": "Ablösefreier Abgang · Vorvertrag",
+      "fee": 0,
+      "reinvestable": 0,
+      "clubShare": 0,
+      "timing": "Saisonende 2026/27"
+    }
+  ],
+  "dashboardMeta": {
+    "season": "2027/28",
+    "date": "1.7.2027",
+    "sectionsOrder": [
+      "Übersicht",
+      "Sommerplanung",
+      "Kader",
+      "Transfers & Verträge",
+      "Talente & Jugend",
+      "Trainer & Vorstand"
+    ],
+    "note": "Aktuelle Saison im Fokus; historische Transfers werden nicht mehr im aktiven Dashboard angezeigt."
+  }
 }
