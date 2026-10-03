@@ -1,5 +1,5 @@
 {
-  "budget": 27363000,
+  "budget": 25263000,
   "formation": "4-3-3 Flach",
   "lineHeight": 65,
   "rules": [
@@ -555,6 +555,23 @@
       "goals": 0,
       "assists": 0,
       "cleanSheets": 0
+    },
+    {
+      "name": "Früchtl",
+      "age": null,
+      "nationality": null,
+      "club": "VfL Osnabrück",
+      "ovr": 71,
+      "potential": null,
+      "marketValue": 2100000,
+      "position": "GK",
+      "secondaryPositions": [],
+      "role": "Kader",
+      "status": "Verpflichtet · 2,1 Mio. €",
+      "appearances": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0
     }
   ],
   "sales": [
@@ -1014,6 +1031,11 @@
       "performanceBonuses": [],
       "releaseClause": null,
       "fee": 3300000
+    },
+    "Früchtl": {
+      "status": "Verpflichtet – Vertragsdetails noch nicht erfasst",
+      "role": "Kader",
+      "fee": 2100000
     }
   },
   "activeOffers": [],
@@ -1145,7 +1167,10 @@
     "Taichi Fukui: Ablöse über 6,5 Mio. € steht, Transfer noch nicht abgeschlossen. Vorstand bietet 4 Jahre, Rolle Wichtig, 7.000 €/Woche, kein Handgeld, keine Leistungsboni, keine Ausstiegsklausel. Absolute Gehaltsgrenze: 8.000 €/Woche.",
     "C. Conteh: Vorstand ordnet ihn vorerst als Rotationsspieler ein. 68 OVR, 27 Jahre, RM/RW – Ergänzung zur Außenbahn und nicht als uneingeschränkter Stammspieler eingeplant.",
     "Budgetkorrektur Sommer 2027: Silva wurde zwischenzeitlich final für 21,5 Mio. € an Ajax verkauft. Daraus sind 15,05 Mio. € reinvestierbar. Nach dem bereits abgeschlossenen Conteh-Transfer für 3,3 Mio. € ergibt sich rechnerisch ein Budgetstand von 27,363 Mio. €. Fukui ist noch nicht abgezogen.",
-    "Taichi Fukui: Spieler fordert Schlüsselspieler. Vorstand akzeptiert die Rolle grundsätzlich, bleibt beim Gehalt bei 7.000 €/Woche für 4 Jahre. Keine Boni, kein Handgeld, keine Ausstiegsklausel. Absolute Gehaltsgrenze 8.000 €/Woche."
+    "Taichi Fukui: Spieler fordert Schlüsselspieler. Vorstand akzeptiert die Rolle grundsätzlich, bleibt beim Gehalt bei 7.000 €/Woche für 4 Jahre. Keine Boni, kein Handgeld, keine Ausstiegsklausel. Absolute Gehaltsgrenze 8.000 €/Woche.",
+    "Sommer 2027: Früchtl für 2.100.000 € verpflichtet. 71 OVR, Torwarttiefe wird damit qualitativ erhöht. Gehalts- und Laufzeitdaten wurden noch nicht gemeldet.",
+    "Sommer 2027: Taichi Fukui bittet wegen der aus seiner Sicht niedrigen Gehaltsvorstellung von 7.000 €/Woche um Bedenkzeit. Vertrag bleibt offen.",
+    "Sommer 2027: Anfrage bei Kjell Wätjen wird eröffnet. Vorstand startet bei 3,3 Mio. € Zielablöse und geht maximal bis 4,0 Mio. €. Seine aktuellen 11.500 €/Woche werden bei der Vertragsverhandlung kritisch geprüft."
   ],
   "matches": [
     {
@@ -1304,7 +1329,14 @@
       },
       "status": "Bundesliga-Sommer – aktiv",
       "midfield": "Izan González ist zurück bei Granada; Hirsch intern einplanen, zusätzlich soliden ZM suchen.",
-      "goalkeeper": "Remberg verlässt den Verein; 3. Keeper suchen.",
+      "goalkeeper": {
+        "target": "Früchtl",
+        "status": "Verpflichtet",
+        "fee": 2100000,
+        "ovr": 71,
+        "position": "GK",
+        "note": "Qualitative Verstärkung der Torwarttiefe. Vertragsdaten werden ergänzt, sobald gemeldet."
+      },
       "note": "Mikelbrencis verpflichtet; Silva für 21,5 Mio. € an Ajax verkauft; Richter hochgezogen; Kehl soll verkauft werden, um Platz für Conteh zu schaffen.",
       "goalkeeperScouting": "Ab Anfang Mai aktivieren und intensivieren; Fokus auf Ersatz und mögliche qualitative Verbesserung nach Rembergs Abgang.",
       "twoScenarioPlanning": {
@@ -1474,7 +1506,7 @@
         "ovr": 73,
         "potential": 81,
         "agreedFee": 6500000,
-        "status": "Vertrag ausstehend",
+        "status": "Spieler bittet um Bedenkzeit",
         "contractOffer": {
           "role": "Schlüsselspieler",
           "years": 4,
@@ -1485,6 +1517,20 @@
           "boardMaxWeeklyWage": 8000,
           "status": "Spieler fordert Schlüsselspieler · Vorstand akzeptiert die Rolle"
         }
+      },
+      "zmWatjen": {
+        "target": "Kjell Wätjen",
+        "club": "FC Midtjylland",
+        "age": 21,
+        "position": "ZM/ZOM/RM",
+        "ovr": 70,
+        "potential": 78,
+        "minimumPrice": 3100000,
+        "askingPrice": 4000000,
+        "status": "Anfrage wird vorbereitet / Verhandlung eröffnet",
+        "boardTargetFee": 3300000,
+        "boardMaxFee": 4000000,
+        "wageConcern": "11.500 €/Woche aktuell hoch für die geplante Rolle"
       }
     },
     "relegation": {
@@ -2792,9 +2838,9 @@
       "Trainer & Vorstand"
     ],
     "note": "Aktuelle Saison im Fokus; historische Transfers werden nicht mehr im aktiven Dashboard angezeigt.",
-    "lastUpdate": "Sommer 2027: Conteh Rotation; Fukui 6,5 Mio. € vereinbart, Vertrag ausstehend; Budget nach Conteh 12,313 Mio. €"
+    "lastUpdate": "Sommer 2027: Früchtl 2,1 Mio. € verpflichtet; Fukui Bedenkzeit; Wätjen Anfrage eröffnet"
   },
-  "budgetNote": "Nach abgeschlossenem Silva-Verkauf (21,5 Mio. €) und Conteh (3,3 Mio. €): 27,363 Mio. € bekannte Reinvestitions-/Budgetbasis. Fukui kostet 6,5 Mio. € und ist noch nicht abgeschlossen; daher weiterhin nicht abgezogen.",
+  "budgetNote": "Bekannter Planungsstand: 27,363 Mio. € nach Silva-Reinvestition und Conteh minus 2,1 Mio. € Früchtl = 25,263 Mio. €. Taichi Fukui (6,5 Mio. €) ist wegen Bedenkzeit noch nicht abgezogen.",
   "zmTransferBudgetGuidance": {
     "planningReferenceBudget": 30000000,
     "currency": "EUR",
@@ -2981,7 +3027,7 @@
     {
       "name": "Taichi Fukui",
       "club": "FC Arouca",
-      "status": "Ablöse vereinbart – Vertrag noch offen",
+      "status": "Spieler bittet um Bedenkzeit – Vertrag noch nicht abgeschlossen",
       "transferFee": 6500000,
       "contractOffer": {
         "role": "Schlüsselspieler",
