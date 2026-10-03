@@ -33,8 +33,8 @@
     },
     {
       "position": "ST",
-      "priority": "Niedrig",
-      "status": "Ben Farhat als optionale Verstärkung am Ende der Transferphase, sofern Budget übrig bleibt"
+      "priority": "Mittel",
+      "status": "L. Ben Farhat als letzter geplanter Neuzugang; danach keine proaktiven Einkäufe."
     }
   ],
   "players": [
@@ -195,7 +195,7 @@
       "age": 23,
       "nationality": "Türkei",
       "club": "VfL Osnabrück",
-      "ovr": 64,
+      "ovr": 70,
       "potential": 74,
       "marketValue": 1200000,
       "weeklyWage": 3000,
@@ -406,7 +406,7 @@
       "age": 21,
       "nationality": "Ukraine",
       "club": "VfL Osnabrück",
-      "ovr": 69,
+      "ovr": 71,
       "potential": 86,
       "marketValue": 3700000,
       "weeklyWage": 6000,
@@ -441,7 +441,7 @@
       "age": 21,
       "nationality": "Deutschland",
       "club": "VfL Osnabrück",
-      "ovr": 67,
+      "ovr": 71,
       "potential": 74,
       "marketValue": 2100000,
       "weeklyWage": 3700,
@@ -541,8 +541,8 @@
       "age": 27,
       "nationality": "unbekannt",
       "club": "VfL Osnabrück",
-      "ovr": 68,
-      "potential": 68,
+      "ovr": 72,
+      "potential": 76,
       "marketValue": 0,
       "weeklyWage": 8000,
       "position": "RM",
@@ -580,7 +580,7 @@
       "nationality": "Deutschland",
       "club": "VfL Osnabrück",
       "ovr": 70,
-      "potential": 78,
+      "potential": 77,
       "marketValue": 3600000,
       "weeklyWage": 10000,
       "position": "CM",
@@ -601,7 +601,7 @@
       "nationality": "Japan",
       "club": "VfL Osnabrück",
       "ovr": 73,
-      "potential": 81,
+      "potential": 79,
       "marketValue": 7000000,
       "weeklyWage": 10500,
       "position": "CM",
@@ -1123,6 +1123,14 @@
       "status": "Plan C",
       "currentPossiblePrice": 1500000,
       "boardMax": 1600000
+    },
+    {
+      "name": "L. Ben Farhat",
+      "club": "NAC Breda",
+      "priority": 1,
+      "status": "Letzter geplanter Neuzugang",
+      "currentPossiblePrice": 5000000,
+      "boardMax": 5500000
     }
   ],
   "boardNotes": [
@@ -1247,7 +1255,10 @@
     "Kjell Wätjen fordert die Rolle Wichtig. Vorstand geht auf Wichtig ein, behält aber 8.000 €/Woche und 25.000 € Handgeld als Angebot bei. Absolute Grenze 9.000 €/Woche + 40.000 € Handgeld.",
     "Kjell Wätjen: Transfer abgeschlossen. 3,4 Mio. € Ablöse, 5 Jahre, Rolle Wichtig, 10.000 €/Woche, 40.000 € Handgeld, keine Boni/Ausstiegsklausel. Das Gehalt liegt über der zuvor gesetzten 9.000-€-Linie; Vorstand akzeptiert dies als Einzelfall für die gewünschte Rolle, behält aber die Gehaltsstruktur im Blick.",
     "Taichi Fukui fordert 12.000 €/Woche und 200.000 € Handgeld bei Schlüsselspieler, 4 Jahre. Vorstand lehnt diese Forderung in voller Höhe ab, da sie deutlich über Wätjen (10.000 €) und Mikelbrencis (11.000 €) liegt. Gegenangebot: 10.500 €/Woche + 100.000 € Handgeld. Absolute Grenze: 11.000 €/Woche + 125.000 € Handgeld.",
-    "Taichi Fukui: Vertrag finalisiert und Transfer freigegeben. 6,5 Mio. € Ablöse, 4 Jahre, Schlüsselspieler, 10.500 €/Woche, 200.000 € Handgeld. Der Vorstand akzeptiert das Handgeld als einmalige Ausnahme wegen der sportlichen Qualität und der Schlüsselrolle; die bisherige interne Grenze wurde damit überschritten."
+    "Taichi Fukui: Vertrag finalisiert und Transfer freigegeben. 6,5 Mio. € Ablöse, 4 Jahre, Schlüsselspieler, 10.500 €/Woche, 200.000 € Handgeld. Der Vorstand akzeptiert das Handgeld als einmalige Ausnahme wegen der sportlichen Qualität und der Schlüsselrolle; die bisherige interne Grenze wurde damit überschritten.",
+    "1.8. Kaderstand laut Ingame-Screenshot aktualisiert. Besonders auffällig: Karademir 70/74, Conteh 72/76, Wätjen 70/77, Fukui 73/79, Ponomarenko 71/86 und Badjie 71/74.",
+    "Sommer 2027: Ben Farhat soll als letzter geplanter Neuzugang kommen. Vorstand schlägt 4 Jahre, Rolle Rotation, 6.500 €/Woche, 50.000 € Handgeld, keine Boni/Klausel vor. Bis 7.500 €/Woche + 75.000 € Handgeld kann bei guter Verhandlung gegangen werden.",
+    "Nach Ben Farhat: Transferfenster intern auf 'Abgänge beobachten / nur reagieren' umgestellt. Keine weiteren proaktiven Einkäufe vorgesehen."
   ],
   "matches": [
     {
@@ -1628,18 +1639,32 @@
         "age": 20,
         "position": "ST",
         "ovr": 70,
-        "potential": null,
         "estimatedFee": 5000000,
         "boardTargetFee": 5000000,
         "boardMaxFee": 5500000,
-        "status": "Ende-Transferfenster-Ziel, nur bei verfügbarem Restbudget",
-        "condition": "Nur nach Abschluss der priorisierten Transfers und wenn die sportliche/finanzielle Reserve ausreicht."
+        "status": "Letzter geplanter Neuzugang – Vertrag ausstehend",
+        "condition": "Nach Abschluss dieses Transfers keine weiteren proaktiven Einkäufe; danach nur noch auf Abgänge reagieren.",
+        "proposedContract": {
+          "role": "Rotation",
+          "years": 4,
+          "weeklyWage": 6500,
+          "entryBonus": 50000,
+          "performanceBonuses": [],
+          "releaseClause": null
+        },
+        "boardMax": {
+          "role": "Wichtig",
+          "years": 4,
+          "weeklyWage": 7500,
+          "entryBonus": 75000
+        }
       },
       "iv": {
         "status": "Kein externer Transfer nötig",
         "starterPair": "Yigit Karademir neben Jakob Schöller",
         "note": "Karademir hat sich nach der Rückkehr aus der Leihe stark entwickelt und übernimmt die Stammspielerrolle."
-      }
+      },
+      "postFarhatPolicy": "Nach Ben Farhat keine weiteren proaktiven Transfers. Nur auf konkrete Abgänge reagieren."
     },
     "relegation": {
       "approach": "Offensiv bleiben, defensive Absicherung über außen verstärken",
@@ -2875,11 +2900,10 @@
   "saleCandidates": [
     {
       "name": "Lars Kehl",
-      "status": "Zum Verkauf vorgesehen",
-      "note": "Soll Platz im Kader für einen neuen Außenspieler schaffen; Verkauf muss marktgerecht erfolgen.",
+      "status": "Verkauf möglich · nur bei passendem Angebot",
+      "note": "Nicht mehr zwingend für einen Neuzugang nötig; Conteh und Richter sind bereits da. Nach Ben Farhat wird auf Abgänge reagiert.",
       "position": "RW/CAM/ST",
-      "marketValue": 1800000,
-      "desiredReason": "Kaderplatz für C. Conteh"
+      "marketValue": 1800000
     }
   ],
   "departureCandidates": [
@@ -2946,9 +2970,9 @@
       "Trainer & Vorstand"
     ],
     "note": "Aktuelle Saison im Fokus; historische Transfers werden nicht mehr im aktiven Dashboard angezeigt.",
-    "lastUpdate": "Sommer 2027: Fukui final 6,5 Mio. €, 4 Jahre, 10,5k/Woche, 200k Handgeld"
+    "lastUpdate": "1.8.2027: aktueller Kaderstand; Ben Farhat als letzter Neuzugang geplant; danach nur auf Abgänge reagieren"
   },
-  "budgetNote": "Nach Abschluss von Taichi Fukui: 14.623.000 € Restbudget. Fukui: 6,5 Mio. € Ablöse + 200.000 € Handgeld.",
+  "budgetNote": "Aktueller Reststand: 14,623 Mio. € vor Ben Farhat. Geplante Farhat-Ablöse ca. 5 Mio. €; noch nicht abgezogen, solange der Transfer nicht abgeschlossen ist. Danach rund 9,623 Mio. € vor weiteren Abgangserlösen.",
   "zmTransferBudgetGuidance": {
     "planningReferenceBudget": 30000000,
     "currency": "EUR",
