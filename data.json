@@ -1109,7 +1109,9 @@
     "William Mikelbrencis: Spieler Vertrag vereinbart – Schlüsselspieler, 3 Jahre, 11.000 €/Woche, 87.000 € Handgeld. Ablöse 4,3 Mio. € + 2 % Weiterverkaufsbeteiligung. Budget danach 15,613 Mio. €.",
     "Trainerangebots-System: Künftige Angebote anderer Vereine können im Dashboard über Interesse / Annehmen / Ablehnen bearbeitet werden. Die Aktion erzeugt einen vorbereiteten GitHub-Issue-Eintrag, damit der Vorstand die Entscheidung anschließend sehen und reagieren kann.",
     "Dashboard-Update: Trainerperspektive und Wechselklausel werden als eigene Karriere-Abschnitte geführt; ein Testangebot für die Angebots-Buttons wurde als Eingang hinterlegt.",
-    "Vorstand ZM-Budgetplanung: Bei einer unabhängigen Planungsbasis von 30 Mio. € stehen für einen neuen ZM 7–9 Mio. € im Zielrahmen (11 Mio. € absolute Obergrenze); für zwei ZM zusammen 12–16 Mio. € im Zielrahmen (18 Mio. € absolute Obergrenze)."
+    "Vorstand ZM-Budgetplanung: Bei einer unabhängigen Planungsbasis von 30 Mio. € stehen für einen neuen ZM 7–9 Mio. € im Zielrahmen (11 Mio. € absolute Obergrenze); für zwei ZM zusammen 12–16 Mio. € im Zielrahmen (18 Mio. € absolute Obergrenze).",
+    "Neue ZM-Shortlist 2027/28 aufgenommen: Loiodice, Wätjen, Baur, Fabbian und Fukui. Vorstand bewertet Loiodice als ausgewogene Sofortverstärkung, Fabbian als Premiumlösung und Fukui als dynamische Alternative. Baur wird wegen 37.000 €/Woche aktuell nicht weiterverfolgt; Wätjen bleibt Beobachtung.",
+    "ZM-Verhandlungsrahmen: Loiodice Ziel 5,5 Mio. €, Maximal 6,5 Mio.; Fukui Ziel 6,0 Mio. €, Maximal 7,0 Mio.; Fabbian Ziel 14 Mio. €, Maximal 15,5 Mio.; Wätjen Ziel 3,3 Mio. €, Maximal 4,0 Mio. Baur aktuell 0 € Transferfreigabe wegen Gehaltsstruktur."
   ],
   "matches": [
     {
@@ -2737,6 +2739,163 @@
       "wageGuidance": "Gehaltsstruktur beachten; nicht zwei Spieler gleichzeitig auf Spitzenniveau bezahlen."
     },
     "boardRationale": "Bei einer Planungsbasis von 30 Mio. € sollen zusätzlich IV/Defensive, 3. TW und Reserven finanzierbar bleiben. Das ZM-Budget ist deshalb bewusst unter dem Gesamtbetrag gedeckelt.",
-    "currentNeed": "Hirsch bleibt intern die zentrale Entwicklungslösung; ein externer ZM soll die Bundesliga-Qualität erhöhen. Ein zweiter ZM ist nur sinnvoll, wenn Marktchance und Kaderabgänge ihn rechtfertigen."
-  }
+    "currentNeed": "Hirsch bleibt intern die zentrale Entwicklungslösung; ein externer ZM soll die Bundesliga-Qualität erhöhen. Ein zweiter ZM ist nur sinnvoll, wenn Marktchance und Kaderabgänge ihn rechtfertigen.",
+    "currentShortlist": [
+      "Enzo Loiodice – sofortige Balance/Defensive",
+      "Giovanni Fabbian – Premiumqualität",
+      "Taichi Fukui – Dynamik/Entwicklung"
+    ],
+    "currentAssessment": "Bei einem einzigen Neuzugang wird ein Spieler aus Loiodice/Fabbian/Fukui bevorzugt. Für zwei ZM ist Loiodice + Fukui finanziell deutlich leichter darstellbar als eine Kombination mit Fabbian."
+  },
+  "zmTargets": [
+    {
+      "name": "Enzo Loiodice",
+      "club": "UD Las Palmas",
+      "age": 26,
+      "nationality": "Frankreich",
+      "ovr": 74,
+      "potential": 78,
+      "positions": [
+        "ZM",
+        "ZDM"
+      ],
+      "preferredFoot": "Links",
+      "attributes": {
+        "tempo": 66,
+        "shooting": 66,
+        "passing": 71,
+        "dribbling": 75,
+        "defending": 71,
+        "physical": 67
+      },
+      "marketValue": 6000000,
+      "weeklyWage": 7300,
+      "minimumPrice": 4700000,
+      "askingPrice": 6000000,
+      "boardAssessment": "Sehr passend für die 4-3-3-Flach-Balance. Sofortige Bundesliga-Qualität, defensiv deutlich stärker als einige Alternativen.",
+      "boardTargetFee": 5500000,
+      "boardMaxFee": 6500000,
+      "status": "Topkandidat · ausgewogene Sofortverstärkung"
+    },
+    {
+      "name": "Kjell Wätjen",
+      "club": "FC Midtjylland",
+      "age": 21,
+      "nationality": "Deutschland",
+      "ovr": 70,
+      "potential": 78,
+      "positions": [
+        "ZM",
+        "ZOM",
+        "RM"
+      ],
+      "preferredFoot": "Rechts",
+      "attributes": {
+        "tempo": 75,
+        "shooting": 58,
+        "passing": 67,
+        "dribbling": 72,
+        "defending": 62,
+        "physical": 58
+      },
+      "marketValue": 3600000,
+      "weeklyWage": 11500,
+      "minimumPrice": 3100000,
+      "askingPrice": 4000000,
+      "boardAssessment": "Interessant wegen Alter und Tempo, aber 70 OVR bringt gegenüber Hirsch aktuell keinen klaren Sofortgewinn. Gehalt für die Rolle hoch.",
+      "boardTargetFee": 3300000,
+      "boardMaxFee": 4000000,
+      "status": "Beobachtung · aktuell nicht priorisiert"
+    },
+    {
+      "name": "Mika Baur",
+      "club": "Celtic Glasgow",
+      "age": 23,
+      "nationality": "Deutschland",
+      "ovr": 74,
+      "potential": 78,
+      "positions": [
+        "ZM",
+        "ZOM",
+        "LF"
+      ],
+      "preferredFoot": "Rechts",
+      "attributes": {
+        "tempo": 71,
+        "shooting": 63,
+        "passing": 71,
+        "dribbling": 76,
+        "defending": 59,
+        "physical": 53
+      },
+      "marketValue": 6000000,
+      "weeklyWage": 37000,
+      "minimumPrice": 6500000,
+      "askingPrice": 8500000,
+      "boardAssessment": "Sportlich ordentlich, aber 37.000 €/Woche würde das Gehaltsgefüge massiv belasten. So aktuell nicht vertretbar.",
+      "boardTargetFee": 0,
+      "boardMaxFee": 0,
+      "status": "Nicht priorisiert · Gehalt ausschlaggebend"
+    },
+    {
+      "name": "Giovanni Fabbian",
+      "club": "Cagliari Calcio",
+      "age": 24,
+      "nationality": "Italien",
+      "ovr": 76,
+      "potential": 82,
+      "positions": [
+        "ZM",
+        "ZOM",
+        "ZDM"
+      ],
+      "preferredFoot": "Rechts",
+      "attributes": {
+        "tempo": 69,
+        "shooting": 72,
+        "passing": 75,
+        "dribbling": 74,
+        "defending": 66,
+        "physical": 63
+      },
+      "marketValue": 12000000,
+      "weeklyWage": 3700,
+      "minimumPrice": 13000000,
+      "askingPrice": 16700000,
+      "boardAssessment": "Höchste aktuelle OVR/POT-Kombination der Liste und ungewöhnlich günstiges Gehalt. Premiumlösung, aber Ablöse würde einen großen Teil des Sommerrahmens binden.",
+      "boardTargetFee": 14000000,
+      "boardMaxFee": 15500000,
+      "status": "Premiumkandidat · Preis genau beobachten"
+    },
+    {
+      "name": "Taichi Fukui",
+      "club": "FC Arouca",
+      "age": 22,
+      "nationality": "Japan",
+      "ovr": 73,
+      "potential": 81,
+      "positions": [
+        "ZM",
+        "ZOM",
+        "ZDM"
+      ],
+      "preferredFoot": "Rechts",
+      "attributes": {
+        "tempo": 76,
+        "shooting": 56,
+        "passing": 72,
+        "dribbling": 78,
+        "defending": 59,
+        "physical": 50
+      },
+      "marketValue": 7000000,
+      "weeklyWage": 6600,
+      "minimumPrice": 5400000,
+      "askingPrice": 7000000,
+      "boardAssessment": "Sehr gute Dynamik und Ballführung, jung und passend für kontrollierte Vertikalität. Defensiv und physisch weniger komplett als Loiodice.",
+      "boardTargetFee": 6000000,
+      "boardMaxFee": 7000000,
+      "status": "Topkandidat · dynamische Alternative"
+    }
+  ]
 }
