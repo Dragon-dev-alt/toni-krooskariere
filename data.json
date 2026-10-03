@@ -19,22 +19,22 @@
     {
       "position": "RV",
       "priority": "Sehr hoch",
-      "status": "William Mikelbrencis: verpflichtet für 4,3 Mio. € + 2 % Weiterverkaufsbeteiligung; Vertrag 3 Jahre, 11.000 €/Woche, 87.000 € Handgeld"
-    },
-    {
-      "position": "IV / Defensive",
-      "priority": "Hoch",
-      "status": "Bundesliga-Verstärkung wird gesucht"
+      "status": "Mikelbrencis verpflichtet; Bedarf gedeckt"
     },
     {
       "position": "ZM",
       "priority": "Hoch",
-      "status": "González zurück bei Granada; Hirsch als interne Lösung, weiterer solider ZM gesucht"
+      "status": "González zurück bei Granada; Hirsch intern; Fukui/Wätjen als externe Optionen"
     },
     {
       "position": "TW",
       "priority": "Mittel",
-      "status": "3. Keeper gesucht; Remberg geht"
+      "status": "Früchtl verpflichtet; Torwarttiefe qualitativ verbessert"
+    },
+    {
+      "position": "ST",
+      "priority": "Niedrig",
+      "status": "Ben Farhat als optionale Verstärkung am Ende der Transferphase, sofern Budget übrig bleibt"
     }
   ],
   "players": [
@@ -201,8 +201,8 @@
       "weeklyWage": 3000,
       "position": "CB",
       "secondaryPositions": [],
-      "role": "Kader",
-      "status": "Kader"
+      "role": "Stammspieler",
+      "status": "Stammspieler · nach Leihe stark verbessert"
     },
     {
       "name": "Theo Jannotta",
@@ -566,12 +566,13 @@
       "marketValue": 2100000,
       "position": "GK",
       "secondaryPositions": [],
-      "role": "Kader",
-      "status": "Verpflichtet · 2,1 Mio. €",
+      "role": "Rotation",
+      "status": "Verpflichtet · 2,6 Mio. € · 3 Jahre · 6.000 €/Woche",
       "appearances": 0,
       "goals": 0,
       "assists": 0,
-      "cleanSheets": 0
+      "cleanSheets": 0,
+      "weeklyWage": 6000
     }
   ],
   "sales": [
@@ -1033,9 +1034,14 @@
       "fee": 3300000
     },
     "Früchtl": {
-      "status": "Verpflichtet – Vertragsdetails noch nicht erfasst",
-      "role": "Kader",
-      "fee": 2100000
+      "status": "Verpflichtet",
+      "role": "Rotation",
+      "years": 3,
+      "weeklyWage": 6000,
+      "entryBonus": 30000,
+      "performanceBonuses": [],
+      "releaseClause": null,
+      "fee": 2600000
     }
   },
   "activeOffers": [],
@@ -1171,7 +1177,11 @@
     "Sommer 2027: Früchtl für 2.100.000 € verpflichtet. 71 OVR, Torwarttiefe wird damit qualitativ erhöht. Gehalts- und Laufzeitdaten wurden noch nicht gemeldet.",
     "Sommer 2027: Taichi Fukui bittet wegen der aus seiner Sicht niedrigen Gehaltsvorstellung von 7.000 €/Woche um Bedenkzeit. Vertrag bleibt offen.",
     "Sommer 2027: Anfrage bei Kjell Wätjen wird eröffnet. Vorstand startet bei 3,3 Mio. € Zielablöse und geht maximal bis 4,0 Mio. €. Seine aktuellen 11.500 €/Woche werden bei der Vertragsverhandlung kritisch geprüft.",
-    "Wätjen: Anfrage eröffnet; der Vorstand prüft Ablöse und Gehalt getrennt. Ausgangspunkt 3,3 Mio. € Ziel, maximal 4,0 Mio. €; 11.500 €/Woche sind für unsere Struktur ein kritischer Punkt."
+    "Wätjen: Anfrage eröffnet; der Vorstand prüft Ablöse und Gehalt getrennt. Ausgangspunkt 3,3 Mio. € Ziel, maximal 4,0 Mio. €; 11.500 €/Woche sind für unsere Struktur ein kritischer Punkt.",
+    "Sommer 2027: Früchtl hat den angebotenen Vertrag akzeptiert – 3 Jahre, Rotation, 6.000 €/Woche, 30.000 € Handgeld, keine Boni/Klausel. Ablöse 2,6 Mio. €.",
+    "Sommer 2027: Kjell Wätjen – 3,4 Mio. € Ablöse ausgehandelt, Vertrag noch offen. Vorstand schlägt 4 Jahre, Rotation, 8.000 €/Woche, 25.000 € Handgeld, keine Boni/Klausel vor. Obergrenze 9.000 €/Woche + 40.000 € Handgeld.",
+    "Sommer 2027: Yigit Karademir kehrt stark verbessert aus der Leihe zurück und wird als Stamm-IV neben Jakob Schöller eingeplant. Externer IV-Transfer entfällt.",
+    "Sommer 2027: L. Ben Farhat bleibt Wunschoption für den Sturm, falls nach den priorisierten Transfers ausreichend Budget verbleibt. Vorstand rechnet mit ca. 5 Mio. € und setzt 5,5 Mio. € als Obergrenze."
   ],
   "matches": [
     {
@@ -1536,12 +1546,36 @@
         "position": "ZM/ZOM/RM",
         "ovr": 70,
         "potential": 78,
-        "minimumPrice": 3100000,
-        "askingPrice": 4000000,
-        "status": "Anfrage wird vorbereitet / Verhandlung eröffnet",
-        "boardTargetFee": 3300000,
-        "boardMaxFee": 4000000,
-        "wageConcern": "11.500 €/Woche aktuell hoch für die geplante Rolle"
+        "agreedFee": 3400000,
+        "status": "Vertrag ausstehend",
+        "contractOffer": {
+          "role": "Rotation",
+          "years": 4,
+          "weeklyWage": 8000,
+          "entryBonus": 25000,
+          "performanceBonuses": [],
+          "releaseClause": null,
+          "boardMaxWeeklyWage": 9000,
+          "boardMaxEntryBonus": 40000
+        }
+      },
+      "strikerPlan": {
+        "target": "L. Ben Farhat",
+        "club": "NAC Breda",
+        "age": 20,
+        "position": "ST",
+        "ovr": 70,
+        "potential": null,
+        "estimatedFee": 5000000,
+        "boardTargetFee": 5000000,
+        "boardMaxFee": 5500000,
+        "status": "Ende-Transferfenster-Ziel, nur bei verfügbarem Restbudget",
+        "condition": "Nur nach Abschluss der priorisierten Transfers und wenn die sportliche/finanzielle Reserve ausreicht."
+      },
+      "iv": {
+        "status": "Kein externer Transfer nötig",
+        "starterPair": "Yigit Karademir neben Jakob Schöller",
+        "note": "Karademir hat sich nach der Rückkehr aus der Leihe stark entwickelt und übernimmt die Stammspielerrolle."
       }
     },
     "relegation": {
@@ -2849,9 +2883,9 @@
       "Trainer & Vorstand"
     ],
     "note": "Aktuelle Saison im Fokus; historische Transfers werden nicht mehr im aktiven Dashboard angezeigt.",
-    "lastUpdate": "Sommer 2027: Früchtl 2,1 Mio. € verpflichtet; Fukui Bedenkzeit; Wätjen Anfrage eröffnet"
+    "lastUpdate": "Sommer 2027: Früchtl final; Wätjen 3,4 Mio. € ausgehandelt; Karademir Stamm-IV; Ben Farhat als Budget-Option"
   },
-  "budgetNote": "Korrigiert: Früchtl kostet 2,6 Mio. €. Nach Silva + Conteh + Früchtl verbleiben rechnerisch 24,763 Mio. €. Fukui ist wegen Bedenkzeit noch nicht abgezogen.",
+  "budgetNote": "Aktueller Planungsstand: 24,763 Mio. € nach abgeschlossenem Silva-Verkauf, Conteh und Früchtl. Wätjen (3,4 Mio. €) und Fukui (6,5 Mio. €) sind noch nicht abgeschlossen und daher noch nicht abgezogen.",
   "zmTransferBudgetGuidance": {
     "planningReferenceBudget": 30000000,
     "currency": "EUR",
@@ -3051,6 +3085,23 @@
         "boardPosition": "Rolle Schlüsselspieler wird akzeptiert, Gehalt bleibt bei 7.000 €/Woche. Keine zusätzlichen Boni oder Klausel.",
         "boardMaxEntryBonus": 60000,
         "status": "Verbessertes Angebot nach Bedenkzeit"
+      },
+      "budgetDeductionApplied": false
+    },
+    {
+      "name": "Kjell Wätjen",
+      "club": "FC Midtjylland",
+      "status": "Ablöse 3,4 Mio. € ausgehandelt – Vertrag noch offen",
+      "transferFee": 3400000,
+      "contractOffer": {
+        "role": "Rotation",
+        "years": 4,
+        "weeklyWage": 8000,
+        "entryBonus": 25000,
+        "performanceBonuses": [],
+        "releaseClause": null,
+        "boardMaxWeeklyWage": 9000,
+        "boardMaxEntryBonus": 40000
       },
       "budgetDeductionApplied": false
     }
