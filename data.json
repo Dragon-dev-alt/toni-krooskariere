@@ -783,7 +783,8 @@
       "Schlüsselspieler"
     ],
     "freeAgentBonus": "Bei jedem ablösefreien Spieler ist zwingend ein Einstiegsbonus in Höhe eines Jahresgehalts zu zahlen.",
-    "youthProtectionThreshold": "90+ Potenzial"
+    "youthProtectionThreshold": "90+ Potenzial",
+    "freeAgentSigningBonus": "Nur externe ablösefreie Neuzugänge: 1 volles Jahresgehalt als Handgeld. Nicht bei ablösepflichtigen Transfers wie Mikelbrencis und nicht bei Akademiespielern."
   },
   "contractOffers": {
     "RobinHenning": {
@@ -968,14 +969,24 @@
     {
       "player": "William Mikelbrencis",
       "club": "VfL Osnabrück",
-      "status": "Spielervertrag ausstehend",
+      "status": "Spielervertrag – Gegenangebot des Vorstands",
       "transferFee": 4300000,
       "sellOnPercentage": 2,
       "position": "RV",
       "age": 23,
       "ovr": 71,
       "potential": 80,
-      "currentWeeklyWage": 11500
+      "currentWeeklyWage": 11500,
+      "demandRole": "Schlüsselspieler",
+      "demandYears": 3,
+      "boardOffer": {
+        "role": "Schlüsselspieler",
+        "years": 3,
+        "weeklyWage": 10500,
+        "signingBonus": 0,
+        "performanceBonuses": [],
+        "releaseClause": null
+      }
     }
   ],
   "strikerTargets": [
@@ -1088,7 +1099,9 @@
     "Kevin Wiethaup: 2-Jahres-Leihe abgeschlossen. Ziel ist regelmäßige Spielzeit und Entwicklung; er bleibt beim VfL unter Vertrag.",
     "William Mikelbrencis von SV Darmstadt 98: 23 Jahre, 71 OVR/80 POT, RV/RM, aktuelles Gehalt 11.500 €/Woche. Mindestpreis 4,1 Mio. €, Forderung/Verkaufspreis 5,1 Mio. €. Vorstand stimmt einem Transfer grundsätzlich zu, setzt aber eine Ablöseobergrenze von 4,3 Mio. € wegen Gehalt und Gehaltsstruktur.",
     "William Mikelbrencis: Mit Darmstadt wurde eine Ablöse von 4.300.000 € plus 2 % Weiterverkaufsbeteiligung vereinbart. Vorstand gibt den Deal frei; Spielervertrag steht noch aus.",
-    "Dashboard-Reinigung 1.7.2027: Prioritäten auf Bundesliga-Bedarf aktualisiert; aktive Verkaufskandidaten von bereits feststehenden Abgängen getrennt; Leihliste auf Andersen und Adams reduziert, Wiethaup als 2-Jahres-Leihe geführt; Jugendscouting auf GK/IV/RV priorisiert; aktueller Kader und Talente auf den 1.7.-Ingame-Stand gebracht."
+    "Dashboard-Reinigung 1.7.2027: Prioritäten auf Bundesliga-Bedarf aktualisiert; aktive Verkaufskandidaten von bereits feststehenden Abgängen getrennt; Leihliste auf Andersen und Adams reduziert, Wiethaup als 2-Jahres-Leihe geführt; Jugendscouting auf GK/IV/RV priorisiert; aktueller Kader und Talente auf den 1.7.-Ingame-Stand gebracht.",
+    "Handgeldregel korrigiert: Das einjährige Handgeld gilt ausschließlich für externe ablösefreie Transfers, nicht für ablösepflichtige Spieler wie Mikelbrencis.",
+    "Mikelbrencis Vertragsangebot: Spieler fordert Schlüsselspieler und 3 Jahre. Vorstand akzeptiert Rolle und Laufzeit, bietet 10.500 €/Woche, 0 € Handgeld, keine Boni und keine Ausstiegsklausel."
   ],
   "matches": [
     {
@@ -1372,8 +1385,22 @@
         "reason": "Klarer Qualitätsgewinn gegenüber aktueller RV-Besetzung; Bundesliga-taugliches Niveau, aber aktuelles Gehalt von 11.500 €/Woche birgt Risiko für die Gehaltsstruktur.",
         "negotiatedFee": 4300000,
         "sellOnPercentage": 2,
-        "status": "Ablöse vereinbart – Spielervertrag ausstehend",
-        "boardDecision": "Deal freigegeben"
+        "status": "Ablöse vereinbart – Spielervertrag in Verhandlung",
+        "boardDecision": "Deal freigegeben",
+        "playerDemand": {
+          "role": "Schlüsselspieler",
+          "contractYears": 3
+        },
+        "boardOffer": {
+          "role": "Schlüsselspieler",
+          "years": 3,
+          "weeklyWage": 10500,
+          "signingBonus": 0,
+          "performanceBonuses": [],
+          "releaseClause": null,
+          "boardPosition": "Kompromissangebot: Schlüsselspieler und 3 Jahre werden akzeptiert; Gehalt bleibt unter dem aktuellen 11.500-€-Niveau."
+        },
+        "note": "Kein Handgeld aufgrund der Ablösepflicht."
       }
     },
     "relegation": {
