@@ -1,5 +1,5 @@
 {
-  "budget": 25263000,
+  "budget": 24763000,
   "formation": "4-3-3 Flach",
   "lineHeight": 65,
   "rules": [
@@ -1332,11 +1332,20 @@
       "midfield": "Izan González ist zurück bei Granada; Hirsch intern einplanen, zusätzlich soliden ZM suchen.",
       "goalkeeper": {
         "target": "Früchtl",
-        "status": "Verpflichtet",
-        "fee": 2100000,
+        "status": "Verpflichtung geplant / Vertragsverhandlung",
+        "fee": 2600000,
         "ovr": 71,
         "position": "GK",
-        "note": "Qualitative Verstärkung der Torwarttiefe. Vertragsdaten werden ergänzt, sobald gemeldet."
+        "proposedContract": {
+          "role": "Rotation",
+          "years": 3,
+          "weeklyWage": 6000,
+          "entryBonus": 30000
+        },
+        "boardMax": {
+          "weeklyWage": 7000,
+          "entryBonus": 50000
+        }
       },
       "note": "Mikelbrencis verpflichtet; Silva für 21,5 Mio. € an Ajax verkauft; Richter hochgezogen; Kehl soll verkauft werden, um Platz für Conteh zu schaffen.",
       "goalkeeperScouting": "Ab Anfang Mai aktivieren und intensivieren; Fokus auf Ersatz und mögliche qualitative Verbesserung nach Rembergs Abgang.",
@@ -1511,12 +1520,13 @@
         "contractOffer": {
           "role": "Schlüsselspieler",
           "years": 4,
-          "weeklyWage": 7000,
-          "entryBonus": 0,
+          "weeklyWage": 7800,
+          "entryBonus": 40000,
           "performanceBonuses": [],
           "releaseClause": null,
-          "boardMaxWeeklyWage": 8000,
-          "status": "Spieler fordert Schlüsselspieler · Vorstand akzeptiert die Rolle"
+          "boardMaxWeeklyWage": 8500,
+          "boardMaxEntryBonus": 60000,
+          "status": "Verbessertes Angebot nach Bedenkzeit"
         }
       },
       "zmWatjen": {
@@ -2841,7 +2851,7 @@
     "note": "Aktuelle Saison im Fokus; historische Transfers werden nicht mehr im aktiven Dashboard angezeigt.",
     "lastUpdate": "Sommer 2027: Früchtl 2,1 Mio. € verpflichtet; Fukui Bedenkzeit; Wätjen Anfrage eröffnet"
   },
-  "budgetNote": "Bekannter Planungsstand: 27,363 Mio. € nach Silva-Reinvestition und Conteh minus 2,1 Mio. € Früchtl = 25,263 Mio. €. Taichi Fukui (6,5 Mio. €) ist wegen Bedenkzeit noch nicht abgezogen.",
+  "budgetNote": "Korrigiert: Früchtl kostet 2,6 Mio. €. Nach Silva + Conteh + Früchtl verbleiben rechnerisch 24,763 Mio. €. Fukui ist wegen Bedenkzeit noch nicht abgezogen.",
   "zmTransferBudgetGuidance": {
     "planningReferenceBudget": 30000000,
     "currency": "EUR",
@@ -3033,12 +3043,14 @@
       "contractOffer": {
         "role": "Schlüsselspieler",
         "years": 4,
-        "weeklyWage": 7000,
-        "entryBonus": 0,
+        "weeklyWage": 7800,
+        "entryBonus": 40000,
         "performanceBonuses": [],
         "releaseClause": null,
-        "boardMaxWeeklyWage": 8000,
-        "boardPosition": "Rolle Schlüsselspieler wird akzeptiert, Gehalt bleibt bei 7.000 €/Woche. Keine zusätzlichen Boni oder Klausel."
+        "boardMaxWeeklyWage": 8500,
+        "boardPosition": "Rolle Schlüsselspieler wird akzeptiert, Gehalt bleibt bei 7.000 €/Woche. Keine zusätzlichen Boni oder Klausel.",
+        "boardMaxEntryBonus": 60000,
+        "status": "Verbessertes Angebot nach Bedenkzeit"
       },
       "budgetDeductionApplied": false
     }
