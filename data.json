@@ -535,6 +535,26 @@
       "goals": 0,
       "assists": 0,
       "cleanSheets": 0
+    },
+    {
+      "name": "C. Conteh",
+      "age": 27,
+      "nationality": "unbekannt",
+      "club": "VfL Osnabrück",
+      "ovr": 68,
+      "potential": 68,
+      "marketValue": 0,
+      "weeklyWage": 8000,
+      "position": "RM",
+      "secondaryPositions": [
+        "RW"
+      ],
+      "role": "Rotation",
+      "status": "Verpflichtet · 3,3 Mio. € · 4 Jahre",
+      "appearances": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0
     }
   ],
   "sales": [
@@ -984,6 +1004,16 @@
       "releaseClause": null,
       "fee": 4300000,
       "sellOnPercentage": 2
+    },
+    "CConteh": {
+      "status": "Verpflichtet",
+      "role": "Rotation",
+      "years": 4,
+      "weeklyWage": 8000,
+      "entryBonus": 0,
+      "performanceBonuses": [],
+      "releaseClause": null,
+      "fee": 3300000
     }
   },
   "activeOffers": [],
@@ -1110,7 +1140,8 @@
     "Mario Silva: Angebot über 17,2 Mio. € wurde angenommen. Nach der 70%-Regel sind 12,04 Mio. € reinvestierbar; 5,16 Mio. € verbleiben beim Verein. Silva verlässt den aktiven Kader.",
     "Korrektur Sommer 2027: Mario Silva ist final für 21.500.000 € zu Ajax gewechselt. Reinvestierbarer Anteil nach der 70%-Regel: 15.050.000 €; 6.450.000 € verbleiben beim Verein.",
     "Sommer 2027: Mohamed Richter (15, 74 OVR, 95 POT, RW/LW) wird in die 1. Mannschaft hochgezogen. Vorstand unterstützt die Maßnahme als Teil der Talentstrategie.",
-    "Sommer 2027: Lars Kehl wird zum Verkauf vorgesehen, um einen Kaderplatz für C. Conteh freizumachen. Conteh wird als Transferziel weiterverfolgt; eine Ablöseverhandlung ist noch nicht erfolgt."
+    "Sommer 2027: Lars Kehl wird zum Verkauf vorgesehen, um einen Kaderplatz für C. Conteh freizumachen. Conteh wird als Transferziel weiterverfolgt; eine Ablöseverhandlung ist noch nicht erfolgt.",
+    "Sommer 2027: C. Conteh für 3.300.000 € von Heidenheim verpflichtet. Vertrag: 4 Jahre, 8.000 €/Woche. Deal abgeschlossen; keine zusätzliche Handgeldsumme gemeldet."
   ],
   "matches": [
     {
@@ -1425,8 +1456,11 @@
         "age": 27,
         "position": "RM/RW",
         "ovr": 68,
-        "status": "Vorgesehen – nach Kehl-Abgang weiterverfolgen",
-        "reason": "Soll den frei werdenden Kaderplatz auffüllen und die rechte Außenbahn flexibel ergänzen."
+        "status": "Verpflichtet",
+        "fee": 3300000,
+        "weeklyWage": 8000,
+        "years": 4,
+        "reason": "Kaderplatz nach Richter-Hochzug; flexible Ergänzung für rechte Außenbahn."
       }
     },
     "relegation": {
@@ -2734,9 +2768,9 @@
       "Trainer & Vorstand"
     ],
     "note": "Aktuelle Saison im Fokus; historische Transfers werden nicht mehr im aktiven Dashboard angezeigt.",
-    "lastUpdate": "Sommer 2027: Silva 21,5 Mio. € zu Ajax; Richter hochgezogen; Kehl zum Verkauf; Conteh als Ziel"
+    "lastUpdate": "Sommer 2027: Conteh für 3,3 Mio. € verpflichtet, 4 Jahre, 8.000 €/Woche"
   },
-  "budgetNote": "Aktuelles Ingame-Transferbudget bleibt 15,613 Mio. €, sofern im Spiel nicht anders angezeigt. Aus dem Silva-Verkauf von 21,5 Mio. € sind 15,05 Mio. € nach der 70%-Regel reinvestierbar.",
+  "budgetNote": "Nach aktuellem bekannten Stand: 15,613 Mio. € vor Conteh minus 3,3 Mio. € Ablöse = ca. 12,313 Mio. €; tatsächlich im Spiel angezeigtes Budget bleibt maßgeblich. Silva-Erlös: 15,05 Mio. € nach 70%-Regel reinvestierbar.",
   "zmTransferBudgetGuidance": {
     "planningReferenceBudget": 30000000,
     "currency": "EUR",
