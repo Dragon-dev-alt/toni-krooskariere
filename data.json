@@ -13,13 +13,13 @@
     "Neue Gehälter dürfen das interne Gehaltsgefüge nicht ohne klare sportliche Begründung sprengen.",
     "Bei Transfers werden zuerst Deutschland, Österreich, Schweiz, Niederlande, Dänemark, Polen und Tschechien berücksichtigt.",
     "Jeder Transfer muss eine konkrete Position oder Rolle verbessern. Keine unnötige Kaderaufblähung.",
-    "Bei jedem ablösefreien Neuzugang muss der Verein einen Einstiegsbonus in Höhe eines kompletten Jahresgehalts zahlen. Dieser Bonus ist verpflichtend und wird bei der finanziellen Bewertung des Transfers vollständig berücksichtigt."
+    "Bei jedem externen ablösefreien Neuzugang muss der Verein ein Handgeld in Höhe eines kompletten Jahresgehalts zahlen. Diese Regel gilt nicht für ablösepflichtige Transfers oder Akademiespieler."
   ],
   "priorities": [
     {
       "position": "RV",
       "priority": "Sehr hoch",
-      "status": "William Mikelbrencis: 4,3 Mio. € + 2 % Weiterverkaufsbeteiligung vereinbart; Spielervertrag ausstehend"
+      "status": "William Mikelbrencis: verpflichtet für 4,3 Mio. € + 2 % Weiterverkaufsbeteiligung; Vertrag 3 Jahre, 11.000 €/Woche, 87.000 € Handgeld"
     },
     {
       "position": "IV / Defensive",
@@ -798,7 +798,7 @@
       "Wichtig",
       "Schlüsselspieler"
     ],
-    "freeAgentBonus": "Bei jedem ablösefreien Spieler ist zwingend ein Einstiegsbonus in Höhe eines Jahresgehalts zu zahlen.",
+    "freeAgentBonus": "Nur externe ablösefreie Neuzugänge: 1 volles Jahresgehalt als Handgeld. Nicht bei ablösepflichtigen Transfers und nicht bei Akademiespielern.",
     "youthProtectionThreshold": "90+ Potenzial",
     "freeAgentSigningBonus": "Nur externe ablösefreie Neuzugänge: 1 volles Jahresgehalt als Handgeld. Nicht bei ablösepflichtigen Transfers wie Mikelbrencis und nicht bei Akademiespielern."
   },
@@ -1107,7 +1107,9 @@
     "Handgeldregel korrigiert: Das einjährige Handgeld gilt ausschließlich für externe ablösefreie Transfers, nicht für ablösepflichtige Spieler wie Mikelbrencis.",
     "Mikelbrencis Vertragsangebot: Spieler fordert Schlüsselspieler und 3 Jahre. Vorstand akzeptiert Rolle und Laufzeit, bietet 10.500 €/Woche, 0 € Handgeld, keine Boni und keine Ausstiegsklausel.",
     "William Mikelbrencis: Spieler Vertrag vereinbart – Schlüsselspieler, 3 Jahre, 11.000 €/Woche, 87.000 € Handgeld. Ablöse 4,3 Mio. € + 2 % Weiterverkaufsbeteiligung. Budget danach 15,613 Mio. €.",
-    "Trainerangebots-System: Künftige Angebote anderer Vereine können im Dashboard über Interesse / Annehmen / Ablehnen bearbeitet werden. Die Aktion erzeugt einen vorbereiteten GitHub-Issue-Eintrag, damit der Vorstand die Entscheidung anschließend sehen und reagieren kann."
+    "Trainerangebots-System: Künftige Angebote anderer Vereine können im Dashboard über Interesse / Annehmen / Ablehnen bearbeitet werden. Die Aktion erzeugt einen vorbereiteten GitHub-Issue-Eintrag, damit der Vorstand die Entscheidung anschließend sehen und reagieren kann.",
+    "Dashboard-Update: Trainerperspektive und Wechselklausel werden als eigene Karriere-Abschnitte geführt; ein Testangebot für die Angebots-Buttons wurde als Eingang hinterlegt.",
+    "Vorstand ZM-Budgetplanung: Bei einer unabhängigen Planungsbasis von 30 Mio. € stehen für einen neuen ZM 7–9 Mio. € im Zielrahmen (11 Mio. € absolute Obergrenze); für zwei ZM zusammen 12–16 Mio. € im Zielrahmen (18 Mio. € absolute Obergrenze)."
   ],
   "matches": [
     {
@@ -1270,10 +1272,10 @@
       "note": "Trainer will Verteidigung und RV verbessern sowie einen soliden ZM und 3. Keeper verpflichten. Ersatz für Remberg/Jakobsen wird abhängig vom Budget entschieden.",
       "goalkeeperScouting": "Ab Anfang Mai aktivieren und intensivieren; Fokus auf Ersatz und mögliche qualitative Verbesserung nach Rembergs Abgang.",
       "twoScenarioPlanning": {
-        "status": "Start nach den letzten zwei Ligaspielen",
-        "scenario2Bundesliga": "Kaderplanung für Verbleib in der 2. Bundesliga",
-        "scenarioRelegationPromotion": "Parallel erste Optionen für mögliches Relegations-/Aufstiegsszenario prüfen",
-        "trigger": "Letzte zwei Ligaspiele abgeschlossen"
+        "status": "Transferphase läuft – Planung wird laufend auf Basis von Kader, Markt und verfügbaren Mitteln angepasst",
+        "scenario2Bundesliga": "Kaderplanung auf aktuellem Bundesliga-Niveau",
+        "scenarioRelegationPromotion": "abgeschlossen – Aufstieg geschafft",
+        "trigger": "Aufstieg in die Bundesliga bestätigt"
       },
       "scoutShortlist": [
         {
@@ -2118,7 +2120,26 @@
       "mandatoryMove": false,
       "note": "Die Klausel ist optional: Kroos muss kein Angebot annehmen."
     },
-    "incomingOffers": [],
+    "incomingOffers": [
+      {
+        "club": "TSG Hoffenheim",
+        "league": "Bundesliga",
+        "role": "Cheftrainer",
+        "contract": "3 Jahre",
+        "annualSalary": 2600000,
+        "signOnBonus": 500000,
+        "transferBudgetPromise": 30000000,
+        "releaseCompensationToOsnabrueck": 3000000,
+        "status": "Testangebot · neu",
+        "note": "Testangebot für das Dashboard. Das Angebot ist bewusst als Karriere-Rollenspiel hinterlegt.",
+        "perspective": {
+          "sportingPerspective": "Bundesliga-Projekt mit rund 30 Mio. € zugesagtem Transferbudget und Spielraum für gezielte Kaderentwicklung.",
+          "managerPerspective": "Dreijahresvertrag mit größerem finanziellem Handlungsspielraum als beim aktuellen VfL-Rahmen.",
+          "squadRole": "Cheftrainer mit Verantwortung für sportliche Weiterentwicklung."
+        },
+        "testOffer": true
+      }
+    ],
     "offerHistory": [
       {
         "club": "FC Augsburg",
@@ -2348,12 +2369,8 @@
     }
   ],
   "summerPlan": {
-    "status": "wartet auf Relegationsausgang",
-    "scenarios": {
-      "2.Bundesliga": "Kaderplanung auf Verbleib in der 2. Bundesliga",
-      "Bundesliga": "Kaderplanung auf Erstliga-Niveau, falls der Aufstieg gelingt"
-    },
-    "scoutListStatus": "Erste Kandidatenliste liegt vor; finale Priorisierung nach Relegation."
+    "status": "Bundesliga-Sommer 2027 – aktiv",
+    "scoutListStatus": "Bundesliga-Kaderplanung läuft; Prioritäten werden während der Transferphase laufend angepasst."
   },
   "playerSeasonStats": {
     "season": "2026/27",
@@ -2696,5 +2713,30 @@
     ],
     "note": "Aktuelle Saison im Fokus; historische Transfers werden nicht mehr im aktiven Dashboard angezeigt."
   },
-  "budgetNote": "Nach Verpflichtung von William Mikelbrencis: 20,0 Mio. € - 4,3 Mio. € Ablöse - 87.000 € Handgeld = 15,613 Mio. €."
+  "budgetNote": "Nach Verpflichtung von William Mikelbrencis: 20,0 Mio. € - 4,3 Mio. € Ablöse - 87.000 € Handgeld = 15,613 Mio. €.",
+  "zmTransferBudgetGuidance": {
+    "planningReferenceBudget": 30000000,
+    "currency": "EUR",
+    "note": "Unabhängig vom aktuell im Spiel angezeigten Transferbudget. Der Rahmen dient der Kaderplanung für den Fall, dass in Kürze rund 30 Mio. € für den Sommer verfügbar sind.",
+    "oneZm": {
+      "targetRange": [
+        7000000,
+        9000000
+      ],
+      "absoluteMax": 11000000,
+      "boardLine": "Für einen klaren Bundesliga-tauglichen Stamm-/Wichtig-ZM: 7–9 Mio. € Zielrahmen, bis 11 Mio. € absolute Obergrenze bei deutlichem Mehrwert.",
+      "wageGuidance": "Grundsätzlich bis etwa 8.000–9.000 €/Woche; darüber nur bei klarer sportlicher Schlüsselrolle."
+    },
+    "twoZm": {
+      "targetRangeTotal": [
+        12000000,
+        16000000
+      ],
+      "absoluteMaxTotal": 18000000,
+      "boardLine": "Für zwei ZM zusammen: 12–16 Mio. € Zielrahmen, bis 18 Mio. € absolute Obergrenze. Idealerweise ein stärkerer Stammspieler plus ein entwicklungsfähiger bzw. rotierender ZM.",
+      "wageGuidance": "Gehaltsstruktur beachten; nicht zwei Spieler gleichzeitig auf Spitzenniveau bezahlen."
+    },
+    "boardRationale": "Bei einer Planungsbasis von 30 Mio. € sollen zusätzlich IV/Defensive, 3. TW und Reserven finanzierbar bleiben. Das ZM-Budget ist deshalb bewusst unter dem Gesamtbetrag gedeckelt.",
+    "currentNeed": "Hirsch bleibt intern die zentrale Entwicklungslösung; ein externer ZM soll die Bundesliga-Qualität erhöhen. Ein zweiter ZM ist nur sinnvoll, wenn Marktchance und Kaderabgänge ihn rechtfertigen."
+  }
 }
