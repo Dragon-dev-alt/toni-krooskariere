@@ -183,12 +183,14 @@
     },
     {
       "name": "Alexander Hirsch",
-      "role": "ZM/ZDM · 1. Mannschaft",
-      "status": "Hochgezogen aus der Jugendakademie",
+      "role": "ZM/ZDM · Rotation",
+      "status": "1. Mannschaft",
       "age": 16,
       "ovr": 71,
       "potential": 95,
-      "notes": "Im Januar in die 1. Mannschaft hochgezogen. Hochveranlagtes Akademietalent."
+      "notes": "10 Einsätze, Ø 6,16. Hat sich mindestens eine Rotationsrolle erarbeitet. Wichtig für 2027/28 vorstellbar bei weiterer Entwicklung.",
+      "appearances": 10,
+      "averageRating": 6.16
     },
     {
       "name": "Robin Fabinski",
@@ -415,8 +417,10 @@
       "age": 16,
       "ovr": 71,
       "pot": 95,
-      "role": "ZM/ZDM · 1. Mannschaft",
-      "status": "hochgezogen"
+      "role": "ZM/ZDM · Rotation",
+      "status": "1. Mannschaft",
+      "appearances": 10,
+      "averageRating": 6.16
     }
   ],
   "preseasonTournament": {
@@ -704,7 +708,8 @@
     "Robin Fabinski: 1 Jahr 3 Monate Restvertrag, 3.600 €/Woche, Marktwert 1,3 Mio. €, 19 Einsätze, Ø 6,21. Spieler möchte verlängern. Vorstand bietet Rotation, +2 Jahre, 3.600 €/Woche, kein Handgeld, keine Boni, keine Ausstiegsklausel.",
     "Robin Fabinski: Spieler fordert Wichtig. Vorstand kontert mit Wichtig für +1 Jahr, 3.600 €/Woche und 10.000 € Handgeld, keine Boni/Ausstiegsklausel. Absolute Grenze 3.800 €/Woche und 15.000 € Handgeld.",
     "Robin Fabinski: Verlängerung final. Spieler akzeptiert Wichtig, +1 Jahr, 3.600 €/Woche und 10.000 € Handgeld. Keine Boni, keine Ausstiegsklausel.",
-    "1.4. Tabellenstand: Osnabrück Platz 5, 42 Punkte aus 27 Spielen, 11 Siege/9 Unentschieden/7 Niederlagen, 44:31 Tore. Vier Punkte Rückstand auf Platz 3/4. Sitzung 1.3. wurde wegen mangelnder Themen ausgelassen. Vorstandszufriedenheit 9/10."
+    "1.4. Tabellenstand: Osnabrück Platz 5, 42 Punkte aus 27 Spielen, 11 Siege/9 Unentschieden/7 Niederlagen, 44:31 Tore. Vier Punkte Rückstand auf Platz 3/4. Sitzung 1.3. wurde wegen mangelnder Themen ausgelassen. Vorstandszufriedenheit 9/10.",
+    "1.4. Trainerantworten: Endspurt mit Fokus auf Konstanz, bei weiterem Blick auf Platz 3/4. Hirsch 10 Einsätze, Ø 6,16 und mindestens Rotationsrolle; Wichtig für 2027/28 vorstellbar. Sommerplan mit Hirsch statt externem ZM bleibt. Torwartscouting wird ab Anfang Mai intensiviert. Klassenerhalt bleibt offizielles Ziel. Vorstand unterstützt künftig flexible Anzahl an Sitzungsfragen ohne Wiederholungen."
   ],
   "matches": [
     {
@@ -862,9 +867,10 @@
         "timing": "Saisonende 2026/27"
       },
       "status": "Frühe Vorbereitung / Scouting läuft",
-      "midfield": "Keine sofortige externe Verpflichtung. Sommerentscheidung nach sportlicher Einordnung.",
+      "midfield": "Hirsch bleibt als interne Lösung vorgesehen; kein externer ZM aktuell geplant.",
       "goalkeeper": "Scouting läuft; Remberg verlässt den Verein am Saisonende.",
-      "note": "Kaderplanung soll Richtung Sommer konkretisiert werden."
+      "note": "Kaderplanung soll Richtung Sommer konkretisiert werden.",
+      "goalkeeperScouting": "Ab Anfang Mai aktivieren und intensivieren; Fokus auf Ersatz und mögliche qualitative Verbesserung nach Rembergs Abgang."
     }
   },
   "suspensions": {
@@ -1096,14 +1102,30 @@
         "Hirsch: Wie bewertest du seine bisherige Integration in die 1. Mannschaft seit dem Hochzug?",
         "Sommerziel: Soll das Scouting für einen ZM und einen neuen Torhüter jetzt konkreter werden oder erst nach der endgültigen Ligaposition?",
         "Saisonziel: Bleibt Klassenerhalt offiziell das Ziel, während wir intern die Aufstiegschance verfolgen?"
-      ]
+      ],
+      "answers": {
+        "endspurt": "Platz 3/4 bleibt im Blick, aber Fokus auf konstantere Leistungen, da die Ergebnisse zuletzt schwankend waren.",
+        "hirsch": "Hirsch hat sich mit 10 Einsätzen und Ø 6,16 klar mindestens eine Rotationsrolle erarbeitet. Für die nächste Saison ist auch Wichtig mit regelmäßigen Einsätzen vorstellbar.",
+        "summerPlan": "Ja: Hirsch statt externem ZM; Jakobsen und Remberg gehen.",
+        "goalkeeper": "Ab Anfang Mai wird die Suche nach einem Ersatz bzw. einer Verbesserung im Tor intensiviert.",
+        "seasonTarget": "Offiziell bleibt Klassenerhalt das Ziel."
+      },
+      "boardOpinion": {
+        "endspurt": "Zustimmung. Der Vorstand möchte Platz 3/4 nicht aus den Augen verlieren, unterstützt aber die Priorität auf Konstanz. Schwankende Leistungen sollen sich in der Endphase nicht verfestigen.",
+        "hirsch": "Positive Bewertung. 10 Einsätze und Ø 6,16 reichen aus, um eine feste Rotationsrolle zu rechtfertigen. Eine Wichtig-Rolle für 2027/28 kann bei weiterer Entwicklung geprüft werden, ist aber noch keine Zusage.",
+        "summerPlan": "Zustimmung. Die Entscheidung, zunächst intern mit Hirsch zu arbeiten, bleibt bestehen.",
+        "goalkeeper": "Zustimmung. Anfang Mai ist ein guter Zeitpunkt, das Scouting nach Remberg-Abgang deutlich zu intensivieren.",
+        "seasonTarget": "Zustimmung. Klassenerhalt bleibt das offizielle Ziel; die Aufstiegschance darf sportlich mitgenommen werden."
+      },
+      "formatNote": "Fragen künftig flexibel: nur so viele Punkte, wie tatsächlich entscheidungsrelevant; bei wenigen Themen weniger Fragen, bei hoher Themenlage mehr."
     }
   ],
   "boardMeetingFormat": {
-    "questionCount": "3–6 Fragen pro Sitzung",
-    "style": "kurz, fokussiert, entscheidungsorientiert",
+    "questionCount": "Flexibel: ca. 2–6 Fragen je nach Themenlage",
+    "style": "kurz, fokussiert, entscheidungsorientiert; keine Wiederholungsfragen, wenn bereits entschieden",
     "schedule": "Am 1. jedes Monats findet eine Vorstandssitzung statt.",
-    "additionalItems": "Jede Sitzung enthält künftig Vorstandszufriedenheit und aktuelle sportliche Ziele."
+    "additionalItems": "Jede Sitzung enthält künftig Vorstandszufriedenheit und aktuelle sportliche Ziele.",
+    "rule": "Bei wenigen relevanten Themen weniger Fragen; bei vielen Themen mehr Fragen. Bereits geklärte Punkte werden nicht unnötig wiederholt."
   },
   "boardMeetingResults": [
     {
@@ -1147,7 +1169,7 @@
     "currentOfficialGoal": "Klassenerhalt",
     "januaryReview": "Bestätigt am 1.2.",
     "note": "Der aktuelle 4. Platz führt noch nicht zu einer offiziellen Anhebung des Saisonziels.",
-    "internalOutlook": "Die Aufstiegschance ist sieben Spieltage vor Saisonende real vorhanden, bleibt aber eine positive Zusatzchance und kein Pflichtziel."
+    "internalOutlook": "Platz 3/4 bleibt intern ein Ziel, das nicht aus den Augen verloren wird, ohne daraus ein Pflichtziel zu machen."
   },
   "contractReview": {
     "RobinHenning": {
@@ -1321,7 +1343,7 @@
     "score": 9,
     "scale": "1–10",
     "status": "sehr hoch",
-    "currentAssessment": "Der Vorstand ist mit der Saisonleistung sehr zufrieden. Nach 27 Spieltagen steht Osnabrück auf Platz 5 mit 42 Punkten und einer positiven Tordifferenz von +13. Das offizielle Ziel Klassenerhalt ist klar auf Kurs; zugleich liegt die Mannschaft nur 4 Punkte hinter den Aufstiegs-Playoffs.",
+    "currentAssessment": "Der Vorstand bleibt mit der Saisonleistung sehr zufrieden. Positiv sind Platz 5 nach 27 Spielen und die Nähe zu den Aufstiegs-Playoffs. Gleichzeitig wird die zuletzt schwankende Leistung als Punkt für den Endspurt beobachtet.",
     "positiveFactors": [
       "Platz 5 nach 27 Spielen",
       "42 Punkte und +13 Tordifferenz",
