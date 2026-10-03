@@ -189,6 +189,17 @@
       "ovr": 71,
       "potential": 95,
       "notes": "Im Januar in die 1. Mannschaft hochgezogen. Hochveranlagtes Akademietalent."
+    },
+    {
+      "name": "Robin Fabinski",
+      "role": "IV · Stamm",
+      "status": "Vertragsverhandlung",
+      "weeklyWage": 3600,
+      "contractRemaining": "1 Jahr 3 Monate",
+      "marketValue": 1300000,
+      "appearances": 19,
+      "averageRating": 6.21,
+      "notes": "Möchte neuen Vertrag. Trotz Stammrolle bewertet der Vorstand die aktuelle Saisonleistung mit Ø 6,21 als ausbaufähig."
     }
   ],
   "sales": [
@@ -497,6 +508,16 @@
       "status": "Keine Verlängerung",
       "plan": "Im Sommer Abgang anstreben",
       "note": "Trainerempfehlung übernommen; Vorstand sieht aktuell keine Notwendigkeit für eine Bindung über den laufenden Vertrag hinaus."
+    },
+    "RobinFabinski": {
+      "role": "Rotation",
+      "extensionYears": 2,
+      "weeklyWage": 3600,
+      "entryBonus": 0,
+      "performanceBonuses": [],
+      "releaseClause": null,
+      "status": "Vorstandsangebot – Spielerentscheidung ausstehend",
+      "boardAssessment": "Fabinski bleibt sportlich wichtig, aber Ø 6,21 in 19 Spielen rechtfertigt aktuell keine Rolle Wichtig. Der Vorstand bietet Rotation, 2 Jahre Verlängerung und hält das Gehalt bei 3.600 €/Woche konstant."
     }
   },
   "contracts": {
@@ -671,7 +692,8 @@
     "Mats Remberg: Transfer zum Saisonende für 290.000 € vereinbart. Nach der 70%-Regel sind davon 203.000 € reinvestierbar, 87.000 € verbleiben beim Verein. Remberg bleibt bis Saisonende als 3. Keeper.",
     "1.2. Tabellenstand: Platz 6, 30 Punkte aus 20 Spielen, 8S/6U/6N, 31:23 Tore. Fünf Punkte Rückstand auf Platz 4. Vorstandszufriedenheit 7/10.",
     "1.2. Trainerantworten: Januar hatte mit St. Pauli und Hertha schwere Gegner; gegen St. Pauli Punktgewinn, gegen Hertha Niederlage. Offizielles Ziel bleibt Klassenerhalt. Aufstieg nur positive Nebenwirkung. Hirsch vorsichtig integrieren. Kein externer ZM im Winter; Sommerplanung nach sportlicher Perspektive. Scouts suchen bereits Neuzugänge.",
-    "3:2-Sieg gegen Arminia Bielefeld: Direkter Konkurrent geschlagen. Vorstand wertet das als wichtige Reaktion und hebt die Zufriedenheit auf 8/10 an."
+    "3:2-Sieg gegen Arminia Bielefeld: Direkter Konkurrent geschlagen. Vorstand wertet das als wichtige Reaktion und hebt die Zufriedenheit auf 8/10 an.",
+    "Robin Fabinski: 1 Jahr 3 Monate Restvertrag, 3.600 €/Woche, Marktwert 1,3 Mio. €, 19 Einsätze, Ø 6,21. Spieler möchte verlängern. Vorstand bietet Rotation, +2 Jahre, 3.600 €/Woche, kein Handgeld, keine Boni, keine Ausstiegsklausel."
   ],
   "matches": [
     {
@@ -1217,6 +1239,24 @@
         "signingBonus": 20500,
         "performanceBonuses": [],
         "releaseClause": null
+      }
+    },
+    "Fabinski": {
+      "currentWeeklyWage": 3600,
+      "contractRemaining": "1 Jahr 3 Monate",
+      "marketValue": 1300000,
+      "appearances": 19,
+      "averageRating": 6.21,
+      "status": "Spieler möchte verlängern",
+      "boardOffer": {
+        "role": "Rotation",
+        "extensionYears": 2,
+        "weeklyWage": 3600,
+        "entryBonus": 0,
+        "performanceBonuses": [],
+        "releaseClause": null,
+        "status": "Vorstandsangebot – Spielerentscheidung ausstehend",
+        "boardAssessment": "Fabinski bleibt sportlich wichtig, aber Ø 6,21 in 19 Spielen rechtfertigt aktuell keine Rolle Wichtig. Der Vorstand bietet Rotation, 2 Jahre Verlängerung und hält das Gehalt bei 3.600 €/Woche konstant."
       }
     }
   },
