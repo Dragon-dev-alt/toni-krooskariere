@@ -39,6 +39,24 @@
   ],
   "players": [
     {
+      "name": "Christian Früchtl",
+      "age": 27,
+      "nationality": "Deutschland",
+      "club": "VfL Osnabrück",
+      "ovr": 71,
+      "potential": 75,
+      "marketValue": 2100000,
+      "weeklyWage": 6000,
+      "position": "GK",
+      "secondaryPositions": [],
+      "role": "Rotation",
+      "status": "Verpflichtet · 2,6 Mio. € · 3 Jahre",
+      "appearances": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0
+    },
+    {
       "name": "Niklas Sauter",
       "age": 24,
       "nationality": "Deutschland",
@@ -1087,7 +1105,12 @@
     "Sommer 2027: Ben Farhat soll als letzter geplanter Neuzugang kommen. Vorstand schlägt 4 Jahre, Rolle Rotation, 6.500 €/Woche, 50.000 € Handgeld, keine Boni/Klausel vor. Bis 7.500 €/Woche + 75.000 € Handgeld kann bei guter Verhandlung gegangen werden.",
     "Nach Ben Farhat: Transferfenster intern auf 'Abgänge beobachten / nur reagieren' umgestellt. Keine weiteren proaktiven Einkäufe vorgesehen.",
     "1.8.2027: Vorstandssitzung findet automatisch statt. Neue Regel bestätigt: Am 1. jedes Monats ist unabhängig vom Themenumfang Vorstandssitzung.",
-    "1.8.2027 Vorstandssitzung: Aktueller Ingame-Kader vom 1.8. wurde neu sortiert; nicht mehr im Verein bzw. aktuell verliehen befindliche Spieler wurden aus der Profikader-Übersicht entfernt. Sitzung eröffnet mit 5 Themenfragen."
+    "1.8.2027 Vorstandssitzung: Aktueller Ingame-Kader vom 1.8. wurde neu sortiert; nicht mehr im Verein bzw. aktuell verliehen befindliche Spieler wurden aus der Profikader-Übersicht entfernt. Sitzung eröffnet mit 5 Themenfragen.",
+    "1.8. Vorstandsbeschlüsse nach Trainerantworten: Ben Farhat wird als letzter geplanter Neuzugang verfolgt, um die Sturm-Bench abzusichern. Danach keine proaktiven Einkäufe.",
+    "1.8. Mittelfeldkonzept: Fukui, Wätjen und Hirsch bilden eine ZM-Dreierreihe mit individuell angepassten Aufgaben.",
+    "1.8. Lars Kehl bleibt aktiv auf dem Transfermarkt; bislang kein Angebot. Kein Zwangsverkauf.",
+    "1.8. Nach Farhat wird der verbleibende Etat als Reserve für Abgänge, Wintermaßnahmen und Jugendakademie-Verpflichtungen geschützt.",
+    "1.8. Saisonziel bleibt Klassenerhalt; zusätzlicher interner Schwerpunkt ist Konstanz über die Saison."
   ],
   "matches": [
     {
@@ -1471,8 +1494,8 @@
         "estimatedFee": 5000000,
         "boardTargetFee": 5000000,
         "boardMaxFee": 5500000,
-        "status": "Letzter geplanter Neuzugang – Vertrag ausstehend",
-        "condition": "Nach Abschluss dieses Transfers keine weiteren proaktiven Einkäufe; danach nur noch auf Abgänge reagieren.",
+        "status": "Anfrage/Verhandlung – geplanter letzter Neuzugang",
+        "condition": "Nach Farhat keine weiteren proaktiven Einkäufe; danach nur auf Abgänge reagieren.",
         "proposedContract": {
           "role": "Rotation",
           "years": 4,
@@ -1486,14 +1509,15 @@
           "years": 4,
           "weeklyWage": 7500,
           "entryBonus": 75000
-        }
+        },
+        "budgetDeductionApplied": false
       },
       "iv": {
         "status": "Kein externer Transfer nötig",
         "starterPair": "Yigit Karademir neben Jakob Schöller",
         "note": "Karademir hat sich nach der Rückkehr aus der Leihe stark entwickelt und übernimmt die Stammspielerrolle."
       },
-      "postFarhatPolicy": "Nach Ben Farhat keine weiteren proaktiven Transfers. Nur auf konkrete Abgänge reagieren."
+      "postFarhatPolicy": "Nach Ben Farhat keine weiteren proaktiven Transfers. Verfügbarer Rest dient als Reserve für Jugendverpflichtungen und Reaktion auf Abgänge."
     },
     "relegation": {
       "approach": "Offensiv bleiben, defensive Absicherung über außen verstärken",
@@ -2077,7 +2101,7 @@
     "score": 10,
     "scale": "1–10",
     "status": "außergewöhnlich hoch",
-    "currentAssessment": "Vorstand bewertet den Sommer bislang sehr positiv; sportliche Breite wurde erhöht, ohne den Talentkern aufzugeben.",
+    "currentAssessment": "Der Vorstand unterstützt den Kurs: letzter geplanter Neuzugang Farhat, danach Reserve/Abgänge/Jugend. Saisonziel ist Klassenerhalt mit mehr Konstanz.",
     "positiveFactors": [
       "Bundesligaaufstieg",
       "Starker Entwicklungssprung mehrerer Talente",
@@ -2749,8 +2773,8 @@
   "saleCandidates": [
     {
       "name": "Lars Kehl",
-      "status": "Verkauf möglich · nur bei passendem Angebot",
-      "note": "Nicht mehr zwingend für einen Neuzugang nötig; Conteh und Richter sind bereits da. Nach Ben Farhat wird auf Abgänge reagiert.",
+      "status": "Aktiv auf dem Transfermarkt · bislang kein Angebot",
+      "note": "Verkauf soll weiterhin geprüft werden; kein Zwangsverkauf.",
       "position": "RW/CAM/ST",
       "marketValue": 1800000
     }
@@ -2820,7 +2844,7 @@
     ],
     "note": "Aktuelle Saison im Fokus; historische Transfers werden nicht mehr im aktiven Dashboard angezeigt.",
     "lastUpdate": "1.8.2027: aktueller Kaderstand; Ben Farhat als letzter Neuzugang geplant; danach nur auf Abgänge reagieren",
-    "boardMeetingRule": "Vorstandssitzung automatisch an jedem 1. des Monats",
+    "boardMeetingRule": "Vorstandssitzung automatisch am 1. jedes Monats",
     "lastBoardMeeting": "1.8.2027",
     "currentSquadSource": "Ingame-Kader-Screenshot vom 1.8.2027"
   },
@@ -3012,14 +3036,66 @@
     {
       "date": "1.8.2027",
       "satisfactionBefore": 10,
-      "assessment": "Sehr guter Bundesliga-Sommer: Mikelbrencis, Conteh, Früchtl, Wätjen und Fukui sind verpflichtet; Karademir und Richter stärken die Entwicklungslinie. Nach Silva-Verkauf besteht weiterhin finanzieller Spielraum.",
+      "assessment": "Vorstand unterstützt die abgeschlossene Bundesliga-Kaderplanung. Farhat soll als letzter geplanter Neuzugang die Sturmtiefe erhöhen; danach wird der Fokus auf Kaderstabilität, Reserve und Abgänge gelegt.",
       "questions": [
-        "Ben Farhat als letzter geplanter Neuzugang: Soll der Sturm trotz Ponomarenko (71/86) noch verstärkt werden, und welche Rolle soll Farhat erhalten?",
+        "Ben Farhat als letzter geplanter Neuzugang: Soll der Sturm trotz Ponomarenko noch verstärkt werden, und welche Rolle soll Farhat erhalten?",
         "Mittelfeld: Wie willst du Fukui, Wätjen und Hirsch in der 4-3-3-Flach-Rotation einsetzen, ohne Hirschs Entwicklung zu bremsen?",
-        "Kaderabgänge: Lars Kehl bleibt aktuell im Kader. Möchtest du ihn aktiv anbieten oder erst auf konkrete Angebote reagieren?",
-        "Finanzen: Nach den bisherigen Transfers stehen 14,623 Mio. € Restbudget. Soll dieses Geld nach Farhat grundsätzlich als Reserve für Abgänge/Wintermaßnahmen gehalten werden?",
-        "Saisonziel: Der Vorstand bleibt offiziell beim Klassenerhalt. Welche sportliche Einsatzstrategie möchtest du für die erste Bundesliga-Saison vorgeben?"
-      ]
+        "Kaderabgänge: Lars Kehl ist auf dem Markt. Wie soll mit ausbleibenden Angeboten umgegangen werden?",
+        "Finanzen: Soll der verbleibende Etat nach Farhat als Reserve für Abgänge/Winter und Jugendakademie geschützt werden?",
+        "Saisonziel: Welche sportliche Linie gilt für die erste Bundesliga-Saison?"
+      ],
+      "answers": [
+        "Ja. Ben Farhat soll als Backup-Stürmer verpflichtet werden. Damit besteht hinter Ponomarenko echte Tiefe.",
+        "Fukui, Wätjen und Hirsch bilden eine flexible ZM-Dreierreihe. Jeder erhält eine angepasste Rolle; die genaue Aufgabenverteilung wird je nach Gegner und Entwicklung angepasst.",
+        "Lars Kehl ist bereits aktiv auf dem Transfermarkt. Bisher liegt kein Angebot vor.",
+        "Ja. Nach Ben Farhat soll der verbleibende Etat als Reserve für Abgänge, Wintermaßnahmen und Verpflichtungen von Jugendtalenten in der Akademie geschützt werden.",
+        "Offizielles Ziel bleibt Klassenerhalt. Zusätzlich soll die Mannschaft mehr Konstanz in die Leistungen bekommen."
+      ],
+      "status": "abgeschlossen"
     }
-  ]
+  ],
+  "tacticalPlan": {
+    "formation": "4-3-3 Flach",
+    "midfieldThree": {
+      "concept": "Dreierreihe im ZM mit individuell angepassten Rollen",
+      "players": [
+        {
+          "name": "Taichi Fukui",
+          "role": "Kreativer/ballführender ZM",
+          "status": "Schlüsselspieler"
+        },
+        {
+          "name": "Kjell Wätjen",
+          "role": "Dynamischer verbindender ZM",
+          "status": "Wichtig"
+        },
+        {
+          "name": "Alexander Hirsch",
+          "role": "Entwicklungsorientierter ZM mit angepasster Aufgabenverteilung",
+          "status": "Rotation / Talent"
+        }
+      ],
+      "note": "Konkrete Rollen können während der Saison angepasst werden, ohne die Grundstruktur 4-3-3 Flach zu ändern."
+    }
+  },
+  "lastMeeting": {
+    "date": "1.8.2027",
+    "satisfactionBefore": 10,
+    "assessment": "Vorstand unterstützt die abgeschlossene Bundesliga-Kaderplanung. Farhat soll als letzter geplanter Neuzugang die Sturmtiefe erhöhen; danach wird der Fokus auf Kaderstabilität, Reserve und Abgänge gelegt.",
+    "questions": [
+      "Ben Farhat als letzter geplanter Neuzugang: Soll der Sturm trotz Ponomarenko noch verstärkt werden, und welche Rolle soll Farhat erhalten?",
+      "Mittelfeld: Wie willst du Fukui, Wätjen und Hirsch in der 4-3-3-Flach-Rotation einsetzen, ohne Hirschs Entwicklung zu bremsen?",
+      "Kaderabgänge: Lars Kehl ist auf dem Markt. Wie soll mit ausbleibenden Angeboten umgegangen werden?",
+      "Finanzen: Soll der verbleibende Etat nach Farhat als Reserve für Abgänge/Winter und Jugendakademie geschützt werden?",
+      "Saisonziel: Welche sportliche Linie gilt für die erste Bundesliga-Saison?"
+    ],
+    "answers": [
+      "Ja. Ben Farhat soll als Backup-Stürmer verpflichtet werden. Damit besteht hinter Ponomarenko echte Tiefe.",
+      "Fukui, Wätjen und Hirsch bilden eine flexible ZM-Dreierreihe. Jeder erhält eine angepasste Rolle; die genaue Aufgabenverteilung wird je nach Gegner und Entwicklung angepasst.",
+      "Lars Kehl ist bereits aktiv auf dem Transfermarkt. Bisher liegt kein Angebot vor.",
+      "Ja. Nach Ben Farhat soll der verbleibende Etat als Reserve für Abgänge, Wintermaßnahmen und Verpflichtungen von Jugendtalenten in der Akademie geschützt werden.",
+      "Offizielles Ziel bleibt Klassenerhalt. Zusätzlich soll die Mannschaft mehr Konstanz in die Leistungen bekommen."
+    ],
+    "status": "abgeschlossen"
+  }
 }
