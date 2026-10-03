@@ -17,24 +17,19 @@
   ],
   "priorities": [
     {
-      "position": "RV",
-      "priority": "Sehr hoch",
-      "status": "Mikelbrencis verpflichtet; Bedarf gedeckt"
-    },
-    {
       "position": "ZM",
       "priority": "Hoch",
-      "status": "González zurück bei Granada; Hirsch intern; Fukui/Wätjen als externe Optionen"
-    },
-    {
-      "position": "TW",
-      "priority": "Mittel",
-      "status": "Früchtl verpflichtet; Torwarttiefe qualitativ verbessert"
+      "status": "Fukui, Wätjen und Hirsch bilden die ZM-Dreierreihe; Rollen werden situativ angepasst."
     },
     {
       "position": "ST",
       "priority": "Mittel",
-      "status": "L. Ben Farhat als letzter geplanter Neuzugang; danach keine proaktiven Einkäufe."
+      "status": "Ben Farhat als letzter geplanter Neuzugang zur Absicherung hinter Ponomarenko."
+    },
+    {
+      "position": "TW",
+      "priority": "Niedrig",
+      "status": "Christian Früchtl verpflichtet; Torwarttiefe verbessert."
     }
   ],
   "players": [
@@ -1270,8 +1265,8 @@
       "status": "Bundesliga-Sommer – aktiv",
       "midfield": "Izan González ist zurück bei Granada; Hirsch intern einplanen, zusätzlich soliden ZM suchen.",
       "goalkeeper": {
-        "target": "Früchtl",
-        "status": "Verpflichtung geplant / Vertragsverhandlung",
+        "target": "Christian Früchtl",
+        "status": "Verpflichtet",
         "fee": 2600000,
         "ovr": 71,
         "position": "GK",
@@ -1494,8 +1489,8 @@
         "estimatedFee": 5000000,
         "boardTargetFee": 5000000,
         "boardMaxFee": 5500000,
-        "status": "Anfrage/Verhandlung – geplanter letzter Neuzugang",
-        "condition": "Nach Farhat keine weiteren proaktiven Einkäufe; danach nur auf Abgänge reagieren.",
+        "status": "Letzter geplanter Neuzugang – Verhandlung eröffnen",
+        "condition": "Da aktuell kein Backup-Stürmer vorhanden ist. Danach nur noch auf Abgänge reagieren.",
         "proposedContract": {
           "role": "Rotation",
           "years": 4,
@@ -1517,7 +1512,7 @@
         "starterPair": "Yigit Karademir neben Jakob Schöller",
         "note": "Karademir hat sich nach der Rückkehr aus der Leihe stark entwickelt und übernimmt die Stammspielerrolle."
       },
-      "postFarhatPolicy": "Nach Ben Farhat keine weiteren proaktiven Transfers. Verfügbarer Rest dient als Reserve für Jugendverpflichtungen und Reaktion auf Abgänge."
+      "postFarhatPolicy": "Nach Ben Farhat keine weiteren proaktiven Transfers. Der verbleibende Etat wird als Reserve für Abgänge, Wintermaßnahmen und Verpflichtungen von Jugendtalenten geschützt."
     },
     "relegation": {
       "approach": "Offensiv bleiben, defensive Absicherung über außen verstärken",
