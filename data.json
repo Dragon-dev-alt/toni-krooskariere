@@ -668,7 +668,8 @@
     "Bjarke Jacobsen: Vorvertrag bei einem anderen Verein abgeschlossen. Er wechselt am Saisonende ablösefrei. Ein Winterverkauf mit Ablöse ist damit nicht mehr Teil der Planung.",
     "Alexander Hirsch wurde im Januar aus der Jugendakademie in die 1. Mannschaft hochgezogen. 16 Jahre, 71 OVR, 95 POT, Einsatz als ZM/ZDM.",
     "Mats Remberg: Spieler möchte wechseln. Trainer und Vorstand planen keinen Winterverkauf; Abgang soll im Sommer 2027 angestrebt werden. Als 3. Keeper besteht kein akuter sportlicher Handlungsdruck.",
-    "Mats Remberg: Transfer zum Saisonende für 290.000 € vereinbart. Nach der 70%-Regel sind davon 203.000 € reinvestierbar, 87.000 € verbleiben beim Verein. Remberg bleibt bis Saisonende als 3. Keeper."
+    "Mats Remberg: Transfer zum Saisonende für 290.000 € vereinbart. Nach der 70%-Regel sind davon 203.000 € reinvestierbar, 87.000 € verbleiben beim Verein. Remberg bleibt bis Saisonende als 3. Keeper.",
+    "1.2. Tabellenstand: Platz 6, 30 Punkte aus 20 Spielen, 8S/6U/6N, 31:23 Tore. Fünf Punkte Rückstand auf Platz 4. Vorstandszufriedenheit 7/10."
   ],
   "matches": [
     {
@@ -1009,6 +1010,19 @@
         "tescheJakobsen": "Zustimmung. Bei Tesche hat der sportliche und menschliche Wert seines letzten Halbjahres Vorrang vor einem kleinen möglichen Transfererlös. Bei Jacobsen ist die Transferliste sinnvoll: So haben wir vor Vertragsende die Option auf eine Ablöse, statt ihn im Sommer ablösefrei zu verlieren.",
         "jacobsen": "Kein Handlungsspielraum mehr für eine Winterablöse. Der Vorstand akzeptiert den Abgang und richtet die Kaderplanung auf die Zeit nach Saisonende aus."
       }
+    },
+    {
+      "date": "1.2.",
+      "title": "Vorstandssitzung – Rückrundenstart",
+      "status": "Sitzung eröffnet",
+      "currentLeagueSnapshot": "Platz 6, 30 Punkte nach 20 Spielen; 8S/6U/6N; 31:23. Fünf Punkte Rückstand auf Platz 4.",
+      "questionsPending": [
+        "Wie erklärst du die aktuelle sportliche Entwicklung?",
+        "Willst du weiter aktiv um die Aufstiegsplätze spielen?",
+        "Wie integrierst du Hirsch in die 1. Mannschaft?",
+        "Bleibt der Plan bestehen, keinen externen ZM zu holen?",
+        "Wie planst du mittelfristig ZM/TW nach den Sommerabgängen?"
+      ]
     }
   ],
   "boardMeetingFormat": {
@@ -1055,7 +1069,7 @@
     "currentOfficialGoal": "Klassenerhalt",
     "januaryReview": "Im Januar bestätigt: offizielles Ziel bleibt Klassenerhalt, intern wird ein Aufstiegsrennen als mögliche Perspektive beobachtet.",
     "note": "Der aktuelle 4. Platz führt noch nicht zu einer offiziellen Anhebung des Saisonziels.",
-    "internalOutlook": "Intern darf die Mannschaft aufgrund der Tabellenlage auf den Aufstieg hoffen; offiziell bleibt das Ziel der Klassenerhalt."
+    "internalOutlook": "Intern bleibt die Hoffnung auf den Aufstieg bestehen; offizielle Zielsetzung unverändert."
   },
   "contractReview": {
     "RobinHenning": {
@@ -1193,18 +1207,17 @@
   ],
   "youthRecruitmentCandidates": [],
   "boardSatisfaction": {
-    "score": 8,
+    "score": 7,
     "scale": "1–10",
-    "status": "hoch",
-    "currentAssessment": "Der Vorstand bleibt mit der Saison zufrieden. Osnabrück liegt zur Halbzeit auf Platz 5 und damit nur zwei Punkte hinter dem Relegationsplatz. Der Saisonverlauf ist nach dem sehr starken Herbst etwas wechselhafter geworden, aber die Mannschaft befindet sich weiterhin klar im oberen Tabellendrittel. Jacobsen verliert den Klub am Saisonende ablösefrei; dies ist sportlich ein Planungsfaktor, aber kein Vorwurf an die Trainerarbeit.",
+    "status": "gut",
+    "currentAssessment": "Grundsätzlich zufrieden, aber kritischer: Platz 6 nach 20 Spielen und 5 Punkte Rückstand auf Platz 4.",
     "positiveFactors": [
-      "Platz 5 nach 17 Spielen",
-      "28 Punkte und +10 Tordifferenz",
-      "Nur zwei Punkte bis Platz 4",
-      "Stabiler Kader mit klarer Jugendstrategie"
+      "30 Punkte",
+      "31:23 Tore",
+      "Offizielles Ziel klar auf Kurs"
     ],
     "riskFactors": [
-      "Nur 5 Siege in den letzten 10? Not enough evidence; daher nicht behaupten."
+      "Rückstand auf Platz 4 auf 5 Punkte angewachsen"
     ],
     "review": "Wird bei jeder Vorstandssitzung neu bewertet."
   },
@@ -1221,45 +1234,44 @@
     "currentStatus": "Kein Anlass für eine vorzeitige Trennung; Vorstandszufriedenheit sehr hoch."
   },
   "leagueTable": {
-    "asOf": "1.1.",
+    "asOf": "1.2.",
     "competition": "2. Bundesliga",
     "osnabruck": {
-      "position": 5,
-      "points": 28,
-      "games": 17,
-      "wins": 8,
-      "draws": 4,
-      "losses": 5,
-      "goalsFor": 29,
-      "goalsAgainst": 19,
-      "goalDifference": 10
-    },
-    "wolfsburg": {
-      "position": 1,
+      "position": 6,
       "points": 30,
-      "games": 14
+      "games": 20,
+      "wins": 8,
+      "draws": 6,
+      "losses": 6,
+      "goalsFor": 31,
+      "goalsAgainst": 23,
+      "goalDifference": 8
     },
-    "context": "Osnabrück steht auf Platz 5, 2 Punkte hinter dem Relegationsplatz und 11 Punkte hinter Tabellenführer Wolfsburg.",
     "top": {
       "wolfsburg": {
         "position": 1,
-        "points": 39,
-        "games": 17
+        "points": 46,
+        "games": 20
       },
       "bochum": {
         "position": 2,
-        "points": 36,
-        "games": 17
+        "points": 41,
+        "games": 20
       },
       "hertha": {
         "position": 3,
-        "points": 31,
-        "games": 17
+        "points": 38,
+        "games": 20
+      },
+      "nurnberg": {
+        "position": 4,
+        "points": 35,
+        "games": 20
       },
       "bielefeld": {
-        "position": 4,
-        "points": 30,
-        "games": 17
+        "position": 5,
+        "points": 33,
+        "games": 20
       }
     }
   }
