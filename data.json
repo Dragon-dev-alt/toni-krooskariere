@@ -1005,7 +1005,8 @@
     "Trainervereinbarung Sommer 2027: Toni Kroos bleibt beim VfL Osnabrück. Sonderklausel akzeptiert: Nach Saison 2027/28 darf Kroos ohne Entschädigungszahlung zu einem Klub aus Bundesliga, Premier League oder LaLiga wechseln. Die Klausel verpflichtet nicht zum Wechsel.",
     "Leihliste Sommer 2027: Viggo Andersen, Kevin Wiethaup und Max Adams wurden auf die Leihliste gesetzt. Vorstand unterstützt die Maßnahme zur gezielten Entwicklung durch regelmäßige Spielzeit.",
     "Theo Jannotta: Im Sommer 2027 für 600.000 € verkauft. Nach der 70%-Regel sind 420.000 € reinvestierbar, 180.000 € verbleiben beim Verein.",
-    "Kevin Wiethaup: 2-Jahres-Leihe abgeschlossen. Ziel ist regelmäßige Spielzeit und Entwicklung; er bleibt beim VfL unter Vertrag."
+    "Kevin Wiethaup: 2-Jahres-Leihe abgeschlossen. Ziel ist regelmäßige Spielzeit und Entwicklung; er bleibt beim VfL unter Vertrag.",
+    "William Mikelbrencis von SV Darmstadt 98: 23 Jahre, 71 OVR/80 POT, RV/RM, aktuelles Gehalt 11.500 €/Woche. Mindestpreis 4,1 Mio. €, Forderung/Verkaufspreis 5,1 Mio. €. Vorstand stimmt einem Transfer grundsätzlich zu, setzt aber eine Ablöseobergrenze von 4,3 Mio. € wegen Gehalt und Gehaltsstruktur."
   ],
   "matches": [
     {
@@ -1270,6 +1271,23 @@
         "Mario Silva": 17000000,
         "Ole Schubert": 10000000,
         "note": "Unterhalb dieser internen Grenze soll kein ernsthafter Verkauf erwogen werden; darüber wird ein Angebot individuell bewertet und nicht automatisch angenommen."
+      },
+      "rvTarget": {
+        "name": "William Mikelbrencis",
+        "club": "SV Darmstadt 98",
+        "age": 23,
+        "ovr": 71,
+        "potential": 80,
+        "position": "RV",
+        "secondaryPositions": [
+          "RM"
+        ],
+        "currentWage": 11500,
+        "minimumFee": 4100000,
+        "askingPrice": 5100000,
+        "boardPosition": "Grundsätzlich freigegeben",
+        "boardMaxTransferFee": 4300000,
+        "reason": "Klarer Qualitätsgewinn gegenüber aktueller RV-Besetzung; Bundesliga-taugliches Niveau, aber aktuelles Gehalt von 11.500 €/Woche birgt Risiko für die Gehaltsstruktur."
       }
     },
     "relegation": {
