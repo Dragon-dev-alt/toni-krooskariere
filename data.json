@@ -1,5 +1,5 @@
 {
-  "budget": 24763000,
+  "budget": 21323000,
   "formation": "4-3-3 Flach",
   "lineHeight": 65,
   "rules": [
@@ -573,6 +573,27 @@
       "assists": 0,
       "cleanSheets": 0,
       "weeklyWage": 6000
+    },
+    {
+      "name": "Kjell Wätjen",
+      "age": 21,
+      "nationality": "Deutschland",
+      "club": "VfL Osnabrück",
+      "ovr": 70,
+      "potential": 78,
+      "marketValue": 3600000,
+      "weeklyWage": 10000,
+      "position": "CM",
+      "secondaryPositions": [
+        "CAM",
+        "RM"
+      ],
+      "role": "Wichtig",
+      "status": "Verpflichtet · 3,4 Mio. € · 5 Jahre",
+      "appearances": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0
     }
   ],
   "sales": [
@@ -1042,6 +1063,16 @@
       "performanceBonuses": [],
       "releaseClause": null,
       "fee": 2600000
+    },
+    "KjellWatjen": {
+      "status": "Verpflichtet",
+      "role": "Wichtig",
+      "years": 5,
+      "weeklyWage": 10000,
+      "entryBonus": 40000,
+      "performanceBonuses": [],
+      "releaseClause": null,
+      "fee": 3400000
     }
   },
   "activeOffers": [],
@@ -1182,7 +1213,8 @@
     "Sommer 2027: Kjell Wätjen – 3,4 Mio. € Ablöse ausgehandelt, Vertrag noch offen. Vorstand schlägt 4 Jahre, Rotation, 8.000 €/Woche, 25.000 € Handgeld, keine Boni/Klausel vor. Obergrenze 9.000 €/Woche + 40.000 € Handgeld.",
     "Sommer 2027: Yigit Karademir kehrt stark verbessert aus der Leihe zurück und wird als Stamm-IV neben Jakob Schöller eingeplant. Externer IV-Transfer entfällt.",
     "Sommer 2027: L. Ben Farhat bleibt Wunschoption für den Sturm, falls nach den priorisierten Transfers ausreichend Budget verbleibt. Vorstand rechnet mit ca. 5 Mio. € und setzt 5,5 Mio. € als Obergrenze.",
-    "Kjell Wätjen fordert die Rolle Wichtig. Vorstand geht auf Wichtig ein, behält aber 8.000 €/Woche und 25.000 € Handgeld als Angebot bei. Absolute Grenze 9.000 €/Woche + 40.000 € Handgeld."
+    "Kjell Wätjen fordert die Rolle Wichtig. Vorstand geht auf Wichtig ein, behält aber 8.000 €/Woche und 25.000 € Handgeld als Angebot bei. Absolute Grenze 9.000 €/Woche + 40.000 € Handgeld.",
+    "Kjell Wätjen: Transfer abgeschlossen. 3,4 Mio. € Ablöse, 5 Jahre, Rolle Wichtig, 10.000 €/Woche, 40.000 € Handgeld, keine Boni/Ausstiegsklausel. Das Gehalt liegt über der zuvor gesetzten 9.000-€-Linie; Vorstand akzeptiert dies als Einzelfall für die gewünschte Rolle, behält aber die Gehaltsstruktur im Blick."
   ],
   "matches": [
     {
@@ -1548,17 +1580,15 @@
         "ovr": 70,
         "potential": 78,
         "agreedFee": 3400000,
-        "status": "Vertrag ausstehend · Rolle Wichtig gefordert",
+        "status": "Verpflichtet",
         "contractOffer": {
           "role": "Wichtig",
-          "years": 4,
-          "weeklyWage": 8000,
-          "entryBonus": 25000,
+          "years": 5,
+          "weeklyWage": 10000,
+          "entryBonus": 40000,
           "performanceBonuses": [],
           "releaseClause": null,
-          "boardMaxWeeklyWage": 9000,
-          "boardMaxEntryBonus": 40000,
-          "status": "Vorstandsangebot"
+          "status": "Abgeschlossen"
         }
       },
       "strikerPlan": {
@@ -2885,9 +2915,9 @@
       "Trainer & Vorstand"
     ],
     "note": "Aktuelle Saison im Fokus; historische Transfers werden nicht mehr im aktiven Dashboard angezeigt.",
-    "lastUpdate": "Sommer 2027: Wätjen fordert Wichtig; Vorstand bietet Wichtig zu 8k/Woche + 25k Handgeld"
+    "lastUpdate": "Sommer 2027: Wätjen final 5 Jahre, 10k/Woche, 40k Handgeld; Fukui weiterhin offen"
   },
-  "budgetNote": "Aktueller Planungsstand: 24,763 Mio. € nach abgeschlossenem Silva-Verkauf, Conteh und Früchtl. Wätjen (3,4 Mio. €) und Fukui (6,5 Mio. €) sind noch nicht abgeschlossen und daher noch nicht abgezogen.",
+  "budgetNote": "Nach Wätjen: 21.323.000 € bekanntes Restbudget. Wätjen: 3,4 Mio. € Ablöse + 40.000 € Handgeld. Fukui (6,5 Mio. €) bleibt weiterhin nicht abgezogen, solange sein Transfer nicht abgeschlossen ist.",
   "zmTransferBudgetGuidance": {
     "planningReferenceBudget": 30000000,
     "currency": "EUR",
@@ -3087,24 +3117,6 @@
         "boardPosition": "Rolle Schlüsselspieler wird akzeptiert, Gehalt bleibt bei 7.000 €/Woche. Keine zusätzlichen Boni oder Klausel.",
         "boardMaxEntryBonus": 60000,
         "status": "Verbessertes Angebot nach Bedenkzeit"
-      },
-      "budgetDeductionApplied": false
-    },
-    {
-      "name": "Kjell Wätjen",
-      "club": "FC Midtjylland",
-      "status": "Ablöse 3,4 Mio. € ausgehandelt – Vertrag noch offen",
-      "transferFee": 3400000,
-      "contractOffer": {
-        "role": "Wichtig",
-        "years": 4,
-        "weeklyWage": 8000,
-        "entryBonus": 25000,
-        "performanceBonuses": [],
-        "releaseClause": null,
-        "boardMaxWeeklyWage": 9000,
-        "boardMaxEntryBonus": 40000,
-        "status": "Wätjen fordert Wichtig · Vorstand geht als Kompromiss auf Wichtig"
       },
       "budgetDeductionApplied": false
     }
