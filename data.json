@@ -515,6 +515,26 @@
       "role": "Schlüsselspieler",
       "status": "Verpflichtet · 4,3 Mio. € + 2 % Weiterverkauf",
       "weeklyWage": 11000
+    },
+    {
+      "name": "Mohamed Richter",
+      "age": 15,
+      "nationality": "Deutschland",
+      "club": "VfL Osnabrück",
+      "ovr": 74,
+      "potential": 95,
+      "marketValue": 13000000,
+      "weeklyWage": 7100,
+      "position": "RW",
+      "secondaryPositions": [
+        "LW"
+      ],
+      "role": "Perspektivprofi",
+      "status": "1. Mannschaft · hochgezogen",
+      "appearances": 0,
+      "goals": 0,
+      "assists": 0,
+      "cleanSheets": 0
     }
   ],
   "sales": [
@@ -612,22 +632,6 @@
       "marketValue": 5500000,
       "weeklyWage": 4300,
       "development": "CB Wide Back+ / CB Ball-Playing Defender+"
-    },
-    {
-      "name": "Mohamed Richter",
-      "age": 15,
-      "ovr": 74,
-      "potential": "95",
-      "position": "RW",
-      "secondaryPositions": [
-        "LW"
-      ],
-      "country": "Deutschland",
-      "role": "Jugendakademie",
-      "status": "aktiv",
-      "marketValue": 13000000,
-      "weeklyWage": 7100,
-      "development": "RW Winger+ / LW Wide Playmaker++ / RW Wide Midfielder+"
     },
     {
       "name": "Nick Adam",
@@ -758,6 +762,18 @@
       "status": "1. Mannschaft",
       "role": "Wichtig · Flügel",
       "marketValue": 2100000
+    },
+    {
+      "name": "Mohamed Richter",
+      "age": 15,
+      "ovr": 74,
+      "pot": 95,
+      "status": "1. Mannschaft",
+      "role": "Perspektivprofi",
+      "marketValue": 13000000,
+      "appearances": 0,
+      "goals": 0,
+      "assists": 0
     }
   ],
   "preseasonTournament": {
@@ -1092,7 +1108,9 @@
     "ZM-Verhandlungsrahmen: Loiodice Ziel 5,5 Mio. €, Maximal 6,5 Mio.; Fukui Ziel 6,0 Mio. €, Maximal 7,0 Mio.; Fabbian Ziel 14 Mio. €, Maximal 15,5 Mio.; Wätjen Ziel 3,3 Mio. €, Maximal 4,0 Mio. Baur aktuell 0 € Transferfreigabe wegen Gehaltsstruktur.",
     "Sommer 2027: Max Adams ist für 2 Jahre verliehen, Viggo Andersen für 1 Jahr. Beide sollen über regelmäßige Spielzeit entwickelt werden.",
     "Mario Silva: Angebot über 17,2 Mio. € wurde angenommen. Nach der 70%-Regel sind 12,04 Mio. € reinvestierbar; 5,16 Mio. € verbleiben beim Verein. Silva verlässt den aktiven Kader.",
-    "Korrektur Sommer 2027: Mario Silva ist final für 21.500.000 € zu Ajax gewechselt. Reinvestierbarer Anteil nach der 70%-Regel: 15.050.000 €; 6.450.000 € verbleiben beim Verein."
+    "Korrektur Sommer 2027: Mario Silva ist final für 21.500.000 € zu Ajax gewechselt. Reinvestierbarer Anteil nach der 70%-Regel: 15.050.000 €; 6.450.000 € verbleiben beim Verein.",
+    "Sommer 2027: Mohamed Richter (15, 74 OVR, 95 POT, RW/LW) wird in die 1. Mannschaft hochgezogen. Vorstand unterstützt die Maßnahme als Teil der Talentstrategie.",
+    "Sommer 2027: Lars Kehl wird zum Verkauf vorgesehen, um einen Kaderplatz für C. Conteh freizumachen. Conteh wird als Transferziel weiterverfolgt; eine Ablöseverhandlung ist noch nicht erfolgt."
   ],
   "matches": [
     {
@@ -1252,7 +1270,7 @@
       "status": "Bundesliga-Sommer – aktiv",
       "midfield": "Izan González ist zurück bei Granada; Hirsch intern einplanen, zusätzlich soliden ZM suchen.",
       "goalkeeper": "Remberg verlässt den Verein; 3. Keeper suchen.",
-      "note": "Trainer will Verteidigung und RV verbessern sowie einen soliden ZM und 3. Keeper verpflichten. Ersatz für Remberg/Jakobsen wird abhängig vom Budget entschieden.",
+      "note": "Mikelbrencis verpflichtet; Silva für 21,5 Mio. € an Ajax verkauft; Richter hochgezogen; Kehl soll verkauft werden, um Platz für Conteh zu schaffen.",
       "goalkeeperScouting": "Ab Anfang Mai aktivieren und intensivieren; Fokus auf Ersatz und mögliche qualitative Verbesserung nach Rembergs Abgang.",
       "twoScenarioPlanning": {
         "status": "Transferphase läuft – Planung wird laufend auf Basis von Kader, Markt und verfügbaren Mitteln angepasst",
@@ -1400,6 +1418,15 @@
           "performanceBonuses": [],
           "releaseClause": null
         }
+      },
+      "winger": {
+        "target": "C. Conteh",
+        "club": "Heidenheim",
+        "age": 27,
+        "position": "RM/RW",
+        "ovr": 68,
+        "status": "Vorgesehen – nach Kehl-Abgang weiterverfolgen",
+        "reason": "Soll den frei werdenden Kaderplatz auffüllen und die rechte Außenbahn flexibel ergänzen."
       }
     },
     "relegation": {
@@ -2348,7 +2375,7 @@
       "ovr": 68,
       "club": "Heidenheim",
       "source": "Scouting",
-      "note": "Außenbahn-/Offensivkandidat"
+      "note": "Aktives Transferziel nach Kehl-Verkauf prüfen"
     }
   ],
   "summerPlan": {
@@ -2635,9 +2662,12 @@
   ],
   "saleCandidates": [
     {
-      "name": "Keine aktive Verkaufsliste",
-      "status": "Aktuell kein weiterer Spieler aktiv zum Verkauf vorgesehen",
-      "note": "Silva ist für 21,5 Mio. € zu Ajax gewechselt; Remberg/Jacobsen verlassen den Verein bereits."
+      "name": "Lars Kehl",
+      "status": "Zum Verkauf vorgesehen",
+      "note": "Soll Platz im Kader für einen neuen Außenspieler schaffen; Verkauf muss marktgerecht erfolgen.",
+      "position": "RW/CAM/ST",
+      "marketValue": 1800000,
+      "desiredReason": "Kaderplatz für C. Conteh"
     }
   ],
   "departureCandidates": [
@@ -2704,7 +2734,7 @@
       "Trainer & Vorstand"
     ],
     "note": "Aktuelle Saison im Fokus; historische Transfers werden nicht mehr im aktiven Dashboard angezeigt.",
-    "lastUpdate": "Sommer 2027: Silva final 21,5 Mio. € zu Ajax; Adams 2 Jahre Leihe; Andersen 1 Jahr Leihe"
+    "lastUpdate": "Sommer 2027: Silva 21,5 Mio. € zu Ajax; Richter hochgezogen; Kehl zum Verkauf; Conteh als Ziel"
   },
   "budgetNote": "Aktuelles Ingame-Transferbudget bleibt 15,613 Mio. €, sofern im Spiel nicht anders angezeigt. Aus dem Silva-Verkauf von 21,5 Mio. € sind 15,05 Mio. € nach der 70%-Regel reinvestierbar.",
   "zmTransferBudgetGuidance": {
