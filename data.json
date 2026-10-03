@@ -991,7 +991,8 @@
     "1.7. Externe Trainerangebote: FC Augsburg, FC Utrecht, FC Schalke 04 und 1. FSV Mainz 05 haben konkrete Angebote/Anfragen abgegeben. Trainer plant grundsätzlich mindestens die erste Bundesliga-Saison in Osnabrück, lässt aber einen lukrativen Wechsel offen.",
     "1.7. Kaderprioritäten 2027/28: Verteidigung und RV verbessern, zusätzlich solider ZM und 3. Keeper. Remberg/Jakobsen-Ersatz abhängig vom Budget.",
     "Jugendkern schützen: Mario Silva und Ole Schubert stehen grundsätzlich nicht zum Verkauf. Interne Schmerzensgrenzen für erneute Bewertung: Silva 22 Mio. €, Schubert 14 Mio. €.",
-    "Sommer 2027: Interne Schmerzensgrenzen neu gesetzt – Mario Silva 17 Mio. €, Ole Schubert 10 Mio. €. Trainerangebote mit Perspektiven ergänzt; Osnabrück bietet den Aufbau der ersten Bundesliga-Saison mit 20 Mio. € Transferbudget und Talententwicklung."
+    "Sommer 2027: Interne Schmerzensgrenzen neu gesetzt – Mario Silva 17 Mio. €, Ole Schubert 10 Mio. €. Trainerangebote mit Perspektiven ergänzt; Osnabrück bietet den Aufbau der ersten Bundesliga-Saison mit 20 Mio. € Transferbudget und Talententwicklung.",
+    "Trainervereinbarung Sommer 2027: Toni Kroos bleibt beim VfL Osnabrück. Sonderklausel akzeptiert: Nach Saison 2027/28 darf Kroos ohne Entschädigungszahlung zu einem Klub aus Bundesliga, Premier League oder LaLiga wechseln. Die Klausel verpflichtet nicht zum Wechsel."
   ],
   "matches": [
     {
@@ -1590,13 +1591,15 @@
         "squadNeeds": "Verteidigung und RV sollen verbessert werden; zusätzlich werden ein solider ZM und ein 3. Keeper benötigt.",
         "replacements": "Ersatz für Remberg/Jacobsen wird abhängig vom verfügbaren Budget entschieden.",
         "seasonTargetProposal": "Klassenerhalt in der Bundesliga, bei realistischer Chance auf Etablierung.",
-        "youthRetention": "Silva und Schubert sollen möglichst gehalten werden; interne Schmerzensgrenzen wurden gesetzt."
+        "youthRetention": "Silva und Schubert sollen möglichst gehalten werden; interne Schmerzensgrenzen wurden gesetzt.",
+        "managerFuture": "Kroos bleibt in Osnabrück. Bedingung: Nach Ende der Saison 2027/28 darf er ohne Entschädigung zu einem Klub aus Bundesliga, Premier League oder LaLiga wechseln, muss dies aber nicht."
       },
       "boardOpinion": {
         "managerOffers": "Der Vorstand nimmt die Angebote zur Kenntnis. Nach dem Aufstieg hat Kroos nun einen gestiegenen Marktwert als Trainer. Der Vorstand würde einen Abgang nicht grundsätzlich verhindern, erwartet aber eine angemessene Kompensation für einen vorzeitigen Vertragsausstieg.",
         "squadNeeds": "Zustimmung. Die priorisierten Positionen sind für das Bundesliganiveau nachvollziehbar.",
         "replacements": "Zustimmung. Das Budget soll nicht vorzeitig verplant werden; zuerst werden die Abgänge und die Liga-Situation berücksichtigt.",
-        "youthRetention": "Volle Zustimmung. Silva und Schubert sind strategische Kernspieler. Die gesetzten Schmerzensgrenzen sind Untergrenzen für eine erneute Bewertung, keine automatische Verkaufserlaubnis."
+        "youthRetention": "Volle Zustimmung. Silva und Schubert sind strategische Kernspieler. Die gesetzten Schmerzensgrenzen sind Untergrenzen für eine erneute Bewertung, keine automatische Verkaufserlaubnis.",
+        "managerFuture": "Der Vorstand akzeptiert die Sonderklausel. Nach dem historischen Aufstieg ist uns die Kontinuität für die erste Bundesliga-Saison wichtig; gleichzeitig soll Kroos eine faire Karriereoption für den Sommer 2028 haben."
       }
     }
   ],
@@ -1851,8 +1854,8 @@
     "boardReview": "Regelmäßige Bewertung in Vorstandssitzungen; Vertragsgespräche bei absehbarem Vertragsende.",
     "renewalRule": "Bei auslaufendem Vertrag wird separat über eine Verlängerung verhandelt. Eine Verlängerung erfolgt nicht automatisch.",
     "dismissalPolicy": "Bei anhaltend schlechter sportlicher Entwicklung, verfehlten Zielen oder wiederholt nicht nachvollziehbaren Entscheidungen kann der Vorstand eine vorzeitige Trennung beschließen.",
-    "currentStatus": "Mehrere externe Angebote liegen vor. Trainer ist grundsätzlich bereit, mindestens die erste Bundesliga-Saison in Osnabrück zu absolvieren, schließt einen lukrativen Wechsel aber nicht aus.",
-    "transferInterestPolicy": "Externe Angebote werden nicht automatisch abgelehnt; bei einem konkreten Angebot entscheidet der Trainer nach sportlicher und persönlicher Perspektive, der Vorstand nimmt anschließend Stellung.",
+    "currentStatus": "Toni Kroos bleibt beim VfL Osnabrück. Der Vorstand akzeptiert eine Sondervereinbarung: Nach der Saison 2027/28 ist ein Wechsel ohne Entschädigungszahlung an Osnabrück zu einem Klub aus Bundesliga, Premier League oder LaLiga möglich, falls Kroos ein entsprechendes Angebot annimmt.",
+    "transferInterestPolicy": "Bis zum Ende der Saison 2027/28 werden externe Trainerangebote nicht als Wechselgrund behandelt. Danach darf Kroos ohne Entschädigungszahlung zu einem Klub der Bundesliga, Premier League oder LaLiga wechseln.",
     "externalOffers": [
       {
         "club": "FC Augsburg",
@@ -1923,7 +1926,7 @@
         }
       }
     ],
-    "boardPosition": "Der Vorstand würde bei einem Wechsel eine angemessene Entschädigung erwarten. Ein Abgang wird nicht kategorisch blockiert, aber nach dem Aufstieg soll zuerst die Perspektive des VfL geprüft werden.",
+    "boardPosition": "Der Vorstand akzeptiert die Sonderklausel als Gegenleistung dafür, dass Kroos trotz externer Angebote mindestens die nächste Bundesliga-Saison beim VfL absolviert.",
     "currentClubPerspective": {
       "club": "VfL Osnabrück",
       "league": "Bundesliga",
@@ -1931,6 +1934,18 @@
       "managerPerspective": "Der Vorstand möchte grundsätzlich mit Toni Kroos mindestens die erste Bundesliga-Saison bestreiten.",
       "developmentPerspective": "Der junge Talentkern soll weiterentwickelt werden, darunter Silva, Schubert, Hirsch und Wolf.",
       "contractualPerspective": "Trainervertrag läuft bis Sommer 2029; keine automatische Verlängerung."
+    },
+    "specialExitClause": {
+      "active": true,
+      "earliestExit": "Ende der Saison 2027/28",
+      "eligibleLeagues": [
+        "Bundesliga",
+        "Premier League",
+        "LaLiga"
+      ],
+      "compensationToOsnabrueck": 0,
+      "mandatoryMove": false,
+      "note": "Die Klausel ist optional: Kroos muss kein Angebot annehmen."
     }
   },
   "leagueTable": {
