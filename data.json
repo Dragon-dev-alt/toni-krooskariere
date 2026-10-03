@@ -1281,8 +1281,8 @@
           "entryBonus": 50000
         }
       },
-      "note": "Mikelbrencis verpflichtet; Silva für 21,5 Mio. € an Ajax verkauft; Richter hochgezogen; Kehl soll verkauft werden, um Platz für Conteh zu schaffen.",
-      "goalkeeperScouting": "Ab Anfang Mai aktivieren und intensivieren; Fokus auf Ersatz und mögliche qualitative Verbesserung nach Rembergs Abgang.",
+      "note": "Mikelbrencis, Conteh, Früchtl, Wätjen und Fukui verpflichtet; Karademir Stamm-IV; Richter hochgezogen; Ben Farhat als letzter geplanter Neuzugang.",
+      "goalkeeperScouting": "Früchtl verpflichtet; keine weitere proaktive Torwartverstärkung vorgesehen.",
       "twoScenarioPlanning": {
         "status": "Transferphase läuft – Planung wird laufend auf Basis von Kader, Markt und verfügbaren Mitteln angepasst",
         "scenario2Bundesliga": "Kaderplanung auf aktuellem Bundesliga-Niveau",
@@ -1373,10 +1373,7 @@
         "note": "Zusätzliche Scoutingarbeit unabhängig vom Relegationsausgang, um bei einem Aufstieg vorbereitet zu sein."
       },
       "priorityPositions": [
-        "RV",
-        "IV/Defensive",
-        "ZM",
-        "3. TW"
+        "ST"
       ],
       "gk": "3. Keeper wird benötigt",
       "rv": "RV-Verstärkung gewünscht",
@@ -2464,8 +2461,8 @@
     }
   ],
   "summerPlan": {
-    "status": "Bundesliga-Sommer 2027 – aktiv",
-    "scoutListStatus": "Bundesliga-Kaderplanung läuft; Prioritäten werden während der Transferphase laufend angepasst."
+    "status": "Bundesliga-Sommer 2027 – letzte Verpflichtung wird verhandelt",
+    "scoutListStatus": "Kaderplanung weitgehend abgeschlossen; Ben Farhat ist letzter geplanter Neuzugang."
   },
   "playerSeasonStats": {
     "season": "2026/27",
@@ -2933,7 +2930,7 @@
       "boardAssessment": "Interessant wegen Alter und Tempo, aber 70 OVR bringt gegenüber Hirsch aktuell keinen klaren Sofortgewinn. Gehalt für die Rolle hoch.",
       "boardTargetFee": 3300000,
       "boardMaxFee": 4000000,
-      "status": "Anfrage eröffnet · Verhandlung"
+      "status": "Verpflichtet"
     },
     {
       "name": "Mika Baur",
@@ -3023,7 +3020,7 @@
       "boardAssessment": "Sehr gute Dynamik und Ballführung, jung und passend für kontrollierte Vertikalität. Defensiv und physisch weniger komplett als Loiodice.",
       "boardTargetFee": 6000000,
       "boardMaxFee": 7000000,
-      "status": "Topkandidat · dynamische Alternative"
+      "status": "Verpflichtet"
     }
   ],
   "pendingTransfers": [],
