@@ -1258,7 +1258,8 @@
     "Taichi Fukui: Vertrag finalisiert und Transfer freigegeben. 6,5 Mio. € Ablöse, 4 Jahre, Schlüsselspieler, 10.500 €/Woche, 200.000 € Handgeld. Der Vorstand akzeptiert das Handgeld als einmalige Ausnahme wegen der sportlichen Qualität und der Schlüsselrolle; die bisherige interne Grenze wurde damit überschritten.",
     "1.8. Kaderstand laut Ingame-Screenshot aktualisiert. Besonders auffällig: Karademir 70/74, Conteh 72/76, Wätjen 70/77, Fukui 73/79, Ponomarenko 71/86 und Badjie 71/74.",
     "Sommer 2027: Ben Farhat soll als letzter geplanter Neuzugang kommen. Vorstand schlägt 4 Jahre, Rolle Rotation, 6.500 €/Woche, 50.000 € Handgeld, keine Boni/Klausel vor. Bis 7.500 €/Woche + 75.000 € Handgeld kann bei guter Verhandlung gegangen werden.",
-    "Nach Ben Farhat: Transferfenster intern auf 'Abgänge beobachten / nur reagieren' umgestellt. Keine weiteren proaktiven Einkäufe vorgesehen."
+    "Nach Ben Farhat: Transferfenster intern auf 'Abgänge beobachten / nur reagieren' umgestellt. Keine weiteren proaktiven Einkäufe vorgesehen.",
+    "1.8.2027: Vorstandssitzung findet automatisch statt. Neue Regel bestätigt: Am 1. jedes Monats ist unabhängig vom Themenumfang Vorstandssitzung."
   ],
   "matches": [
     {
@@ -2780,7 +2781,7 @@
     "salesRule": "Zusätzlich bleiben 70 % der Netto-Transfererlöse reinvestierbar.",
     "contingency": "Bei außergewöhnlich hohen Abgängen kann das verfügbare Transferbudget steigen. Aus dem finalen Silva-Verkauf an Ajax (21,5 Mio. €) sind 15,05 Mio. € nach der 70%-Regel reinvestierbar."
   },
-  "currentDate": "1.7.2027",
+  "currentDate": "1.8.2027",
   "currentSeason": "2027/28",
   "departures": {
     "summer2027": [
@@ -2960,7 +2961,7 @@
   ],
   "dashboardMeta": {
     "season": "2027/28",
-    "date": "1.7.2027",
+    "date": "1.8.2027",
     "sectionsOrder": [
       "Übersicht",
       "Sommerplanung",
@@ -2970,7 +2971,9 @@
       "Trainer & Vorstand"
     ],
     "note": "Aktuelle Saison im Fokus; historische Transfers werden nicht mehr im aktiven Dashboard angezeigt.",
-    "lastUpdate": "1.8.2027: aktueller Kaderstand; Ben Farhat als letzter Neuzugang geplant; danach nur auf Abgänge reagieren"
+    "lastUpdate": "1.8.2027: aktueller Kaderstand; Ben Farhat als letzter Neuzugang geplant; danach nur auf Abgänge reagieren",
+    "boardMeetingRule": "Vorstandssitzung automatisch an jedem 1. des Monats",
+    "lastBoardMeeting": "1.8.2027"
   },
   "budgetNote": "Aktueller Reststand: 14,623 Mio. € vor Ben Farhat. Geplante Farhat-Ablöse ca. 5 Mio. €; noch nicht abgezogen, solange der Transfer nicht abgeschlossen ist. Danach rund 9,623 Mio. € vor weiteren Abgangserlösen.",
   "zmTransferBudgetGuidance": {
