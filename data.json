@@ -402,24 +402,6 @@
       "cleanSheets": 1
     },
     {
-      "name": "Mario Silva",
-      "age": 17,
-      "nationality": "Chile",
-      "club": "VfL Osnabrück",
-      "ovr": 73,
-      "potential": 95,
-      "marketValue": 9500000,
-      "weeklyWage": 4700,
-      "position": "RW",
-      "secondaryPositions": [],
-      "role": "Verkauft",
-      "status": "Verkauft · 17,2 Mio. €",
-      "appearances": 40,
-      "goals": 13,
-      "assists": 11,
-      "cleanSheets": 12
-    },
-    {
       "name": "Matviy Ponomarenko",
       "age": 21,
       "nationality": "Ukraine",
@@ -561,11 +543,12 @@
     },
     {
       "name": "Mario Silva",
-      "status": "Verkauf angenommen",
-      "fee": 17200000,
-      "reinvestable": 12040000,
-      "clubShare": 5160000,
-      "timing": "Sommer 2027"
+      "status": "Verkauft · Ajax",
+      "fee": 21500000,
+      "reinvestable": 15050000,
+      "clubShare": 6450000,
+      "timing": "Sommer 2027",
+      "destination": "Ajax"
     }
   ],
   "academy": [
@@ -1108,7 +1091,8 @@
     "Neue ZM-Shortlist 2027/28 aufgenommen: Loiodice, Wätjen, Baur, Fabbian und Fukui. Vorstand bewertet Loiodice als ausgewogene Sofortverstärkung, Fabbian als Premiumlösung und Fukui als dynamische Alternative. Baur wird wegen 37.000 €/Woche aktuell nicht weiterverfolgt; Wätjen bleibt Beobachtung.",
     "ZM-Verhandlungsrahmen: Loiodice Ziel 5,5 Mio. €, Maximal 6,5 Mio.; Fukui Ziel 6,0 Mio. €, Maximal 7,0 Mio.; Fabbian Ziel 14 Mio. €, Maximal 15,5 Mio.; Wätjen Ziel 3,3 Mio. €, Maximal 4,0 Mio. Baur aktuell 0 € Transferfreigabe wegen Gehaltsstruktur.",
     "Sommer 2027: Max Adams ist für 2 Jahre verliehen, Viggo Andersen für 1 Jahr. Beide sollen über regelmäßige Spielzeit entwickelt werden.",
-    "Mario Silva: Angebot über 17,2 Mio. € wurde angenommen. Nach der 70%-Regel sind 12,04 Mio. € reinvestierbar; 5,16 Mio. € verbleiben beim Verein. Silva verlässt den aktiven Kader."
+    "Mario Silva: Angebot über 17,2 Mio. € wurde angenommen. Nach der 70%-Regel sind 12,04 Mio. € reinvestierbar; 5,16 Mio. € verbleiben beim Verein. Silva verlässt den aktiven Kader.",
+    "Korrektur Sommer 2027: Mario Silva ist final für 21.500.000 € zu Ajax gewechselt. Reinvestierbarer Anteil nach der 70%-Regel: 15.050.000 €; 6.450.000 € verbleiben beim Verein."
   ],
   "matches": [
     {
@@ -2530,7 +2514,7 @@
     "transferBudget": 20000000,
     "boardRationale": "Der Vorstand hält bei rund 65 Mio. € Gesamteinnahmen ein Transferbudget von 20 Mio. € für verantwortbar. Ein erheblicher Teil der Einnahmen bleibt für laufende Kosten, Gehälter, Prämien, Infrastruktur und Liquiditätsreserven gebunden.",
     "salesRule": "Zusätzlich bleiben 70 % der Netto-Transfererlöse reinvestierbar.",
-    "contingency": "Bei außergewöhnlich hohen Abgängen kann das verfügbare Transferbudget während der Sommertransferphase steigen; aus Silva sind 12,04 Mio. € nach der 70%-Regel reinvestierbar."
+    "contingency": "Bei außergewöhnlich hohen Abgängen kann das verfügbare Transferbudget steigen. Aus dem finalen Silva-Verkauf an Ajax (21,5 Mio. €) sind 15,05 Mio. € nach der 70%-Regel reinvestierbar."
   },
   "currentDate": "1.7.2027",
   "currentSeason": "2027/28",
@@ -2612,13 +2596,13 @@
     }
   ],
   "squadRetentionPolicy": {
-    "youthCore": "Mario Silva und Ole Schubert waren grundsätzlich geschützt; Silva wurde nun für 17,2 Mio. € zum Verkauf freigegeben.",
+    "youthCore": "Mario Silva wurde für 21,5 Mio. € an Ajax verkauft. Ole Schubert bleibt der zentrale geschützte Eigengewächs-Spieler.",
     "painThresholds": {
       "MarioSilva": {
         "marketValue": 9500000,
         "absolutePainThreshold": 17000000,
         "currency": "EUR",
-        "rule": "Unter 17 Mio. € wurde ein Verkauf nicht ernsthaft geprüft. Bei 17,2 Mio. € wurde der Verkauf nun angenommen; 70 % der Ablöse sind reinvestierbar."
+        "rule": "Der Verkauf wurde nach einem finalen Angebot über 21,5 Mio. € an Ajax abgeschlossen."
       },
       "OleSchubert": {
         "marketValue": 5500000,
@@ -2653,7 +2637,7 @@
     {
       "name": "Keine aktive Verkaufsliste",
       "status": "Aktuell kein weiterer Spieler aktiv zum Verkauf vorgesehen",
-      "note": "Silva-Verkauf über 17,2 Mio. € angenommen; Remberg/Jacobsen verlassen den Verein bereits."
+      "note": "Silva ist für 21,5 Mio. € zu Ajax gewechselt; Remberg/Jacobsen verlassen den Verein bereits."
     }
   ],
   "departureCandidates": [
@@ -2700,11 +2684,12 @@
     },
     {
       "name": "Mario Silva",
-      "status": "Verkauf angenommen",
-      "fee": 17200000,
-      "reinvestable": 12040000,
-      "clubShare": 5160000,
-      "timing": "Sommer 2027"
+      "status": "Verkauft · Ajax",
+      "fee": 21500000,
+      "reinvestable": 15050000,
+      "clubShare": 6450000,
+      "timing": "Sommer 2027",
+      "destination": "Ajax"
     }
   ],
   "dashboardMeta": {
@@ -2719,9 +2704,9 @@
       "Trainer & Vorstand"
     ],
     "note": "Aktuelle Saison im Fokus; historische Transfers werden nicht mehr im aktiven Dashboard angezeigt.",
-    "lastUpdate": "Sommer 2027: Adams 2 Jahre Leihe, Andersen 1 Jahr Leihe, Silva 17,2 Mio. € Verkauf angenommen"
+    "lastUpdate": "Sommer 2027: Silva final 21,5 Mio. € zu Ajax; Adams 2 Jahre Leihe; Andersen 1 Jahr Leihe"
   },
-  "budgetNote": "Aktuelles Ingame-Transferbudget bleibt 15,613 Mio. €. Zusätzlich ist aus dem angenommenen Silva-Verkauf eine Reinvestitionsbasis von 12,04 Mio. € gemäß 70%-Regel vorgesehen.",
+  "budgetNote": "Aktuelles Ingame-Transferbudget bleibt 15,613 Mio. €, sofern im Spiel nicht anders angezeigt. Aus dem Silva-Verkauf von 21,5 Mio. € sind 15,05 Mio. € nach der 70%-Regel reinvestierbar.",
   "zmTransferBudgetGuidance": {
     "planningReferenceBudget": 30000000,
     "currency": "EUR",
