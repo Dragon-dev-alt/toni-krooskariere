@@ -3,154 +3,181 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>VfL Osnabrück · Vorstandsdashboard</title>
+<title>VfL Osnabrück · Vorstand</title>
 <style>
-:root{--bg:#f3f5f8;--card:#fff;--ink:#17202a;--muted:#6b7280;--line:#e5e7eb;--accent:#5b2a86;--accent2:#7a43ad}
+:root{--bg:#f4f6f9;--card:#fff;--ink:#17202a;--muted:#6b7280;--line:#e5e7eb;--accent:#5b2a86;--accent2:#7a43ad;--good:#16834a;--warn:#b56a00;--bad:#bf362b}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif}
-header{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;padding:28px 0}
-.wrap{max-width:1220px;margin:auto;padding:0 20px}
-.head{display:flex;justify-content:space-between;align-items:center;gap:18px}.title h1{margin:0 0 5px;font-size:28px}.subtitle{opacity:.9}.pin{padding:8px 12px;border:1px solid #ffffff40;border-radius:999px;font-weight:800;font-size:12px}
+header{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;padding:26px 0 20px}.wrap{max-width:1240px;margin:auto;padding:0 20px}
+.head{display:flex;justify-content:space-between;align-items:flex-start;gap:18px}.title h1{margin:0 0 5px;font-size:28px}.subtitle{opacity:.9}.pin{padding:8px 12px;border:1px solid #ffffff40;border-radius:999px;font-size:11px;font-weight:900}
+.tabs{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}.tabbar{display:flex;gap:6px;overflow:auto}.tab{border:0;background:transparent;padding:13px 15px;font-weight:800;color:var(--muted);cursor:pointer;border-bottom:3px solid transparent;white-space:nowrap}.tab.active{color:var(--accent);border-bottom-color:var(--accent)}
 .toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:18px 0}.btn{background:var(--accent);color:#fff;border:0;border-radius:10px;padding:10px 14px;font-weight:800;cursor:pointer}.muted{color:var(--muted);font-size:12px}
-.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:14px}.grid2{display:grid;grid-template-columns:1.15fr .85fr;gap:14px;margin-bottom:14px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:0 7px 24px rgba(0,0,0,.05)}.card h2{margin:0 0 12px;font-size:18px}
-.metric .label{color:var(--muted);font-size:12px}.metric .value{font-size:26px;font-weight:900;margin-top:6px}.metric .sub{color:var(--muted);font-size:12px;margin-top:3px}
-.badge{display:inline-block;padding:4px 8px;border-radius:999px;background:#efe7f7;color:var(--accent);font-weight:800;font-size:11px}.good{background:#e8f6ee;color:#16834a}.warn{background:#fff1dc;color:#ba7200}.danger{background:#fdebe8;color:#bf362b}
+.view{display:none}.view.active{display:block}.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:14px}.grid2{display:grid;grid-template-columns:1.1fr .9fr;gap:14px;margin-bottom:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:0 6px 22px rgba(0,0,0,.05)}.card h2{margin:0 0 12px;font-size:18px}
+.metric .label{color:var(--muted);font-size:12px}.metric .value{font-size:25px;font-weight:900;margin-top:5px}.metric .sub{color:var(--muted);font-size:12px;margin-top:4px}
+.badge{display:inline-block;padding:4px 8px;border-radius:999px;background:#efe7f7;color:var(--accent);font-size:10px;font-weight:900}.good{background:#e8f6ee;color:var(--good)}.warn{background:#fff1dc;color:var(--warn)}.bad{background:#fdebe8;color:var(--bad)}
 .rule{padding:10px 11px;border:1px solid var(--line);border-radius:11px;margin:7px 0;line-height:1.4;font-size:13px}.rule b{display:block;margin-bottom:3px}
-table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:8px;border-bottom:1px solid var(--line);font-size:13px;vertical-align:top}th{color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.04em}
-.sectionHead{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px}.sectionHead .count{font-size:11px;color:var(--muted)}
-.highlight{border-left:4px solid var(--accent);background:#faf8fd;padding:12px;border-radius:9px;line-height:1.45}
-.empty{color:var(--muted);font-size:13px;padding:4px 0}
-@media(max-width:950px){.grid{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}}
-@media(max-width:620px){.grid{grid-template-columns:1fr}.head{align-items:flex-start;flex-direction:column}}
+.callout{border-left:4px solid var(--accent);background:#faf8fd;padding:12px;border-radius:9px;line-height:1.45}.callout strong{display:block;margin-bottom:4px}
+table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:8px;border-bottom:1px solid var(--line);font-size:12px;vertical-align:top}th{color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.04em}
+.sectionHead{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px}.sectionHead .count{color:var(--muted);font-size:11px}
+.bigline{font-size:20px;font-weight:900}.small{font-size:12px}.empty{color:var(--muted);font-size:13px;padding:5px 0}
+@media(max-width:980px){.grid4{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}}
+@media(max-width:620px){.grid4{grid-template-columns:1fr}.head{flex-direction:column}.title h1{font-size:23px}}
 </style>
 </head>
 <body>
-<header>
-  <div class="wrap head">
-    <div class="title"><h1>🟣 VfL Osnabrück · Vorstandsdashboard</h1><div class="subtitle">Toni Kroos · <span id="seasonLabel">Saison 2027/28</span></div></div>
-    <div class="pin">📌 AKTUELLER SAVE-STAND</div>
-  </div>
-</header>
+<header><div class="wrap head"><div class="title"><h1>🟣 VfL Osnabrück · Vorstandsdashboard</h1><div class="subtitle">Toni Kroos · <span id="season">Saison 2027/28</span> · <span id="date">1.7.2027</span></div></div><div class="pin">LIVE · AKTUELLER SAVE-STAND</div></div></header>
+<div class="tabs"><div class="wrap tabbar">
+<button class="tab active" data-view="overview">🏠 Übersicht</button>
+<button class="tab" data-view="squad">👥 Kader</button>
+<button class="tab" data-view="transfers">🔄 Transfers</button>
+<button class="tab" data-view="finance">💰 Finanzen</button>
+<button class="tab" data-view="board">🏢 Vorstand</button>
+<button class="tab" data-view="career">🎩 Trainer & Angebote</button>
+</div></div>
 
 <main class="wrap">
-  <div class="toolbar">
-    <button class="btn" onclick="load()">🔄 Dashboard aktualisieren</button>
-    <span id="time" class="muted"></span>
+<div class="toolbar"><button class="btn" onclick="load()">🔄 Aktualisieren</button><span id="updated" class="muted"></span></div>
+
+<section id="overview" class="view active">
+  <div class="grid4">
+    <div class="card metric"><div class="label">Transferbudget</div><div id="ovBudget" class="value">–</div><div class="sub">Startbudget Sommer 2027/28</div></div>
+    <div class="card metric"><div class="label">Vorstandszufriedenheit</div><div id="ovSat" class="value">–</div><div id="ovSatText" class="sub"></div></div>
+    <div class="card metric"><div class="label">Offizielles Ziel</div><div id="ovGoal" class="value" style="font-size:20px">–</div><div id="ovGoalSub" class="sub"></div></div>
+    <div class="card metric"><div class="label">Trainervertrag</div><div id="ovContract" class="value" style="font-size:20px">–</div><div id="ovContractSub" class="sub"></div></div>
   </div>
+  <div class="grid2">
+    <div class="card"><div class="sectionHead"><h2>🎯 Sommer-Fokus</h2><span class="count">Bundesliga 2027/28</span></div><div id="ovPriorities"></div></div>
+    <div class="card"><div class="sectionHead"><h2>🚨 Aktuelle Entscheidungen</h2><span class="count">offen</span></div><div id="ovActive"></div></div>
+  </div>
+  <div class="grid2">
+    <div class="card"><div class="sectionHead"><h2>⭐ Schlüsselspieler & Talente</h2><span class="count">aktuell</span></div><div id="ovTalents"></div></div>
+    <div class="card"><div class="sectionHead"><h2>🧭 Klubkurs</h2><span class="count">Vorstand</span></div><div id="ovClubCourse"></div></div>
+  </div>
+</section>
 
-  <section class="grid">
-    <div class="card metric"><div class="label">Transferbudget</div><div id="budget" class="value">–</div><div class="sub">Sommer 2027/28</div></div>
-    <div class="card metric"><div class="label">Vorstandszufriedenheit</div><div id="satisfaction" class="value">–</div><div id="satisfactionText" class="sub"></div></div>
-    <div class="card metric"><div class="label">Offizielles Saisonziel</div><div id="goal" class="value" style="font-size:20px">–</div><div id="goalSub" class="sub"></div></div>
-    <div class="card metric"><div class="label">Trainervertrag</div><div id="managerContract" class="value" style="font-size:20px">–</div><div id="managerContractSub" class="sub"></div></div>
-  </section>
+<section id="squad" class="view">
+  <div class="grid2">
+    <div class="card"><div class="sectionHead"><h2>👥 Profikader</h2><span class="count">aktueller Save</span></div>
+      <table><thead><tr><th>Spieler</th><th>Pos.</th><th>OVR/POT</th><th>Rolle</th><th>Status</th></tr></thead><tbody id="sqPlayers"></tbody></table>
+    </div>
+    <div class="card"><div class="sectionHead"><h2>⭐ Talente</h2><span class="count">≤21 · 70+ POT</span></div>
+      <table><thead><tr><th>Spieler</th><th>Alter</th><th>OVR/POT</th><th>Rolle</th></tr></thead><tbody id="sqTalents"></tbody></table>
+    </div>
+  </div>
+  <div class="grid2">
+    <div class="card"><div class="sectionHead"><h2>🔄 Leihplanung</h2><span class="count">Sommer</span></div>
+      <table><thead><tr><th>Spieler</th><th>OVR/POT</th><th>Pos.</th><th>Status</th></tr></thead><tbody id="sqLoans"></tbody></table>
+      <div class="callout"><strong>Bereits verliehen</strong>Kevin Wiethaup · 2 Jahre</div>
+    </div>
+    <div class="card"><div class="sectionHead"><h2>🌱 Jugendakademie</h2><span class="count">nicht hochgezogen</span></div>
+      <table><thead><tr><th>Spieler</th><th>Alt.</th><th>OVR/POT</th><th>Pos.</th></tr></thead><tbody id="sqAcademy"></tbody></table>
+    </div>
+  </div>
+</section>
 
-  <section class="grid2">
-    <div class="card">
-      <div class="sectionHead"><h2>🎯 Sommerplanung</h2><span class="count">Bundesliga 2027/28</span></div>
-      <div id="priorities"></div>
-      <div id="summerSummary" class="highlight"></div>
+<section id="transfers" class="view">
+  <div class="grid2">
+    <div class="card"><div class="sectionHead"><h2>🎯 Transferprioritäten</h2><span class="count">Bundesliga</span></div><div id="trPriorities"></div></div>
+    <div class="card"><div class="sectionHead"><h2>🔎 Jugendscouting</h2><span class="count">nächster Einsatz</span></div><div id="trScouting"></div></div>
+  </div>
+  <div class="grid2">
+    <div class="card"><div class="sectionHead"><h2>🤝 Aktiver Transfer</h2><span class="count">Spielervertrag offen</span></div><div id="trActive"></div></div>
+    <div class="card"><div class="sectionHead"><h2>↗️ Aktuelle Abgänge</h2><span class="count">2027</span></div>
+      <table><thead><tr><th>Spieler</th><th>Status</th><th>Ablöse</th><th>Reinvest.</th></tr></thead><tbody id="trSales"></tbody></table>
     </div>
-    <div class="card">
-      <div class="sectionHead"><h2>📄 Offene Vertrags-/Transferfälle</h2><span class="count">aktuell</span></div>
-      <div id="activeOffers"></div>
-    </div>
-  </section>
+  </div>
+  <div class="grid2">
+    <div class="card"><div class="sectionHead"><h2>🧳 Leihliste</h2><span class="count">noch ohne Verein</span></div><div id="trLoanList"></div></div>
+    <div class="card"><div class="sectionHead"><h2>💡 Sommernotizen</h2><span class="count">Kaderplanung</span></div><div id="trSummer"></div></div>
+  </div>
+</section>
 
-  <section class="grid2">
-    <div class="card">
-      <div class="sectionHead"><h2>👥 Kader</h2><span class="count">aktueller Profikader</span></div>
-      <table><thead><tr><th>Spieler</th><th>Pos.</th><th>OVR/POT</th><th>Rolle</th><th>Status</th></tr></thead><tbody id="players"></tbody></table>
-    </div>
-    <div class="card">
-      <div class="sectionHead"><h2>↗️ Aktuelle Abgänge</h2><span class="count">nur 2027</span></div>
-      <table><thead><tr><th>Spieler</th><th>Status</th><th>Ablöse</th><th>Reinvest.</th></tr></thead><tbody id="sales"></tbody></table>
-    </div>
-  </section>
+<section id="finance" class="view">
+  <div class="grid4">
+    <div class="card metric"><div class="label">Aktuelles Budget</div><div id="fiBudget" class="value">–</div><div class="sub">laut Save</div></div>
+    <div class="card metric"><div class="label">Jannotta-Verkauf</div><div id="fiJannotta" class="value">–</div><div class="sub">davon 70 % reinvestierbar</div></div>
+    <div class="card metric"><div class="label">Remberg</div><div id="fiRemberg" class="value">–</div><div class="sub">Sommerabgang</div></div>
+    <div class="card metric"><div class="label">Mikelbrencis-Deal</div><div id="fiMikel" class="value">–</div><div class="sub">noch nicht budgetwirksam</div></div>
+  </div>
+  <div class="grid2">
+    <div class="card"><h2>💸 Transferregeln</h2><div id="fiRules"></div></div>
+    <div class="card"><h2>🧾 Gehaltsstruktur</h2><div class="rule"><b>Grundsatz</b>Keine automatische Übernahme hoher Ablösungs-/Spielergehälter. Neue Gehälter sollen die Struktur nicht ohne klare sportliche Begründung verzerren.</div><div class="rule"><b>Handgeldregel</b>Nur externe ablösefreie Neuzugänge erhalten ein Handgeld von einem vollen Jahresgehalt. Nicht bei Ablösespielern oder Akademiespielern.</div></div>
+  </div>
+</section>
 
-  <section class="grid2">
-    <div class="card">
-      <div class="sectionHead"><h2>🔄 Leihplanung</h2><span class="count">aktuell</span></div>
-      <table><thead><tr><th>Spieler</th><th>OVR/POT</th><th>Pos.</th><th>Status</th></tr></thead><tbody id="loans"></tbody></table>
-    </div>
-    <div class="card">
-      <div class="sectionHead"><h2>⭐ Talente</h2><span class="count">≤21 Jahre · 70+ POT</span></div>
-      <table><thead><tr><th>Spieler</th><th>Alter</th><th>OVR/POT</th><th>Rolle</th></tr></thead><tbody id="talents"></tbody></table>
-    </div>
-  </section>
+<section id="board" class="view">
+  <div class="grid4">
+    <div class="card metric"><div class="label">Zufriedenheit</div><div id="boSat" class="value">–</div><div id="boSatText" class="sub"></div></div>
+    <div class="card metric"><div class="label">Offizielles Ziel</div><div id="boGoal" class="value" style="font-size:20px">–</div><div id="boGoalSub" class="sub"></div></div>
+    <div class="card metric"><div class="label">Trainervertrag</div><div id="boContract" class="value" style="font-size:20px">–</div><div id="boContractSub" class="sub"></div></div>
+    <div class="card metric"><div class="label">Sonderklausel</div><div id="boClause" class="value" style="font-size:20px">–</div><div class="sub">ab Saisonende 2027/28</div></div>
+  </div>
+  <div class="grid2">
+    <div class="card"><h2>📜 Vorstandslinien</h2><div id="boRules"></div></div>
+    <div class="card"><h2>🧠 Aktuelle Einschätzung</h2><div id="boAssessment"></div></div>
+  </div>
+</section>
 
-  <section class="grid2">
-    <div class="card">
-      <div class="sectionHead"><h2>🌱 Jugendakademie</h2><span class="count">nicht hochgezogen</span></div>
-      <table><thead><tr><th>Spieler</th><th>Alt.</th><th>OVR/POT</th><th>Pos.</th></tr></thead><tbody id="academy"></tbody></table>
-    </div>
-    <div class="card">
-      <div class="sectionHead"><h2>🔎 Jugendscouting</h2><span class="count">nächster Einsatz</span></div>
-      <div id="scouting"></div>
-    </div>
-  </section>
-
-  <section class="grid2">
-    <div class="card">
-      <div class="sectionHead"><h2>📌 Vorstand · Leitlinien</h2><span class="count">verbindlich</span></div>
-      <div id="rules"></div>
-    </div>
-    <div class="card">
-      <div class="sectionHead"><h2>📝 Vorstand · Aktuelle Einschätzung</h2><span class="count">laufend</span></div>
-      <div id="boardAssessment" class="highlight"></div>
-    </div>
-  </section>
+<section id="career" class="view">
+  <div class="grid2">
+    <div class="card"><div class="sectionHead"><h2>🎩 Toni Kroos · aktuelle Situation</h2><span class="count">Karriere</span></div><div id="caCurrent"></div></div>
+    <div class="card"><div class="sectionHead"><h2>📬 Angebote anderer Vereine</h2><span class="count">eingegangene Angebote</span></div><div id="caOffers"></div></div>
+  </div>
+  <div class="grid2">
+    <div class="card"><h2>🧭 Perspektive beim VfL</h2><div id="caClubPerspective"></div></div>
+    <div class="card"><h2>🔓 Wechseloption ab 2028</h2><div id="caClause"></div></div>
+  </div>
+</section>
 </main>
 
 <script>
 const e=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const eur=n=>new Intl.NumberFormat('de-DE',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(Number(n||0));
-const val=(x,k,a)=>x?.[k]??(a?x?.[a]:'–');
-async function load(){
-  try{
-    const d=await fetch('data.json?'+Date.now()).then(r=>r.json());
-    seasonLabel.textContent='Saison '+(d.currentSeason||'2027/28');
-    budget.textContent=eur(d.budget);
-    satisfaction.textContent=(d.boardSatisfaction?.score??'–')+'/10';
-    satisfactionText.textContent=e(d.boardSatisfaction?.status||'');
-    goal.textContent=e(d.seasonGoals?.currentOfficialGoal||d.seasonGoals?.primary||'–');
-    goalSub.textContent=e(d.seasonGoals?.secondary||'');
-    managerContract.textContent=e(d.managerContract?.contractEnds||'–');
-    managerContractSub.textContent=e((d.managerContract?.initialTermYears||'')+' Jahre · '+(d.managerContract?.status||''));
+const byName=(d,n)=> (d.players||[]).find(x=>x.name===n);
+function render(d){
+  season.textContent='Saison '+(d.currentSeason||'2027/28'); date.textContent=d.currentDate||'1.7.2027';
+  const bs=d.boardSatisfaction||{}, sg=d.seasonGoals||{}, mc=d.managerContract||{};
+  ovBudget.textContent=eur(d.budget); fiBudget.textContent=eur(d.budget);
+  ovSat.textContent=(bs.score??'–')+'/10'; ovSatText.textContent=e(bs.status||'');
+  ovGoal.textContent=e(sg.currentOfficialGoal||sg.primary||'–'); ovGoalSub.textContent=e(sg.secondary||'');
+  ovContract.textContent=e(mc.contractEnds||'–'); ovContractSub.textContent=e((mc.status||'laufend'));
+  const pr=d.priorities||[];
+  ovPriorities.innerHTML=pr.map(x=>'<div class="rule"><b>'+e(x.position)+' <span class="badge '+(x.priority==='Sehr hoch'?'bad':x.priority==='Hoch'?'warn':'')+'">'+e(x.priority)+'</span></b>'+e(x.status)+'</div>').join('');
+  const ao=d.activeOffers||[];
+  ovActive.innerHTML=ao.length?ao.map(x=>'<div class="rule"><b>'+e(x.player)+'</b><br>'+e(x.status)+'<br><span class="muted">'+(x.transferFee?eur(x.transferFee)+' · ':'')+(x.demandRole?e(x.demandRole)+' · '+e(x.demandYears)+' Jahre':'')+'</span></div>').join(''):'<div class="empty">Keine offenen Fälle.</div>';
+  const t=(d.talents||[]).slice(0,6);
+  ovTalents.innerHTML=t.map(x=>'<div class="rule"><b>'+e(x.name)+'</b>'+e(x.age)+' Jahre · '+e((x.ovr??'–')+'/'+(x.pot??'–'))+' · '+e(x.role||'–')+'</div>').join('');
+  ovClubCourse.innerHTML='<div class="rule"><b>Spielidee</b>4-3-3 Flach · Linienhöhe 65 · Ballbesitz, Kurzpass, kontrollierte Vertikalität, Gegenpressing.</div><div class="rule"><b>Sommer</b>RV, IV/Defensive, ZM und 3. TW als aktuelle Prioritäten.</div><div class="callout"><strong>Talentstrategie</strong>Silva, Schubert und Hirsch bleiben zentrale Entwicklungsspieler; Verkäufe werden nur oberhalb der internen Schmerzensgrenzen geprüft.</div>';
+  
+  sqPlayers.innerHTML=(d.players||[]).map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td>'+e(x.position||'–')+'</td><td>'+e((x.ovr??'–')+'/'+(x.potential??'–'))+'</td><td>'+e(x.role||'–')+'</td><td><span class="badge">'+e(x.status||'–')+'</span></td></tr>').join('');
+  sqTalents.innerHTML=(d.talents||[]).map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td>'+e(x.age)+'</td><td>'+e((x.ovr??'–')+'/'+(x.pot??x.potential??'–'))+'</td><td>'+e(x.role||'–')+'</td></tr>').join('');
+  sqLoans.innerHTML=(d.loanList||[]).map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td>'+e((x.ovr??'–')+'/'+(x.potential??'–'))+'</td><td>'+e(x.position||'–')+'</td><td>'+e(x.status||'–')+'</td></tr>').join('');
+  sqAcademy.innerHTML=(d.academy||[]).map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td>'+e(x.age)+'</td><td>'+e((x.ovr??'–')+'/'+(x.potential??x.pot??'–'))+'</td><td>'+e(x.position||'–')+'</td></tr>').join('');
 
-    const ps=d.priorities||[];
-    priorities.innerHTML=ps.map(x=>'<div class="rule"><b>'+e(x.position)+' <span class="badge '+(x.priority==='Sehr hoch'?'danger':x.priority==='Hoch'?'warn':'')+'">'+e(x.priority)+'</span></b>'+e(x.status)+'</div>').join('');
-    summerSummary.innerHTML='<b>Sommerfokus:</b> '+e((d.transferPlan?.summer2027?.priorityPositions||[]).join(' · ')||'–')+
-      '<br><span class="muted">RV-Deal: '+e(d.transferPlan?.summer2027?.rvTarget?.name||'–')+' · '+(d.transferPlan?.summer2027?.rvTarget?.negotiatedFee?eur(d.transferPlan.summer2027.rvTarget.negotiatedFee):'–')+' + '+e(d.transferPlan?.summer2027?.rvTarget?.sellOnPercentage??'–')+' % Weiterverkauf.</span>';
+  trPriorities.innerHTML=pr.map(x=>'<div class="rule"><b>'+e(x.position)+' <span class="badge '+(x.priority==='Sehr hoch'?'bad':x.priority==='Hoch'?'warn':'')+'">'+e(x.priority)+'</span></b>'+e(x.status)+'</div>').join('');
+  const sm=d.youthScoutingNext?.recommendedMission;
+  trScouting.innerHTML=sm?'<div class="rule"><b>Land</b>'+e(sm.country)+'</div><div class="rule"><b>Dauer</b>'+e(sm.duration)+'</div><div class="rule"><b>Fokus</b>'+e((sm.focus||[]).join(' · '))+'</div><div class="rule"><b>Priorität</b>'+e(sm.priority||'–')+'</div>':'<div class="empty">Keine Mission hinterlegt.</div>';
+  trActive.innerHTML=ao.length?ao.map(x=>'<div class="rule"><b>'+e(x.player)+'</b><br>Transfer: '+(x.transferFee?eur(x.transferFee):'–')+' + '+e(x.sellOnPercentage??0)+' % Weiterverkauf<br>Vertrag: '+e(x.demandRole||'–')+' · '+e(x.demandYears||'–')+' Jahre<br>Vorstand: '+e(x.boardOffer?.weeklyWage?eur(x.boardOffer.weeklyWage)+'/Woche':'–')+'</div>').join(''):'<div class="empty">Keine offenen Transfers.</div>';
+  trSales.innerHTML=(d.sales||[]).map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td>'+e(x.status)+'</td><td>'+eur(x.fee)+'</td><td>'+((x.reinvestable??0)>0?eur(x.reinvestable):'–')+'</td></tr>').join('');
+  trLoanList.innerHTML=(d.loanList||[]).length?(d.loanList||[]).map(x=>'<div class="rule"><b>'+e(x.name)+'</b><br>'+e(x.position)+' · '+e(x.ovr)+' OVR / '+e(x.potential)+' POT<br>'+e(x.reason)+'</div>').join(''):'<div class="empty">Keine Leihkandidaten.</div>';
+  trSummer.innerHTML='<div class="rule"><b>RV</b>Mikelbrencis: 4,3 Mio. € + 2 % Weiterverkauf vereinbart, Spielervertrag offen.</div><div class="rule"><b>ZM</b>Hirsch intern aufbauen; zusätzlich soliden ZM suchen.</div><div class="rule"><b>TW</b>Remberg geht – 3. Keeper suchen.</div><div class="rule"><b>IV</b>Bundesliga-taugliche Defensive prüfen.</div>';
 
-    const offers=d.activeOffers||[];
-    activeOffers.innerHTML=offers.length?offers.map(x=>'<div class="rule"><b>'+e(x.player)+'</b><br>'+e(x.status)+'<br><span class="muted">'+(x.transferFee?eur(x.transferFee):'')+(x.sellOnPercentage!=null?' · '+e(x.sellOnPercentage)+' % Weiterverkaufsbeteiligung':'')+'</span></div>').join(''):'<div class="empty">Keine offenen Transferangebote.</div>';
+  const jan=(d.sales||[]).find(x=>x.name==='Theo Jannotta'), rem=(d.sales||[]).find(x=>x.name==='Mats Remberg'), mik=d.transferPlan?.summer2027?.rvTarget;
+  fiJannotta.textContent=jan?eur(jan.fee):'–'; fiRemberg.textContent=rem?eur(rem.fee):'–'; fiMikel.textContent=mik?eur(mik.negotiatedFee):'–';
+  fiRules.innerHTML='<div class="rule"><b>Reinvestition</b>70 % der Netto-Transfererlöse dürfen reinvestiert werden.</div><div class="rule"><b>Ausgaben</b>Neue Spieler müssen konkreten Bedarf decken und in die 4-3-3-Flach-Idee passen.</div><div class="rule"><b>Transfers</b>Maximal 4 permanente externe Neuzugänge als Regelfall; Leihen und ablösefreie Spieler zusätzlich möglich.</div>';
 
-    players.innerHTML=(d.players||[]).map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td>'+e(x.position||'–')+'</td><td>'+e((x.ovr??'–')+'/'+(x.potential??'–'))+'</td><td>'+e(x.role||'–')+'</td><td><span class="badge">'+e(x.status||'–')+'</span></td></tr>').join('');
+  boSat.textContent=(bs.score??'–')+'/10'; boSatText.textContent=e(bs.status||''); boGoal.textContent=e(sg.currentOfficialGoal||sg.primary||'–'); boGoalSub.textContent=e(sg.internalOutlook||''); boContract.textContent=e(mc.contractEnds||'–'); boContractSub.textContent='3 Jahre · '+e(mc.status||''); boClause.textContent=mc.specialExitClause?.active?'Ja':'Nein';
+  boRules.innerHTML=(d.rules||[]).map((x,i)=>'<div class="rule"><b>'+(i+1)+'. Regel</b>'+e(x)+'</div>').join('');
+  boAssessment.innerHTML='<div class="callout"><strong>'+e(bs.status||'')+'</strong>'+e(bs.currentAssessment||'')+'</div><div class="rule"><b>Offizielles Ziel</b>'+e(sg.currentOfficialGoal||sg.primary||'–')+'</div><div class="rule"><b>Interne Sicht</b>'+e(sg.internalOutlook||'–')+'</div>';
 
-    sales.innerHTML=(d.sales||[]).map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td>'+e(x.status||'–')+'</td><td>'+eur(x.fee)+'</td><td>'+((x.reinvestable??0)>0?eur(x.reinvestable):'–')+'</td></tr>').join('');
-
-    loans.innerHTML=(d.loanList||[]).map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td>'+e((x.ovr??'–')+'/'+(x.potential??'–'))+'</td><td>'+e(x.position||'–')+'</td><td>'+e(x.status||'–')+'</td></tr>').join('');
-
-    talents.innerHTML=(d.talents||[]).map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td>'+e(x.age)+'</td><td>'+e((x.ovr??'–')+'/'+(x.pot??x.potential??'–'))+'</td><td>'+e(x.role||'–')+'</td></tr>').join('');
-
-    academy.innerHTML=(d.academy||[]).map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td>'+e(x.age)+'</td><td>'+e((x.ovr??'–')+'/'+(x.potential??x.pot??'–'))+'</td><td>'+e(x.position||'–')+'</td></tr>').join('');
-
-    const sm=d.youthScoutingNext?.recommendedMission;
-    scouting.innerHTML=sm?'<div class="rule"><b>Land</b>'+e(sm.country||'–')+'</div><div class="rule"><b>Dauer</b>'+e(sm.duration||'–')+'</div><div class="rule"><b>Fokus</b>'+e((sm.focus||[]).join(' · '))+'</div><div class="rule"><b>Priorität</b>'+e(sm.priority||'–')+'</div>':'<div class="empty">Kein neuer Scoutauftrag hinterlegt.</div>';
-
-    rules.innerHTML=(d.rules||[]).map((x,i)=>'<div class="rule"><b>'+(i+1)+'. Vorstandsregel</b>'+e(x)+'</div>').join('');
-
-    const bs=d.boardSatisfaction||{};
-    boardAssessment.innerHTML='<b>'+e(bs.status||'')+'</b><br>'+e(bs.currentAssessment||'')+
-      '<br><br><b>Offizielles Ziel:</b> '+e(d.seasonGoals?.currentOfficialGoal||d.seasonGoals?.primary||'–')+
-      '<br><b>Interne Lage:</b> '+e(d.seasonGoals?.internalOutlook||'–');
-
-    time.textContent='Stand: '+(d.currentDate||'1.7.2027')+' · aktualisiert '+new Date().toLocaleString('de-DE');
-  }catch(err){
-    time.textContent='Fehler beim Laden der Daten';
-  }
+  caCurrent.innerHTML='<div class="rule"><b>Aktueller Verein</b>'+e(mc.club||'VfL Osnabrück')+' · Bundesliga</div><div class="rule"><b>Vertrag</b>bis '+e(mc.contractEnds||'Sommer 2029')+'</div><div class="rule"><b>Status</b>'+e(mc.currentStatus||'–')+'</div>';
+  caOffers.innerHTML=(mc.externalOffers||[]).map(o=>'<div class="rule"><b>'+e(o.club)+'</b><br>'+e(o.league)+' · '+e(o.contract)+'<br>'+eur(o.annualSalary)+'/Jahr · '+eur(o.signOnBonus)+' Handgeld<br><b>Transferbudget:</b> '+eur(o.transferBudgetPromise)+'<br><span class="muted">'+e(o.perspective?.sportingPerspective||o.note||'')+'</span></div>').join('')||'<div class="empty">Aktuell keine externen Angebote.</div>';
+  const cp=mc.currentClubPerspective||{};
+  caClubPerspective.innerHTML='<div class="rule"><b>Sportlich</b>'+e(cp.sportingPerspective||'–')+'</div><div class="rule"><b>Trainer</b>'+e(cp.managerPerspective||'–')+'</div><div class="rule"><b>Entwicklung</b>'+e(cp.developmentPerspective||'–')+'</div>';
+  caClause.innerHTML=mc.specialExitClause?.active?'<div class="callout"><strong>Optionaler Wechsel ab Ende 2027/28</strong>Ohne Entschädigungszahlung zu einem Klub aus Bundesliga, Premier League oder LaLiga. Kein Wechselzwang.</div>':'<div class="empty">Keine Sonderklausel.</div>';
 }
+document.querySelectorAll('.tab').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.tab').forEach(b=>b.classList.remove('active'));document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));btn.classList.add('active');document.getElementById(btn.dataset.view).classList.add('active');}));
+async function load(){try{const d=await fetch('data.json?'+Date.now()).then(r=>r.json());render(d);updated.textContent='Stand '+(d.currentDate||'')+' · geladen '+new Date().toLocaleString('de-DE');}catch(err){updated.textContent='Fehler beim Laden der Daten';}}
 load();
 </script>
 </body>
