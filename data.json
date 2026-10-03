@@ -987,7 +987,10 @@
     "Interview nach der Relegation: Kroos beschreibt große Freude über den Aufstieg, bestätigt die offensive Spielidee, möchte sich aktuell noch nicht mit der Kaderanpassung beschäftigen und plant grundsätzlich mindestens die erste Bundesliga-Saison beim VfL. Ein sehr lukratives externes Angebot im Sommer wird von ihm nicht ausgeschlossen.",
     "Saisonstatistik 2026/27 aus aktuellem Ingame-Bericht übernommen. Auffällig: Ponomar 37/18/6, Silva 40/13/11, Badjie 29/10/2, Schubert 41/2/2, Wolf 39 Einsätze/11 Spiele ohne Gegentor, Schöller 34/0/3. Stats werden als Gesamt-Ingamewerte geführt.",
     "Budget 2027/28: Bei rund 65 Mio. € Gesamteinnahmen stellt der Vorstand für den Bundesliga-Sommer ein Transferbudget von 20 Mio. € bereit. 70 % künftiger Netto-Transfererlöse bleiben zusätzlich reinvestierbar. Der Gesamtumsatz wird nicht 1:1 als Transferbudget verwendet.",
-    "1.7.2027: Aktuellen Ingame-Kader vollständig übernommen. Transferbudget 20 Mio. €. Mats Remberg und Bjarke Jacobsen stehen noch vor ihren feststehenden Abgängen. Izan González ist aus der Leihe zurück bei Granada."
+    "1.7.2027: Aktuellen Ingame-Kader vollständig übernommen. Transferbudget 20 Mio. €. Mats Remberg und Bjarke Jacobsen stehen noch vor ihren feststehenden Abgängen. Izan González ist aus der Leihe zurück bei Granada.",
+    "1.7. Externe Trainerangebote: FC Augsburg, FC Utrecht, FC Schalke 04 und 1. FSV Mainz 05 haben konkrete Angebote/Anfragen abgegeben. Trainer plant grundsätzlich mindestens die erste Bundesliga-Saison in Osnabrück, lässt aber einen lukrativen Wechsel offen.",
+    "1.7. Kaderprioritäten 2027/28: Verteidigung und RV verbessern, zusätzlich solider ZM und 3. Keeper. Remberg/Jakobsen-Ersatz abhängig vom Budget.",
+    "Jugendkern schützen: Mario Silva und Ole Schubert stehen grundsätzlich nicht zum Verkauf. Interne Schmerzensgrenzen für erneute Bewertung: Silva 22 Mio. €, Schubert 14 Mio. €."
   ],
   "matches": [
     {
@@ -1147,7 +1150,7 @@
       "status": "Frühe Vorbereitung / Scouting läuft",
       "midfield": "Hirsch bleibt als interne Lösung vorgesehen; kein externer ZM aktuell geplant.",
       "goalkeeper": "Scouting läuft; Remberg verlässt den Verein am Saisonende.",
-      "note": "Kaderplanung soll Richtung Sommer konkretisiert werden.",
+      "note": "Trainer will Verteidigung und RV verbessern sowie einen soliden ZM und 3. Keeper verpflichten. Ersatz für Remberg/Jakobsen wird abhängig vom Budget entschieden.",
       "goalkeeperScouting": "Ab Anfang Mai aktivieren und intensivieren; Fokus auf Ersatz und mögliche qualitative Verbesserung nach Rembergs Abgang.",
       "twoScenarioPlanning": {
         "status": "Start nach den letzten zwei Ligaspielen",
@@ -1237,7 +1240,17 @@
         "status": "aktiv",
         "scope": "Frühzeitig weitere bundesligataugliche Optionen identifizieren",
         "note": "Zusätzliche Scoutingarbeit unabhängig vom Relegationsausgang, um bei einem Aufstieg vorbereitet zu sein."
-      }
+      },
+      "priorityPositions": [
+        "IV/Defensive Stabilität",
+        "RV",
+        "ZM",
+        "3. TW"
+      ],
+      "gk": "3. Keeper wird benötigt",
+      "rv": "RV-Verstärkung gewünscht",
+      "defense": "Defensive Verstärkung gewünscht",
+      "zm": "Solider ZM benötigt"
     },
     "relegation": {
       "approach": "Offensiv bleiben, defensive Absicherung über außen verstärken",
@@ -1565,7 +1578,20 @@
         "Remberg/Jacobsen: Beide gehen noch. Soll der dadurch entstehende Kaderplatz gezielt mit einem Neuzugang besetzt werden oder zunächst intern aufgefangen werden?",
         "Saisonziel: Nach dem Aufstieg – welches offizielle Bundesliga-Ziel soll der Vorstand für 2027/28 festlegen?"
       ],
-      "note": "Die Sommerplanung soll sich im Verlauf der Transferphase konkretisieren."
+      "note": "Die Sommerplanung soll sich im Verlauf der Transferphase konkretisieren.",
+      "answers": {
+        "managerOffers": "Mehrere externe Angebote liegen vor; Trainer möchte grundsätzlich mindestens die erste Bundesliga-Saison in Osnabrück machen, schließt bei einem sehr lukrativen Angebot einen Wechsel aber nicht aus.",
+        "squadNeeds": "Verteidigung und RV sollen verbessert werden; zusätzlich werden ein solider ZM und ein 3. Keeper benötigt.",
+        "replacements": "Ersatz für Remberg/Jacobsen wird abhängig vom verfügbaren Budget entschieden.",
+        "seasonTargetProposal": "Klassenerhalt in der Bundesliga, bei realistischer Chance auf Etablierung.",
+        "youthRetention": "Silva und Schubert sollen möglichst gehalten werden; interne Schmerzensgrenzen wurden gesetzt."
+      },
+      "boardOpinion": {
+        "managerOffers": "Der Vorstand nimmt die Angebote zur Kenntnis. Nach dem Aufstieg hat Kroos nun einen gestiegenen Marktwert als Trainer. Der Vorstand würde einen Abgang nicht grundsätzlich verhindern, erwartet aber eine angemessene Kompensation für einen vorzeitigen Vertragsausstieg.",
+        "squadNeeds": "Zustimmung. Die priorisierten Positionen sind für das Bundesliganiveau nachvollziehbar.",
+        "replacements": "Zustimmung. Das Budget soll nicht vorzeitig verplant werden; zuerst werden die Abgänge und die Liga-Situation berücksichtigt.",
+        "youthRetention": "Volle Zustimmung. Silva und Schubert sind strategische Kernspieler. Die gesetzten Schmerzensgrenzen sind Untergrenzen für eine erneute Bewertung, keine automatische Verkaufserlaubnis."
+      }
     }
   ],
   "boardMeetingFormat": {
@@ -1819,8 +1845,59 @@
     "boardReview": "Regelmäßige Bewertung in Vorstandssitzungen; Vertragsgespräche bei absehbarem Vertragsende.",
     "renewalRule": "Bei auslaufendem Vertrag wird separat über eine Verlängerung verhandelt. Eine Verlängerung erfolgt nicht automatisch.",
     "dismissalPolicy": "Bei anhaltend schlechter sportlicher Entwicklung, verfehlten Zielen oder wiederholt nicht nachvollziehbaren Entscheidungen kann der Vorstand eine vorzeitige Trennung beschließen.",
-    "currentStatus": "Toni Kroos plant grundsätzlich, mindestens die erste Bundesliga-Saison beim VfL zu absolvieren. Ein lukratives externes Angebot im Sommer 2027 könnte die Situation ändern; der Vorstand bewertet ein solches Szenario separat.",
-    "transferInterestPolicy": "Externe Angebote werden nicht automatisch abgelehnt; bei einem konkreten Angebot entscheidet der Trainer nach sportlicher und persönlicher Perspektive, der Vorstand nimmt anschließend Stellung."
+    "currentStatus": "Mehrere externe Angebote liegen vor. Trainer ist grundsätzlich bereit, mindestens die erste Bundesliga-Saison in Osnabrück zu absolvieren, schließt einen lukrativen Wechsel aber nicht aus.",
+    "transferInterestPolicy": "Externe Angebote werden nicht automatisch abgelehnt; bei einem konkreten Angebot entscheidet der Trainer nach sportlicher und persönlicher Perspektive, der Vorstand nimmt anschließend Stellung.",
+    "externalOffers": [
+      {
+        "club": "FC Augsburg",
+        "league": "Bundesliga",
+        "role": "Cheftrainer",
+        "contract": "3 Jahre",
+        "annualSalary": 2500000,
+        "signOnBonus": 500000,
+        "transferBudgetPromise": 30000000,
+        "releaseCompensationToOsnabrueck": 3000000,
+        "status": "offizielles Angebot",
+        "note": "Bundesliga-Konkurrent mit größerem aktuellen Budget; Projekt auf langfristige Etablierung."
+      },
+      {
+        "club": "FC Utrecht",
+        "league": "Eredivisie",
+        "role": "Cheftrainer",
+        "contract": "3 Jahre",
+        "annualSalary": 2200000,
+        "signOnBonus": 350000,
+        "releaseCompensationToOsnabrueck": 2000000,
+        "transferBudgetPromise": 22000000,
+        "status": "offizielles Angebot",
+        "note": "Internationale Option mit guter Entwicklungsperspektive."
+      },
+      {
+        "club": "FC Schalke 04",
+        "league": "2. Bundesliga",
+        "role": "Cheftrainer",
+        "contract": "2 Jahre + 1 Jahr Option",
+        "annualSalary": 2100000,
+        "signOnBonus": 300000,
+        "releaseCompensationToOsnabrueck": 2500000,
+        "transferBudgetPromise": 26000000,
+        "status": "offizielles Angebot",
+        "note": "Großer Traditionsverein mit kurzfristigem Aufstiegsanspruch."
+      },
+      {
+        "club": "1. FSV Mainz 05",
+        "league": "Bundesliga",
+        "role": "Cheftrainer",
+        "contract": "2 Jahre",
+        "annualSalary": 3000000,
+        "signOnBonus": 600000,
+        "transferBudgetPromise": 32000000,
+        "releaseCompensationToOsnabrueck": 4000000,
+        "status": "konkrete Anfrage / Angebot",
+        "note": "Bundesliga-Angebot mit höherer Vergütung; Entscheidung des Trainers ausstehend."
+      }
+    ],
+    "boardPosition": "Der Vorstand würde bei einem Wechsel eine angemessene Entschädigung erwarten. Ein Abgang wird nicht kategorisch blockiert, aber nach dem Aufstieg soll zuerst die Perspektive des VfL geprüft werden."
   },
   "leagueTable": {
     "asOf": "1.6.",
@@ -2160,5 +2237,73 @@
       "from": "Stoke City",
       "status": "Leihe beendet / zurück im Kader"
     }
-  ]
+  ],
+  "managerOffers": [
+    {
+      "club": "FC Augsburg",
+      "league": "Bundesliga",
+      "role": "Cheftrainer",
+      "contract": "3 Jahre",
+      "annualSalary": 2500000,
+      "signOnBonus": 500000,
+      "transferBudgetPromise": 30000000,
+      "releaseCompensationToOsnabrueck": 3000000,
+      "status": "offizielles Angebot",
+      "note": "Bundesliga-Konkurrent mit größerem aktuellen Budget; Projekt auf langfristige Etablierung."
+    },
+    {
+      "club": "FC Utrecht",
+      "league": "Eredivisie",
+      "role": "Cheftrainer",
+      "contract": "3 Jahre",
+      "annualSalary": 2200000,
+      "signOnBonus": 350000,
+      "releaseCompensationToOsnabrueck": 2000000,
+      "transferBudgetPromise": 22000000,
+      "status": "offizielles Angebot",
+      "note": "Internationale Option mit guter Entwicklungsperspektive."
+    },
+    {
+      "club": "FC Schalke 04",
+      "league": "2. Bundesliga",
+      "role": "Cheftrainer",
+      "contract": "2 Jahre + 1 Jahr Option",
+      "annualSalary": 2100000,
+      "signOnBonus": 300000,
+      "releaseCompensationToOsnabrueck": 2500000,
+      "transferBudgetPromise": 26000000,
+      "status": "offizielles Angebot",
+      "note": "Großer Traditionsverein mit kurzfristigem Aufstiegsanspruch."
+    },
+    {
+      "club": "1. FSV Mainz 05",
+      "league": "Bundesliga",
+      "role": "Cheftrainer",
+      "contract": "2 Jahre",
+      "annualSalary": 3000000,
+      "signOnBonus": 600000,
+      "transferBudgetPromise": 32000000,
+      "releaseCompensationToOsnabrueck": 4000000,
+      "status": "konkrete Anfrage / Angebot",
+      "note": "Bundesliga-Angebot mit höherer Vergütung; Entscheidung des Trainers ausstehend."
+    }
+  ],
+  "squadRetentionPolicy": {
+    "youthCore": "Mario Silva und Ole Schubert stehen grundsätzlich nicht zum Verkauf.",
+    "painThresholds": {
+      "MarioSilva": {
+        "marketValue": 9500000,
+        "absolutePainThreshold": 22000000,
+        "currency": "EUR",
+        "rule": "Unter 22 Mio. € wird ein Verkauf nicht ernsthaft geprüft. Ab 22 Mio. € muss der Vorstand gemeinsam mit dem Trainer neu bewerten; automatische Verkaufszusage gibt es nicht."
+      },
+      "OleSchubert": {
+        "marketValue": 5500000,
+        "absolutePainThreshold": 14000000,
+        "currency": "EUR",
+        "rule": "Unter 14 Mio. € wird ein Verkauf nicht ernsthaft geprüft. Ab 14 Mio. € muss der Vorstand gemeinsam mit dem Trainer neu bewerten; automatische Verkaufszusage gibt es nicht."
+      }
+    },
+    "rationale": "Beide sind hochveranlagte Eigengewächse und bereits Bundesliga-Stammspieler. Der Aufstieg soll nicht durch vorschnelle Verkäufe der eigenen Talente finanziert werden."
+  }
 }
