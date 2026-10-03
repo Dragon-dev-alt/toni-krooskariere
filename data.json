@@ -709,7 +709,8 @@
     "Robin Fabinski: Spieler fordert Wichtig. Vorstand kontert mit Wichtig für +1 Jahr, 3.600 €/Woche und 10.000 € Handgeld, keine Boni/Ausstiegsklausel. Absolute Grenze 3.800 €/Woche und 15.000 € Handgeld.",
     "Robin Fabinski: Verlängerung final. Spieler akzeptiert Wichtig, +1 Jahr, 3.600 €/Woche und 10.000 € Handgeld. Keine Boni, keine Ausstiegsklausel.",
     "1.4. Tabellenstand: Osnabrück Platz 5, 42 Punkte aus 27 Spielen, 11 Siege/9 Unentschieden/7 Niederlagen, 44:31 Tore. Vier Punkte Rückstand auf Platz 3/4. Sitzung 1.3. wurde wegen mangelnder Themen ausgelassen. Vorstandszufriedenheit 9/10.",
-    "1.4. Trainerantworten: Endspurt mit Fokus auf Konstanz, bei weiterem Blick auf Platz 3/4. Hirsch 10 Einsätze, Ø 6,16 und mindestens Rotationsrolle; Wichtig für 2027/28 vorstellbar. Sommerplan mit Hirsch statt externem ZM bleibt. Torwartscouting wird ab Anfang Mai intensiviert. Klassenerhalt bleibt offizielles Ziel. Vorstand unterstützt künftig flexible Anzahl an Sitzungsfragen ohne Wiederholungen."
+    "1.4. Trainerantworten: Endspurt mit Fokus auf Konstanz, bei weiterem Blick auf Platz 3/4. Hirsch 10 Einsätze, Ø 6,16 und mindestens Rotationsrolle; Wichtig für 2027/28 vorstellbar. Sommerplan mit Hirsch statt externem ZM bleibt. Torwartscouting wird ab Anfang Mai intensiviert. Klassenerhalt bleibt offizielles Ziel. Vorstand unterstützt künftig flexible Anzahl an Sitzungsfragen ohne Wiederholungen.",
+    "Jugendscouting: Der Trainer möchte erneut einen Jugendscout losschicken. Vorstand stimmt grundsätzlich zu. Empfehlung: Deutschland, 9 Monate, Fokus GK und ZM/ZDM, um insbesondere die langfristige Torwartpipeline nach Rembergs Abgang zu stärken."
   ],
   "matches": [
     {
@@ -1409,5 +1410,19 @@
       }
     },
     "context": "Osnabrück steht nach 27 Spieltagen auf Platz 5 mit 42 Punkten. Platz 3 und 4 sind 4 Punkte entfernt. Bielefeld auf Platz 6 hat ebenfalls 42 Punkte."
+  },
+  "youthScoutingNext": {
+    "status": "geplant",
+    "boardDecision": "Ein neuer Jugendscout soll beauftragt werden.",
+    "recommendedMission": {
+      "country": "Deutschland",
+      "duration": "9 Monate",
+      "focus": [
+        "GK",
+        "ZM/ZDM"
+      ],
+      "reason": "Nach dem Sommerabgang von Remberg besteht langfristig Bedarf im Tor; im ZM soll die Jugendpipeline weiter gestärkt werden."
+    },
+    "note": "Konkrete Kosten und endgültige Parameter werden nach Auswahl im Spiel übernommen."
   }
 }
