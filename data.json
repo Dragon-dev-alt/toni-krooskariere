@@ -763,7 +763,8 @@
     "1.5. Trainerantworten: Offensive Spielweise bleibt bestehen; Heimvorteil in mindestens einem der zwei verbleibenden Heimspiele nutzen. Hirsch bleibt bis Saisonende klarer Rotationsspieler. Nach den letzten beiden Ligaspielen beginnt die zweigleisige Sommerplanung für 2. Bundesliga und mögliches Relegations-/Aufstiegsszenario.",
     "1.6. Saisonabschluss: Osnabrück beendet die 2. Bundesliga auf Platz 3 mit 59 Punkten, 57:35 Toren und erreicht die Aufstiegs-Playoffs. Direkter Aufstieg verpasst. Sommer-Scoutingliste übernommen: Ben Farhat, Ache, Bauer, Coulibaly, Kerber, Dahmen, Conteh. Besonders relevant: Dahmen im Tor und Kerber im zentralen Mittelfeld.",
     "1.6. Tabellenstand: Osnabrück Platz 3 mit 59 Punkten nach 34 Spielen (16S/11U/7N, 57:35). Relegation gegen den HSV. Scouts liefern erste Kandidatenliste: Ben Farhat, Ache, Bauer, Coulibaly, Kerber, Dahmen, Conteh. Vorstandszufriedenheit 10/10.",
-    "1.6. Trainerantworten: Relegation mit offensiver Grundidee, aber stärkerem defensivem Fokus über außen. Bauer und Ben Farhat sind interessante Kandidaten; Ben Farhat voraussichtlich ca. 5 Mio. €. Sommerplanung entsteht erst während der Transferphase. Scouts sollen zusätzlich bundesligataugliche Optionen suchen."
+    "1.6. Trainerantworten: Relegation mit offensiver Grundidee, aber stärkerem defensivem Fokus über außen. Bauer und Ben Farhat sind interessante Kandidaten; Ben Farhat voraussichtlich ca. 5 Mio. €. Sommerplanung entsteht erst während der Transferphase. Scouts sollen zusätzlich bundesligataugliche Optionen suchen.",
+    "Relegation entschieden: Rückspiel gegen HSV 1:1, nach dem 2:1 im Hinspiel insgesamt 3:2. VfL Osnabrück steigt in die Bundesliga auf. Vorstandszufriedenheit 10/10. Neue Bundesliga-Ziele und Trainervertragsbewertung folgen."
   ],
   "matches": [
     {
@@ -1312,6 +1313,16 @@
         "summerPlanning": "Zustimmung. Der Vorstand will bewusst keine komplette Sommerplanung vor der Relegation festzurren. Die konkrete Kaderplanung soll anhand der tatsächlichen Liga und des verfügbaren Budgets entstehen.",
         "bundesligaScouting": "Klare Zustimmung. Unabhängig vom Relegationsausgang wollen wir für den Fall eines Aufstiegs vorbereitet sein und entsprechende Optionen früh identifizieren."
       }
+    },
+    {
+      "date": "nach Relegation",
+      "title": "Vorstandssitzung – Bundesligaaufstieg",
+      "status": "Aufstieg bestätigt",
+      "questionsPending": [
+        "Sommerplanung: Welche Positionen müssen aus deiner Sicht für die Bundesliga zuerst verstärkt werden?",
+        "Trainervertrag: Möchtest du nach dem Aufstieg grundsätzlich über eine Vertragsverlängerung sprechen?",
+        "Saisonziel Bundesliga: Welche interne Einschätzung hast du zur kommenden Saison?"
+      ]
     }
   ],
   "boardMeetingFormat": {
@@ -1366,12 +1377,12 @@
     }
   ],
   "seasonGoals": {
-    "primary": "Abstieg verhindern",
-    "secondary": "In der 2. Bundesliga Fuß fassen",
-    "currentOfficialGoal": "Klassenerhalt – regulär klar erreicht",
+    "primary": "Klassenerhalt in der Bundesliga",
+    "secondary": "In der Bundesliga etablieren",
+    "currentOfficialGoal": "Nach Aufstieg neu festzulegen",
     "januaryReview": "Bestätigt am 1.2.",
     "note": "Der aktuelle 4. Platz führt noch nicht zu einer offiziellen Anhebung des Saisonziels.",
-    "internalOutlook": "Aufstiegschance durch Relegation gegen den HSV. Der Vorstand macht den Ausgang nicht zur nachträglichen Bewertung der bisherigen Saisonleistung."
+    "internalOutlook": "Aufstieg erreicht; neue Saisonziele werden nach Kaderanalyse und Budgetfestlegung bestimmt."
   },
   "contractReview": {
     "RobinHenning": {
@@ -1545,17 +1556,17 @@
     "score": 10,
     "scale": "1–10",
     "status": "außergewöhnlich hoch",
-    "currentAssessment": "Der Vorstand ist mit der regulären Saison außergewöhnlich zufrieden. Osnabrück beendet die 2. Bundesliga auf Platz 3 mit 59 Punkten und hat damit die Relegation gegen den HSV erreicht. Das ursprüngliche Ziel Klassenerhalt wurde deutlich übertroffen.",
+    "currentAssessment": "Toni Kroos hat mit Osnabrück den Aufstieg in die Bundesliga geschafft. Das offizielle Saisonziel Klassenerhalt wurde weit übertroffen; die Relegation gegen den HSV wurde mit 3:2 nach Hin- und Rückspiel gewonnen.",
     "positiveFactors": [
-      "Platz 3 nach 34 Spieltagen",
-      "59 Punkte und +22 Tordifferenz",
-      "Relegation um den Aufstieg erreicht",
-      "16 Ligasiege"
+      "Aufstieg in die Bundesliga",
+      "Relegation mit 3:2 gegen den HSV gewonnen",
+      "Offensiver Spielstil mit notwendiger defensiver Anpassung",
+      "Saisonentwicklung deutlich über Zielvorgabe"
     ],
     "riskFactors": [
       "Relegation gegen den HSV steht noch aus"
     ],
-    "review": "Wird bei jeder Vorstandssitzung neu bewertet."
+    "review": "Wird auch in der Bundesliga weiter bei jeder Vorstandssitzung neu bewertet."
   },
   "managerContract": {
     "manager": "Toni Kroos",
@@ -1567,7 +1578,7 @@
     "boardReview": "Regelmäßige Bewertung in Vorstandssitzungen; Vertragsgespräche bei absehbarem Vertragsende.",
     "renewalRule": "Bei auslaufendem Vertrag wird separat über eine Verlängerung verhandelt. Eine Verlängerung erfolgt nicht automatisch.",
     "dismissalPolicy": "Bei anhaltend schlechter sportlicher Entwicklung, verfehlten Zielen oder wiederholt nicht nachvollziehbaren Entscheidungen kann der Vorstand eine vorzeitige Trennung beschließen.",
-    "currentStatus": "Kein Anlass für eine vorzeitige Trennung; Vorstandszufriedenheit sehr hoch."
+    "currentStatus": "Nach dem Bundesligaaufstieg plant der Vorstand eine separate Vertragsbewertung und Verhandlung mit Toni Kroos."
   },
   "leagueTable": {
     "asOf": "1.6.",
@@ -1610,7 +1621,18 @@
         "games": 34
       }
     },
-    "context": "Osnabrück beendet die reguläre Saison auf Platz 3 mit 59 Punkten und spielt die Relegation gegen den HSV um den Aufstieg."
+    "context": "Osnabrück beendet die reguläre Saison auf Platz 3 und steigt nach einem 2:1 im Hinspiel und 1:1 im Rückspiel gegen den HSV mit 3:2 nach Relegation in die Bundesliga auf.",
+    "finalRegularSeason": {
+      "position": 3,
+      "points": 59,
+      "games": 34,
+      "wins": 16,
+      "draws": 11,
+      "losses": 7,
+      "goalsFor": 57,
+      "goalsAgainst": 35,
+      "goalDifference": 22
+    }
   },
   "youthScoutingNext": {
     "status": "laufend / aktueller Akademiestand übernommen",
@@ -1628,8 +1650,11 @@
   },
   "relegation": {
     "opponent": "Hamburger SV",
-    "status": "steht fest",
-    "note": "Osnabrück spielt als Drittplatzierter der 2. Bundesliga gegen den HSV um den Aufstieg."
+    "status": "Aufstieg in die Bundesliga geschafft",
+    "note": "Osnabrück spielt als Drittplatzierter der 2. Bundesliga gegen den HSV um den Aufstieg.",
+    "firstLeg": "2:1 Sieg",
+    "secondLeg": "1:1 Unentschieden",
+    "aggregate": "3:2"
   },
   "scoutTargets": [
     {
