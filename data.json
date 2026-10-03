@@ -669,7 +669,8 @@
     "Alexander Hirsch wurde im Januar aus der Jugendakademie in die 1. Mannschaft hochgezogen. 16 Jahre, 71 OVR, 95 POT, Einsatz als ZM/ZDM.",
     "Mats Remberg: Spieler möchte wechseln. Trainer und Vorstand planen keinen Winterverkauf; Abgang soll im Sommer 2027 angestrebt werden. Als 3. Keeper besteht kein akuter sportlicher Handlungsdruck.",
     "Mats Remberg: Transfer zum Saisonende für 290.000 € vereinbart. Nach der 70%-Regel sind davon 203.000 € reinvestierbar, 87.000 € verbleiben beim Verein. Remberg bleibt bis Saisonende als 3. Keeper.",
-    "1.2. Tabellenstand: Platz 6, 30 Punkte aus 20 Spielen, 8S/6U/6N, 31:23 Tore. Fünf Punkte Rückstand auf Platz 4. Vorstandszufriedenheit 7/10."
+    "1.2. Tabellenstand: Platz 6, 30 Punkte aus 20 Spielen, 8S/6U/6N, 31:23 Tore. Fünf Punkte Rückstand auf Platz 4. Vorstandszufriedenheit 7/10.",
+    "1.2. Trainerantworten: Januar hatte mit St. Pauli und Hertha schwere Gegner; gegen St. Pauli Punktgewinn, gegen Hertha Niederlage. Offizielles Ziel bleibt Klassenerhalt. Aufstieg nur positive Nebenwirkung. Hirsch vorsichtig integrieren. Kein externer ZM im Winter; Sommerplanung nach sportlicher Perspektive. Scouts suchen bereits Neuzugänge."
   ],
   "matches": [
     {
@@ -818,7 +819,11 @@
         "clubShare": 87000,
         "reason": "Spieler möchte wechseln; als 3. Keeper kein zentraler Kaderbaustein.",
         "timing": "Saisonende 2026/27"
-      }
+      },
+      "status": "Frühe Vorbereitung / Scouting läuft",
+      "midfield": "Keine sofortige externe Verpflichtung. Sommerentscheidung nach sportlicher Einordnung.",
+      "goalkeeper": "Scouting läuft; Remberg verlässt den Verein am Saisonende.",
+      "note": "Kaderplanung soll Richtung Sommer konkretisiert werden."
     }
   },
   "suspensions": {
@@ -1022,7 +1027,21 @@
         "Wie integrierst du Hirsch in die 1. Mannschaft?",
         "Bleibt der Plan bestehen, keinen externen ZM zu holen?",
         "Wie planst du mittelfristig ZM/TW nach den Sommerabgängen?"
-      ]
+      ],
+      "answers": {
+        "sport": "Im Januar standen mit St. Pauli und Hertha BSC mehrere schwere Gegner an. Gegen St. Pauli gab es ein Unentschieden, gegen Hertha keine Punkte. Gegen die weniger schweren Gegner soll die Mannschaft wieder konsequenter punkten. Das offizielle Ziel bleibt ausschließlich der Klassenerhalt; der Abstand zum Abstieg ist groß.",
+        "promotion": "Fokus auf eine stabile Rückrunde. Ein möglicher Aufstieg wäre eine ausgezeichnete Nebenwirkung, aber kein primäres Ziel.",
+        "hirsch": "Vorsichtiger Aufbau mit zunächst begrenzten Einsätzen; Einsatzzeit soll schrittweise steigen, damit er sich auch gegen stärkere Gegner entwickeln kann.",
+        "zm": "Kein externer ZM vorerst. Grundsätzliche Kaderplanung soll Richtung Sommer besprochen werden, sobald die sportliche Perspektive für die kommende Saison klarer ist.",
+        "summer": "Noch kein konkreter Plan für ZM/TW. Scouts beobachten bereits mögliche Neuzugänge."
+      },
+      "boardOpinion": {
+        "sport": "Zustimmung. Die Erklärung ist nachvollziehbar, weil schwere Gegner ausdrücklich berücksichtigt werden. Entscheidend ist jetzt, gegen Teams aus dem Mittelfeld und unteren Tabellenbereich wieder regelmäßig zu punkten.",
+        "promotion": "Zustimmung. Der Vorstand möchte keinen künstlichen Aufstiegsdruck erzeugen. Ein guter Tabellenplatz darf sich aus der Rückrunde heraus entwickeln.",
+        "hirsch": "Zustimmung. Wir wollen Hirsch nicht verheizen. Sein Aufbauplan passt zu seinem Alter und seinem sehr hohen Potenzial.",
+        "zm": "Zustimmung mit Beobachtung. Kein Winterkauf ist vertretbar, solange Hirsch Schritt für Schritt integriert wird. Im Sommer brauchen wir eine klare Entscheidung über die ZM-Besetzung.",
+        "summer": "Zustimmung. Frühe Scoutingarbeit ist sinnvoll. Der Vorstand erwartet bis zum Frühjahr eine shortlist für die Positionen, auf denen durch Abgänge Bedarf entsteht."
+      }
     }
   ],
   "boardMeetingFormat": {
@@ -1067,9 +1086,9 @@
     "primary": "Abstieg verhindern",
     "secondary": "In der 2. Bundesliga Fuß fassen",
     "currentOfficialGoal": "Klassenerhalt",
-    "januaryReview": "Im Januar bestätigt: offizielles Ziel bleibt Klassenerhalt, intern wird ein Aufstiegsrennen als mögliche Perspektive beobachtet.",
+    "januaryReview": "Bestätigt am 1.2.",
     "note": "Der aktuelle 4. Platz führt noch nicht zu einer offiziellen Anhebung des Saisonziels.",
-    "internalOutlook": "Intern bleibt die Hoffnung auf den Aufstieg bestehen; offizielle Zielsetzung unverändert."
+    "internalOutlook": "Aufstieg bleibt eine mögliche positive Nebenwirkung, ist aber kein internes Pflichtziel."
   },
   "contractReview": {
     "RobinHenning": {
@@ -1210,7 +1229,7 @@
     "score": 7,
     "scale": "1–10",
     "status": "gut",
-    "currentAssessment": "Grundsätzlich zufrieden, aber kritischer: Platz 6 nach 20 Spielen und 5 Punkte Rückstand auf Platz 4.",
+    "currentAssessment": "Der Vorstand bleibt zufrieden. Die Erklärung für die Januarergebnisse gegen St. Pauli und Hertha ist nachvollziehbar, und das offizielle Ziel Klassenerhalt ist nicht gefährdet. Der Fokus auf eine stabile Rückrunde ohne künstlichen Aufstiegsdruck wird unterstützt.",
     "positiveFactors": [
       "30 Punkte",
       "31:23 Tore",
