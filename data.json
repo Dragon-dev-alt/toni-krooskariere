@@ -1144,7 +1144,8 @@
     "Sommer 2027: C. Conteh für 3.300.000 € von Heidenheim verpflichtet. Vertrag: 4 Jahre, 8.000 €/Woche. Deal abgeschlossen; keine zusätzliche Handgeldsumme gemeldet.",
     "Taichi Fukui: Ablöse über 6,5 Mio. € steht, Transfer noch nicht abgeschlossen. Vorstand bietet 4 Jahre, Rolle Wichtig, 7.000 €/Woche, kein Handgeld, keine Leistungsboni, keine Ausstiegsklausel. Absolute Gehaltsgrenze: 8.000 €/Woche.",
     "C. Conteh: Vorstand ordnet ihn vorerst als Rotationsspieler ein. 68 OVR, 27 Jahre, RM/RW – Ergänzung zur Außenbahn und nicht als uneingeschränkter Stammspieler eingeplant.",
-    "Budgetkorrektur Sommer 2027: Silva wurde zwischenzeitlich final für 21,5 Mio. € an Ajax verkauft. Daraus sind 15,05 Mio. € reinvestierbar. Nach dem bereits abgeschlossenen Conteh-Transfer für 3,3 Mio. € ergibt sich rechnerisch ein Budgetstand von 27,363 Mio. €. Fukui ist noch nicht abgezogen."
+    "Budgetkorrektur Sommer 2027: Silva wurde zwischenzeitlich final für 21,5 Mio. € an Ajax verkauft. Daraus sind 15,05 Mio. € reinvestierbar. Nach dem bereits abgeschlossenen Conteh-Transfer für 3,3 Mio. € ergibt sich rechnerisch ein Budgetstand von 27,363 Mio. €. Fukui ist noch nicht abgezogen.",
+    "Taichi Fukui: Spieler fordert Schlüsselspieler. Vorstand akzeptiert die Rolle grundsätzlich, bleibt beim Gehalt bei 7.000 €/Woche für 4 Jahre. Keine Boni, kein Handgeld, keine Ausstiegsklausel. Absolute Gehaltsgrenze 8.000 €/Woche."
   ],
   "matches": [
     {
@@ -1475,13 +1476,14 @@
         "agreedFee": 6500000,
         "status": "Vertrag ausstehend",
         "contractOffer": {
-          "role": "Wichtig",
+          "role": "Schlüsselspieler",
           "years": 4,
           "weeklyWage": 7000,
           "entryBonus": 0,
           "performanceBonuses": [],
           "releaseClause": null,
-          "boardMaxWeeklyWage": 8000
+          "boardMaxWeeklyWage": 8000,
+          "status": "Spieler fordert Schlüsselspieler · Vorstand akzeptiert die Rolle"
         }
       }
     },
@@ -2792,7 +2794,7 @@
     "note": "Aktuelle Saison im Fokus; historische Transfers werden nicht mehr im aktiven Dashboard angezeigt.",
     "lastUpdate": "Sommer 2027: Conteh Rotation; Fukui 6,5 Mio. € vereinbart, Vertrag ausstehend; Budget nach Conteh 12,313 Mio. €"
   },
-  "budgetNote": "Bekannter Planungsstand nach abgeschlossenem Silva-Verkauf und Conteh-Transfer: 15,613 Mio. € + 15,05 Mio. € reinvestierbarer Silva-Anteil - 3,3 Mio. € Conteh = 27,363 Mio. €. Taichi Fukui ist noch nicht abgeschlossen und daher nicht abgezogen.",
+  "budgetNote": "Nach abgeschlossenem Silva-Verkauf (21,5 Mio. €) und Conteh (3,3 Mio. €): 27,363 Mio. € bekannte Reinvestitions-/Budgetbasis. Fukui kostet 6,5 Mio. € und ist noch nicht abgeschlossen; daher weiterhin nicht abgezogen.",
   "zmTransferBudgetGuidance": {
     "planningReferenceBudget": 30000000,
     "currency": "EUR",
@@ -2982,13 +2984,14 @@
       "status": "Ablöse vereinbart – Vertrag noch offen",
       "transferFee": 6500000,
       "contractOffer": {
-        "role": "Wichtig",
+        "role": "Schlüsselspieler",
         "years": 4,
         "weeklyWage": 7000,
         "entryBonus": 0,
         "performanceBonuses": [],
         "releaseClause": null,
-        "boardMaxWeeklyWage": 8000
+        "boardMaxWeeklyWage": 8000,
+        "boardPosition": "Rolle Schlüsselspieler wird akzeptiert, Gehalt bleibt bei 7.000 €/Woche. Keine zusätzlichen Boni oder Klausel."
       },
       "budgetDeductionApplied": false
     }
