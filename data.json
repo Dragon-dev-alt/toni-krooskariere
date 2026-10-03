@@ -761,7 +761,8 @@
     "Aktuelle Jugendakademie (neuster Stand): Matthis Vetter 15/72/97 CAM; Andreas Vogel 15/66/83 CDM; Thomas Vogel 14/68/92 LB/CB; Lukas Baumann 16/71/96 CB; Mohamed Richter 15/74/95 RW/LW; Nick Adam 15/66/83 CDM; Otto Riedel 15/70/86 CB; Özgür Burakgazi 15/64/82 GK. Besonders stark: Richter 74 OVR/95 POT, Vetter 72/97, Baumann 71/96.",
     "1.5. Tabellenstand: Osnabrück Platz 3, 53 Punkte aus 32 Spielen, 14S/11U/7N, 52:34 Tore. Punktgleich mit Hertha auf Platz 4, aber bessere Tordifferenz. Aufstiegs-Playoff-Platz erreicht. Vorstandszufriedenheit 10/10.",
     "1.5. Trainerantworten: Offensive Spielweise bleibt bestehen; Heimvorteil in mindestens einem der zwei verbleibenden Heimspiele nutzen. Hirsch bleibt bis Saisonende klarer Rotationsspieler. Nach den letzten beiden Ligaspielen beginnt die zweigleisige Sommerplanung für 2. Bundesliga und mögliches Relegations-/Aufstiegsszenario.",
-    "1.6. Saisonabschluss: Osnabrück beendet die 2. Bundesliga auf Platz 3 mit 59 Punkten, 57:35 Toren und erreicht die Aufstiegs-Playoffs. Direkter Aufstieg verpasst. Sommer-Scoutingliste übernommen: Ben Farhat, Ache, Bauer, Coulibaly, Kerber, Dahmen, Conteh. Besonders relevant: Dahmen im Tor und Kerber im zentralen Mittelfeld."
+    "1.6. Saisonabschluss: Osnabrück beendet die 2. Bundesliga auf Platz 3 mit 59 Punkten, 57:35 Toren und erreicht die Aufstiegs-Playoffs. Direkter Aufstieg verpasst. Sommer-Scoutingliste übernommen: Ben Farhat, Ache, Bauer, Coulibaly, Kerber, Dahmen, Conteh. Besonders relevant: Dahmen im Tor und Kerber im zentralen Mittelfeld.",
+    "1.6. Tabellenstand: Osnabrück Platz 3 mit 59 Punkten nach 34 Spielen (16S/11U/7N, 57:35). Relegation gegen den HSV. Scouts liefern erste Kandidatenliste: Ben Farhat, Ache, Bauer, Coulibaly, Kerber, Dahmen, Conteh. Vorstandszufriedenheit 10/10."
   ],
   "matches": [
     {
@@ -1259,15 +1260,16 @@
     },
     {
       "date": "1.6.",
-      "title": "Vorstandssitzung – Saisonabschluss & Relegation",
+      "title": "Vorstandssitzung – Relegation",
       "status": "Sitzung eröffnet",
-      "currentLeagueSnapshot": "Platz 3, 59 Punkte nach 34 Spielen; 16 Siege, 11 Unentschieden, 7 Niederlagen; 57:35 Tore. Aufstiegs-Playoffs erreicht.",
-      "note": "Saison endet auf Platz 3. Der direkte Aufstieg wurde um 7 Punkte verpasst.",
+      "currentLeagueSnapshot": "Platz 3, 59 Punkte nach 34 Spielen; 16 Siege, 11 Unentschieden, 7 Niederlagen; 57:35 Tore.",
+      "relegationOpponent": "Hamburger SV",
+      "scoutCandidates": "7 gescoutete Kandidaten liegen vor.",
       "questionsPending": [
-        "Relegation: Mit Platz 3 haben wir die Playoffs erreicht. Wie willst du die Mannschaft auf die Relegation einstellen, ohne unsere offensive Identität aufzugeben?",
-        "Kaderplanung: Soll die Sommerplanung jetzt schon zweigleisig für 2. Bundesliga und mögliche 1. Bundesliga konkretisiert werden?",
-        "Torwart: Nach Rembergs feststehendem Abgang steht F. Dahmen (29, 77 OVR) auf der ersten Kandidatenliste. Sollen wir einen erfahrenen Torwart dieser Größenordnung aktiv weiterverfolgen oder bevorzugst du eine jüngere Lösung?",
-        "ZM: L. Kerber (16, 71 OVR) und unsere interne Hirsch-Lösung sind interessant. Soll ein externer ZM nur bei einem Aufstieg verfolgt werden?"
+        "Relegation: Mit welcher sportlichen Grundausrichtung gehst du gegen den HSV in die Relegation?",
+        "Kaderplanung: Sollen wir die Scout-Kandidaten bereits nach Priorität sortieren, obwohl die Ligazugehörigkeit noch offen ist?",
+        "Zielspieler: Gibt es unter den gescouteten Spielern Positionen, die du unabhängig vom Relegationsausgang bereits als interessant ansiehst?",
+        "Sommerstrategie: Sollen wir nach der Relegation unmittelbar zwei Kaderpläne ausarbeiten – einen für 2. Bundesliga und einen für Bundesliga?"
       ]
     }
   ],
@@ -1319,16 +1321,16 @@
     },
     {
       "date": "1.6.",
-      "result": "Saisonabschluss: Osnabrück beendet die 2. Bundesliga auf Platz 3 mit 59 Punkten (16S/11U/7N, 57:35) und erreicht die Aufstiegs-Playoffs. Sommer-Scoutingliste mit ST, IV, ZDM und TW-Kandidaten erfasst."
+      "result": "Reguläre Saison auf Platz 3 abgeschlossen: 59 Punkte, 16S/11U/7N, 57:35. Relegation gegen den HSV. Scoutliste mit 7 Kandidaten liegt vor. Vorstandszufriedenheit 10/10."
     }
   ],
   "seasonGoals": {
     "primary": "Abstieg verhindern",
     "secondary": "In der 2. Bundesliga Fuß fassen",
-    "currentOfficialGoal": "Klassenerhalt",
+    "currentOfficialGoal": "Klassenerhalt – regulär klar erreicht",
     "januaryReview": "Bestätigt am 1.2.",
     "note": "Der aktuelle 4. Platz führt noch nicht zu einer offiziellen Anhebung des Saisonziels.",
-    "internalOutlook": "Saison auf Platz 3 abgeschlossen. Die Aufstiegs-Playoffs werden als außergewöhnliche zusätzliche Chance gespielt, nicht als ursprünglich erwartetes Pflichtziel."
+    "internalOutlook": "Aufstiegschance durch Relegation gegen den HSV. Der Vorstand macht den Ausgang nicht zur nachträglichen Bewertung der bisherigen Saisonleistung."
   },
   "contractReview": {
     "RobinHenning": {
@@ -1502,16 +1504,15 @@
     "score": 10,
     "scale": "1–10",
     "status": "außergewöhnlich hoch",
-    "currentAssessment": "Der Vorstand ist mit der Saisonleistung außergewöhnlich zufrieden. Osnabrück beendet die Saison auf Platz 3 und erreicht die Aufstiegs-Playoffs, obwohl das offizielle Saisonziel lediglich der Klassenerhalt war.",
+    "currentAssessment": "Der Vorstand ist mit der regulären Saison außergewöhnlich zufrieden. Osnabrück beendet die 2. Bundesliga auf Platz 3 mit 59 Punkten und hat damit die Relegation gegen den HSV erreicht. Das ursprüngliche Ziel Klassenerhalt wurde deutlich übertroffen.",
     "positiveFactors": [
       "Platz 3 nach 34 Spieltagen",
       "59 Punkte und +22 Tordifferenz",
-      "Aufstiegs-Playoffs erreicht",
-      "16 Siege in der Liga"
+      "Relegation um den Aufstieg erreicht",
+      "16 Ligasiege"
     ],
     "riskFactors": [
-      "Direkter Aufstieg mit 7 Punkten Rückstand auf Bochum verpasst",
-      "Playoff-Ausgang noch offen"
+      "Relegation gegen den HSV steht noch aus"
     ],
     "review": "Wird bei jeder Vorstandssitzung neu bewertet."
   },
@@ -1568,7 +1569,7 @@
         "games": 34
       }
     },
-    "context": "Osnabrück beendet die 2.-Bundesliga-Saison auf Platz 3 und erreicht damit die Aufstiegs-Playoffs. Der direkte Aufstieg ist mit 7 Punkten Rückstand auf Platz 2 nicht erreicht."
+    "context": "Osnabrück beendet die reguläre Saison auf Platz 3 mit 59 Punkten und spielt die Relegation gegen den HSV um den Aufstieg."
   },
   "youthScoutingNext": {
     "status": "laufend / aktueller Akademiestand übernommen",
@@ -1583,5 +1584,83 @@
       "reason": "Nach dem Sommerabgang von Remberg besteht langfristig Bedarf im Tor; im ZM soll die Jugendpipeline weiter gestärkt werden."
     },
     "note": "Konkrete Kosten und endgültige Parameter werden nach Auswahl im Spiel übernommen. Neuer Scoutlauf liefert aktuell mehrere starke Offensiv- und Defensivtalente."
+  },
+  "relegation": {
+    "opponent": "Hamburger SV",
+    "status": "steht fest",
+    "note": "Osnabrück spielt als Drittplatzierter der 2. Bundesliga gegen den HSV um den Aufstieg."
+  },
+  "scoutTargets": [
+    {
+      "name": "L. Ben Farhat",
+      "age": 20,
+      "position": "ST",
+      "ovr": 70,
+      "club": "NAC Breda",
+      "source": "Scouting",
+      "note": "Stürmerkandidat"
+    },
+    {
+      "name": "R. Ache",
+      "age": 16,
+      "position": "ST",
+      "ovr": 76,
+      "club": "1. FC Köln",
+      "source": "Scouting",
+      "note": "Sehr junger Stürmerkandidat"
+    },
+    {
+      "name": "B. Bauer",
+      "age": 18,
+      "position": "LM",
+      "ovr": 65,
+      "club": "Jahn Regensburg",
+      "source": "Scouting",
+      "note": "Offensiv-/Flügelkandidat"
+    },
+    {
+      "name": "K. Coulibaly",
+      "age": 20,
+      "position": "IV",
+      "ovr": 75,
+      "club": "Werder Bremen",
+      "source": "Scouting",
+      "note": "Innenverteidiger"
+    },
+    {
+      "name": "L. Kerber",
+      "age": 16,
+      "position": "ZDM",
+      "ovr": 71,
+      "club": "Heidenheim",
+      "source": "Scouting",
+      "note": "Sehr junger zentraler Mittelfeldkandidat"
+    },
+    {
+      "name": "F. Dahmen",
+      "age": 29,
+      "position": "TW",
+      "ovr": 77,
+      "club": "Lorient",
+      "source": "Scouting",
+      "note": "Erfahrener Torwartkandidat"
+    },
+    {
+      "name": "C. Conteh",
+      "age": 27,
+      "position": "RM",
+      "ovr": 68,
+      "club": "Heidenheim",
+      "source": "Scouting",
+      "note": "Außenbahn-/Offensivkandidat"
+    }
+  ],
+  "summerPlan": {
+    "status": "wartet auf Relegationsausgang",
+    "scenarios": {
+      "2.Bundesliga": "Kaderplanung auf Verbleib in der 2. Bundesliga",
+      "Bundesliga": "Kaderplanung auf Erstliga-Niveau, falls der Aufstieg gelingt"
+    },
+    "scoutListStatus": "Erste Kandidatenliste liegt vor; finale Priorisierung nach Relegation."
   }
 }
