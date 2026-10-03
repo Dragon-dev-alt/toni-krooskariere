@@ -691,6 +691,18 @@
   },
   "talents": [
     {
+      "name": "Mohamed Richter",
+      "age": 15,
+      "ovr": 74,
+      "pot": 95,
+      "status": "1. Mannschaft",
+      "role": "Perspektivprofi",
+      "marketValue": 13000000,
+      "appearances": 0,
+      "goals": 0,
+      "assists": 0
+    },
+    {
       "name": "Ole Schubert",
       "age": 17,
       "ovr": 72,
@@ -762,18 +774,6 @@
       "status": "1. Mannschaft",
       "role": "Wichtig · Flügel",
       "marketValue": 2100000
-    },
-    {
-      "name": "Mohamed Richter",
-      "age": 15,
-      "ovr": 74,
-      "pot": 95,
-      "status": "1. Mannschaft",
-      "role": "Perspektivprofi",
-      "marketValue": 13000000,
-      "appearances": 0,
-      "goals": 0,
-      "assists": 0
     }
   ],
   "preseasonTournament": {
