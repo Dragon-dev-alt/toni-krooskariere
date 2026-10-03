@@ -670,7 +670,8 @@
     "Mats Remberg: Spieler möchte wechseln. Trainer und Vorstand planen keinen Winterverkauf; Abgang soll im Sommer 2027 angestrebt werden. Als 3. Keeper besteht kein akuter sportlicher Handlungsdruck.",
     "Mats Remberg: Transfer zum Saisonende für 290.000 € vereinbart. Nach der 70%-Regel sind davon 203.000 € reinvestierbar, 87.000 € verbleiben beim Verein. Remberg bleibt bis Saisonende als 3. Keeper.",
     "1.2. Tabellenstand: Platz 6, 30 Punkte aus 20 Spielen, 8S/6U/6N, 31:23 Tore. Fünf Punkte Rückstand auf Platz 4. Vorstandszufriedenheit 7/10.",
-    "1.2. Trainerantworten: Januar hatte mit St. Pauli und Hertha schwere Gegner; gegen St. Pauli Punktgewinn, gegen Hertha Niederlage. Offizielles Ziel bleibt Klassenerhalt. Aufstieg nur positive Nebenwirkung. Hirsch vorsichtig integrieren. Kein externer ZM im Winter; Sommerplanung nach sportlicher Perspektive. Scouts suchen bereits Neuzugänge."
+    "1.2. Trainerantworten: Januar hatte mit St. Pauli und Hertha schwere Gegner; gegen St. Pauli Punktgewinn, gegen Hertha Niederlage. Offizielles Ziel bleibt Klassenerhalt. Aufstieg nur positive Nebenwirkung. Hirsch vorsichtig integrieren. Kein externer ZM im Winter; Sommerplanung nach sportlicher Perspektive. Scouts suchen bereits Neuzugänge.",
+    "3:2-Sieg gegen Arminia Bielefeld: Direkter Konkurrent geschlagen. Vorstand wertet das als wichtige Reaktion und hebt die Zufriedenheit auf 8/10 an."
   ],
   "matches": [
     {
@@ -722,6 +723,13 @@
       "record": "7 Siege, 2 Unentschieden, 1 Niederlage",
       "goals": "16:7",
       "note": "Ein Spiel weniger als Tabellenführer VfL Wolfsburg"
+    },
+    {
+      "date": "nach dem 1.2.",
+      "competition": "2. Bundesliga",
+      "opponent": "Arminia Bielefeld",
+      "result": "3:2 Sieg",
+      "note": "Sieg im direkten Duell um den Anschluss an die Aufstiegsplätze"
     }
   ],
   "freeAgentRuleExample": {
@@ -1226,14 +1234,14 @@
   ],
   "youthRecruitmentCandidates": [],
   "boardSatisfaction": {
-    "score": 7,
+    "score": 8,
     "scale": "1–10",
-    "status": "gut",
-    "currentAssessment": "Der Vorstand bleibt zufrieden. Die Erklärung für die Januarergebnisse gegen St. Pauli und Hertha ist nachvollziehbar, und das offizielle Ziel Klassenerhalt ist nicht gefährdet. Der Fokus auf eine stabile Rückrunde ohne künstlichen Aufstiegsdruck wird unterstützt.",
+    "status": "hoch",
+    "currentAssessment": "Der Vorstand bewertet den 3:2-Sieg gegen Arminia Bielefeld sehr positiv. Der direkte Konkurrent wurde geschlagen und die Mannschaft hat damit auf die Januarresultate die gewünschte Reaktion gezeigt.",
     "positiveFactors": [
-      "30 Punkte",
-      "31:23 Tore",
-      "Offizielles Ziel klar auf Kurs"
+      "3:2 gegen Arminia Bielefeld",
+      "Direktes Duell gegen einen Konkurrenten gewonnen",
+      "Stabile Reaktion nach den schwierigen Spielen gegen St. Pauli und Hertha"
     ],
     "riskFactors": [
       "Rückstand auf Platz 4 auf 5 Punkte angewachsen"
