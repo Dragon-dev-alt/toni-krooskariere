@@ -67,7 +67,7 @@ table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:8px;bord
   <div class="grid2">
     <div class="card"><div class="sectionHead"><h2>🔄 Leihplanung</h2><span class="count">Sommer</span></div>
       <table><thead><tr><th>Spieler</th><th>OVR/POT</th><th>Pos.</th><th>Status</th></tr></thead><tbody id="sqLoans"></tbody></table>
-      <div class="callout"><strong>Bereits verliehen</strong>Kevin Wiethaup · 2 Jahre</div>
+      <div class="callout"><strong>Bereits verliehen</strong>Kevin Wiethaup · 2 Jahre · Max Adams · 2 Jahre · Viggo Andersen · 1 Jahr</div>
     </div>
     <div class="card"><div class="sectionHead"><h2>🌱 Jugendakademie</h2><span class="count">nicht hochgezogen</span></div>
       <table><thead><tr><th>Spieler</th><th>Alt.</th><th>OVR/POT</th><th>Pos.</th></tr></thead><tbody id="sqAcademy"></tbody></table>
@@ -162,7 +162,7 @@ function render(d){ window.__dashboardData=d;
   ovActive.innerHTML=ao.length?ao.map(x=>'<div class="rule"><b>'+e(x.player)+'</b><br>'+e(x.status)+'<br><span class="muted">'+(x.transferFee?eur(x.transferFee)+' · ':'')+(x.demandRole?e(x.demandRole)+' · '+e(x.demandYears)+' Jahre':'')+'</span></div>').join(''):'<div class="empty">Keine offenen Fälle.</div>';
   const t=(d.talents||[]).slice(0,6);
   ovTalents.innerHTML=t.map(x=>'<div class="rule"><b>'+e(x.name)+'</b>'+e(x.age)+' Jahre · '+e((x.ovr??'–')+'/'+(x.pot??'–'))+' · '+e(x.role||'–')+'</div>').join('');
-  ovClubCourse.innerHTML='<div class="rule"><b>Spielidee</b>4-3-3 Flach · Linienhöhe 65 · Ballbesitz, Kurzpass, kontrollierte Vertikalität, Gegenpressing.</div><div class="rule"><b>Sommer</b>RV, IV/Defensive, ZM und 3. TW als aktuelle Prioritäten.</div><div class="callout"><strong>Talentstrategie</strong>Silva, Schubert und Hirsch bleiben zentrale Entwicklungsspieler; Verkäufe werden nur oberhalb der internen Schmerzensgrenzen geprüft.</div>';
+  ovClubCourse.innerHTML='<div class="rule"><b>Spielidee</b>4-3-3 Flach · Linienhöhe 65 · Ballbesitz, Kurzpass, kontrollierte Vertikalität, Gegenpressing.</div><div class="rule"><b>Sommer</b>RV, IV/Defensive, ZM und 3. TW als aktuelle Prioritäten.</div><div class="callout"><strong>Talentstrategie</strong>Schubert, Hirsch und Wolf bleiben zentrale Entwicklungsspieler. Der Verkauf von Silva für 17,2 Mio. € wurde angenommen; 12,04 Mio. € davon sind nach der 70%-Regel reinvestierbar.</div>';
   
   sqPlayers.innerHTML=(d.players||[]).map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td>'+e(x.position||'–')+'</td><td>'+e((x.ovr??'–')+'/'+(x.potential??'–'))+'</td><td>'+e(x.role||'–')+'</td><td><span class="badge">'+e(x.status||'–')+'</span></td></tr>').join('');
   sqTalents.innerHTML=(d.talents||[]).map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td>'+e(x.age)+'</td><td>'+e((x.ovr??'–')+'/'+(x.pot??x.potential??'–'))+'</td><td>'+e(x.role||'–')+'</td></tr>').join('');
