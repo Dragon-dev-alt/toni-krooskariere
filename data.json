@@ -1141,7 +1141,9 @@
     "Korrektur Sommer 2027: Mario Silva ist final für 21.500.000 € zu Ajax gewechselt. Reinvestierbarer Anteil nach der 70%-Regel: 15.050.000 €; 6.450.000 € verbleiben beim Verein.",
     "Sommer 2027: Mohamed Richter (15, 74 OVR, 95 POT, RW/LW) wird in die 1. Mannschaft hochgezogen. Vorstand unterstützt die Maßnahme als Teil der Talentstrategie.",
     "Sommer 2027: Lars Kehl wird zum Verkauf vorgesehen, um einen Kaderplatz für C. Conteh freizumachen. Conteh wird als Transferziel weiterverfolgt; eine Ablöseverhandlung ist noch nicht erfolgt.",
-    "Sommer 2027: C. Conteh für 3.300.000 € von Heidenheim verpflichtet. Vertrag: 4 Jahre, 8.000 €/Woche. Deal abgeschlossen; keine zusätzliche Handgeldsumme gemeldet."
+    "Sommer 2027: C. Conteh für 3.300.000 € von Heidenheim verpflichtet. Vertrag: 4 Jahre, 8.000 €/Woche. Deal abgeschlossen; keine zusätzliche Handgeldsumme gemeldet.",
+    "Taichi Fukui: Ablöse über 6,5 Mio. € steht, Transfer noch nicht abgeschlossen. Vorstand bietet 4 Jahre, Rolle Wichtig, 7.000 €/Woche, kein Handgeld, keine Leistungsboni, keine Ausstiegsklausel. Absolute Gehaltsgrenze: 8.000 €/Woche.",
+    "C. Conteh: Vorstand ordnet ihn vorerst als Rotationsspieler ein. 68 OVR, 27 Jahre, RM/RW – Ergänzung zur Außenbahn und nicht als uneingeschränkter Stammspieler eingeplant."
   ],
   "matches": [
     {
@@ -1461,6 +1463,25 @@
         "weeklyWage": 8000,
         "years": 4,
         "reason": "Kaderplatz nach Richter-Hochzug; flexible Ergänzung für rechte Außenbahn."
+      },
+      "zmFukui": {
+        "target": "Taichi Fukui",
+        "club": "FC Arouca",
+        "age": 22,
+        "position": "ZM/ZOM/ZDM",
+        "ovr": 73,
+        "potential": 81,
+        "agreedFee": 6500000,
+        "status": "Vertrag ausstehend",
+        "contractOffer": {
+          "role": "Wichtig",
+          "years": 4,
+          "weeklyWage": 7000,
+          "entryBonus": 0,
+          "performanceBonuses": [],
+          "releaseClause": null,
+          "boardMaxWeeklyWage": 8000
+        }
       }
     },
     "relegation": {
@@ -2768,9 +2789,9 @@
       "Trainer & Vorstand"
     ],
     "note": "Aktuelle Saison im Fokus; historische Transfers werden nicht mehr im aktiven Dashboard angezeigt.",
-    "lastUpdate": "Sommer 2027: Conteh für 3,3 Mio. € verpflichtet, 4 Jahre, 8.000 €/Woche"
+    "lastUpdate": "Sommer 2027: Conteh Rotation; Fukui 6,5 Mio. € vereinbart, Vertrag ausstehend; Budget nach Conteh 12,313 Mio. €"
   },
-  "budgetNote": "Nach aktuellem bekannten Stand: 15,613 Mio. € vor Conteh minus 3,3 Mio. € Ablöse = ca. 12,313 Mio. €; tatsächlich im Spiel angezeigtes Budget bleibt maßgeblich. Silva-Erlös: 15,05 Mio. € nach 70%-Regel reinvestierbar.",
+  "budgetNote": "Nach abgeschlossenem Conteh-Transfer: 12.313.000 € Restbudget aus dem bisherigen 15,613-Mio.-€-Stand. Taichi Fukui ist mit 6,5 Mio. € Ablöse am Haken, aber noch nicht durch; daher noch keine Belastung des Budgets.",
   "zmTransferBudgetGuidance": {
     "planningReferenceBudget": 30000000,
     "currency": "EUR",
@@ -2951,6 +2972,24 @@
       "boardTargetFee": 6000000,
       "boardMaxFee": 7000000,
       "status": "Topkandidat · dynamische Alternative"
+    }
+  ],
+  "pendingTransfers": [
+    {
+      "name": "Taichi Fukui",
+      "club": "FC Arouca",
+      "status": "Ablöse vereinbart – Vertrag noch offen",
+      "transferFee": 6500000,
+      "contractOffer": {
+        "role": "Wichtig",
+        "years": 4,
+        "weeklyWage": 7000,
+        "entryBonus": 0,
+        "performanceBonuses": [],
+        "releaseClause": null,
+        "boardMaxWeeklyWage": 8000
+      },
+      "budgetDeductionApplied": false
     }
   ]
 }
