@@ -1,5 +1,5 @@
 {
-  "budget": 882500,
+  "budget": 20000000,
   "formation": "4-3-3 Flach",
   "lineHeight": 65,
   "rules": [
@@ -39,253 +39,354 @@
   ],
   "players": [
     {
-      "name": "Ole Schubert",
-      "role": "Stamm-LV",
-      "status": "1. Mannschaft",
-      "appearances": 41,
-      "goals": 2,
-      "assists": 2,
-      "cleanSheets": 14
+      "name": "Mats Remberg",
+      "age": 21,
+      "nationality": "Deutschland",
+      "club": "VfL Osnabrück",
+      "ovr": 56,
+      "potential": 64,
+      "marketValue": 275000,
+      "weeklyWage": 500,
+      "position": "TW",
+      "secondaryPositions": [],
+      "role": "Abgang steht noch aus",
+      "status": "Abgang steht noch aus"
     },
     {
-      "name": "Ryan Mahuta",
-      "role": "LV-Backup",
-      "status": "Neu · 4 Jahre",
-      "appearances": 16,
-      "goals": 0,
-      "assists": 0,
-      "cleanSheets": 1
-    },
-    {
-      "name": "Mario Silva",
-      "role": "Stamm-RF",
-      "status": "1. Mannschaft",
-      "age": 16,
-      "ovr": 69,
-      "potential": 93,
-      "marketValue": 6000000,
-      "appearances": 40,
-      "scorerPoints": 5,
-      "averageRating": 7.07,
-      "notes": "Starke Entwicklung für einen 16-Jährigen; Leistungen noch ausbaufähig, bereits 5 Scorer in 15 Spielen.",
-      "goals": 13,
-      "assists": 11,
-      "cleanSheets": 12
-    },
-    {
-      "name": "Lars Kehl",
-      "role": "RF-Backup",
-      "status": "Kader",
-      "appearances": 11,
-      "goals": 1,
-      "assists": 0,
-      "cleanSheets": 1
-    },
-    {
-      "name": "Kevin Schumacher",
-      "role": "Stamm-LF",
-      "status": "Kader",
-      "appearances": 16,
-      "goals": 6,
-      "assists": 0,
-      "cleanSheets": 4
-    },
-    {
-      "name": "Kevin Wiethaup",
-      "role": "LF-Backup",
-      "status": "Kader",
-      "appearances": 5,
-      "goals": 0,
-      "assists": 0,
-      "cleanSheets": 1
-    },
-    {
-      "name": "Viggo Andersen",
-      "role": "2. ST",
-      "status": "1. Mannschaft",
-      "appearances": 7,
-      "goals": 2,
-      "assists": 2,
-      "cleanSheets": 2
+      "name": "Niklas Sauter",
+      "age": 24,
+      "nationality": "Deutschland",
+      "club": "VfL Osnabrück",
+      "ovr": 65,
+      "potential": 68,
+      "marketValue": 750000,
+      "weeklyWage": 1900,
+      "position": "TW",
+      "secondaryPositions": [],
+      "role": "Kader",
+      "status": "Kader"
     },
     {
       "name": "Christian Wolf",
+      "age": 17,
+      "nationality": "Deutschland",
+      "club": "VfL Osnabrück",
+      "ovr": 70,
+      "potential": 90,
+      "marketValue": 3800000,
+      "weeklyWage": 800,
+      "position": "TW",
+      "secondaryPositions": [],
       "role": "Stammkeeper",
-      "status": "1. Mannschaft",
-      "appearances": 39,
-      "goals": 0,
-      "assists": 0,
-      "cleanSheets": 11
+      "status": "Stammkeeper"
     },
     {
       "name": "Patrick Kammerbauer",
-      "role": "Wichtig · RV-Umschulung",
-      "status": "Vertrag verlängert",
-      "appearances": 32,
-      "goals": 0,
-      "assists": 1,
-      "cleanSheets": 10
-    },
-    {
-      "name": "Yigit Karademir",
-      "role": "Leihe",
-      "status": "1 Jahr Stoke City"
-    },
-    {
-      "name": "Bernd Riesselmann",
-      "role": "Leihe",
-      "status": "2 Jahre CD Tondela"
-    },
-    {
-      "name": "Matviy Ponomar",
-      "role": "Wichtig · Stamm-ST",
-      "status": "Neu · 4 Jahre · 6.000 €/Woche",
-      "appearances": 37,
-      "goals": 18,
-      "assists": 6,
-      "cleanSheets": 9
-    },
-    {
-      "name": "Jakob Schöller",
-      "role": "Wichtig · Stamm/Rotation IV",
-      "status": "Neu · 4 Jahre · 4.500 €/Woche",
-      "appearances": 34,
-      "goals": 0,
-      "assists": 3,
-      "cleanSheets": 8
+      "age": 30,
+      "nationality": "Deutschland",
+      "club": "VfL Osnabrück",
+      "ovr": 66,
+      "potential": 66,
+      "marketValue": 725000,
+      "weeklyWage": 5300,
+      "position": "RV",
+      "secondaryPositions": "RM/RW",
+      "role": "Wichtig",
+      "status": "Kader"
     },
     {
       "name": "Max Adams",
-      "role": "Perspektivprofi · RV/LV",
-      "status": "Neu · 5 Jahre · 1.600 €/Woche",
-      "appearances": 14,
-      "goals": 0,
-      "assists": 0,
-      "cleanSheets": 2
+      "age": 19,
+      "nationality": "Australien",
+      "club": "VfL Osnabrück",
+      "ovr": 63,
+      "potential": 63,
+      "marketValue": 475000,
+      "weeklyWage": 1600,
+      "position": "RV",
+      "secondaryPositions": "LV",
+      "role": "Perspektivprofi",
+      "status": "Kader"
     },
     {
-      "name": "Izan González",
-      "role": "ZM-Rotation",
-      "status": "Leihe · 12 Monate",
-      "note": "70/83 · CM/CDM · 100 % Gehaltsübernahme · 3.800 €/Woche · keine Gebühr · keine Kaufoption",
-      "appearances": 36,
-      "goals": 5,
-      "assists": 5,
-      "cleanSheets": 11
-    },
-    {
-      "name": "Robin Henning",
-      "role": "ZM rechts · Rotation",
-      "status": "Vertragssituation offen",
-      "notes": "Startelf rechts im ZM; Vertrag läuft am Saisonende aus; Neubewertung Ende Oktober.",
-      "appearances": 38,
-      "goals": 4,
-      "assists": 4,
-      "cleanSheets": 11
-    },
-    {
-      "name": "Ismail Badjie",
-      "role": "LF · Wichtig",
-      "status": "Vertrag verlängert",
-      "age": 20,
-      "ovr": 64,
-      "potential": 74,
-      "notes": "Vertrag um 3 Jahre verlängert: Wichtig, 3.700 €/Woche, 20.500 € Handgeld.",
-      "weeklyWage": 3700,
-      "contractRemaining": "bis Saisonende",
-      "appearances": 29,
-      "goals": 10,
-      "assists": 2,
-      "cleanSheets": 6
-    },
-    {
-      "name": "Fridolin Wagner",
-      "role": "ZM · Wichtig",
-      "status": "Vertrag verlängert",
-      "age": 25,
-      "ovr": 65,
-      "potential": 66,
-      "weeklyWage": 4400,
-      "contractRemaining": "1 Jahr 6 Monate",
-      "appearances": 33,
-      "averageRating": 6.56,
-      "notes": "19 Einsätze, Ø 6,56. Vertrag um 1 Jahr verlängert; Rolle Wichtig.",
-      "goals": 4,
-      "assists": 1,
-      "cleanSheets": 7
-    },
-    {
-      "name": "Mats Remberg",
-      "role": "TW · 3. Keeper",
-      "status": "Transfer vereinbart – Abgang Saisonende",
-      "notes": "Wechselt am Ende der Saison für 290.000 €.",
-      "appearances": 0,
-      "goals": 0,
-      "assists": 0,
-      "cleanSheets": 0
-    },
-    {
-      "name": "Theo Jannotta",
-      "role": "IV-Reserve",
-      "status": "keine Vertragsverlängerung geplant",
-      "age": 18,
-      "ovr": 61,
-      "potential": 70,
-      "notes": "Vertrag soll nicht verlängert werden. Vorstand plant, im nächsten Sommer einen Abgang anzustreben.",
-      "appearances": 4,
-      "goals": 0,
-      "assists": 0,
-      "cleanSheets": 0
-    },
-    {
-      "name": "Robert Tesche",
-      "role": "ZM · erfahrene Reserve",
-      "status": "Bleibt bis Saisonende",
-      "age": 39,
-      "notes": "Möchte seine Karriere voraussichtlich am Saisonende beenden und dies beim VfL Osnabrück tun. Vorstand unterstützt einen Verbleib bis Saisonende.",
-      "appearances": 6,
-      "goals": 0,
-      "assists": 0,
-      "cleanSheets": 3
-    },
-    {
-      "name": "Bjarke Jacobsen",
-      "role": "ZM",
-      "status": "Vorvertrag – Abgang ablösefrei am Saisonende",
-      "contractRemaining": "6 Monate",
-      "notes": "Vorvertrag bei anderem Verein abgeschlossen; wechselt nach Saisonende ablösefrei.",
-      "appearances": 14,
-      "goals": 0,
-      "assists": 0,
-      "cleanSheets": 2
-    },
-    {
-      "name": "Alexander Hirsch",
-      "role": "ZM/ZDM · Rotation",
-      "status": "1. Mannschaft",
-      "age": 16,
-      "ovr": 71,
-      "potential": 95,
-      "notes": "10 Einsätze, Ø 6,16. Hat sich mindestens eine Rotationsrolle erarbeitet. Wichtig für 2027/28 vorstellbar bei weiterer Entwicklung.",
-      "appearances": 19,
-      "averageRating": 6.16,
-      "goals": 1,
-      "assists": 1,
-      "cleanSheets": 3
+      "name": "Jakob Schöller",
+      "age": 21,
+      "nationality": "Österreich",
+      "club": "VfL Osnabrück",
+      "ovr": 68,
+      "potential": 77,
+      "marketValue": 2500000,
+      "weeklyWage": 4500,
+      "position": "IV",
+      "secondaryPositions": "RV",
+      "role": "Wichtig",
+      "status": "Kader"
     },
     {
       "name": "Robin Fabinski",
-      "role": "IV · Wichtig",
-      "status": "Vertrag verlängert",
+      "age": 23,
+      "nationality": "Deutschland",
+      "club": "VfL Osnabrück",
+      "ovr": 67,
+      "potential": 69,
+      "marketValue": 1200000,
       "weeklyWage": 3600,
-      "contractRemaining": "1 Jahr 3 Monate",
+      "position": "IV",
+      "secondaryPositions": [],
+      "role": "Wichtig",
+      "status": "Kader"
+    },
+    {
+      "name": "Jannik Müller",
+      "age": 33,
+      "nationality": "Deutschland",
+      "club": "VfL Osnabrück",
+      "ovr": 67,
+      "potential": 68,
+      "marketValue": 575000,
+      "weeklyWage": 7800,
+      "position": "IV",
+      "secondaryPositions": [],
+      "role": "Schlüsselspieler · Kapitän",
+      "status": "Kader"
+    },
+    {
+      "name": "Yigit Karademir",
+      "age": 23,
+      "nationality": "Türkei",
+      "club": "VfL Osnabrück",
+      "ovr": 64,
+      "potential": 74,
+      "marketValue": 1200000,
+      "weeklyWage": 3000,
+      "position": "IV",
+      "secondaryPositions": [],
+      "role": "Kader",
+      "status": "Kader"
+    },
+    {
+      "name": "Theo Jannotta",
+      "age": 23,
+      "nationality": "Deutschland",
+      "club": "VfL Osnabrück",
+      "ovr": 62,
+      "potential": 68,
+      "marketValue": 575000,
+      "weeklyWage": 2400,
+      "position": "IV",
+      "secondaryPositions": [],
+      "role": "keine Verlängerung geplant",
+      "status": "Kader"
+    },
+    {
+      "name": "Ryan Mahuta",
+      "age": 24,
+      "nationality": "Finnland",
+      "club": "VfL Osnabrück",
+      "ovr": 65,
+      "potential": 66,
+      "marketValue": 800000,
+      "weeklyWage": 3800,
+      "position": "LV",
+      "secondaryPositions": [],
+      "role": "Kader",
+      "status": "Kader"
+    },
+    {
+      "name": "Ole Schubert",
+      "age": 17,
+      "nationality": "Deutschland",
+      "club": "VfL Osnabrück",
+      "ovr": 72,
+      "potential": 91,
+      "marketValue": 5500000,
+      "weeklyWage": 4300,
+      "position": "LV",
+      "secondaryPositions": [],
+      "role": "Stamm-LV",
+      "status": "Stamm-LV"
+    },
+    {
+      "name": "Robert Tesche",
+      "age": 40,
+      "nationality": "Deutschland",
+      "club": "VfL Osnabrück",
+      "ovr": 58,
+      "potential": 60,
+      "marketValue": 100000,
+      "weeklyWage": 3000,
+      "position": "ZDM",
+      "secondaryPositions": "CM",
+      "role": "Bleibt bis Saisonende",
+      "status": "Kader"
+    },
+    {
+      "name": "Fridolin Wagner",
+      "age": 29,
+      "nationality": "Deutschland",
+      "club": "VfL Osnabrück",
+      "ovr": 66,
+      "potential": 66,
+      "marketValue": 725000,
+      "weeklyWage": 4400,
+      "position": "CDM",
+      "secondaryPositions": "CM",
+      "role": "Wichtig",
+      "status": "Kader"
+    },
+    {
+      "name": "Bjarke Jacobsen",
+      "age": 33,
+      "nationality": "Dänemark",
+      "club": "VfL Osnabrück",
+      "ovr": 62,
+      "potential": 64,
+      "marketValue": 300000,
+      "weeklyWage": 2400,
+      "position": "CDM",
+      "secondaryPositions": "CM/CB",
+      "role": "Abgang steht noch aus",
+      "status": "Abgang steht noch aus"
+    },
+    {
+      "name": "Izan González",
+      "age": 22,
+      "nationality": "Spanien",
+      "club": "VfL Osnabrück",
+      "ovr": 73,
+      "potential": 83,
+      "marketValue": 7000000,
+      "weeklyWage": 6200,
+      "position": "CM",
+      "secondaryPositions": "CDM",
+      "role": "Rückkehr zu Granada",
+      "status": "Kader"
+    },
+    {
+      "name": "Robin Henning",
+      "age": 32,
+      "nationality": "Deutschland",
+      "club": "VfL Osnabrück",
+      "ovr": 65,
+      "potential": 65,
+      "marketValue": 550000,
+      "weeklyWage": 4100,
+      "position": "CM",
+      "secondaryPositions": "CAM",
+      "role": "Rotation",
+      "status": "Kader"
+    },
+    {
+      "name": "Alexander Hirsch",
+      "age": 16,
+      "nationality": "Deutschland",
+      "club": "VfL Osnabrück",
+      "ovr": 72,
+      "potential": 95,
+      "marketValue": 7500000,
+      "weeklyWage": 5300,
+      "position": "CM",
+      "secondaryPositions": "CDM",
+      "role": "1. Mannschaft · Rotation",
+      "status": "1. Mannschaft · Rotation"
+    },
+    {
+      "name": "Lars Kehl",
+      "age": 25,
+      "nationality": "Deutschland",
+      "club": "VfL Osnabrück",
+      "ovr": 69,
+      "potential": 72,
+      "marketValue": 1800000,
+      "weeklyWage": 6400,
+      "position": "RW",
+      "secondaryPositions": "CAM/ST",
+      "role": "Kader",
+      "status": "Kader"
+    },
+    {
+      "name": "Mario Silva",
+      "age": 17,
+      "nationality": "Chile",
+      "club": "VfL Osnabrück",
+      "ovr": 73,
+      "potential": 95,
+      "marketValue": 9500000,
+      "weeklyWage": 4700,
+      "position": "RW",
+      "secondaryPositions": [],
+      "role": "Stamm-RW",
+      "status": "Stamm-RW"
+    },
+    {
+      "name": "Matviy Ponomarenko",
+      "age": 21,
+      "nationality": "Ukraine",
+      "club": "VfL Osnabrück",
+      "ovr": 69,
+      "potential": 86,
+      "marketValue": 3700000,
+      "weeklyWage": 6000,
+      "position": "ST",
+      "secondaryPositions": "RW/LW",
+      "role": "Stamm-ST",
+      "status": "Stamm-ST"
+    },
+    {
+      "name": "Viggo Andersen",
+      "age": 17,
+      "nationality": "Norwegen",
+      "club": "VfL Osnabrück",
+      "ovr": 63,
+      "potential": 83,
       "marketValue": 1300000,
-      "appearances": 28,
-      "averageRating": 6.21,
-      "notes": "Vertrag um 1 Jahr verlängert: Wichtig, 3.600 €/Woche, 10.000 € Handgeld.",
-      "goals": 0,
-      "assists": 0,
-      "cleanSheets": 6
+      "weeklyWage": 1800,
+      "position": "ST",
+      "secondaryPositions": [],
+      "role": "2. ST",
+      "status": "Kader"
+    },
+    {
+      "name": "Ismail Badjie",
+      "age": 21,
+      "nationality": "Deutschland",
+      "club": "VfL Osnabrück",
+      "ovr": 67,
+      "potential": 74,
+      "marketValue": 2100000,
+      "weeklyWage": 3700,
+      "position": "LW",
+      "secondaryPositions": "RW/RM/CAM",
+      "role": "Wichtig",
+      "status": "Kader"
+    },
+    {
+      "name": "Kevin Schumacher",
+      "age": 24,
+      "nationality": "Deutschland",
+      "club": "VfL Osnabrück",
+      "ovr": 64,
+      "potential": 64,
+      "marketValue": 575000,
+      "weeklyWage": 3800,
+      "position": "LW",
+      "secondaryPositions": "LM/LB",
+      "role": "Kader",
+      "status": "Kader"
+    },
+    {
+      "name": "Kevin Wiethaup",
+      "age": 21,
+      "nationality": "Deutschland",
+      "club": "VfL Osnabrück",
+      "ovr": 64,
+      "potential": 71,
+      "marketValue": 1200000,
+      "weeklyWage": 2800,
+      "position": "LW",
+      "secondaryPositions": "CAM/CM",
+      "role": "Kader",
+      "status": "Kader"
     }
   ],
   "sales": [
@@ -885,7 +986,8 @@
     "Relegation entschieden: Rückspiel gegen HSV 1:1, nach dem 2:1 im Hinspiel insgesamt 3:2. VfL Osnabrück steigt in die Bundesliga auf. Vorstandszufriedenheit 10/10. Neue Bundesliga-Ziele und Trainervertragsbewertung folgen.",
     "Interview nach der Relegation: Kroos beschreibt große Freude über den Aufstieg, bestätigt die offensive Spielidee, möchte sich aktuell noch nicht mit der Kaderanpassung beschäftigen und plant grundsätzlich mindestens die erste Bundesliga-Saison beim VfL. Ein sehr lukratives externes Angebot im Sommer wird von ihm nicht ausgeschlossen.",
     "Saisonstatistik 2026/27 aus aktuellem Ingame-Bericht übernommen. Auffällig: Ponomar 37/18/6, Silva 40/13/11, Badjie 29/10/2, Schubert 41/2/2, Wolf 39 Einsätze/11 Spiele ohne Gegentor, Schöller 34/0/3. Stats werden als Gesamt-Ingamewerte geführt.",
-    "Budget 2027/28: Bei rund 65 Mio. € Gesamteinnahmen stellt der Vorstand für den Bundesliga-Sommer ein Transferbudget von 20 Mio. € bereit. 70 % künftiger Netto-Transfererlöse bleiben zusätzlich reinvestierbar. Der Gesamtumsatz wird nicht 1:1 als Transferbudget verwendet."
+    "Budget 2027/28: Bei rund 65 Mio. € Gesamteinnahmen stellt der Vorstand für den Bundesliga-Sommer ein Transferbudget von 20 Mio. € bereit. 70 % künftiger Netto-Transfererlöse bleiben zusätzlich reinvestierbar. Der Gesamtumsatz wird nicht 1:1 als Transferbudget verwendet.",
+    "1.7.2027: Aktuellen Ingame-Kader vollständig übernommen. Transferbudget 20 Mio. €. Mats Remberg und Bjarke Jacobsen stehen noch vor ihren feststehenden Abgängen. Izan González ist aus der Leihe zurück bei Granada."
   ],
   "matches": [
     {
@@ -1450,6 +1552,20 @@
       "boardOpinion": {
         "managerFuture": "Der Vorstand nimmt diese Offenheit zur Kenntnis und wertet sie nicht negativ. Nach dem Aufstieg besteht kein Anlass, einen Wechsel zu unterstellen. Bei einem konkreten Angebot wird die Situation neu bewertet."
       }
+    },
+    {
+      "date": "1.7.",
+      "title": "Vorstandssitzung – Bundesliga-Sommer",
+      "status": "Sitzung eröffnet",
+      "currentSquad": "Aktueller Ingame-Kader zum 1.7. übernommen. Remberg und Jacobsen stehen noch vor ihren Abgängen.",
+      "budget": 20000000,
+      "questionsPending": [
+        "Kaderstärke: Welche Positionen siehst du trotz des aktuellen Bundesliga-Kaders als erste Verstärkungsfelder?",
+        "Izan González: Die Leihe ist beendet und er steht bei 73 OVR / 83 POT. Soll der Vorstand prüfen, ob ein Kauf bei Granada überhaupt realistisch und sinnvoll wäre?",
+        "Remberg/Jacobsen: Beide gehen noch. Soll der dadurch entstehende Kaderplatz gezielt mit einem Neuzugang besetzt werden oder zunächst intern aufgefangen werden?",
+        "Saisonziel: Nach dem Aufstieg – welches offizielle Bundesliga-Ziel soll der Vorstand für 2027/28 festlegen?"
+      ],
+      "note": "Die Sommerplanung soll sich im Verlauf der Transferphase konkretisieren."
     }
   ],
   "boardMeetingFormat": {
@@ -1505,11 +1621,9 @@
   ],
   "seasonGoals": {
     "primary": "Klassenerhalt in der Bundesliga",
-    "secondary": "In der Bundesliga etablieren",
-    "currentOfficialGoal": "Nach Aufstieg neu festzulegen",
-    "januaryReview": "Bestätigt am 1.2.",
-    "note": "Der aktuelle 4. Platz führt noch nicht zu einer offiziellen Anhebung des Saisonziels.",
-    "internalOutlook": "Aufstieg erreicht; neue Saisonziele werden nach Kaderanalyse und Budgetfestlegung bestimmt."
+    "secondary": "Bundesliga-Etablierung",
+    "currentOfficialGoal": "Noch festzulegen in der Sommerplanung",
+    "internalOutlook": "Nach dem Aufstieg liegt der Fokus auf Bundesliga-Klassenerhalt und dem schrittweisen Aufbau des Kaders."
   },
   "contractReview": {
     "RobinHenning": {
@@ -2017,5 +2131,34 @@
     "boardRationale": "Der Vorstand hält bei rund 65 Mio. € Gesamteinnahmen ein Transferbudget von 20 Mio. € für verantwortbar. Ein erheblicher Teil der Einnahmen bleibt für laufende Kosten, Gehälter, Prämien, Infrastruktur und Liquiditätsreserven gebunden.",
     "salesRule": "Zusätzlich bleiben 70 % der Netto-Transfererlöse reinvestierbar.",
     "contingency": "Bei außergewöhnlich hohen Abgängen kann das verfügbare Transferbudget während der Sommertransferphase steigen."
-  }
+  },
+  "currentDate": "1.7.2027",
+  "currentSeason": "2027/28",
+  "departures": {
+    "summer2027": [
+      {
+        "name": "Mats Remberg",
+        "fee": 290000,
+        "status": "Abgang steht noch aus"
+      },
+      {
+        "name": "Bjarke Jacobsen",
+        "fee": 0,
+        "status": "Vorvertrag · Abgang steht noch aus"
+      }
+    ]
+  },
+  "loanReturns": [
+    {
+      "name": "Izan González",
+      "from": "FC Granada",
+      "status": "Leihe beendet / Rückkehr zu Granada",
+      "marketValue": 7000000
+    },
+    {
+      "name": "Yigit Karademir",
+      "from": "Stoke City",
+      "status": "Leihe beendet / zurück im Kader"
+    }
+  ]
 }
