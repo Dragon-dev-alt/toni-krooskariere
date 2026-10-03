@@ -120,6 +120,7 @@ table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:8px;bord
     <div class="card"><h2>📜 Vorstandslinien</h2><div id="boRules"></div></div>
     <div class="card"><h2>🧠 Aktuelle Einschätzung</h2><div id="boAssessment"></div></div>
   </div>
+  <div class="card"><div class="sectionHead"><h2>🗓️ Vorstandssitzung 1.8.2027</h2><span class="count">automatisch</span></div><div id="boMeeting"></div></div>
 </section>
 
 <section id="career" class="view">
@@ -191,6 +192,7 @@ function render(d){ window.__dashboardData=d;
   boSat.textContent=(bs.score??'–')+'/10'; boSatText.textContent=e(bs.status||''); boGoal.textContent=e(sg.currentOfficialGoal||sg.primary||'–'); boGoalSub.textContent=e(sg.internalOutlook||''); boContract.textContent=e(mc.contractEnds||'–'); boContractSub.textContent='3 Jahre · '+e(mc.status||''); boClause.textContent=mc.specialExitClause?.active?'Ja':'Nein';
   boRules.innerHTML=(d.rules||[]).map((x,i)=>'<div class="rule"><b>'+(i+1)+'. Regel</b>'+e(x)+'</div>').join('');
   boAssessment.innerHTML='<div class="callout"><strong>'+e(bs.status||'')+'</strong>'+e(bs.currentAssessment||'')+'</div><div class="rule"><b>Offizielles Ziel</b>'+e(sg.currentOfficialGoal||sg.primary||'–')+'</div><div class="rule"><b>Interne Sicht</b>'+e(sg.internalOutlook||'–')+'</div>';
+  const meetings=d.boardMeetingHistory||[]; const m=meetings.length?meetings[meetings.length-1]:null; boMeeting.innerHTML=m?'<div class="callout"><strong>Bewertung</strong>'+e(m.assessment)+'</div>'+(m.questions||[]).map((q,i)=>'<div class="rule"><b>'+ (i+1)+'. Frage</b>'+e(q)+'</div>').join(''):'<div class="empty">Keine Sitzung hinterlegt.</div>';
 
   caCurrent.innerHTML='<div class="rule"><b>Aktueller Verein</b>'+e(mc.club||'VfL Osnabrück')+' · Bundesliga</div><div class="rule"><b>Vertrag</b>bis '+e(mc.contractEnds||'Sommer 2029')+'</div><div class="rule"><b>Status</b>'+e(mc.currentStatus||'–')+'</div>';
   const incoming=mc.incomingOffers||[];
