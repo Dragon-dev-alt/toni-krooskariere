@@ -762,7 +762,8 @@
     "1.5. Tabellenstand: Osnabrück Platz 3, 53 Punkte aus 32 Spielen, 14S/11U/7N, 52:34 Tore. Punktgleich mit Hertha auf Platz 4, aber bessere Tordifferenz. Aufstiegs-Playoff-Platz erreicht. Vorstandszufriedenheit 10/10.",
     "1.5. Trainerantworten: Offensive Spielweise bleibt bestehen; Heimvorteil in mindestens einem der zwei verbleibenden Heimspiele nutzen. Hirsch bleibt bis Saisonende klarer Rotationsspieler. Nach den letzten beiden Ligaspielen beginnt die zweigleisige Sommerplanung für 2. Bundesliga und mögliches Relegations-/Aufstiegsszenario.",
     "1.6. Saisonabschluss: Osnabrück beendet die 2. Bundesliga auf Platz 3 mit 59 Punkten, 57:35 Toren und erreicht die Aufstiegs-Playoffs. Direkter Aufstieg verpasst. Sommer-Scoutingliste übernommen: Ben Farhat, Ache, Bauer, Coulibaly, Kerber, Dahmen, Conteh. Besonders relevant: Dahmen im Tor und Kerber im zentralen Mittelfeld.",
-    "1.6. Tabellenstand: Osnabrück Platz 3 mit 59 Punkten nach 34 Spielen (16S/11U/7N, 57:35). Relegation gegen den HSV. Scouts liefern erste Kandidatenliste: Ben Farhat, Ache, Bauer, Coulibaly, Kerber, Dahmen, Conteh. Vorstandszufriedenheit 10/10."
+    "1.6. Tabellenstand: Osnabrück Platz 3 mit 59 Punkten nach 34 Spielen (16S/11U/7N, 57:35). Relegation gegen den HSV. Scouts liefern erste Kandidatenliste: Ben Farhat, Ache, Bauer, Coulibaly, Kerber, Dahmen, Conteh. Vorstandszufriedenheit 10/10.",
+    "1.6. Trainerantworten: Relegation mit offensiver Grundidee, aber stärkerem defensivem Fokus über außen. Bauer und Ben Farhat sind interessante Kandidaten; Ben Farhat voraussichtlich ca. 5 Mio. €. Sommerplanung entsteht erst während der Transferphase. Scouts sollen zusätzlich bundesligataugliche Optionen suchen."
   ],
   "matches": [
     {
@@ -988,7 +989,35 @@
           "note": "keine akute Position"
         }
       ],
-      "scoutAssessment": "Vorläufige Kandidatenliste aus dem Juni-Screening. Torwart und ZM/ZDM sind wegen der Sommerplanung besonders relevant. Die endgültige Transferstrategie hängt von den Aufstiegs-Playoffs und der kommenden Liga ab."
+      "scoutAssessment": "Vorläufige Kandidatenliste aus dem Juni-Screening. Torwart und ZM/ZDM sind wegen der Sommerplanung besonders relevant. Die endgültige Transferstrategie hängt von den Aufstiegs-Playoffs und der kommenden Liga ab.",
+      "scoutingTargets": {
+        "interesting": {
+          "Bauer": {
+            "age": 18,
+            "position": "LM",
+            "ovr": 65,
+            "club": "Jahn Regensburg",
+            "status": "interessant – weiter beobachten"
+          },
+          "BenFarhat": {
+            "age": 20,
+            "position": "ST",
+            "ovr": 70,
+            "club": "NAC Breda",
+            "status": "interessant – Preisprüfung nötig",
+            "estimatedFee": 5000000
+          }
+        }
+      },
+      "bundesligaScouting": {
+        "status": "aktiv",
+        "scope": "Frühzeitig weitere bundesligataugliche Optionen identifizieren",
+        "note": "Zusätzliche Scoutingarbeit unabhängig vom Relegationsausgang, um bei einem Aufstieg vorbereitet zu sein."
+      }
+    },
+    "relegation": {
+      "approach": "Offensiv bleiben, defensive Absicherung über außen verstärken",
+      "defensiveFocus": "Außenverteidiger und Absicherung der Räume hinter aufrückenden AV"
     }
   },
   "suspensions": {
@@ -1261,7 +1290,7 @@
     {
       "date": "1.6.",
       "title": "Vorstandssitzung – Relegation",
-      "status": "Sitzung eröffnet",
+      "status": "Beantwortet – Relegations- und Scoutingstrategie festgelegt",
       "currentLeagueSnapshot": "Platz 3, 59 Punkte nach 34 Spielen; 16 Siege, 11 Unentschieden, 7 Niederlagen; 57:35 Tore.",
       "relegationOpponent": "Hamburger SV",
       "scoutCandidates": "7 gescoutete Kandidaten liegen vor.",
@@ -1270,7 +1299,19 @@
         "Kaderplanung: Sollen wir die Scout-Kandidaten bereits nach Priorität sortieren, obwohl die Ligazugehörigkeit noch offen ist?",
         "Zielspieler: Gibt es unter den gescouteten Spielern Positionen, die du unabhängig vom Relegationsausgang bereits als interessant ansiehst?",
         "Sommerstrategie: Sollen wir nach der Relegation unmittelbar zwei Kaderpläne ausarbeiten – einen für 2. Bundesliga und einen für Bundesliga?"
-      ]
+      ],
+      "answers": {
+        "relegation": "Offensive Grundausrichtung bleibt bestehen, aber mit stärkerem Defensivfokus, insbesondere auf den Außen. Die Außenverteidiger rücken offensiv nach und müssen daher defensiv abgesichert werden.",
+        "scoutPriority": "Bauer ist interessant. Ben Farhat ebenfalls interessant, aber mit voraussichtlicher Ablöse von etwa 5 Mio. € deutlich teurer.",
+        "summerPlanning": "Kein vorab fertiggestellter Zwei-Szenarien-Plan. Die Planung soll sich während der Sommertransferphase schrittweise entwickeln.",
+        "bundesligaScouting": "Ja, Scouts sollen zusätzlich nach bundesligatauglichen Optionen suchen."
+      },
+      "boardOpinion": {
+        "relegation": "Zustimmung. Die offensive Grundidee soll erhalten bleiben, aber die Balance gegen den HSV ist entscheidend. Besonders die Räume hinter den aufrückenden Außenverteidigern müssen abgesichert werden.",
+        "scoutPriority": "Bauer wird als realistischere Option weiterbeobachtet. Bei Ben Farhat muss die erwartete Ablöse von ca. 5 Mio. € streng gegen Bedarf, Budget und mögliche Alternativen bewertet werden.",
+        "summerPlanning": "Zustimmung. Der Vorstand will bewusst keine komplette Sommerplanung vor der Relegation festzurren. Die konkrete Kaderplanung soll anhand der tatsächlichen Liga und des verfügbaren Budgets entstehen.",
+        "bundesligaScouting": "Klare Zustimmung. Unabhängig vom Relegationsausgang wollen wir für den Fall eines Aufstiegs vorbereitet sein und entsprechende Optionen früh identifizieren."
+      }
     }
   ],
   "boardMeetingFormat": {
