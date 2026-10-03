@@ -1,5 +1,5 @@
 {
-  "budget": 15613000,
+  "budget": 27363000,
   "formation": "4-3-3 Flach",
   "lineHeight": 65,
   "rules": [
@@ -1143,7 +1143,8 @@
     "Sommer 2027: Lars Kehl wird zum Verkauf vorgesehen, um einen Kaderplatz für C. Conteh freizumachen. Conteh wird als Transferziel weiterverfolgt; eine Ablöseverhandlung ist noch nicht erfolgt.",
     "Sommer 2027: C. Conteh für 3.300.000 € von Heidenheim verpflichtet. Vertrag: 4 Jahre, 8.000 €/Woche. Deal abgeschlossen; keine zusätzliche Handgeldsumme gemeldet.",
     "Taichi Fukui: Ablöse über 6,5 Mio. € steht, Transfer noch nicht abgeschlossen. Vorstand bietet 4 Jahre, Rolle Wichtig, 7.000 €/Woche, kein Handgeld, keine Leistungsboni, keine Ausstiegsklausel. Absolute Gehaltsgrenze: 8.000 €/Woche.",
-    "C. Conteh: Vorstand ordnet ihn vorerst als Rotationsspieler ein. 68 OVR, 27 Jahre, RM/RW – Ergänzung zur Außenbahn und nicht als uneingeschränkter Stammspieler eingeplant."
+    "C. Conteh: Vorstand ordnet ihn vorerst als Rotationsspieler ein. 68 OVR, 27 Jahre, RM/RW – Ergänzung zur Außenbahn und nicht als uneingeschränkter Stammspieler eingeplant.",
+    "Budgetkorrektur Sommer 2027: Silva wurde zwischenzeitlich final für 21,5 Mio. € an Ajax verkauft. Daraus sind 15,05 Mio. € reinvestierbar. Nach dem bereits abgeschlossenen Conteh-Transfer für 3,3 Mio. € ergibt sich rechnerisch ein Budgetstand von 27,363 Mio. €. Fukui ist noch nicht abgezogen."
   ],
   "matches": [
     {
@@ -2593,8 +2594,8 @@
     "season": "2027/28",
     "league": "Bundesliga",
     "clubRevenueReported": 65000000,
-    "transferBudget": 20000000,
-    "boardRationale": "Der Vorstand hält bei rund 65 Mio. € Gesamteinnahmen ein Transferbudget von 20 Mio. € für verantwortbar. Ein erheblicher Teil der Einnahmen bleibt für laufende Kosten, Gehälter, Prämien, Infrastruktur und Liquiditätsreserven gebunden.",
+    "transferBudget": 27363000,
+    "boardRationale": "Bekannter Planungsstand nach Silva-Verkauf und Conteh; tatsächlicher Ingame-Wert bleibt maßgeblich.",
     "salesRule": "Zusätzlich bleiben 70 % der Netto-Transfererlöse reinvestierbar.",
     "contingency": "Bei außergewöhnlich hohen Abgängen kann das verfügbare Transferbudget steigen. Aus dem finalen Silva-Verkauf an Ajax (21,5 Mio. €) sind 15,05 Mio. € nach der 70%-Regel reinvestierbar."
   },
@@ -2791,7 +2792,7 @@
     "note": "Aktuelle Saison im Fokus; historische Transfers werden nicht mehr im aktiven Dashboard angezeigt.",
     "lastUpdate": "Sommer 2027: Conteh Rotation; Fukui 6,5 Mio. € vereinbart, Vertrag ausstehend; Budget nach Conteh 12,313 Mio. €"
   },
-  "budgetNote": "Nach abgeschlossenem Conteh-Transfer: 12.313.000 € Restbudget aus dem bisherigen 15,613-Mio.-€-Stand. Taichi Fukui ist mit 6,5 Mio. € Ablöse am Haken, aber noch nicht durch; daher noch keine Belastung des Budgets.",
+  "budgetNote": "Bekannter Planungsstand nach abgeschlossenem Silva-Verkauf und Conteh-Transfer: 15,613 Mio. € + 15,05 Mio. € reinvestierbarer Silva-Anteil - 3,3 Mio. € Conteh = 27,363 Mio. €. Taichi Fukui ist noch nicht abgeschlossen und daher nicht abgezogen.",
   "zmTransferBudgetGuidance": {
     "planningReferenceBudget": 30000000,
     "currency": "EUR",
