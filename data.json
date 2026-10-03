@@ -126,8 +126,8 @@
       "secondaryPositions": [
         "LB"
       ],
-      "role": "Leihliste",
-      "status": "Auf Leihliste",
+      "role": "verliehen",
+      "status": "Verliehen · 2 Jahre",
       "appearances": 14,
       "goals": 0,
       "assists": 0,
@@ -412,8 +412,8 @@
       "weeklyWage": 4700,
       "position": "RW",
       "secondaryPositions": [],
-      "role": "Stamm-RW",
-      "status": "Stamm-RW",
+      "role": "Verkauft",
+      "status": "Verkauft · 17,2 Mio. €",
       "appearances": 40,
       "goals": 13,
       "assists": 11,
@@ -447,8 +447,8 @@
       "weeklyWage": 1800,
       "position": "ST",
       "secondaryPositions": [],
-      "role": "Leihliste",
-      "status": "Auf Leihliste",
+      "role": "verliehen",
+      "status": "Verliehen · 1 Jahr",
       "appearances": 7,
       "goals": 2,
       "assists": 2,
@@ -558,6 +558,14 @@
       "reinvestable": 0,
       "clubShare": 0,
       "timing": "Saisonende 2026/27"
+    },
+    {
+      "name": "Mario Silva",
+      "status": "Verkauf angenommen",
+      "fee": 17200000,
+      "reinvestable": 12040000,
+      "clubShare": 5160000,
+      "timing": "Sommer 2027"
     }
   ],
   "academy": [
@@ -695,19 +703,6 @@
     ]
   },
   "talents": [
-    {
-      "name": "Mario Silva",
-      "age": 17,
-      "ovr": 73,
-      "pot": 95,
-      "status": "1. Mannschaft",
-      "role": "Stamm-RW",
-      "marketValue": 9500000,
-      "appearances": 40,
-      "goals": 13,
-      "assists": 11,
-      "averageRating": 7.07
-    },
     {
       "name": "Ole Schubert",
       "age": 17,
@@ -1111,7 +1106,9 @@
     "Dashboard-Update: Trainerperspektive und Wechselklausel werden als eigene Karriere-Abschnitte geführt; ein Testangebot für die Angebots-Buttons wurde als Eingang hinterlegt.",
     "Vorstand ZM-Budgetplanung: Bei einer unabhängigen Planungsbasis von 30 Mio. € stehen für einen neuen ZM 7–9 Mio. € im Zielrahmen (11 Mio. € absolute Obergrenze); für zwei ZM zusammen 12–16 Mio. € im Zielrahmen (18 Mio. € absolute Obergrenze).",
     "Neue ZM-Shortlist 2027/28 aufgenommen: Loiodice, Wätjen, Baur, Fabbian und Fukui. Vorstand bewertet Loiodice als ausgewogene Sofortverstärkung, Fabbian als Premiumlösung und Fukui als dynamische Alternative. Baur wird wegen 37.000 €/Woche aktuell nicht weiterverfolgt; Wätjen bleibt Beobachtung.",
-    "ZM-Verhandlungsrahmen: Loiodice Ziel 5,5 Mio. €, Maximal 6,5 Mio.; Fukui Ziel 6,0 Mio. €, Maximal 7,0 Mio.; Fabbian Ziel 14 Mio. €, Maximal 15,5 Mio.; Wätjen Ziel 3,3 Mio. €, Maximal 4,0 Mio. Baur aktuell 0 € Transferfreigabe wegen Gehaltsstruktur."
+    "ZM-Verhandlungsrahmen: Loiodice Ziel 5,5 Mio. €, Maximal 6,5 Mio.; Fukui Ziel 6,0 Mio. €, Maximal 7,0 Mio.; Fabbian Ziel 14 Mio. €, Maximal 15,5 Mio.; Wätjen Ziel 3,3 Mio. €, Maximal 4,0 Mio. Baur aktuell 0 € Transferfreigabe wegen Gehaltsstruktur.",
+    "Sommer 2027: Max Adams ist für 2 Jahre verliehen, Viggo Andersen für 1 Jahr. Beide sollen über regelmäßige Spielzeit entwickelt werden.",
+    "Mario Silva: Angebot über 17,2 Mio. € wurde angenommen. Nach der 70%-Regel sind 12,04 Mio. € reinvestierbar; 5,16 Mio. € verbleiben beim Verein. Silva verlässt den aktiven Kader."
   ],
   "matches": [
     {
@@ -2533,7 +2530,7 @@
     "transferBudget": 20000000,
     "boardRationale": "Der Vorstand hält bei rund 65 Mio. € Gesamteinnahmen ein Transferbudget von 20 Mio. € für verantwortbar. Ein erheblicher Teil der Einnahmen bleibt für laufende Kosten, Gehälter, Prämien, Infrastruktur und Liquiditätsreserven gebunden.",
     "salesRule": "Zusätzlich bleiben 70 % der Netto-Transfererlöse reinvestierbar.",
-    "contingency": "Bei außergewöhnlich hohen Abgängen kann das verfügbare Transferbudget während der Sommertransferphase steigen."
+    "contingency": "Bei außergewöhnlich hohen Abgängen kann das verfügbare Transferbudget während der Sommertransferphase steigen; aus Silva sind 12,04 Mio. € nach der 70%-Regel reinvestierbar."
   },
   "currentDate": "1.7.2027",
   "currentSeason": "2027/28",
@@ -2615,19 +2612,19 @@
     }
   ],
   "squadRetentionPolicy": {
-    "youthCore": "Mario Silva und Ole Schubert stehen grundsätzlich nicht zum Verkauf.",
+    "youthCore": "Mario Silva und Ole Schubert waren grundsätzlich geschützt; Silva wurde nun für 17,2 Mio. € zum Verkauf freigegeben.",
     "painThresholds": {
       "MarioSilva": {
         "marketValue": 9500000,
-        "absolutePainThreshold": 22000000,
+        "absolutePainThreshold": 17000000,
         "currency": "EUR",
-        "rule": "Unter 22 Mio. € wird ein Verkauf nicht ernsthaft geprüft. Ab 22 Mio. € muss der Vorstand gemeinsam mit dem Trainer neu bewerten; automatische Verkaufszusage gibt es nicht."
+        "rule": "Unter 17 Mio. € wurde ein Verkauf nicht ernsthaft geprüft. Bei 17,2 Mio. € wurde der Verkauf nun angenommen; 70 % der Ablöse sind reinvestierbar."
       },
       "OleSchubert": {
         "marketValue": 5500000,
-        "absolutePainThreshold": 14000000,
+        "absolutePainThreshold": 10000000,
         "currency": "EUR",
-        "rule": "Unter 14 Mio. € wird ein Verkauf nicht ernsthaft geprüft. Ab 14 Mio. € muss der Vorstand gemeinsam mit dem Trainer neu bewerten; automatische Verkaufszusage gibt es nicht."
+        "rule": "Unter 10 Mio. € wird ein Verkauf nicht ernsthaft geprüft. Ab 10 Mio. € wird gemeinsam mit dem Trainer neu bewertet; automatische Verkaufszusage gibt es nicht."
       }
     },
     "rationale": "Beide sind hochveranlagte Eigengewächse und bereits Bundesliga-Stammspieler. Der Aufstieg soll nicht durch vorschnelle Verkäufe der eigenen Talente finanziert werden."
@@ -2635,8 +2632,8 @@
   "loanList": [
     {
       "name": "Viggo Andersen",
-      "status": "Leihliste",
-      "reason": "Regelmäßige Spielzeit zur Entwicklung",
+      "status": "Verliehen · 1 Jahr",
+      "reason": "1 Jahr regelmäßige Spielzeit zur Entwicklung",
       "age": 17,
       "ovr": 63,
       "potential": 83,
@@ -2644,8 +2641,8 @@
     },
     {
       "name": "Max Adams",
-      "status": "Leihliste",
-      "reason": "Regelmäßige Spielzeit zur Entwicklung",
+      "status": "Verliehen · 2 Jahre",
+      "reason": "2 Jahre regelmäßige Spielzeit zur Entwicklung",
       "age": 19,
       "ovr": 63,
       "potential": 63,
@@ -2656,7 +2653,7 @@
     {
       "name": "Keine aktive Verkaufsliste",
       "status": "Aktuell kein weiterer Spieler aktiv zum Verkauf vorgesehen",
-      "note": "Remberg und Jacobsen verlassen den Verein bereits; Jannotta ist verkauft."
+      "note": "Silva-Verkauf über 17,2 Mio. € angenommen; Remberg/Jacobsen verlassen den Verein bereits."
     }
   ],
   "departureCandidates": [
@@ -2700,6 +2697,14 @@
       "reinvestable": 0,
       "clubShare": 0,
       "timing": "Saisonende 2026/27"
+    },
+    {
+      "name": "Mario Silva",
+      "status": "Verkauf angenommen",
+      "fee": 17200000,
+      "reinvestable": 12040000,
+      "clubShare": 5160000,
+      "timing": "Sommer 2027"
     }
   ],
   "dashboardMeta": {
@@ -2713,9 +2718,10 @@
       "Talente & Jugend",
       "Trainer & Vorstand"
     ],
-    "note": "Aktuelle Saison im Fokus; historische Transfers werden nicht mehr im aktiven Dashboard angezeigt."
+    "note": "Aktuelle Saison im Fokus; historische Transfers werden nicht mehr im aktiven Dashboard angezeigt.",
+    "lastUpdate": "Sommer 2027: Adams 2 Jahre Leihe, Andersen 1 Jahr Leihe, Silva 17,2 Mio. € Verkauf angenommen"
   },
-  "budgetNote": "Nach Verpflichtung von William Mikelbrencis: 20,0 Mio. € - 4,3 Mio. € Ablöse - 87.000 € Handgeld = 15,613 Mio. €.",
+  "budgetNote": "Aktuelles Ingame-Transferbudget bleibt 15,613 Mio. €. Zusätzlich ist aus dem angenommenen Silva-Verkauf eine Reinvestitionsbasis von 12,04 Mio. € gemäß 70%-Regel vorgesehen.",
   "zmTransferBudgetGuidance": {
     "planningReferenceBudget": 30000000,
     "currency": "EUR",
