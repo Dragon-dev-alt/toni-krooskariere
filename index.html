@@ -87,6 +87,7 @@ table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:8px;bord
   <div class="grid2">
     <div class="card"><div class="sectionHead"><h2>↗️ Aktuelle Abgänge</h2><span class="count">2027</span></div>
       <table><thead><tr><th>Spieler</th><th>Status</th><th>Ablöse</th><th>Reinvest.</th></tr></thead><tbody id="trSales"></tbody></table>
+      <div id="trSaleCandidates" style="margin-top:10px"></div>
     </div>
   </div>
   <div class="grid2">
@@ -173,7 +174,8 @@ function render(d){ window.__dashboardData=d;
   const sm=d.youthScoutingNext?.recommendedMission;
   trScouting.innerHTML=sm?'<div class="rule"><b>Land</b>'+e(sm.country)+'</div><div class="rule"><b>Dauer</b>'+e(sm.duration)+'</div><div class="rule"><b>Fokus</b>'+e((sm.focus||[]).join(' · '))+'</div><div class="rule"><b>Priorität</b>'+e(sm.priority||'–')+'</div>':'<div class="empty">Keine Mission hinterlegt.</div>';
   trActive.innerHTML=ao.length?ao.map(x=>'<div class="rule"><b>'+e(x.player)+'</b><br>Transfer: '+(x.transferFee?eur(x.transferFee):'–')+' + '+e(x.sellOnPercentage??0)+' % Weiterverkauf<br>Vertrag: '+e(x.demandRole||'–')+' · '+e(x.demandYears||'–')+' Jahre<br>Vorstand: '+e(x.boardOffer?.weeklyWage?eur(x.boardOffer.weeklyWage)+'/Woche':'–')+'</div>').join(''):'<div class="empty">Keine offenen Transfers.</div>';
-  trSales.innerHTML=(d.sales||[]).map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td>'+e(x.status)+'</td><td>'+eur(x.fee)+'</td><td>'+((x.reinvestable??0)>0?eur(x.reinvestable):'–')+'</td></tr>').join('');
+  trSales.innerHTML=(d.sales||[]).map(x=>'<tr><td><b>'+e(x.name)+'</b></td><td>'+e(x.status)+(x.destination?' · '+e(x.destination):'')+'</td><td>'+eur(x.fee)+'</td><td>'+((x.reinvestable??0)>0?eur(x.reinvestable):'–')+'</td></tr>').join('');
+  const sc=d.saleCandidates||[]; trSaleCandidates.innerHTML=sc.length?sc.map(x=>'<div class="rule"><b>Geplanter Verkauf: '+e(x.name)+'</b><br>'+e(x.status)+' · Marktwert '+eur(x.marketValue||0)+'<br><span class="muted">'+e(x.note||'')+'</span></div>').join(''):'<div class="empty">Keine geplanten Verkäufe.</div>';
   trLoanList.innerHTML=(d.loanList||[]).length?(d.loanList||[]).map(x=>'<div class="rule"><b>'+e(x.name)+'</b><br>'+e(x.position)+' · '+e(x.ovr)+' OVR / '+e(x.potential)+' POT<br>'+e(x.reason)+'</div>').join(''):'<div class="empty">Keine Leihkandidaten.</div>';
   const zt=d.zmTargets||[];
   trZMTargets.innerHTML=zt.length?zt.map(x=>{
