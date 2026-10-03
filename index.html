@@ -134,7 +134,19 @@ table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:8px;bord
 const e=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const eur=n=>new Intl.NumberFormat('de-DE',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(Number(n||0));
 const byName=(d,n)=> (d.players||[]).find(x=>x.name===n);
-function render(d){
+let currentIncomingOffers=[];
+function openIssue(url){window.open(url,'_blank','noopener');}
+function saveOfferState(id,state){let x={};try{x=JSON.parse(localStorage.getItem('toni-kroos-manager-offer-status')||'{}')}catch(_){}x[id]=state;localStorage.setItem('toni-kroos-manager-offer-status',JSON.stringify(x));}
+function makeIssueUrl(o,decision){
+  const p=new URLSearchParams();
+  p.set('title','[TRAINER-ANGEBOT] '+o.club+' – '+decision);
+  p.set('body','Trainer: Toni Kroos\nVerein: '+o.club+'\nLiga: '+o.league+'\nVertrag: '+o.contract+'\nJahresgehalt: '+o.annualSalary+' €\nHandgeld: '+o.signOnBonus+' €\nTransferbudget: '+o.transferBudgetPromise+' €\nPerspektive: '+(o.perspective?.sportingPerspective||o.note||'')+'\n\nEntscheidung: '+decision);
+  return 'https://github.com/Dragon-dev-alt/toni-krooskariere/issues/new?'+p.toString();
+}
+function offerActionIndex(i,state){const o=currentIncomingOffers[i];if(!o)return;saveOfferState(o.club+'|'+(o.contract||''),state);openIssue(makeIssueUrl(o,state==='accepted'?'ANGENOMMEN':'ABGELEHNT'));renderOfferState();}
+function offerInterestIndex(i){const o=currentIncomingOffers[i];if(!o)return;saveOfferState(o.club+'|'+(o.contract||''),'interest');openIssue(makeIssueUrl(o,'INTERESSE – noch keine Entscheidung'));renderOfferState();}
+function renderOfferState(){if(window.__dashboardData)render(window.__dashboardData);}
+function render(d){ window.__dashboardData=d;
   season.textContent='Saison '+(d.currentSeason||'2027/28'); date.textContent=d.currentDate||'1.7.2027';
   const bs=d.boardSatisfaction||{}, sg=d.seasonGoals||{}, mc=d.managerContract||{};
   ovBudget.textContent=eur(d.budget); fiBudget.textContent=eur(d.budget);
@@ -171,7 +183,17 @@ function render(d){
   boAssessment.innerHTML='<div class="callout"><strong>'+e(bs.status||'')+'</strong>'+e(bs.currentAssessment||'')+'</div><div class="rule"><b>Offizielles Ziel</b>'+e(sg.currentOfficialGoal||sg.primary||'–')+'</div><div class="rule"><b>Interne Sicht</b>'+e(sg.internalOutlook||'–')+'</div>';
 
   caCurrent.innerHTML='<div class="rule"><b>Aktueller Verein</b>'+e(mc.club||'VfL Osnabrück')+' · Bundesliga</div><div class="rule"><b>Vertrag</b>bis '+e(mc.contractEnds||'Sommer 2029')+'</div><div class="rule"><b>Status</b>'+e(mc.currentStatus||'–')+'</div>';
-  caOffers.innerHTML=(mc.externalOffers||[]).map(o=>'<div class="rule"><b>'+e(o.club)+'</b><br>'+e(o.league)+' · '+e(o.contract)+'<br>'+eur(o.annualSalary)+'/Jahr · '+eur(o.signOnBonus)+' Handgeld<br><b>Transferbudget:</b> '+eur(o.transferBudgetPromise)+'<br><span class="muted">'+e(o.perspective?.sportingPerspective||o.note||'')+'</span></div>').join('')||'<div class="empty">Aktuell keine externen Angebote.</div>';
+  const incoming=mc.incomingOffers||[];
+  const offerStatesKey='toni-kroos-manager-offer-status';
+  let offerStates={};
+  try{offerStates=JSON.parse(localStorage.getItem(offerStatesKey)||'{}')}catch(_){}
+  currentIncomingOffers=incoming.filter(o=>!['accepted','rejected'].includes(offerStates[o.club+'|'+(o.contract||'')]));
+  caOffers.innerHTML=currentIncomingOffers.map((o,i)=>{
+    const id=o.club+'|'+(o.contract||'');
+    const interest=offerStates[id]==='interest';
+    return '<div class="rule"><b>'+e(o.club)+' <span class="badge">'+e(o.league)+'</span>'+(interest?' <span class="badge warn">Interesse</span>':'')+'</b><br>'+e(o.contract)+' · '+eur(o.annualSalary)+'/Jahr · '+eur(o.signOnBonus)+' Handgeld<br><b>Transferbudget:</b> '+eur(o.transferBudgetPromise)+'<br><span class="muted">'+e(o.perspective?.sportingPerspective||o.note||'')+'</span><div style="display:flex;gap:7px;flex-wrap:wrap;margin-top:10px"><button class="btn" onclick="offerActionIndex('+i+',\'accepted\')">✅ Annehmen</button><button class="btn" style="background:#8f2d2d" onclick="offerActionIndex('+i+',\'rejected\')">❌ Ablehnen</button><button class="btn" style="background:#6b7280" onclick="offerInterestIndex('+i+')">🔎 Interesse</button></div></div>';
+  }).join('');
+  caNoOffers.textContent=currentIncomingOffers.length?'':'Aktuell keine neuen Trainerangebote. Historische Angebote bleiben als Karriere-Historie gespeichert.';
   const cp=mc.currentClubPerspective||{};
   caClubPerspective.innerHTML='<div class="rule"><b>Sportlich</b>'+e(cp.sportingPerspective||'–')+'</div><div class="rule"><b>Trainer</b>'+e(cp.managerPerspective||'–')+'</div><div class="rule"><b>Entwicklung</b>'+e(cp.developmentPerspective||'–')+'</div>';
   caClause.innerHTML=mc.specialExitClause?.active?'<div class="callout"><strong>Optionaler Wechsel ab Ende 2027/28</strong>Ohne Entschädigungszahlung zu einem Klub aus Bundesliga, Premier League oder LaLiga. Kein Wechselzwang.</div>':'<div class="empty">Keine Sonderklausel.</div>';
