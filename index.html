@@ -88,7 +88,7 @@ table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:8px;bord
   </div>
   <div class="grid2">
     <div class="card"><div class="sectionHead"><h2>🧳 Leihliste</h2><span class="count">noch ohne Verein</span></div><div id="trLoanList"></div></div>
-    <div class="card"><div class="sectionHead"><h2>💡 Sommernotizen</h2><span class="count">Kaderplanung</span></div><div id="trSummer"></div></div>
+    <div class="card"><div class="sectionHead"><h2>💡 Sommernotizen</h2><span class="count">Kaderplanung</span></div><div id="trSummer"></div><div id="trZMBudget" style="margin-top:10px"></div></div>
   </div>
 </section>
 
@@ -121,7 +121,7 @@ table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:8px;bord
 <section id="career" class="view">
   <div class="grid2">
     <div class="card"><div class="sectionHead"><h2>🎩 Toni Kroos · aktuelle Situation</h2><span class="count">Karriere</span></div><div id="caCurrent"></div></div>
-    <div class="card"><div class="sectionHead"><h2>📬 Angebote anderer Vereine</h2><span class="count">eingegangene Angebote</span></div><div id="caOffers"></div></div>
+    <div class="card"><div class="sectionHead"><h2>📬 Angebote anderer Vereine</h2><span class="count">eingegangene Angebote</span></div><div id="caOffers"></div><div id="caNoOffers" class="empty"></div></div>
   </div>
   <div class="grid2">
     <div class="card"><h2>🧭 Perspektive beim VfL</h2><div id="caClubPerspective"></div></div>
@@ -147,7 +147,7 @@ function offerActionIndex(i,state){const o=currentIncomingOffers[i];if(!o)return
 function offerInterestIndex(i){const o=currentIncomingOffers[i];if(!o)return;saveOfferState(o.club+'|'+(o.contract||''),'interest');openIssue(makeIssueUrl(o,'INTERESSE – noch keine Entscheidung'));renderOfferState();}
 function renderOfferState(){if(window.__dashboardData)render(window.__dashboardData);}
 function render(d){ window.__dashboardData=d;
-  season.textContent='Saison '+(d.currentSeason||'2027/28'); date.textContent=d.currentDate||'1.7.2027';
+  season.textContent='Saison '+(d.currentSeason||'2027/28'); date.textContent=d.currentDate||'1.7.2027'; document.getElementById('caNoOffers').textContent='';
   const bs=d.boardSatisfaction||{}, sg=d.seasonGoals||{}, mc=d.managerContract||{};
   ovBudget.textContent=eur(d.budget); fiBudget.textContent=eur(d.budget);
   ovSat.textContent=(bs.score??'–')+'/10'; ovSatText.textContent=e(bs.status||'');
