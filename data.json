@@ -106,7 +106,8 @@
       "position": "RV",
       "secondaryPositions": "LV",
       "role": "Perspektivprofi",
-      "status": "Kader"
+      "status": "Auf Leihliste",
+      "loanListed": true
     },
     {
       "name": "Jakob Schöller",
@@ -344,7 +345,8 @@
       "position": "ST",
       "secondaryPositions": [],
       "role": "2. ST",
-      "status": "Kader"
+      "status": "Auf Leihliste",
+      "loanListed": true
     },
     {
       "name": "Ismail Badjie",
@@ -386,7 +388,8 @@
       "position": "LW",
       "secondaryPositions": "CAM/CM",
       "role": "Kader",
-      "status": "Kader"
+      "status": "Auf Leihliste",
+      "loanListed": true
     }
   ],
   "sales": [
@@ -992,7 +995,8 @@
     "1.7. Kaderprioritäten 2027/28: Verteidigung und RV verbessern, zusätzlich solider ZM und 3. Keeper. Remberg/Jakobsen-Ersatz abhängig vom Budget.",
     "Jugendkern schützen: Mario Silva und Ole Schubert stehen grundsätzlich nicht zum Verkauf. Interne Schmerzensgrenzen für erneute Bewertung: Silva 22 Mio. €, Schubert 14 Mio. €.",
     "Sommer 2027: Interne Schmerzensgrenzen neu gesetzt – Mario Silva 17 Mio. €, Ole Schubert 10 Mio. €. Trainerangebote mit Perspektiven ergänzt; Osnabrück bietet den Aufbau der ersten Bundesliga-Saison mit 20 Mio. € Transferbudget und Talententwicklung.",
-    "Trainervereinbarung Sommer 2027: Toni Kroos bleibt beim VfL Osnabrück. Sonderklausel akzeptiert: Nach Saison 2027/28 darf Kroos ohne Entschädigungszahlung zu einem Klub aus Bundesliga, Premier League oder LaLiga wechseln. Die Klausel verpflichtet nicht zum Wechsel."
+    "Trainervereinbarung Sommer 2027: Toni Kroos bleibt beim VfL Osnabrück. Sonderklausel akzeptiert: Nach Saison 2027/28 darf Kroos ohne Entschädigungszahlung zu einem Klub aus Bundesliga, Premier League oder LaLiga wechseln. Die Klausel verpflichtet nicht zum Wechsel.",
+    "Leihliste Sommer 2027: Viggo Andersen, Kevin Wiethaup und Max Adams wurden auf die Leihliste gesetzt. Vorstand unterstützt die Maßnahme zur gezielten Entwicklung durch regelmäßige Spielzeit."
   ],
   "matches": [
     {
@@ -2354,5 +2358,34 @@
       }
     },
     "rationale": "Beide sind hochveranlagte Eigengewächse und bereits Bundesliga-Stammspieler. Der Aufstieg soll nicht durch vorschnelle Verkäufe der eigenen Talente finanziert werden."
-  }
+  },
+  "loanList": [
+    {
+      "name": "Viggo Andersen",
+      "status": "Auf Leihliste",
+      "reason": "Entwicklung durch regelmäßige Spielzeit",
+      "age": 17,
+      "ovr": 63,
+      "potential": 83,
+      "position": "ST"
+    },
+    {
+      "name": "Kevin Wiethaup",
+      "status": "Auf Leihliste",
+      "reason": "Entwicklung durch regelmäßige Spielzeit",
+      "age": 21,
+      "ovr": 64,
+      "potential": 71,
+      "position": "LW"
+    },
+    {
+      "name": "Max Adams",
+      "status": "Auf Leihliste",
+      "reason": "Entwicklung durch regelmäßige Spielzeit",
+      "age": 19,
+      "ovr": 63,
+      "potential": 63,
+      "position": "RV"
+    }
+  ]
 }
